@@ -1,0 +1,9 @@
+dist/
+node_modules/
+__pycache__/
+.pytest_cache/
+.DS_Store
+.browser-preview/
+playwright-report/
+test-results/
+external-link-report.json
