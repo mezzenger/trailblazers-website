@@ -1,4 +1,4 @@
-import json, os, re, subprocess, unittest
+import json, os, re, shutil, subprocess, tempfile, unittest
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
@@ -6,13 +6,14 @@ ROOT=Path(__file__).resolve().parents[1]
 BASE='/trailblazers-website/'
 class Document(HTMLParser):
     def __init__(self):
-        super().__init__();self.ids=set();self.links=[];self.tags=[];self.labels=[];self.inputs=[];self.anchor_depth=0;self.nested_anchors=0;self.images_without_alt=[]
+        super().__init__();self.ids=set();self.links=[];self.tags=[];self.labels=[];self.inputs=[];self.anchor_depth=0;self.nested_anchors=0;self.images_without_alt=[];self.card_links=[]
     def handle_starttag(self,tag,attrs):
         attrs=dict(attrs);self.tags.append(tag)
         if 'id' in attrs:self.ids.add(attrs['id'])
         if tag=='a':
             if self.anchor_depth:self.nested_anchors+=1
             self.anchor_depth+=1
+            if 'card-link' in attrs.get('class','').split():self.card_links.append(attrs)
         if tag=='img' and not attrs.get('alt'):self.images_without_alt.append(attrs.get('src'))
         if tag in ('a','link','script','img'):
             target=attrs.get('href') or attrs.get('src')
@@ -60,6 +61,11 @@ class SiteTests(unittest.TestCase):
         profile=(ROOT/'dist/people'/self.profiles[0]['id']/'index.html').read_text()
         self.assertIn('<h2 class="eyebrow">Milestones</h2>',profile)
         self.assertIn('<h2 class="eyebrow">Sources &amp; further reading</h2>',profile)
+    def test_card_link_accessible_name_comes_from_visible_content(self):
+        doc=Document();doc.feed((ROOT/'dist/index.html').read_text())
+        self.assertTrue(doc.card_links)
+        for link in doc.card_links:
+            self.assertNotIn('aria-label',link,'card links must derive their name from visible text')
     def test_accent_text_contrast_in_both_themes(self):
         css=(ROOT/'public/styles.css').read_text()
         light,dark=css.split(':root[data-theme=dark]',1)
@@ -121,8 +127,17 @@ if(!last.every(value=>value===null))throw Error('unknown birth dates should sort
         good=subprocess.run(['python3','scripts/validate.py'],cwd=ROOT,capture_output=True,text=True)
         self.assertEqual(good.returncode,0,good.stdout)
         gate=subprocess.run(['python3','scripts/validate.py','--require-100'],cwd=ROOT,capture_output=True,text=True)
-        self.assertNotEqual(gate.returncode,0)
-        self.assertIn('100-profile milestone unmet',gate.stdout)
+        self.assertEqual(gate.returncode,0,gate.stdout)
+        self.assertIn('100 verified publishable profiles',gate.stdout)
+        with tempfile.TemporaryDirectory() as temporary:
+            fixture=Path(temporary)
+            (fixture/'scripts').mkdir();(fixture/'content').mkdir()
+            shutil.copy(ROOT/'scripts/validate.py',fixture/'scripts/validate.py')
+            (fixture/'content/profiles.json').write_text(json.dumps(self.profiles[:-1]))
+            (fixture/'content/pending.json').write_text('[]')
+            short=subprocess.run(['python3','scripts/validate.py','--require-100'],cwd=fixture,capture_output=True,text=True)
+            self.assertNotEqual(short.returncode,0,short.stdout)
+            self.assertIn('100-profile milestone unmet: 99 verified; 1 more required',short.stdout)
     def test_base_path_override(self):
         env=dict(os.environ,BASE_PATH='/')
         try:

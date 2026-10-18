@@ -4,11 +4,26 @@
 | --- | --- |
 | 1. Foundation | Original Cocoa HTML and migration inventory retained; static content architecture and validation remain in place. |
 | 2. Experience | Homepage, collection search, combined filters, sort, timeline, profile routes, related stories, sharing, themes, and responsive styles remain in place. |
-| 3. Content | Phase 3C promoted 26 candidates. There are 80 verified profiles and 20 unpublished candidates. |
-| 4. Quality | Existing static gates pass; an optional review-only browser workflow is prepared for the feature branch. Live browser results remain pending. |
-| 5. Delivery | Review branch carries Phase 3C content and a browser-review workflow. Draft PR text is updated; deployment remains disabled. |
+| 3. Content | Phase 3D promoted the final 20 candidates; 100 verified profiles now satisfy the 100-profile gate. |
+| 4. Quality | Static validation and local automated checks are being run for Phase 3D. The supplied Actions report is inaccessible from this environment; browser and visual sign-off await a reachable run. |
+| 5. Delivery | Review branch carries the 100-profile collection and biography-card accessible-name fix. No merge or deployment is authorized. |
 
-**Current data:** 80 unique publishable profiles, 168 source citations, 16 portraits with file-specific rights metadata, and 20 unpublished discovery candidates. Every biography is 150–300 words. The 100-profile gate deliberately fails by 20 records.
+**Current data:** 100 unique publishable profiles, 211 source citations, 16 portraits with file-specific rights metadata, and 0 unpublished candidates. Every biography is 150–300 words. The 100-profile gate passes on the validated dataset.
+
+## Phase 3D research and accessibility repair
+
+The final 20 candidates were promoted: Rebecca Masika Katsuva, César Chávez, Marsha P. Johnson, Sylvia Rivera, Angela Davis, Claudette Colvin, Mahatma Gandhi, Golda Meir, Benazir Bhutto, Jacinda Ardern, Olympe de Gouges, Mary Wollstonecraft, Arundhati Roy, Audre Lorde, James Baldwin, Langston Hughes, Gwendolyn Brooks, Alma Thomas, Nina Simone, and Billie Holiday. Their original IDs became public routes. The additions contain 43 citations; combined with the existing collection, the dataset has 100 profiles and 211 citations. No portraits were added because a file-specific, reusable image right was not confirmed for these candidates. Existing typographic placeholders remain; the 16 rights-cleared portraits are unchanged.
+
+- Olympe de Gouges's execution date conflicts between the French National Assembly (6 November 1793) and Library of Congress (3 November 1793). Her record gives only 1793.
+- Langston Hughes's birth year is listed as 1901 by the Kansas Historical Society and 1902 by Library of America. His record leaves the birth year blank.
+- The profile for César Chávez identifies 2026 allegations reported by Dolores Huerta and other women as allegations and does not present them as adjudicated findings. It also credits Filipino farmworkers and Dolores Huerta in the movement's organizing.
+- Marsha P. Johnson and Sylvia Rivera are described as participants in the collective Stonewall uprising; no unsupported “first brick” claim is repeated.
+- Claudette Colvin's death date was updated to 13 January 2026 using the Associated Press obituary published by the Los Angeles Times.
+- Inaccessible sources encountered during research were replaced where usable independent alternatives were available. Benazir Bhutto's sources use DePauw and the AP obituary reprint; James Baldwin's use Stanford and the Library of Congress.
+
+The reported `label-content-name-mismatch` on biography-card links came from a custom `aria-label` (“Read about [name]”) overriding the longer visible card content. The override was removed, allowing visible link text and portrait alternative text to form the accessible name. A unit regression test asserts that generated biography-card links have no overriding `aria-label`; axe in the browser workflow checks the result. The supplied initial Actions run's logs, axe report, screenshots, and traces could not be fetched from the current environment (GitHub page cache miss and API DNS failure). The other reported accessibility findings therefore remain unknown and are not marked fixed or suppressed.
+
+The browser workflow is configured to run on a feature-branch push touching content, the builder, tests, or workflow. Its new run and screenshots are not confirmed yet. No screenshot, Lighthouse score, or successful browser audit is claimed. Shell network access was restricted, so web-research source access is distinct from a comprehensive HTTP check; existing citations and portrait URLs were not all revalidated during this phase.
 
 ## Phase 3C research and rights review
 
@@ -24,7 +39,7 @@ The 26 additions are Mary Jackson, Margaret Hamilton, Annie Easley, Gladys West,
 
 The earlier sandbox failures described below were not retried in the same configuration. A read-only `.github/workflows/browser-review.yml` now builds the normal project-path site and runs Playwright Chromium at 1440×900, 768×1024, and 390×844. Tests exercise collection search and combined filters, empty state, clearing, timeline control, keyboard focus, a biography route, image record link, overflow, and axe accessibility in both themes with reduced motion. Screenshots, traces, and an HTML report are uploaded for 14 days even after test failure. The workflow uses no secrets, deployment API, or Pages permission. The first feature-branch run has not been observed yet, so browser findings, screenshots, and Lighthouse scores remain unreported. A local reproduction command is in `docs/deployment.md`.
 
-External-link validation is separate: the 53 new citation URLs were opened and read through the web research tool, and the five new Commons file records and image URLs were opened there. Direct shell HTTP sweeps and live browser rendering remain unavailable in this sandbox; existing citations and portraits were not revalidated in this phase. The 20 remaining pending names still require full research before the 100-profile gate can pass.
+At the end of Phase 3C, external-link validation covered that phase's 53 new citation URLs and five new Commons file records. The 20 candidates noted there were subsequently researched and promoted in Phase 3D. Direct shell HTTP sweeps and live browser rendering remain unavailable in this sandbox; the earlier 80-profile collection's citations and portraits were not comprehensively revalidated in Phase 3D.
 
 ## Phase 3B research
 
@@ -50,4 +65,4 @@ Browser screenshots and keyboard-only or screen-reader sessions could not run in
 
 ## Link validation and remaining work
 
-All 45 newly cited source pages were opened and read through the web research tool. Indexed pages that returned 403, 500, or only an access challenge were replaced before promotion. The eight newly assigned image URLs also resolved in the web research tool. Direct shell HTTP status checks and in-browser image rendering could not run because DNS resolution failed (`Temporary failure in name resolution`); existing citations and images were not rechecked in this phase. The automated internal-route/base-path test passed. Next steps are a real browser and assistive-technology audit, more image-rights review, and 46 additional verified profiles before the 100-profile gate can pass. Draft PR creation remains permission-blocked; use `docs/draft-pr.md` for manual creation. No deployment was enabled.
+At the end of Phase 3B, all 45 source pages added in that batch had been opened and reviewed. That earlier progress snapshot recorded the remaining 46 profiles and is superseded by Phase 3C and Phase 3D above. No deployment was enabled.

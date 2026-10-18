@@ -3949,5 +3949,991 @@
     "image": null,
     "verification": "verified",
     "reviewed": "2026-10-18"
+  },
+  {
+    "id": "rebecca-masika-katsuva",
+    "name": "Rebecca Masika Katsuva",
+    "born": null,
+    "died": "2016-02-02",
+    "region": "Africa",
+    "place": "Democratic Republic of the Congo",
+    "era": "21st century",
+    "categories": [
+      "Civil Rights & Justice",
+      "Medicine & Public Health"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A community organizer in South Kivu who built shelter and practical support for survivors of sexual violence.",
+    "biography": "Rebecca Masika Katsuva lived in South Kivu in eastern Democratic Republic of the Congo, a region where armed conflict and sexual violence devastated families. After violence affected her own family, she turned toward community care rather than silence. In 2002 she founded the Association of Disinherited Persons United for Development, known by its French initials APDUD. The organization helped survivors obtain medical care, shelter, and ways to support themselves. Katsuva also cared for children born to survivors and for orphans, building a place where people could recover with dignity. Her work involved daily needs as well as public advocacy: safe housing, food, listening, protection, and help rebuilding independent lives. International organizations later recognized her as a human-rights defender, but her efforts were rooted in relationships with people in her community. She died in February 2016 after a heart attack. Her story matters because it shows that responses to wartime violence are not only legal or diplomatic; local organizers create support that survivors can reach and shape. The record of her work should center their agency and avoid reducing her life to the violence she confronted.",
+    "achievements": [
+      "Founded APDUD in 2002 to support survivors and their children",
+      "Opened a shelter and connected women with medical care and livelihoods",
+      "Provided long-term community support in South Kivu"
+    ],
+    "milestones": [
+      {
+        "year": 2002,
+        "label": "Founded APDUD"
+      },
+      {
+        "year": 2010,
+        "label": "Received international recognition for human-rights work"
+      },
+      {
+        "year": 2016,
+        "label": "Died in South Kivu"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Case history: Rebecca Masika Katsuva — Front Line Defenders",
+        "url": "https://www.frontlinedefenders.org/en/case/case-history-rebecca-masika-katsuva"
+      },
+      {
+        "title": "The day I met Masika — Euronews",
+        "url": "https://www.euronews.com/2016/02/10/the-day-i-met-masika"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "c-sar-ch-vez",
+    "name": "César Chávez",
+    "born": "1927-03-31",
+    "died": "1993-04-23",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Civil Rights & Justice"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A farmworker organizer whose boycotts and union campaigns won labor protections while leaving a contested legacy.",
+    "biography": "César Chávez grew up in a Mexican American family that lost its Arizona farm during the Depression and followed seasonal agricultural work. He experienced the low wages and insecurity faced by farmworkers. After serving in the Navy, he organized with the Community Service Organization, then left to build a union. In 1962 he and Dolores Huerta founded the National Farm Workers Association, which joined with the Filipino-led Agricultural Workers Organizing Committee during the Delano grape strike. Filipino organizers, including Larry Itliong, helped initiate that strike; the union's success came from a multiracial coalition and thousands of workers, not from one leader alone. Boycotts, marches, and fasts brought national attention, and California's 1975 Agricultural Labor Relations Act established collective-bargaining rights for agricultural workers. Chávez promoted nonviolent action and became a prominent public symbol of the movement. His legacy now also requires confronting recent allegations. In 2026, Dolores Huerta and other women alleged that Chávez sexually abused them, including when some were minors. Those allegations have prompted reassessment; this profile identifies them as reported allegations rather than adjudicated findings. Recognizing the movement's labor victories and its internal power and gender inequalities gives a fuller history than a simple hero narrative.",
+    "achievements": [
+      "Co-founded the National Farm Workers Association with Dolores Huerta",
+      "Helped lead Delano grape strike and national consumer boycotts",
+      "Organized for California’s 1975 farm-labor collective-bargaining law"
+    ],
+    "milestones": [
+      {
+        "year": 1962,
+        "label": "Founded the National Farm Workers Association with Dolores Huerta"
+      },
+      {
+        "year": 1965,
+        "label": "Joined the Delano grape strike, initially led by Filipino farmworkers"
+      },
+      {
+        "year": 1975,
+        "label": "California enacted agricultural labor relations legislation"
+      }
+    ],
+    "sources": [
+      {
+        "title": "César E. Chávez National Monument — National Park Service",
+        "url": "https://www.nps.gov/articles/chavez.htm"
+      },
+      {
+        "title": "César Chávez: Labor Leader Born — Library of Congress",
+        "url": "https://guides.loc.gov/this-month-in-business-history/march/cesar-chavez-born?loclr=blogloc"
+      },
+      {
+        "title": "Chávez and Huerta started a labor revolution now tainted by scandal — Los Angeles Times",
+        "url": "https://www.latimes.com/california/story/2026-03-27/chavez-huerta-started-labor-revolution-now-tainted-by-scandal"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "marsha-p-johnson",
+    "name": "Marsha P. Johnson",
+    "born": "1945",
+    "died": "1992",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Civil Rights & Justice"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A Black trans activist who helped build post-Stonewall organizations and support for LGBTQ young people.",
+    "biography": "Marsha P. Johnson was a Black transgender activist and performer whose life was shaped by poverty, racism, and anti-trans violence. She became part of New York's LGBTQ community in the 1960s and was present during the Stonewall uprising in 1969. The uprising grew through the actions of many people; accounts do not establish Johnson as the person who started it, and the identity of anyone who threw a first brick remains disputed. After Stonewall, Johnson helped organize with the Gay Liberation Front and co-founded Street Transvestite Action Revolutionaries (STAR) with Sylvia Rivera. STAR offered support to homeless queer and trans young people, including a shared home and practical care at a time when few services welcomed them. Johnson also participated in demonstrations and became involved in AIDS activism. She was known among friends for generosity and exuberant self-expression, though public recognition often came after her death. Her body was found in the Hudson River in 1992; the circumstances were disputed, and police initially treated the death as a suicide before reopening the case years later. Johnson's organizing demonstrates how liberation depended on mutual aid as much as public protest. Her story deserves to be told with care for uncertainty and for the people who built these movements together.",
+    "achievements": [
+      "Co-founded STAR with Sylvia Rivera",
+      "Organized with the Gay Liberation Front after Stonewall",
+      "Supported homeless LGBTQ youth and people affected by AIDS"
+    ],
+    "milestones": [
+      {
+        "year": 1969,
+        "label": "Participated in the Stonewall uprising"
+      },
+      {
+        "year": 1970,
+        "label": "Helped establish STAR with Sylvia Rivera"
+      },
+      {
+        "year": 1992,
+        "label": "Died in New York; circumstances remain disputed"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Marsha P. Johnson — National Women’s History Museum",
+        "url": "https://www.womenshistory.org/education-resources/biographies/marsha-p-johnson"
+      },
+      {
+        "title": "Marsha P. Johnson — National Center for Civil and Human Rights Education Portal",
+        "url": "https://learn.civilandhumanrights.org/classroom-resources/biographies/marsha-p-johnson/"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "sylvia-rivera",
+    "name": "Sylvia Rivera",
+    "born": "1951",
+    "died": "2002",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Civil Rights & Justice"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A Puerto Rican and Venezuelan American trans activist who organized for people excluded from larger gay-rights groups.",
+    "biography": "Sylvia Rivera grew up in New York City in a Puerto Rican and Venezuelan family and faced housing insecurity and rejection from an early age. She became active in the city's queer community as a teenager. Rivera was present during the 1969 Stonewall uprising, a multi-day resistance involving many people, and later organized through the Gay Liberation Front. With Marsha P. Johnson, she founded Street Transvestite Action Revolutionaries, or STAR, which offered shelter and support to homeless trans and queer young people. Rivera's activism kept the needs of poor people, people of color, and street-based youth in view when some emerging organizations focused on more accepted members of the community. At a 1973 Pride rally she protested the exclusion of trans people and was met with hostility from parts of the crowd. She continued organizing and speaking, including later work for STAR and community services. Her partnership with Johnson is central to the history of mutual aid within LGBTQ movements. Rivera's life also exposes a persistent tension: movements fighting discrimination can reproduce exclusion internally. Remembering her means recognizing the organizing work and the conflicts over who gets included in public accounts of liberation.",
+    "achievements": [
+      "Co-founded STAR with Marsha P. Johnson",
+      "Advocated for homeless queer and trans youth",
+      "Challenged exclusion of trans people within gay-rights organizing"
+    ],
+    "milestones": [
+      {
+        "year": 1969,
+        "label": "Participated in the Stonewall uprising"
+      },
+      {
+        "year": 1970,
+        "label": "Established STAR with Marsha P. Johnson"
+      },
+      {
+        "year": 1973,
+        "label": "Spoke publicly against exclusion at a Pride rally"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sylvia Rivera — National Women’s History Museum",
+        "url": "https://www.womenshistory.org/education-resources/biographies/sylvia-rivera"
+      },
+      {
+        "title": "Virtual Fence Exhibit — Stonewall National Monument, National Park Service",
+        "url": "https://www.nps.gov/ston/learn/photosmultimedia/virtual-fence-exhibit.htm"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "angela-davis",
+    "name": "Angela Davis",
+    "born": "1944-01-26",
+    "died": null,
+    "region": "North America",
+    "place": "United States",
+    "era": "20th–21st century",
+    "categories": [
+      "Civil Rights & Justice",
+      "Education"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A scholar and organizer whose legal acquittal and writing shaped debates on race, prisons, and political freedom.",
+    "biography": "Angela Davis grew up in Birmingham, Alabama, where racial segregation and white-supremacist violence shaped daily life. She studied philosophy and became a teacher at the University of California, Los Angeles. In 1969 the university dismissed her because of her Communist Party membership; a court initially blocked the dismissal, but the university fired her again. In 1970 she was charged in connection with a courthouse shooting and placed on the FBI's Ten Most Wanted list. Davis spent sixteen months in custody before a jury acquitted her of all charges in 1972. The international campaign demanding her release became a major event in the politics of the period. Afterward she taught at several universities, wrote influential books on race, gender, and class, and helped found Critical Resistance, an organization opposing the prison-industrial complex. Her scholarship asks how institutions define security and whose lives they protect. Davis has remained a politically active public intellectual, and her work is debated across movements and academic fields. Her story should neither flatten a complex legal case into a slogan nor treat state prosecution as proof of guilt; the acquittal and the political response are both essential context.",
+    "achievements": [
+      "Was acquitted of all charges in 1972 after sixteen months in custody",
+      "Wrote influential work on race, gender, class, and prisons",
+      "Helped found Critical Resistance"
+    ],
+    "milestones": [
+      {
+        "year": 1969,
+        "label": "Dismissed from UCLA amid dispute over her Communist Party membership"
+      },
+      {
+        "year": 1970,
+        "label": "Arrested and charged in a California courthouse case"
+      },
+      {
+        "year": 1972,
+        "label": "Acquitted by a jury"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Angela Davis — U.S. National Archives",
+        "url": "https://www.archives.gov/research/african-americans/individuals/angela-davis"
+      },
+      {
+        "title": "Angela Y. Davis — UC Santa Cruz",
+        "url": "https://directory.ucsc.edu/cd_detail?guid=G000122719"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "claudette-colvin",
+    "name": "Claudette Colvin",
+    "born": "1939-09-05",
+    "died": "2026-01-13",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Civil Rights & Justice"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A teenager whose refusal to surrender her bus seat became evidence in a landmark desegregation case.",
+    "biography": "Claudette Colvin was fifteen when she refused to give up her seat to a white passenger on a segregated Montgomery, Alabama, bus on March 2, 1955. Police removed and arrested her. Her act came nine months before Rosa Parks's arrest and grew from the everyday resistance of Black Montgomery residents to humiliating bus rules. Civil-rights attorney Fred Gray later included Colvin among four plaintiffs in Browder v. Gayle, the federal case challenging bus segregation. The case was deliberately separate from Parks's criminal proceeding and the Montgomery boycott: lawyers sought a direct constitutional ruling, and organizers also built a mass campaign. A federal panel ruled the laws unconstitutional in June 1956, and the Supreme Court let that ruling stand in November. Colvin's testimony and experience contributed to the legal challenge, although public memory long centered other figures. After the boycott, she moved to New York, worked as a nurse's aide, and raised a family. She later spoke more openly about her role. Colvin died in January 2026. Her life shows how young people and less celebrated plaintiffs helped create the legal conditions for change, even when the public story later narrowed.",
+    "achievements": [
+      "Refused bus segregation in Montgomery in March 1955",
+      "Served as a plaintiff in Browder v. Gayle",
+      "Her case contributed to the ruling ending bus segregation in Montgomery"
+    ],
+    "milestones": [
+      {
+        "year": 1955,
+        "label": "Arrested after refusing to surrender her bus seat"
+      },
+      {
+        "year": 1956,
+        "label": "Became a plaintiff in Browder v. Gayle"
+      },
+      {
+        "year": 2026,
+        "label": "Died in January"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Claudette Colvin — Encyclopedia of Alabama",
+        "url": "https://encyclopediaofalabama.org/article/claudette-colvin/"
+      },
+      {
+        "title": "The Montgomery Bus Boycott — National Park Service",
+        "url": "https://www.nps.gov/articles/montgomery-bus-boycott.htm"
+      },
+      {
+        "title": "Browder v. Gayle — Encyclopedia of Alabama",
+        "url": "https://encyclopediaofalabama.org/article/embrowder-v-gayle-em/"
+      },
+      {
+        "title": "Claudette Colvin dies at 86 — Associated Press, republished by Los Angeles Times",
+        "url": "https://www.latimes.com/obituaries/story/2026-01-14/claudette-colvin-who-refused-to-move-seats-on-bus-at-start-of-civil-rights-movement-dies-at-86"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "mahatma-gandhi",
+    "name": "Mahatma Gandhi",
+    "born": "1869-10-02",
+    "died": "1948-01-30",
+    "region": "Asia",
+    "place": "India",
+    "era": "19th–20th century",
+    "categories": [
+      "Civil Rights & Justice",
+      "Government & Politics"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A leader of India’s independence movement who made mass nonviolent protest a major political strategy.",
+    "biography": "Mohandas Karamchand Gandhi trained as a lawyer in London and first became a political organizer while working in South Africa. There he campaigned against discriminatory laws targeting Indian residents and developed satyagraha, a method of collective resistance that sought political change through nonviolent action. Returning to India in 1915, he became a prominent leader in the Indian National Congress and helped bring anti-colonial politics into mass campaigns. The 1930 Salt March challenged British control and taxation of salt, while the Quit India movement of 1942 demanded an end to colonial rule. Gandhi's strategies influenced later civil-rights organizers around the world, but independence was won through a broad movement involving many leaders, workers, and communities. His legacy is also complex: scholars examine his early racial attitudes in South Africa, his positions on caste, and disagreements with other Indian leaders. In the final years before independence, he worked to limit communal violence as British India was partitioned into India and Pakistan. Gandhi was assassinated in 1948. His life matters as political practice and as a continuing subject of debate about nonviolence, social hierarchy, nationalism, and the limits of leadership.",
+    "achievements": [
+      "Developed and popularized satyagraha as a method of nonviolent resistance",
+      "Led mass campaigns including the Salt March and Quit India movement",
+      "Worked to reduce communal violence during Partition"
+    ],
+    "milestones": [
+      {
+        "year": 1893,
+        "label": "Went to South Africa as a lawyer and organizer"
+      },
+      {
+        "year": 1930,
+        "label": "Led the Salt March against British salt laws"
+      },
+      {
+        "year": 1942,
+        "label": "Congress launched the Quit India campaign"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Mohandas Karamchand Gandhi — South African History Online",
+        "url": "https://sahistory.org.za/people/mohandas-karamchand-gandhi"
+      },
+      {
+        "title": "Key Thinker: Mahatma Gandhi — Oxford University Press",
+        "url": "https://learninglink.oup.com/access/content/ramgotra-choat1e-resources/ramgotra-choat1e-key-thinker-mahatma-mohandas-gandhi"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "golda-meir",
+    "name": "Golda Meir",
+    "born": "1898-05-03",
+    "died": "1978-12-08",
+    "region": "Asia",
+    "place": "Israel / United States",
+    "era": "20th century",
+    "categories": [
+      "Government & Politics"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A labor organizer and Israeli prime minister whose long political career included the crisis of the 1973 war.",
+    "biography": "Golda Meir was born in Kyiv, then part of the Russian Empire, and moved with her family to Milwaukee as a child. She became involved in Labor Zionist organizing in the United States and immigrated to Palestine with her husband in 1921. Meir worked within the Histadrut labor federation and the political institutions of the Jewish community before Israel's founding. In 1948 she joined the provisional government and soon served as Israel's minister to the Soviet Union. She later held the labor and foreign affairs portfolios, building relationships with governments in Africa, Latin America, and the United States. Meir became prime minister in 1969, the first woman to hold the office in Israel. Her government faced the 1973 Yom Kippur War, when Egyptian and Syrian forces launched a surprise attack. The war prompted intense public criticism and an official inquiry into the government's readiness. Meir left office in 1974. She remains a consequential and debated leader whose story connects immigrant organizing, state-building, diplomacy, and the consequences of military and political decisions. Her leadership broke a gender barrier, but should be assessed alongside the policies and crises that shaped her tenure.",
+    "achievements": [
+      "Helped build Labor Zionist organizations before Israeli statehood",
+      "Served as Israel’s foreign minister and prime minister",
+      "Led the government during the 1973 Yom Kippur War"
+    ],
+    "milestones": [
+      {
+        "year": 1921,
+        "label": "Immigrated to Palestine with her husband"
+      },
+      {
+        "year": 1948,
+        "label": "Joined Israel’s provisional government"
+      },
+      {
+        "year": 1969,
+        "label": "Became prime minister of Israel"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Golda Meir — University of Wisconsin–Milwaukee Libraries",
+        "url": "https://uwm.edu/libraries/about/golda/"
+      },
+      {
+        "title": "Golda Meir: Israel’s Matriarch — Yale University Press",
+        "url": "https://yalebooks.yale.edu/book/9780300274981/golda-meir/"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "benazir-bhutto",
+    "name": "Benazir Bhutto",
+    "born": "1953-06-21",
+    "died": "2007-12-27",
+    "region": "Asia",
+    "place": "Pakistan",
+    "era": "20th century",
+    "categories": [
+      "Government & Politics",
+      "Civil Rights & Justice"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "Pakistan’s first woman prime minister led elected governments during a period of military rule and political instability.",
+    "biography": "Benazir Bhutto grew up in a political family and studied at Harvard and Oxford. After Pakistan's 1977 military coup, her father, former prime minister Zulfikar Ali Bhutto, was imprisoned and executed. Benazir became a leading figure in the Pakistan People's Party and spent years in detention and exile while opposing military rule. She returned to Pakistan in 1986, drawing large crowds in support of a return to elected government. In 1988 she became prime minister, the first woman to lead a national government in a Muslim-majority country. Her first government was dismissed in 1990; she served a second term from 1993 to 1996, which also ended before its scheduled completion amid political conflict and corruption allegations. Bhutto remained a major opposition leader and returned from exile in 2007 to campaign in national elections. She was assassinated at a campaign rally in Rawalpindi that December. Her political legacy includes both the symbolic opening her election created for women and the instability and contested governance of her administrations. The story of her career belongs within Pakistan's struggle over civilian rule, military power, and democratic accountability.",
+    "achievements": [
+      "Led the Pakistan People’s Party through opposition to military rule",
+      "Served as prime minister in 1988–1990 and 1993–1996",
+      "Became the first woman to head a national government in a Muslim-majority country"
+    ],
+    "milestones": [
+      {
+        "year": 1986,
+        "label": "Returned from exile to lead the PPP"
+      },
+      {
+        "year": 1988,
+        "label": "Became prime minister"
+      },
+      {
+        "year": 2007,
+        "label": "Assassinated during an election campaign"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benazir Bhutto — Ubben Lecture Series, DePauw University",
+        "url": "https://www.depauw.edu/arts-and-culture/speakers/ubben-lecture-series/details/benazir-bhutto/"
+      },
+      {
+        "title": "Benazir Bhutto obituary — Associated Press, republished by Legacy.com",
+        "url": "https://www.legacy.com/legacy/notable-deaths/benazir-bhutto"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "jacinda-ardern",
+    "name": "Jacinda Ardern",
+    "born": "1980-07-26",
+    "died": null,
+    "region": "Oceania",
+    "place": "New Zealand",
+    "era": "21st century",
+    "categories": [
+      "Government & Politics"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "New Zealand’s prime minister from 2017 to 2023 led through a mass shooting and pandemic while expanding global attention to women in office.",
+    "biography": "Jacinda Ardern grew up in rural Waikato and studied communications and political science at the University of Waikato. She entered New Zealand's Parliament in 2008 and rose through the Labour Party, becoming leader only weeks before the 2017 election. Coalition negotiations made her prime minister at age 37. Ardern's government addressed major events including the 2019 Christchurch mosque attacks and the COVID-19 pandemic. After the Christchurch attack, she visited Muslim communities and advocated changes to gun laws; her leadership drew international attention, though the community's recovery and policy response involved many people and institutions. In 2018 she gave birth while serving as prime minister, joining a very small group of elected national leaders to do so. Ardern led Labour to a strong election win in 2020, then announced in January 2023 that she would step down, citing that she no longer had enough in reserve for the job. Her tenure is studied for communication and crisis leadership, but assessments also include difficult policy tradeoffs and limits of her government's program. Her career made visible the pressures placed on women leaders and the distinction between symbolic milestones and the complex work of governing.",
+    "achievements": [
+      "Served as New Zealand’s prime minister from 2017 to 2023",
+      "Led the government after the 2019 Christchurch mosque attacks",
+      "Gave birth while in office in 2018"
+    ],
+    "milestones": [
+      {
+        "year": 2008,
+        "label": "Entered Parliament"
+      },
+      {
+        "year": 2017,
+        "label": "Became prime minister"
+      },
+      {
+        "year": 2023,
+        "label": "Resigned as prime minister"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jacinda Ardern — NZ History, Ministry for Culture and Heritage",
+        "url": "https://nzhistory.govt.nz/people/jacinda-ardern"
+      },
+      {
+        "title": "Dame Jacinda Ardern — University of Waikato",
+        "url": "https://www.waikato.ac.nz/study/student-success-stories/jacinda-ardern/"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "olympe-de-gouges",
+    "name": "Olympe de Gouges",
+    "born": "1748-05-07",
+    "died": "1793",
+    "region": "Europe",
+    "place": "France",
+    "era": "18th century",
+    "categories": [
+      "Arts, Literature & Media",
+      "Civil Rights & Justice"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A playwright and political writer who demanded citizenship rights for women during the French Revolution.",
+    "biography": "Olympe de Gouges, born Marie Gouze in Montauban, became a playwright and political writer in revolutionary France. She wrote on issues that included marriage, poverty, and slavery in the French colonies. In 1791 she published the Declaration of the Rights of Woman and of the Female Citizen, adapting the language of the 1789 Declaration of the Rights of Man to insist that women were political citizens with claims to liberty, property, and public participation. The document made a direct argument about the gap between revolutionary ideals and women's legal status. De Gouges also criticized political violence and became entangled in the factional conflicts of the Revolution. She was tried and executed in 1793. Sources disagree on the exact date of her execution: the National Assembly gives November 6, while the Library of Congress gives November 3, so this record lists only the year. Her significance lies in placing equality claims before a revolutionary public, but her political positions were not identical to later feminist movements. She wrote amid immediate danger and political upheaval, and her plays and pamphlets deserve attention alongside the declaration that later generations made emblematic.",
+    "achievements": [
+      "Published the Declaration of the Rights of Woman and of the Female Citizen in 1791",
+      "Wrote political works opposing slavery and arguing for civic equality",
+      "Used theater and pamphlets to intervene in revolutionary debates"
+    ],
+    "milestones": [
+      {
+        "year": 1780,
+        "label": "Began publishing plays and political writing in Paris"
+      },
+      {
+        "year": 1791,
+        "label": "Published her declaration of women’s rights"
+      },
+      {
+        "year": 1793,
+        "label": "Executed during the French Revolution; exact date disputed"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Olympe de Gouges — French National Assembly",
+        "url": "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/declaration-des-droits-de-la-femme-et-de-la-citoyenne-olympe-de-gouges"
+      },
+      {
+        "title": "Olympe de Gouges — Library of Congress",
+        "url": "https://guides.loc.gov/women-in-the-french-revolution/olympe-de-gouges"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "mary-wollstonecraft",
+    "name": "Mary Wollstonecraft",
+    "born": "1759-04-27",
+    "died": "1797-09-10",
+    "region": "Europe",
+    "place": "United Kingdom",
+    "era": "18th century",
+    "categories": [
+      "Arts, Literature & Media",
+      "Education"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A writer who argued that women’s education and independence were necessary to a just society.",
+    "biography": "Mary Wollstonecraft worked as a teacher, governess, translator, and writer before becoming a major political voice of the late eighteenth century. She observed how limited education left women financially dependent and excluded from civic life. In A Vindication of the Rights of Men (1790), she answered Edmund Burke's defense of inherited political authority; two years later, A Vindication of the Rights of Woman argued that women were rational beings who deserved serious education. Wollstonecraft called for mixed-sex schooling and opportunities for women to support themselves, challenging the assumption that a woman's purpose was to please men. Her career included work in London and travel in Scandinavia, and she wrote fiction as well as political philosophy. Her death from infection shortly after giving birth to her daughter Mary in 1797 led later readers to reduce her work to her personal life. The biography she wrote through her arguments is more expansive: she connected gender inequality to social institutions, education, and economic dependence. Her writings influenced later feminist debate, though they emerged from the political context and limits of her own period.",
+    "achievements": [
+      "Published A Vindication of the Rights of Woman in 1792",
+      "Advocated public education and women’s economic independence",
+      "Wrote political philosophy, fiction, and travel writing"
+    ],
+    "milestones": [
+      {
+        "year": 1787,
+        "label": "Published Thoughts on the Education of Daughters"
+      },
+      {
+        "year": 1790,
+        "label": "Published A Vindication of the Rights of Men"
+      },
+      {
+        "year": 1792,
+        "label": "Published A Vindication of the Rights of Woman"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Mary Wollstonecraft — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/wollstonecraft/"
+      },
+      {
+        "title": "A Vindication of the Rights of Woman — British Library",
+        "url": "https://www.britishlibrary.cn/en/works/vindication-of-the-rights-of-woman/"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "arundhati-roy",
+    "name": "Arundhati Roy",
+    "born": "1961",
+    "died": null,
+    "region": "Asia",
+    "place": "India",
+    "era": "20th–21st century",
+    "categories": [
+      "Arts, Literature & Media",
+      "Civil Rights & Justice"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A novelist and essayist whose fiction and public writing address caste, displacement, and political power.",
+    "biography": "Arundhati Roy grew up in Kerala, India, and began her career as a screenwriter before publishing her first novel. The God of Small Things (1997) follows twins in a Kerala community and uses a family story to examine caste, gender, and social hierarchy. The novel won the Booker Prize and reached readers around the world. Roy later turned increasingly to nonfiction and public argument, writing about development projects, displacement, nationalism, and military policy. Her essays and speeches have attracted both admiration and criticism, and she has faced legal scrutiny for political statements. Roy's writing moves between close attention to ordinary lives and broad questions about who bears the costs of state and economic power. Her fiction is not a documentary account of all Indian experience; its particular setting and characters allow readers to see how large structures shape a small community. She has continued to publish novels and essays, including The Ministry of Utmost Happiness. Her significance lies in treating literature and political engagement as connected practices while remaining a writer whose arguments are contested in public life.",
+    "achievements": [
+      "Won the 1997 Booker Prize for The God of Small Things",
+      "Published fiction and political essays on state power and displacement",
+      "Continues to write and speak on public issues"
+    ],
+    "milestones": [
+      {
+        "year": 1997,
+        "label": "The God of Small Things won the Booker Prize"
+      },
+      {
+        "year": 2002,
+        "label": "Received the Lannan Cultural Freedom Award"
+      },
+      {
+        "year": 2017,
+        "label": "Published The Ministry of Utmost Happiness"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Arundhati Roy — PEN America",
+        "url": "https://pen.org/writer-at-risk/arundhati-roy/"
+      },
+      {
+        "title": "The God of Small Things — The Booker Prizes",
+        "url": "https://thebookerprizes.com/the-booker-library/books/the-god-of-small-things"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "audre-lorde",
+    "name": "Audre Lorde",
+    "born": "1934-02-18",
+    "died": "1992-11-17",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Arts, Literature & Media",
+      "Civil Rights & Justice"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A poet and essayist whose work examined how racism, sexism, class, and sexuality shape everyday life.",
+    "biography": "Audre Lorde grew up in New York City in a family whose parents had immigrated from Grenada. She began writing poetry as a student and earned degrees from Hunter College and Columbia University. For much of the 1960s she worked as a librarian in New York public schools, then taught at Tougaloo College and later in New York. Her books moved between poetry, essays, and memoir. The Cancer Journals considered illness and medical treatment through the experience of a Black lesbian woman, while Sister Outsider gathered essays and speeches on difference, power, and political responsibility. Lorde described identities not as separate compartments but as experiences that shape how people encounter institutions and one another. She and Barbara Smith helped establish Kitchen Table: Women of Color Press, an independent publisher supporting writers marginalized by mainstream publishing. Lorde also organized against apartheid and became New York State Poet from 1991 to 1992. She died of cancer in 1992. Her writing remains influential because it combines exact language with demands for material solidarity, and because it challenged feminist, antiracist, and LGBTQ movements to confront exclusions within their own coalitions.",
+    "achievements": [
+      "Published The Cancer Journals and Sister Outsider",
+      "Co-founded Kitchen Table: Women of Color Press",
+      "Served as New York State Poet in 1991–1992"
+    ],
+    "milestones": [
+      {
+        "year": 1968,
+        "label": "Published The First Cities"
+      },
+      {
+        "year": 1980,
+        "label": "Published The Cancer Journals"
+      },
+      {
+        "year": 1981,
+        "label": "Helped establish Kitchen Table: Women of Color Press"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Audre Lorde — Academy of American Poets",
+        "url": "https://poets.org/poet/audre-lorde"
+      },
+      {
+        "title": "Audre Lorde Papers — Spelman College Archives",
+        "url": "https://www.spelman.edu/about/archives/collections/audre-lorde-papers.html"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "james-baldwin",
+    "name": "James Baldwin",
+    "born": "1924",
+    "died": "1987-12-01",
+    "region": "North America",
+    "place": "United States / France",
+    "era": "20th century",
+    "categories": [
+      "Arts, Literature & Media",
+      "Civil Rights & Justice"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A novelist and essayist whose writing connected racial injustice in the United States with questions of identity and belonging.",
+    "biography": "James Baldwin grew up in Harlem, the oldest of nine children in his family, and became a teenage preacher before turning toward writing. His first novel, Go Tell It on the Mountain (1953), drew on the church and family worlds he knew. Essays in Notes of a Native Son (1955) and The Fire Next Time (1963) brought his analysis of racism to a wide readership. Baldwin wrote about Black life in the United States while also addressing sexuality, religion, and the limits of national myths. In 1948 he moved to France, where distance helped him examine American society, though he continued to travel and speak during the civil-rights movement. He met with activists and reported on the movement, using literary craft to connect personal experience with public structures. His work resists easy labels: his novels and essays do not treat race or sexuality as simple themes but as lived pressures shaping relationships and political choices. Baldwin's importance lies in his ability to make moral argument inseparable from style. His voice remains central to debates about citizenship, art, and how a nation confronts the histories it would rather avoid.",
+    "achievements": [
+      "Published Go Tell It on the Mountain and Notes of a Native Son",
+      "Reported and spoke during the civil-rights movement",
+      "Wrote across fiction, essays, plays, and criticism"
+    ],
+    "milestones": [
+      {
+        "year": 1948,
+        "label": "Moved to France"
+      },
+      {
+        "year": 1953,
+        "label": "Published Go Tell It on the Mountain"
+      },
+      {
+        "year": 1963,
+        "label": "Published The Fire Next Time"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Baldwin, James Arthur — Martin Luther King, Jr. Research and Education Institute, Stanford University",
+        "url": "https://kinginstitute.stanford.edu/baldwin-james-arthur"
+      },
+      {
+        "title": "James Baldwin — Library of Congress",
+        "url": "https://www.loc.gov/item/n79076619/james-baldwin/"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "langston-hughes",
+    "name": "Langston Hughes",
+    "born": null,
+    "died": "1967-05-22",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Arts, Literature & Media",
+      "Education"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A poet and playwright who brought Black life, blues, and everyday speech into the center of American literature.",
+    "biography": "Langston Hughes became one of the most widely read writers associated with the Harlem Renaissance. He grew up partly in Kansas and began writing poetry as a young person. His first collection, The Weary Blues (1926), drew on blues and jazz rhythms and treated Black daily life as worthy of lyric attention. Hughes wrote poems, plays, novels, essays, and newspaper columns, often using musical forms and speech patterns that literary institutions had dismissed. His work ranged from intimate scenes to direct political critique. The poem 'I, Too' answers the exclusion of Black Americans from national belonging, while later writing confronted racism and economic inequality. Hughes traveled widely and studied the cultures of the African diaspora; he also created literary characters such as Jesse B. Semple to satirize social conventions. Reference institutions disagree on his birth year, giving 1901 or 1902, so the exact year is left blank here. His career shows how an artist can widen national literature by bringing community voice and musical form into genres that had treated them as marginal. He also mentored and encouraged later writers throughout a long public career.",
+    "achievements": [
+      "Published The Weary Blues in 1926",
+      "Brought blues and jazz rhythms into poetry and theater",
+      "Wrote across poems, plays, novels, essays, and journalism"
+    ],
+    "milestones": [
+      {
+        "year": 1921,
+        "label": "Published the poem The Negro Speaks of Rivers"
+      },
+      {
+        "year": 1926,
+        "label": "Published The Weary Blues"
+      },
+      {
+        "year": 1935,
+        "label": "Had Mulatto produced on Broadway"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Langston Hughes — Library of America",
+        "url": "https://www.loa.org/writers/567-langston-hughes/"
+      },
+      {
+        "title": "Langston Hughes — Kansas Historical Society",
+        "url": "https://www.kansashistory.gov/p/langston-hughes/19437"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "gwendolyn-brooks",
+    "name": "Gwendolyn Brooks",
+    "born": "1917-06-07",
+    "died": "2000-12-03",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Arts, Literature & Media",
+      "Education"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A Chicago poet who wrote about Black urban life and opened new possibilities for American poetry.",
+    "biography": "Gwendolyn Brooks was born in Topeka and grew up on Chicago's South Side, where the city's people and neighborhoods became central to her work. Her first collection, A Street in Bronzeville (1945), focused on ordinary lives with formal precision and attention to social conditions. Annie Allen, a sequence about a Black girl's growth into adulthood, won the Pulitzer Prize for Poetry in 1950. Brooks was the first Black writer to receive a Pulitzer Prize, a distinction that marked the exclusion of Black authors from major literary honors. She continued to write in varied forms, including sonnets, ballads, and free verse. After attending the 1967 Fisk University Black Writers' Conference, she shifted toward smaller Black-owned presses and became a major figure in the Black Arts movement. She served as Illinois Poet Laureate and worked to support young writers in Chicago and elsewhere. Brooks's work combined rigorous craft with a deep interest in race, class, and community. Her career shows that literary innovation can emerge through sustained attention to people often treated as peripheral in national culture, and that mentorship and local institutions are part of an artist's public legacy.",
+    "achievements": [
+      "Won the Pulitzer Prize for Annie Allen in 1950",
+      "Became Illinois Poet Laureate in 1968",
+      "Mentored writers and supported community poetry programs"
+    ],
+    "milestones": [
+      {
+        "year": 1945,
+        "label": "Published A Street in Bronzeville"
+      },
+      {
+        "year": 1950,
+        "label": "Won the Pulitzer Prize for Annie Allen"
+      },
+      {
+        "year": 1968,
+        "label": "Became Illinois Poet Laureate"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Gwendolyn Brooks — Illinois Poet Laureate Program",
+        "url": "https://poetlaureate.illinois.gov/laureates/brooks.html"
+      },
+      {
+        "title": "Gwendolyn Brooks: A Poet’s Work in Community — The Pulitzer Prizes",
+        "url": "https://www.pulitzer.org/news/gwendolyn-brooks-poets-work-community-opens-morgan-library"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "alma-thomas",
+    "name": "Alma Thomas",
+    "born": "1891-09-22",
+    "died": "1978-02-24",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Arts, Literature & Media",
+      "Education"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A Washington artist and teacher whose bright abstract paintings drew on nature and changed museum histories.",
+    "biography": "Alma Woodsey Thomas moved with her family from Georgia to Washington, D.C., in 1907, seeking better educational opportunities amid Jim Crow violence. She enrolled at Howard University and became the first graduate of its fine arts program in 1924. Thomas then taught art in Washington public schools for decades, organizing student exhibitions and connecting young people with cultural institutions. After retiring in 1960, she devoted herself more fully to painting. Her mature work used short, vivid brushstrokes arranged in rhythmic patterns that evoked gardens, seasons, and later the space race. Thomas became associated with the Washington Color School, while maintaining an individual style grounded in her observations of the natural world. In 1972 the Whitney Museum of American Art gave her a solo exhibition; she was the first African American woman to receive one there. Her recognition came late in life, after years balancing teaching with artistic practice. Thomas's achievement matters both for the visual language she developed and for how her exhibitions challenged institutions that had excluded Black women artists. She showed how sustained attention, experimentation, and an artist's own sources of joy could remake modern abstraction.",
+    "achievements": [
+      "Graduated from Howard’s first fine arts program in 1924",
+      "Taught art in Washington public schools for decades",
+      "Received the Whitney Museum’s solo exhibition in 1972"
+    ],
+    "milestones": [
+      {
+        "year": 1924,
+        "label": "Graduated from Howard University’s art department"
+      },
+      {
+        "year": 1960,
+        "label": "Retired from teaching and focused on painting"
+      },
+      {
+        "year": 1972,
+        "label": "Held a solo exhibition at the Whitney Museum"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Alma Thomas — Smithsonian American Art Museum",
+        "url": "https://americanart.si.edu/artist/alma-thomas-4778"
+      },
+      {
+        "title": "Alma Thomas — National Gallery of Art",
+        "url": "https://www.nga.gov/artists/1926-alma-thomas"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "nina-simone",
+    "name": "Nina Simone",
+    "born": "1933-02-21",
+    "died": "2003-04-21",
+    "region": "North America",
+    "place": "United States / France",
+    "era": "20th century",
+    "categories": [
+      "Arts, Literature & Media",
+      "Civil Rights & Justice"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A classically trained pianist and singer whose music became a forceful expression of Black freedom and artistic independence.",
+    "biography": "Nina Simone was born Eunice Waymon in North Carolina and studied classical piano from childhood. She hoped to become a concert pianist, but believed she was denied admission to the Curtis Institute of Music because she was Black. She supported herself by playing piano and singing in clubs, adopting the name Nina Simone. Her recordings blended classical technique with jazz, blues, gospel, and folk. In the 1960s she wrote songs that spoke directly to racial violence and civil-rights struggle, including Mississippi Goddam after the 16th Street Baptist Church bombing and Medgar Evers's assassination. Simone resisted pressure to make her music more commercially comfortable, and conflict with the music industry contributed to her decision to leave the United States in 1970. She lived and performed in several countries, while continuing to record and tour. Simone's legacy includes both formal musical innovation and outspoken political commitment. Her songs could express anger and grief without simplifying the conditions that produced them. She became an influence for later artists who sought control over their creative work and used performance as a form of public testimony.",
+    "achievements": [
+      "Recorded a wide-ranging repertoire blending classical and popular traditions",
+      "Wrote civil-rights songs including Mississippi Goddam",
+      "Received posthumous recognition from the Rock & Roll Hall of Fame"
+    ],
+    "milestones": [
+      {
+        "year": 1954,
+        "label": "Adopted the stage name Nina Simone"
+      },
+      {
+        "year": 1964,
+        "label": "Released Mississippi Goddam"
+      },
+      {
+        "year": 1970,
+        "label": "Left the United States and continued an international career"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nina Simone — National Museum of African American History and Culture",
+        "url": "https://nmaahc.si.edu/nina-simone"
+      },
+      {
+        "title": "Nina Simone — Rock & Roll Hall of Fame",
+        "url": "https://rockhall.com/inductees/nina-simone/"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "billie-holiday",
+    "name": "Billie Holiday",
+    "born": "1915-04-07",
+    "died": "1959-07-17",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Arts, Literature & Media",
+      "Civil Rights & Justice"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A jazz singer whose phrasing reshaped popular song and whose performance of “Strange Fruit” confronted lynching.",
+    "biography": "Billie Holiday grew up in poverty and began singing professionally as a teenager in Harlem. She developed a distinctive approach to phrasing, shaping a melody with rhythmic freedom and emotional restraint rather than relying on vocal power alone. In the 1930s she recorded with Teddy Wilson and performed with leading jazz musicians. In 1938 she toured with Artie Shaw's orchestra, becoming one of the first Black women to sing with a prominent white band. The following year she recorded 'Strange Fruit,' a song written by Abel Meeropol about the lynching of Black Americans. Holiday's performance brought the subject to nightclub and record audiences despite pressure from record executives and threats against the venues where she sang. She did not write the song, but her interpretation became inseparable from its cultural force. Holiday's career was also constrained by racism, drug enforcement, and health struggles; she was arrested and incarcerated, and authorities restricted her ability to perform. She died in 1959 at 44. Her influence reaches across jazz and popular singing, while 'Strange Fruit' remains an example of how an artist can make a public atrocity impossible to ignore.",
+    "achievements": [
+      "Developed an influential, rhythmically flexible vocal style",
+      "Recorded Strange Fruit in 1939",
+      "Performed with Artie Shaw’s orchestra in 1938"
+    ],
+    "milestones": [
+      {
+        "year": 1933,
+        "label": "Made her first recordings with Benny Goodman’s group"
+      },
+      {
+        "year": 1938,
+        "label": "Joined Artie Shaw’s orchestra"
+      },
+      {
+        "year": 1939,
+        "label": "Recorded Strange Fruit"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Billie Holiday — National Museum of African American History and Culture",
+        "url": "https://nmaahc.si.edu/billie-holiday"
+      },
+      {
+        "title": "Jazz Singers: Billie Holiday — Library of Congress",
+        "url": "https://www.loc.gov/exhibits/jazz-singers/online-exhibition.html"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
   }
 ]
