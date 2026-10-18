@@ -1,0 +1,672 @@
+[
+  {
+    "id": "katherine-johnson",
+    "name": "Katherine Johnson",
+    "born": "1918-08-26",
+    "died": "2020-02-24",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Science & Innovation",
+      "Exploration & Space"
+    ],
+    "featured": true,
+    "lesserKnown": false,
+    "summary": "Her mathematics helped turn the uncertainty of early American spaceflight into calculated trajectories.",
+    "biography": "Katherine Johnson grew up in West Virginia with an unusual appetite for numbers. She studied mathematics and French at West Virginia State College, graduating in 1937, and later became one of three Black students selected to integrate West Virginia’s graduate schools. In 1953 she joined the National Advisory Committee for Aeronautics at Langley, where women employed as human computers carried out calculations for engineers. Johnson moved from flight research into the emerging space program as the agency became NASA. She analyzed the trajectory for Alan Shepard’s 1961 flight and coauthored a 1960 technical report on orbital flight. Before John Glenn’s 1962 orbital mission, he asked that Johnson check the electronic computer’s calculations by hand. Her work also contributed to the Apollo program, including calculations for the lunar module’s rendezvous with the command module. Johnson’s career shows that spaceflight depended on careful mathematical labor as well as astronauts and rockets. Her technical reports made that labor visible in a field that often obscured women’s contributions. She retired in 1986 and received the Presidential Medal of Freedom in 2015.",
+    "achievements": [
+      "Calculated trajectories for early U.S. space missions",
+      "Checked calculations for John Glenn’s 1962 orbital flight",
+      "Coauthored a 1960 NASA technical report"
+    ],
+    "milestones": [
+      {
+        "year": 1953,
+        "label": "Joined NACA at Langley"
+      },
+      {
+        "year": 1962,
+        "label": "Verified calculations for John Glenn’s mission"
+      },
+      {
+        "year": 2015,
+        "label": "Received the Presidential Medal of Freedom"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Katherine Johnson Biography — NASA",
+        "url": "https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/"
+      },
+      {
+        "title": "Katherine Johnson — Smithsonian American Women’s History Museum",
+        "url": "https://womenshistory.si.edu/blog/remembering-nasa-mathematician-katherine-johnson"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-17"
+  },
+  {
+    "id": "jane-c-wright",
+    "name": "Jane C. Wright",
+    "born": "1919-11-20",
+    "died": "2013",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Medicine & Public Health",
+      "Science & Innovation"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "An oncologist who helped make cancer drug treatment more systematic and more responsive to patients.",
+    "biography": "Jane Cooke Wright entered medicine when cancer chemotherapy was still an experimental practice. After graduating from New York Medical College in 1945, she trained at Bellevue and Harlem hospitals. At Harlem Hospital’s Cancer Research Foundation she worked with her father, physician Louis T. Wright, on the effects of anticancer drugs. She performed patient trials while laboratory research examined promising compounds. When her father died in 1952, she became the foundation’s director. Wright compared responses in patients with those in tissue cultures and investigated ways to deliver drugs to tumors. Her approach helped doctors assess treatments more rigorously rather than treating chemotherapy as a last resort without systematic evidence. In 1967 she became a professor of surgery, head of cancer chemotherapy, and an associate dean at New York Medical College. She also helped found the American Society of Clinical Oncology and in 1971 became the first woman president of the New York Cancer Society. Wright’s significance lies both in the methods she advanced and in the clinical networks she helped build for a changing field of medicine.",
+    "achievements": [
+      "Advanced methods for assessing anticancer drugs",
+      "Led the Cancer Research Foundation at Harlem Hospital",
+      "Helped found the American Society of Clinical Oncology"
+    ],
+    "milestones": [
+      {
+        "year": 1945,
+        "label": "Graduated from New York Medical College"
+      },
+      {
+        "year": 1952,
+        "label": "Became director of Harlem Hospital’s Cancer Research Foundation"
+      },
+      {
+        "year": 1971,
+        "label": "Became president of the New York Cancer Society"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jane Cooke Wright — National Library of Medicine",
+        "url": "https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_jane_wright.html"
+      },
+      {
+        "title": "A Passion for Solving the Puzzle of Cancer — NIH PubMed Central",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4063385/"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-17"
+  },
+  {
+    "id": "kamala-harris",
+    "name": "Kamala Harris",
+    "born": "1964-10-20",
+    "died": null,
+    "region": "North America",
+    "place": "United States",
+    "era": "21st century",
+    "categories": [
+      "Government & Politics",
+      "Civil Rights & Justice"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "The 49th U.S. vice president brought a path through local prosecution, state office, and the Senate to national leadership.",
+    "biography": "Kamala Harris was born in Oakland, California, and studied at Howard University and the University of California, Hastings College of Law. Her public career began as a prosecutor. She served as San Francisco district attorney from 2004 to 2011 and California attorney general from 2011 to 2017. Voters then sent her to the United States Senate, where she represented California until January 2021. After joining Joe Biden’s 2020 presidential ticket, Harris became the 49th vice president of the United States, serving from 2021 to 2025. She was the first woman to hold that office. Her vice presidency also marked a national milestone for Black and South Asian American representation. As president of the Senate she cast tie-breaking votes, a constitutional responsibility that can decide legislation when the chamber is evenly divided. Harris’s career connects local criminal justice policy, state government, federal legislation, and executive leadership. Those institutions have different powers and different forms of accountability; viewing her work across them offers a clearer historical picture than reducing her career to a single election or symbolic first.",
+    "achievements": [
+      "Served as California attorney general and U.S. senator",
+      "Served as the 49th U.S. vice president, 2021–2025",
+      "First woman to hold the U.S. vice presidency"
+    ],
+    "milestones": [
+      {
+        "year": 2011,
+        "label": "Became California attorney general"
+      },
+      {
+        "year": 2017,
+        "label": "Entered the U.S. Senate"
+      },
+      {
+        "year": 2021,
+        "label": "Became U.S. vice president"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Harris Vice Presidential Records — National Archives",
+        "url": "https://www.archives.gov/presidential-records/vice-presidential-records/selected-vice-presidential-records/harris-records"
+      },
+      {
+        "title": "California Senate timeline — U.S. Senate",
+        "url": "https://www.senate.gov/states/CA/timeline.htm"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-17"
+  },
+  {
+    "id": "shirley-chisholm",
+    "name": "Shirley Chisholm",
+    "born": "1924-11-30",
+    "died": "2005-01-01",
+    "region": "North America",
+    "place": "United States / Barbados",
+    "era": "20th century",
+    "categories": [
+      "Government & Politics",
+      "Civil Rights & Justice",
+      "Education"
+    ],
+    "featured": true,
+    "lesserKnown": false,
+    "summary": "An educator and legislator who became the first Black woman elected to the U.S. Congress.",
+    "biography": "Shirley Chisholm was born in Brooklyn and spent part of her childhood in Barbados, where her mother’s family lived. She trained as an educator, earned degrees from Brooklyn College and Columbia University, and worked in early childhood education before entering electoral politics. After serving in the New York State Assembly, she won a seat in the U.S. House of Representatives in 1968. When the new Congress convened in 1969, she became the first Black woman to serve there. Chisholm represented a Brooklyn district through 1983, advocating for people with limited political power and drawing on her experience with child care and education. In 1972 she sought the Democratic presidential nomination. The campaign did not win the nomination, but it challenged assumptions about who could make a serious national bid for executive office. Chisholm’s political work was more than a single first: it linked neighborhood organizing, social services, congressional negotiation, and an insistence that representation should change policy. Her career remains a record of how an educator used public office to widen the questions government was expected to answer.",
+    "achievements": [
+      "First Black woman elected to the U.S. Congress",
+      "Sought the 1972 Democratic presidential nomination",
+      "Advocated for education and social programs"
+    ],
+    "milestones": [
+      {
+        "year": 1964,
+        "label": "Elected to the New York State Assembly"
+      },
+      {
+        "year": 1969,
+        "label": "Began service in the U.S. House"
+      },
+      {
+        "year": 1972,
+        "label": "Campaigned for the Democratic presidential nomination"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Shirley Chisholm — U.S. House History, Art & Archives",
+        "url": "https://history.house.gov/People/Detail/10918"
+      },
+      {
+        "title": "Shirley Chisholm — National Park Service",
+        "url": "https://home.nps.gov/people/shirley-chisholm.htm"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-17"
+  },
+  {
+    "id": "toni-morrison",
+    "name": "Toni Morrison",
+    "born": "1931",
+    "died": "2019-08-05",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Arts, Literature & Media",
+      "Education"
+    ],
+    "featured": true,
+    "lesserKnown": false,
+    "summary": "A novelist and editor whose work reshaped how American history could be told in fiction.",
+    "biography": "Toni Morrison was born Chloe Anthony Wofford in Lorain, Ohio. She studied at Howard and Cornell universities, taught literature, and worked as an editor before her first novel, The Bluest Eye, appeared in 1970. Her fiction returned repeatedly to the texture of Black American life: memory, family, language, violence, and the meanings people make from inherited history. Morrison also worked at Random House, where her editorial career helped bring Black writers to wider readership. Beloved, published in 1987, won the Pulitzer Prize for Fiction the following year. In 1993 Morrison received the Nobel Prize in Literature. The prize recognized an already influential body of work, but her importance cannot be measured only in awards. Morrison developed narrative forms that made silences in the historical record part of the story itself. She resisted simple accounts of both suffering and triumph, giving her characters inner lives as complex as the social worlds around them. Her novels, essays, editing, and teaching changed the place of Black experience in American literary culture and invited readers to reconsider whose voices shape a nation’s memory.",
+    "achievements": [
+      "Won the 1988 Pulitzer Prize for Fiction for Beloved",
+      "Received the 1993 Nobel Prize in Literature",
+      "Worked as a novelist, editor, and educator"
+    ],
+    "milestones": [
+      {
+        "year": 1970,
+        "label": "Published The Bluest Eye"
+      },
+      {
+        "year": 1988,
+        "label": "Won the Pulitzer Prize for Beloved"
+      },
+      {
+        "year": 1993,
+        "label": "Received the Nobel Prize in Literature"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Toni Morrison — Nobel Prize biographical note",
+        "url": "https://www.nobelprize.org/prizes/literature/1993/morrison/biographical/"
+      },
+      {
+        "title": "Toni Morrison — Library of Congress",
+        "url": "https://www.loc.gov/item/n80131379/toni-morrison/"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-17"
+  },
+  {
+    "id": "oprah-winfrey",
+    "name": "Oprah Winfrey",
+    "born": "1954",
+    "died": null,
+    "region": "North America",
+    "place": "United States",
+    "era": "21st century",
+    "categories": [
+      "Arts, Literature & Media",
+      "Business & Innovation"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A host, producer, and entrepreneur who changed the scale and style of American daytime television.",
+    "biography": "Oprah Winfrey was born in Mississippi and entered broadcasting before national audiences knew her name. After work in Baltimore, she moved to Chicago television, where her approach to interviewing helped turn a local morning program into a nationally syndicated show. The Oprah Winfrey Show ran from 1986 to 2011. Its long reach made Winfrey one of the most influential figures in American media, while her work as a producer and business owner gave her unusual control over what appeared on screen. She later launched the Oprah Winfrey Network. Her influence extended beyond television through acting, publishing, philanthropy, and support for education. In 2013 she received the Presidential Medal of Freedom. The Smithsonian’s exhibition Watching Oprah treated her career as a lens for examining changes in race, gender, and mass media after the civil rights era. That context matters: Winfrey’s success was both an individual achievement and a change in who could own and shape national conversation. Her interviews brought personal experience into public discussion, and her business decisions demonstrated the power of media ownership for a Black woman in an industry with longstanding barriers.",
+    "achievements": [
+      "Hosted The Oprah Winfrey Show for 25 seasons",
+      "Founded a media enterprise and launched OWN",
+      "Received the Presidential Medal of Freedom in 2013"
+    ],
+    "milestones": [
+      {
+        "year": 1986,
+        "label": "National syndication of The Oprah Winfrey Show began"
+      },
+      {
+        "year": 2011,
+        "label": "Launched OWN"
+      },
+      {
+        "year": 2013,
+        "label": "Received the Presidential Medal of Freedom"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Oprah Winfrey — National Museum of African American History and Culture",
+        "url": "https://nmaahc.si.edu/explore/stories/oprah-winfrey-media-mogul-and-philanthropist"
+      },
+      {
+        "title": "Oprah Winfrey — Academy of Achievement",
+        "url": "https://achievement.org/achiever/oprah-winfrey/"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-17"
+  },
+  {
+    "id": "wilma-rudolph",
+    "name": "Wilma Rudolph",
+    "born": "1940",
+    "died": "1994-11-12",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Sports"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A sprinter whose three gold medals at Rome in 1960 widened the public image of Olympic possibility.",
+    "biography": "Wilma Rudolph grew up in Tennessee and experienced serious childhood illnesses, including polio. Athletics became a major part of her life after she regained mobility. She competed at the 1956 Melbourne Olympics while still a teenager, earning a bronze medal as part of the U.S. 4 × 100 meter relay team. At the 1960 Rome Games she won the 100 meter and 200 meter races and anchored the victorious 4 × 100 meter relay. She was the first American woman to win three gold medals at one Olympic Games, a precisely scoped achievement recorded by Team USA. Her performances made her internationally famous and placed a Black American woman at the center of a global sporting event during the civil rights era. Rudolph later coached and worked with young athletes. Her story is often told solely as a triumph over illness; that version misses her years of training, her teammates’ contribution to the relay, and the racial conditions of American sport. Her legacy combines elite competitive skill with the visibility she gave to women’s track and field.",
+    "achievements": [
+      "Won three gold medals at the 1960 Rome Olympics",
+      "First American woman to win three gold medals at one Olympics",
+      "Earned a 1956 Olympic relay bronze medal"
+    ],
+    "milestones": [
+      {
+        "year": 1956,
+        "label": "Won relay bronze in Melbourne"
+      },
+      {
+        "year": 1960,
+        "label": "Won three gold medals in Rome"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Wilma Rudolph — Team USA Hall of Fame",
+        "url": "https://www.teamusa.com/hall-of-fame/hall-of-fame-members/wilma-rudolph"
+      },
+      {
+        "title": "Wilma Rudolph — Smithsonian National Postal Museum",
+        "url": "https://postalmuseum.si.edu/exhibition/the-black-experience-sports-the-olympics/wilma-rudolph"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-17"
+  },
+  {
+    "id": "serena-williams",
+    "name": "Serena Williams",
+    "born": "1981",
+    "died": null,
+    "region": "North America",
+    "place": "United States",
+    "era": "21st century",
+    "categories": [
+      "Sports",
+      "Business & Innovation"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A tennis champion whose 23 major singles titles set the Open Era record for women.",
+    "biography": "Serena Williams grew up learning tennis with her sister Venus and entered professional competition as a teenager. Her first major singles title came at the 1999 US Open. Over the following decades she won on hard courts, grass, and clay, collecting 23 Grand Slam singles titles—the most by a woman in the Open Era, which began in 1968. She also won major doubles titles with Venus and Olympic gold medals. Williams’s sustained success required adaptation across changes in rivals, technique, and the physical demands of the tour. She became a central figure in discussions about race, gender, and how female athletes are judged in public. Her influence also reached beyond match results through business and cultural work. Historical accounts of her career should define the record carefully: 23 is an Open Era women’s singles record, not the all-time total across every era. The Women’s Tennis Association documents both the titles and the breadth of her career. Williams changed expectations for power and longevity in tennis, while her visibility drew new audiences to the sport and gave later players a different model of who could dominate its largest stages.",
+    "achievements": [
+      "Won 23 Grand Slam singles titles",
+      "Won major doubles titles with Venus Williams",
+      "Held the women’s world No. 1 ranking for 319 weeks"
+    ],
+    "milestones": [
+      {
+        "year": 1999,
+        "label": "Won her first major singles title at the US Open"
+      },
+      {
+        "year": 2017,
+        "label": "Won her 23rd major singles title"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Serena Williams legend biography — WTA",
+        "url": "https://www.wtatennis.com/news/4487583/legend-bio-serena-williams"
+      },
+      {
+        "title": "Grand Slam tennis tournaments — International Tennis Federation",
+        "url": "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-17"
+  },
+  {
+    "id": "madam-c-j-walker",
+    "name": "Madam C. J. Walker",
+    "born": "1867",
+    "died": "1919",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Business & Innovation",
+      "Civil Rights & Justice"
+    ],
+    "featured": true,
+    "lesserKnown": false,
+    "summary": "An entrepreneur who built a hair-care company and employment network for Black women.",
+    "biography": "Born Sarah Breedlove in Louisiana in 1867, Madam C. J. Walker developed and sold hair-care products designed for Black women. She moved her growing business to Denver in 1905 and later established major operations in Indianapolis. Walker agents sold products, gave treatments, and trained other women. The business offered income and skills at a time when many Black women were excluded from better-paid work. Walker also supported Black civic organizations and spoke against racial violence. Her success is sometimes compressed into a disputed claim that she was the first self-made woman millionaire in the United States. The National Park Service describes her as one of the wealthiest businesswomen of her era; estimates of her estate and company value vary, so this profile does not treat a single dollar figure as settled. Walker’s significance extends beyond wealth. She created a distribution and training system that helped other women become entrepreneurs, and she linked commercial success to philanthropy and political advocacy. The Walker Building in Indianapolis, planned in her lifetime and completed after her death, embodied her vision of a business and cultural center for the community.",
+    "achievements": [
+      "Built a national hair-care and training business",
+      "Created earning opportunities for Walker agents",
+      "Supported Black civic and anti-lynching activism"
+    ],
+    "milestones": [
+      {
+        "year": 1905,
+        "label": "Moved her emerging business to Denver"
+      },
+      {
+        "year": 1910,
+        "label": "Established company operations in Indianapolis"
+      },
+      {
+        "year": 1927,
+        "label": "Walker Building completed after her death"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Madam C. J. Walker — National Park Service",
+        "url": "https://www.nps.gov/articles/000/-h-our-history-lesson-madam-c-j-walker-african-american-millionaire-philanthropist-activist.htm"
+      },
+      {
+        "title": "Two American Entrepreneurs — National Park Service",
+        "url": "https://home.nps.gov/articles/two-american-entrepreneurs-madam-c-j-walker-and-j-c-penney-teaching-with-historic-places.htm"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-17"
+  },
+  {
+    "id": "ursula-burns",
+    "name": "Ursula Burns",
+    "born": "1958-09-20",
+    "died": null,
+    "region": "North America",
+    "place": "United States",
+    "era": "21st century",
+    "categories": [
+      "Business & Innovation",
+      "Science & Innovation"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "An engineer who rose from a Xerox internship to become its chief executive.",
+    "biography": "Ursula Burns was born in New York City and trained as a mechanical engineer. She joined Xerox as a summer intern in 1980 and completed graduate study at Columbia University before building a long career in the company. Her roles crossed engineering, product development, manufacturing, and senior management. In 2007 she became Xerox president. Two years later she became chief executive, the first Black woman to lead a Fortune 500 company, according to Columbia University and the oral-history organization The HistoryMakers. She became board chair in 2010. As CEO, Burns led Xerox through a major acquisition and a shift toward business services; she oversaw its later separation into two publicly traded companies. Her path shows how technical training can shape corporate leadership, but it also exposes how unusual such advancement was for Black women in large American companies. Burns has served in public and educational advisory roles, including work on science and engineering education. Her memoir appeared in 2021. The engineering work, strategic choices, and public record of leadership all belong in the story, rather than treating her career only as a symbolic corporate first.",
+    "achievements": [
+      "First Black woman CEO of a Fortune 500 company",
+      "Led Xerox as CEO from 2009 to 2016",
+      "Advocated for STEM education"
+    ],
+    "milestones": [
+      {
+        "year": 1980,
+        "label": "Joined Xerox as an engineering intern"
+      },
+      {
+        "year": 2009,
+        "label": "Became Xerox CEO"
+      },
+      {
+        "year": 2010,
+        "label": "Became Xerox board chair"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ursula Burns — Columbia Engineering",
+        "url": "https://www.engineering.columbia.edu/about/columbia-engineering-leadership/board-visitors/ursula-burns"
+      },
+      {
+        "title": "Ursula Burns oral history biography — The HistoryMakers",
+        "url": "https://www.thehistorymakers.org/biography/ursula-burns"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-17"
+  },
+  {
+    "id": "wangari-maathai",
+    "name": "Wangari Maathai",
+    "born": "1940",
+    "died": "2011",
+    "region": "Africa",
+    "place": "Kenya",
+    "era": "20th century",
+    "categories": [
+      "Civil Rights & Justice",
+      "Science & Innovation",
+      "Government & Politics"
+    ],
+    "featured": true,
+    "lesserKnown": false,
+    "summary": "An environmental organizer who connected tree planting, women’s livelihoods, and democratic action in Kenya.",
+    "biography": "Wangari Maathai was born in rural Kenya and trained in biological sciences. She earned a doctorate at the University of Nairobi in 1971 and taught veterinary anatomy. In 1977 she founded the Green Belt Movement under the National Council of Women of Kenya. Rural women had described streams drying up, less secure food supplies, and longer journeys for firewood. Tree planting offered a practical response, but Maathai understood that land use and daily life were also shaped by political power. The movement grew into a network linking environmental restoration, women’s income, civic education, and democratic rights. Maathai’s organizing brought her into conflict with authorities, while its methods inspired work beyond Kenya. In 2004 she received the Nobel Peace Prize for contributions to sustainable development, democracy, and peace. Her story matters because it challenges the idea that environmental action is separate from social justice. Planting trees could protect soil and water, but the deeper work involved giving communities the power to identify problems and act together. Maathai’s scientific training, organizing, and public leadership made those connections visible to a global audience.",
+    "achievements": [
+      "Founded the Green Belt Movement in 1977",
+      "Linked environmental protection with women’s livelihoods and democratic action",
+      "Received the 2004 Nobel Peace Prize"
+    ],
+    "milestones": [
+      {
+        "year": 1971,
+        "label": "Earned a doctorate from the University of Nairobi"
+      },
+      {
+        "year": 1977,
+        "label": "Founded the Green Belt Movement"
+      },
+      {
+        "year": 2004,
+        "label": "Received the Nobel Peace Prize"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Wangari Maathai — Green Belt Movement",
+        "url": "https://www.greenbeltmovement.org/wangari-maathai/"
+      },
+      {
+        "title": "Wangari Maathai — Nobel Prize",
+        "url": "https://www.nobelprize.org/prizes/peace/2004/maathai/facts/"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-17"
+  },
+  {
+    "id": "tu-youyou",
+    "name": "Tu Youyou",
+    "born": "1930",
+    "died": null,
+    "region": "Asia",
+    "place": "China",
+    "era": "20th century",
+    "categories": [
+      "Medicine & Public Health",
+      "Science & Innovation"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A pharmaceutical researcher whose team’s work on artemisinin transformed malaria treatment.",
+    "biography": "Tu Youyou studied pharmacy in China and joined a national research effort to find new malaria treatments. The disease was taking many lives, and existing medicines were becoming less reliable. Tu and her colleagues studied historical Chinese medical texts as clues, then tested plant extracts with modern laboratory methods. Their work with sweet wormwood led to an extract made at lower temperatures and to the identification of artemisinin in 1972. That discovery opened a new class of antimalarial medicines. The World Health Organization describes the result as a countrywide scientific effort involving many institutions, an important reminder that such breakthroughs are collaborative. Tu continued studying artemisinin and its derivatives, and in 2015 received the Nobel Prize in Physiology or Medicine. The significance of her work is measured in effective treatment for people exposed to a dangerous parasitic disease, not just in a prize. It also shows how a research team can treat older knowledge as a starting point for careful experiments without assuming that every traditional remedy works. The process of isolating, testing, and improving a compound turned a promising lead into a medical tool.",
+    "achievements": [
+      "Helped discover artemisinin as an antimalarial compound",
+      "Combined historical texts with laboratory testing",
+      "Received the 2015 Nobel Prize in Physiology or Medicine"
+    ],
+    "milestones": [
+      {
+        "year": 1972,
+        "label": "Artemisinin was identified"
+      },
+      {
+        "year": 2015,
+        "label": "Received the Nobel Prize in Physiology or Medicine"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Tu Youyou — Nobel Prize biographical account",
+        "url": "https://www.nobelprize.org/prizes/medicine/2015/tu/biographical/"
+      },
+      {
+        "title": "Artemisinin research background — World Health Organization",
+        "url": "https://cdn.who.int/media/docs/default-source/malaria/mpac-documentation/mpac-october2019-session3-non-pharmaceutical-use-artemisiae6b0c7b1-a101-4899-b590-b4da5dca9854.pdf?sfvrsn=65e76920_5"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-17"
+  },
+  {
+    "id": "frida-kahlo",
+    "name": "Frida Kahlo",
+    "born": "1907-07-06",
+    "died": "1954",
+    "region": "North America",
+    "place": "Mexico",
+    "era": "20th century",
+    "categories": [
+      "Arts, Literature & Media"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A Mexican painter who used self-portraiture to investigate identity, pain, and public image.",
+    "biography": "Frida Kahlo was born in Mexico City and began painting after a severe bus accident in 1925 left her recovering for months. Her work drew on personal experience, Mexican visual traditions, and the political and artistic circles in which she moved. She made many self-portraits, but they are more than simple records of appearance. Through clothing, animals, inscriptions, and carefully arranged symbols, Kahlo explored how identity is made and seen. She participated in international exhibitions and had a solo exhibition in Mexico during her lifetime. Her relationship with painter Diego Rivera is part of her history, yet it should not eclipse her own choices as an artist. A 1940 painting, Self-Portrait with Cropped Hair, uses clothing and hair to challenge familiar ways of reading gender and autonomy. Kahlo’s paintings invite viewers to consider bodily experience alongside culture and politics. Her later fame has produced an enormous commercial image of “Frida,” but the paintings themselves reward slower attention: they are deliberate constructions that resist easy explanations. Her artistic significance rests in that demanding visual language, not merely in the difficult events of her life.",
+    "achievements": [
+      "Developed a distinctive body of self-portraits",
+      "Used painting to examine identity and bodily experience",
+      "Contributed to twentieth-century Mexican art"
+    ],
+    "milestones": [
+      {
+        "year": 1925,
+        "label": "Began painting during recovery from a bus accident"
+      },
+      {
+        "year": 1940,
+        "label": "Painted Self-Portrait with Cropped Hair"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Biography of Frida Kahlo — Museo Frida Kahlo",
+        "url": "https://www.museofridakahlo.org.mx/wp/wp-content/uploads/2022/08/Biografias-Frida-Kahlo-ingles.pdf"
+      },
+      {
+        "title": "Frida Kahlo artist page — Museum of Modern Art",
+        "url": "https://www.moma.org/collection/artists/2963"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-17"
+  },
+  {
+    "id": "bessie-coleman",
+    "name": "Bessie Coleman",
+    "born": "1892",
+    "died": "1926",
+    "region": "North America",
+    "place": "United States / France",
+    "era": "20th century",
+    "categories": [
+      "Exploration & Space",
+      "Civil Rights & Justice"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "An aviator who crossed the Atlantic to earn the flying license denied to her in the United States.",
+    "biography": "Bessie Coleman was born in Texas and moved to Chicago during the Great Migration. In the United States of the early 1920s, flight schools would not train a Black woman, so she learned French and traveled to France. On June 15, 1921, she earned a pilot’s license from the Fédération Aéronautique Internationale. The Smithsonian National Air and Space Museum identifies it as the first license issued to an African American woman and a Native American woman. Coleman returned to the United States, sought more training, and made a public flight in 1922. She performed in aviation exhibitions, a form of flying that gave her visibility but carried considerable danger. She wanted to open a school where others could learn to fly. Coleman died in an aircraft accident in 1926 before that goal was realized. Her career was brief, yet her license and public performances made a powerful case for access to aviation. The achievement should be understood within its exact scope, and with attention to the barriers that forced her to travel abroad. Her example helped later generations of Black aviators imagine a place in the air.",
+    "achievements": [
+      "Earned an international pilot’s license in 1921",
+      "Made a public flight in the United States in 1922",
+      "Advocated wider access to flight training"
+    ],
+    "milestones": [
+      {
+        "year": 1921,
+        "label": "Earned her FAI pilot’s license in France"
+      },
+      {
+        "year": 1922,
+        "label": "Made a public U.S. flight"
+      },
+      {
+        "year": 1926,
+        "label": "Died in an aircraft accident"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bessie Coleman’s Daring Life — National Air and Space Museum",
+        "url": "https://airandspace.si.edu/stories/editorial/celebrating-centennial-bessie-coleman"
+      },
+      {
+        "title": "Women in Aviation — Federal Aviation Administration",
+        "url": "https://www.faa.gov/sites/faa.gov/files/about/history/pioneers/women_in_aviation_2019.pdf"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-17"
+  }
+]
