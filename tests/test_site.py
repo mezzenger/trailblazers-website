@@ -64,10 +64,14 @@ const a=p.filter(x=>matchesProfile(x,{search:'malaria',category:'Medicine & Publ
 if(a.length!==1||a[0].id!=='tu-youyou')process.exit(1);
 const b=p.filter(x=>matchesProfile(x,{search:'olympic',category:'Sports',era:'20th century',region:'North America'}));
 if(b.length!==1||b[0].id!=='wilma-rudolph')process.exit(2);
+const added=p.filter(x=>matchesProfile(x,{search:'parity violation',category:'Science & Innovation',era:'20th century',region:'Asia'}));
+if(added.length!==1||added[0].id!=='chien-shiung-wu')process.exit(5);
+const accent=p.filter(x=>matchesProfile(x,{search:'kariko',category:'Science & Innovation',era:'21st century',region:'Europe'}));
+if(accent.length!==1||accent[0].id!=='katalin-karik')process.exit(6);
 const c=[...p].sort((x,y)=>compareProfiles(x,y,'born'));
-if(c[0].id!=='madam-c-j-walker')process.exit(3);
+if(c.some((x,i)=>i>0&&compareProfiles(c[i-1],x,'born')>0))process.exit(3);
 const d=[...p].sort((x,y)=>compareProfiles(x,y,'period'));
-if(d[0].id!=='madam-c-j-walker')process.exit(4);
+if(d.some((x,i)=>i>0&&compareProfiles(d[i-1],x,'period')>0))process.exit(4);
 '''
         subprocess.run(['node','--input-type=module','-e',js],cwd=ROOT,check=True)
     def test_validation_and_milestone_gate(self):

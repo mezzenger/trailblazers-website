@@ -1,6 +1,6 @@
 # Trailblazers of History
 
-**Celebrating Women and People of Color Who Changed the World.** This is a static digital museum built for the GitHub Pages project path `/trailblazers-website/`. The opening research batch contains **14 reviewed profiles** with 28 institutional citations. The 100-profile milestone is **not yet complete**. Another 86 people are listed in a separate, unpublished discovery queue; names on that list are not presented as researched biographies.
+**Celebrating Women and People of Color Who Changed the World.** This is a static digital museum built for the GitHub Pages project path `/trailblazers-website/`. The collection contains **34 reviewed profiles** with 70 source citations. The 100-profile milestone is **not yet complete**. Another 66 people are listed in a separate, unpublished discovery queue; names on that list are not presented as researched biographies.
 
 ## Run locally
 

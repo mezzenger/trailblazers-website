@@ -1,24 +1,24 @@
-# Draft pull request: Museum foundation and first 14 reviewed profiles
+# Draft pull request: Museum foundation and 34 reviewed profiles
 
 ## Summary
 
-Builds a review-only digital museum foundation from the ten biographies and five categories in the original Cocoa-escaped page. Adds four researched profiles, a responsive editorial site, search and combined filters, profile routes, timeline, source citations, validation, tests, and documentation.
+Builds a review-only digital museum foundation from the ten biographies and five categories in the original Cocoa-escaped page. Phase 3A adds 20 researched profiles to the existing 14, with a responsive editorial site, search and combined filters, profile routes, timeline, source citations, validation, tests, and documentation.
 
 ## Content status
 
-- 14 verified publishable profiles; 28 institutional citations.
-- 86 discovery candidates are unpublished and unverified.
-- One NASA portrait is published with file-level rights and attribution; other portraits use typographic placeholders.
-- The required 100-profile milestone remains unmet by 86 profiles. `npm run milestone` fails by design.
+- 34 verified publishable profiles; 70 source citations.
+- 66 discovery candidates are unpublished and unverified.
+- Three government portraits have file-level rights and attribution records; other portraits use typographic placeholders.
+- The required 100-profile milestone remains unmet by 66 profiles. `npm run milestone` fails by design.
 
 ## Checks
 
 - `npm run validate` — pass.
 - `npm test` — 5 tests pass (routes, base path, filtering, semantics, milestone gate).
 - `npm run build` — pass for `/trailblazers-website/`.
-- Automated external HEAD checks — all 28 blocked by shell DNS; link status unmeasured.
-- Browser screenshots/Lighthouse — blocked by local server and Chromium sandbox restrictions; scores unmeasured.
+- All 42 new source pages opened in the web research tool; direct shell HTTP status checks blocked by DNS.
+- Browser screenshots/Lighthouse — not run in Phase 3A; scores unmeasured.
 
 ## Review notes
 
-The original page and image URLs are preserved in `legacy/`. No GitHub Pages workflow or live deployment setting was changed. Do not merge or publish until the 100-profile gate and browser/rights review are complete.
+The original page and image URLs are preserved in `legacy/`. Historical ambiguities and source-access limits are recorded in `docs/progress-report.md`. No GitHub Pages workflow or live deployment setting was changed. Do not merge or publish until the 100-profile gate and browser/rights review are complete.

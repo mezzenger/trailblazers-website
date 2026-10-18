@@ -674,5 +674,955 @@
     "image": null,
     "verification": "verified",
     "reviewed": "2026-10-17"
+  },
+  {
+    "id": "ada-lovelace",
+    "name": "Ada Lovelace",
+    "born": "1815-12-10",
+    "died": "1852-11-27",
+    "region": "Europe",
+    "place": "United Kingdom",
+    "era": "19th century",
+    "categories": [
+      "Science & Innovation"
+    ],
+    "featured": true,
+    "lesserKnown": false,
+    "summary": "Her notes on an unbuilt machine showed how a computer could follow instructions and work with symbols.",
+    "biography": "Ada Lovelace studied mathematics at a time when few women were encouraged to pursue it. Through her friendship and correspondence with Charles Babbage, she became deeply interested in his proposed Analytical Engine, a mechanical machine intended to perform complex calculations. In 1843 she translated an Italian account of the engine by Luigi Menabrea and added notes that became far longer than the original text. One note set out a procedure by which the engine could calculate Bernoulli numbers. The machine was never completed in their lifetimes, but the procedure is now recognized as an early published computer program. Lovelace also saw that such a machine might manipulate symbols according to rules, extending its potential beyond arithmetic. Her contribution was both technical and imaginative: she described how instructions, data, and machinery might work together before a general-purpose computer existed. The achievement belongs in a history that also includes Babbage, Menabrea, and the many people who later built working computers. Calling Lovelace simply the first programmer can obscure debates about earlier unpublished work; her documented 1843 notes provide the sounder historical claim.",
+    "achievements": [
+      "Published extensive 1843 notes on Babbage’s Analytical Engine",
+      "Described a procedure for calculating Bernoulli numbers",
+      "Recognized the machine’s potential for symbolic operations"
+    ],
+    "milestones": [
+      {
+        "year": 1843,
+        "label": "Published her translation and notes on the Analytical Engine"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ada Lovelace — Computer History Museum",
+        "url": "https://www.computerhistory.org/babbage/adalovelace"
+      },
+      {
+        "title": "Ada Lovelace — MacTutor, University of St Andrews",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lovelace/"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "grace-hopper",
+    "name": "Grace Hopper",
+    "born": "1906",
+    "died": "1992",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Science & Innovation"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A mathematician and naval officer who helped make programming languages more usable.",
+    "biography": "Grace Hopper trained as a mathematician, earning a doctorate from Yale in 1934, before joining the U.S. Navy Reserve during the Second World War. Assigned to the Harvard Mark I computer project, she learned how to turn mathematical problems into instructions for a machine. After the war she worked on early commercial computers and argued that programming should be made more accessible to people who did not write machine instructions directly. Her team developed FLOW-MATIC, a language using English-like statements for business data processing. That work influenced the development of COBOL, to which Hopper contributed through a wider committee effort. She did not create modern software alone: her significance lies in helping build methods and standards that made computing useful across organizations. Hopper also taught, spoke, and demonstrated computing to audiences far beyond her laboratory. She remained in the Navy for decades and retired as a rear admiral in 1986. Her career links wartime calculation, commercial data processing, and the broader movement toward programming languages that people could read, discuss, and maintain.",
+    "achievements": [
+      "Worked on the Harvard Mark I computer",
+      "Helped develop FLOW-MATIC and influenced COBOL",
+      "Retired from the U.S. Navy as a rear admiral"
+    ],
+    "milestones": [
+      {
+        "year": 1934,
+        "label": "Earned a mathematics doctorate from Yale"
+      },
+      {
+        "year": 1944,
+        "label": "Began work on the Harvard Mark I"
+      },
+      {
+        "year": 1986,
+        "label": "Retired from the Navy"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Grace Murray Hopper — Yale University",
+        "url": "https://president.yale.edu/biography-grace-murray-hopper"
+      },
+      {
+        "title": "Grace Murray Hopper — Computer History Museum",
+        "url": "https://computerhistory.org/profile/grace-murray-hopper/"
+      }
+    ],
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Commodore_Grace_M._Hopper%2C_USN_%28covered%29.jpg/960px-Commodore_Grace_M._Hopper%2C_USN_%28covered%29.jpg",
+      "creator": "James S. Davis / U.S. Navy",
+      "source": "https://commons.wikimedia.org/wiki/File:Commodore_Grace_M._Hopper,_USN_(covered).jpg",
+      "license": "U.S. public domain — U.S. Navy government work",
+      "attribution": "James S. Davis / U.S. Navy, 20 January 1984, photo DN-SC-84-05971. No U.S. Navy endorsement is implied."
+    },
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "mae-jemison",
+    "name": "Mae Jemison",
+    "born": "1956-10-17",
+    "died": null,
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Exploration & Space",
+      "Medicine & Public Health",
+      "Science & Innovation"
+    ],
+    "featured": true,
+    "lesserKnown": false,
+    "summary": "A physician and astronaut whose 1992 flight expanded the public image of space exploration.",
+    "biography": "Mae Jemison studied chemical engineering at Stanford University and earned a medical degree from Cornell in 1981. She worked as a physician and served as a medical officer with the Peace Corps in Liberia and Sierra Leone before NASA selected her for astronaut training in 1987. On the shuttle Endeavour's STS-47 mission in September 1992, she became the first Black woman to travel into space. The eight-day Spacelab-J flight carried experiments in life sciences and materials research. Jemison's presence mattered beyond a single milestone: she brought medical training and international public-health experience to a scientific crew, and her flight challenged narrow assumptions about who could be an astronaut. She later left NASA and pursued work connecting science, education, and technology. The mission was a collective achievement of astronauts, researchers, and ground teams, while Jemison's place in it remains a well-documented barrier broken in U.S. spaceflight. Her career shows a route between medicine, public service, and exploration rather than a single straight path into the space program.",
+    "achievements": [
+      "Became the first Black woman to travel into space",
+      "Served as a physician and Peace Corps medical officer",
+      "Conducted research aboard STS-47"
+    ],
+    "milestones": [
+      {
+        "year": 1981,
+        "label": "Earned a medical degree from Cornell"
+      },
+      {
+        "year": 1987,
+        "label": "Selected for NASA astronaut training"
+      },
+      {
+        "year": 1992,
+        "label": "Flew on shuttle mission STS-47"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Mae C. Jemison — NASA",
+        "url": "https://www.nasa.gov/former-astronaut-mae-c-jemison/"
+      },
+      {
+        "title": "Mae C. Jemison — National Library of Medicine",
+        "url": "https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_mae_jemison.html"
+      }
+    ],
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Mae_Carol_Jemison.jpg/960px-Mae_Carol_Jemison.jpg",
+      "creator": "NASA Johnson Space Center",
+      "source": "https://commons.wikimedia.org/wiki/File:Mae_Carol_Jemison.jpg",
+      "license": "U.S. public domain — NASA government work",
+      "attribution": "NASA Johnson Space Center, 1 July 1992, photo S92-40463. NASA media usage guidelines apply; no NASA endorsement is implied."
+    },
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "maryam-mirzakhani",
+    "name": "Maryam Mirzakhani",
+    "born": "1977",
+    "died": "2017-07-14",
+    "region": "Asia",
+    "place": "Iran / United States",
+    "era": "21st century",
+    "categories": [
+      "Science & Innovation"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "Her work joined geometry and dynamics, and in 2014 she became the first woman awarded a Fields Medal.",
+    "biography": "Maryam Mirzakhani grew up in Iran and developed into a mathematician whose questions crossed several fields. At Stanford University she studied the geometry and dynamics of Riemann surfaces, mathematical objects that can be understood as complex curved surfaces. She counted certain paths on those surfaces and connected their behavior to deeper questions about spaces of possible shapes. The International Mathematical Union recognized this body of work with a Fields Medal in 2014. She was the first woman to receive the medal since its creation, and Stanford also identifies her as the first Iranian recipient. Those distinctions made her visible to many young mathematicians, but they are only part of her significance. Her proofs opened new connections among geometry, topology, and dynamical systems, giving other researchers tools and questions to pursue. Mirzakhani died of cancer in 2017 at age 40. Her work remains an example of sustained, creative mathematical investigation; the medal recognized research carried out over years with ideas that continued to influence the field after her death.",
+    "achievements": [
+      "Advanced the geometry and dynamics of Riemann surfaces",
+      "Received the 2014 Fields Medal",
+      "Became the first woman awarded a Fields Medal"
+    ],
+    "milestones": [
+      {
+        "year": 2014,
+        "label": "Received the Fields Medal"
+      },
+      {
+        "year": 2017,
+        "label": "Died at Stanford"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Maryam Mirzakhani — International Mathematical Union",
+        "url": "https://www.mathunion.org/fileadmin/IMU/ICM2014/offline/en/awards/prizes/f4.html"
+      },
+      {
+        "title": "Maryam Mirzakhani dies — Stanford Report",
+        "url": "https://news.stanford.edu/stories/2017/07/maryam-mirzakhani-stanford-mathematician-and-fields-medal-winner-dies"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "chien-shiung-wu",
+    "name": "Chien-Shiung Wu",
+    "born": "1912",
+    "died": "1997",
+    "region": "Asia",
+    "place": "China / United States",
+    "era": "20th century",
+    "categories": [
+      "Science & Innovation"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "Her precise experiment overturned the assumption that nature always treats left and right alike.",
+    "biography": "Chien-Shiung Wu moved from China to the United States in 1936 to pursue physics and completed a doctorate at the University of California, Berkeley, in 1940. She joined Columbia University in 1944 and built a reputation for exceptionally careful experimental work. In the 1950s physicists Tsung-Dao Lee and Chen-Ning Yang questioned whether the weak nuclear interaction obeyed parity, a proposed symmetry between left and right. Wu designed and led a low-temperature experiment using cobalt-60 that demonstrated parity violation. The result changed a basic assumption in physics and helped establish a new understanding of the weak force. Lee and Yang received the 1957 Nobel Prize in Physics for the theory; Wu's experimental contribution was not included in the award. Her wider career also included important work on beta decay, teaching, and leadership in professional physics. In 1973 she became president of the American Physical Society. Wu's story illustrates why experiments matter: a compelling theory only changes accepted knowledge when the natural world is tested with enough precision to challenge it.",
+    "achievements": [
+      "Led the cobalt-60 experiment demonstrating parity violation",
+      "Advanced experimental studies of beta decay",
+      "Became president of the American Physical Society"
+    ],
+    "milestones": [
+      {
+        "year": 1936,
+        "label": "Moved to the United States for graduate study"
+      },
+      {
+        "year": 1957,
+        "label": "Parity-violation result transformed weak-interaction physics"
+      },
+      {
+        "year": 1973,
+        "label": "Became president of the American Physical Society"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Chien-Shiung Wu — Columbia University",
+        "url": "https://c250.columbia.edu/c250_celebrates/remarkable_columbians/chien-shiung_wu.html"
+      },
+      {
+        "title": "Chien-Shiung Wu — American Physical Society",
+        "url": "https://www.aps.org/apsnews/2022/11/global-event-chien-shiung-wu"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "alice-ball",
+    "name": "Alice Ball",
+    "born": "1892-07-24",
+    "died": "1916-12-31",
+    "region": "North America",
+    "place": "United States / Hawaiʻi",
+    "era": "20th century",
+    "categories": [
+      "Medicine & Public Health",
+      "Science & Innovation"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A chemist whose method made a promising treatment for Hansen’s disease easier to administer.",
+    "biography": "Alice Ball studied pharmaceutical chemistry at the University of Washington and completed graduate work in chemistry at the College of Hawaiʻi in 1915. At a time when Hansen's disease carried deep stigma and patients were often isolated, physicians sought a useful way to give chaulmoogra oil, a substance long tried as a treatment. Its raw form was difficult to inject and unpleasant to take by mouth. Ball developed a method for preparing its active compounds in a water-soluble form that could be injected. The treatment was used before later sulfone medicines became available in the 1940s. Ball died in 1916, only 24 years old, before she could publish the work herself. Others initially presented or used the process without consistently crediting her, and later researchers recovered her contribution. Her story concerns both chemical ingenuity and the way scientific credit can be lost when a young researcher dies before a method is widely adopted. Ball's work offered clinicians a more practical treatment during a period when options for patients were limited.",
+    "achievements": [
+      "Developed an injectable preparation of chaulmoogra oil compounds",
+      "Completed a chemistry master’s degree in Hawaiʻi",
+      "Contributed to treatment of Hansen’s disease before sulfone drugs"
+    ],
+    "milestones": [
+      {
+        "year": 1915,
+        "label": "Completed graduate chemistry work at the College of Hawaiʻi"
+      },
+      {
+        "year": 1916,
+        "label": "Developed the method later called the Ball method"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Chaulmoogra Tree and Alice Ball — University of Hawaiʻi",
+        "url": "https://manoa.hawaii.edu/campusarboretum/chaulmoogra-tree/"
+      },
+      {
+        "title": "Alice Ball — American Chemical Society",
+        "url": "https://www.acs.org/education/whatischemistry/landmarks/alice-ball.html"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "katalin-karik",
+    "name": "Katalin Karikó",
+    "born": "1955-01-17",
+    "died": null,
+    "region": "Europe",
+    "place": "Hungary / United States",
+    "era": "21st century",
+    "categories": [
+      "Science & Innovation",
+      "Medicine & Public Health"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "Her persistent RNA research helped make effective mRNA vaccines possible.",
+    "biography": "Katalin Karikó trained in biochemistry in Hungary, earning a doctorate, and moved to the United States for further research. She pursued the idea that laboratory-made messenger RNA might direct cells to produce useful proteins. The approach faced a serious obstacle: unmodified RNA could trigger unwanted inflammatory responses. Working with immunologist Drew Weissman, Karikó showed in a 2005 study that modifying particular RNA building blocks reduced that response. Later work showed that such modified RNA could also improve protein production. These discoveries helped make the mRNA vaccine platform practical when researchers confronted COVID-19. Karikó and Weissman shared the 2023 Nobel Prize in Physiology or Medicine for the discoveries concerning nucleoside base modifications. Vaccine development also required many other scientists, manufacturers, and clinical trial participants. Karikó's contribution was a foundational piece of that larger effort. Her career is a reminder that a research idea can take decades to reach a public-health application, and that careful work on a basic biological problem can become essential when circumstances change.",
+    "achievements": [
+      "Co-discovered RNA modifications that reduce unwanted inflammation",
+      "Helped enable effective mRNA vaccines against COVID-19",
+      "Shared the 2023 Nobel Prize in Physiology or Medicine"
+    ],
+    "milestones": [
+      {
+        "year": 1985,
+        "label": "Moved to the United States for postdoctoral research"
+      },
+      {
+        "year": 2005,
+        "label": "Published research with Drew Weissman on modified RNA"
+      },
+      {
+        "year": 2023,
+        "label": "Shared the Nobel Prize in Physiology or Medicine"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Drew Weissman and Katalin Karikó win Nobel — NIH",
+        "url": "https://www.nidcr.nih.gov/about-us/timeline/drew-weissman-wins-nobel"
+      },
+      {
+        "title": "Katalin Karikó — University of Pennsylvania",
+        "url": "https://www.med.upenn.edu/apps/faculty/index.php/g325/p13418"
+      },
+      {
+        "title": "Katalin Karikó — University of Szeged",
+        "url": "https://u-szeged.hu/karikokatalin/biographical-information/eletszakaszok-210924-1"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "elizabeth-blackwell",
+    "name": "Elizabeth Blackwell",
+    "born": "1821",
+    "died": "1910",
+    "region": "Europe",
+    "place": "United Kingdom / United States",
+    "era": "19th century",
+    "categories": [
+      "Medicine & Public Health",
+      "Education"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "Her 1849 medical degree and later infirmary helped open professional training to women physicians.",
+    "biography": "Elizabeth Blackwell was born in Britain and moved with her family to the United States as a child. After repeated rejections from medical schools, she entered Geneva Medical College in New York and graduated in 1849. The degree made her the first woman to receive an M.D. from a United States medical school, a carefully defined milestone rather than a claim that she was the world's first woman physician. Further clinical training in Europe was limited, and an infection cost her the sight in one eye, ending her plans for surgery. Back in New York, she found few opportunities for women to practice or train in hospitals. With physicians Emily Blackwell and Marie Zakrzewska, she established the New York Infirmary for Women and Children in 1857. It treated patients with limited means while offering women doctors clinical experience. Blackwell also argued publicly for women's medical education and helped develop further training opportunities. Her importance rests in creating institutions, not only in obtaining an individual credential: the infirmary helped other women enter a profession that routinely excluded them.",
+    "achievements": [
+      "Earned the first M.D. awarded to a woman by a U.S. medical school",
+      "Co-founded the New York Infirmary for Women and Children",
+      "Advocated clinical training for women physicians"
+    ],
+    "milestones": [
+      {
+        "year": 1849,
+        "label": "Graduated from Geneva Medical College"
+      },
+      {
+        "year": 1857,
+        "label": "Co-founded the New York Infirmary for Women and Children"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Elizabeth Blackwell — National Library of Medicine",
+        "url": "https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_elizabeth_blackwell.html"
+      },
+      {
+        "title": "Elizabeth Blackwell — National Park Service",
+        "url": "https://www.nps.gov/people/dr-elizabeth-blackwell.htm"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "mary-seacole",
+    "name": "Mary Seacole",
+    "born": "1805",
+    "died": "1881-05-14",
+    "region": "Caribbean",
+    "place": "Jamaica / United Kingdom",
+    "era": "19th century",
+    "categories": [
+      "Medicine & Public Health",
+      "Business & Innovation"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A Jamaican caregiver and entrepreneur who brought food, supplies, and treatment near the Crimean front.",
+    "biography": "Mary Seacole learned caregiving in Jamaica, where her mother ran a lodging house and treated guests. She also gained experience during outbreaks in the Caribbean and Central America. When the Crimean War began, Seacole traveled to Britain seeking a role with the military medical effort. Unable to secure an appointment, she financed her own journey to Crimea. With a business partner she established the British Hotel near Balaklava in 1855. It sold food and supplies to soldiers and provided a base from which she offered care to the sick and wounded, sometimes close to the fighting. Her work combined enterprise and medical service, but it was distinct from the formal hospital nursing associated with Florence Nightingale. After the war, financial difficulties followed, and supporters organized assistance. Seacole published her memoir, The Wonderful Adventures of Mrs Seacole in Many Lands, in 1857. That book and other records document her initiative while also requiring historians to distinguish her own account from independently established facts. Her life broadens the history of wartime care to include a Black Jamaican woman working outside official medical structures.",
+    "achievements": [
+      "Established the British Hotel near Balaklava",
+      "Provided care and supplies during the Crimean War",
+      "Published a memoir in 1857"
+    ],
+    "milestones": [
+      {
+        "year": 1855,
+        "label": "Opened the British Hotel in Crimea"
+      },
+      {
+        "year": 1857,
+        "label": "Published The Wonderful Adventures of Mrs Seacole"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Mary Seacole — National Library of Jamaica",
+        "url": "https://nlj.gov.jm/project/mary-seacole-1805-1881/"
+      },
+      {
+        "title": "Mary Jane Seacole — National Portrait Gallery",
+        "url": "https://www.npg.org.uk/collections/search/personExtended/mp70879/mary-jane-seacole-nee-grant?tab=biography"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "harriet-tubman",
+    "name": "Harriet Tubman",
+    "born": "1822",
+    "died": "1913",
+    "region": "North America",
+    "place": "United States",
+    "era": "19th century",
+    "categories": [
+      "Civil Rights & Justice"
+    ],
+    "featured": true,
+    "lesserKnown": false,
+    "summary": "She escaped enslavement, returned repeatedly to guide others to freedom, and served the Union during the Civil War.",
+    "biography": "Harriet Tubman was born enslaved in Maryland, probably around 1822; the exact birth date is uncertain. She escaped to Philadelphia in 1849 but refused to leave family and friends behind. Over the following decade she returned to Maryland many times, guiding dozens of people out of slavery through networks of assistance now called the Underground Railroad. The National Park Service documents about 13 return trips and more than 70 people she personally guided; larger popular totals often include people she advised or inspired rather than those she escorted. During the Civil War she worked for the Union as a nurse, scout, and intelligence gatherer. In 1863 she helped plan and guide the Combahee River raid in South Carolina, during which Union forces freed hundreds of enslaved people. Later she supported women's suffrage and established a home for older African Americans in Auburn, New York. Tubman's courage mattered, but so did her knowledge of landscapes, communities, and military intelligence. Her work connects self-emancipation, organized resistance to slavery, wartime service, and the unfinished struggle for equal citizenship.",
+    "achievements": [
+      "Guided more than 70 people out of slavery on documented trips",
+      "Served the Union as a nurse, scout, and intelligence gatherer",
+      "Helped guide the 1863 Combahee River raid"
+    ],
+    "milestones": [
+      {
+        "year": 1849,
+        "label": "Escaped slavery in Maryland"
+      },
+      {
+        "year": 1863,
+        "label": "Helped guide the Combahee River raid"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Harriet Tubman — National Park Service",
+        "url": "https://www.nps.gov/hatu/learn/historyculture/htubman.htm"
+      },
+      {
+        "title": "Harriet Tubman — Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/history/harriet-tubman-103279285/"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "ida-b-wells",
+    "name": "Ida B. Wells",
+    "born": "1862",
+    "died": "1931-03-25",
+    "region": "North America",
+    "place": "United States",
+    "era": "19th century",
+    "categories": [
+      "Civil Rights & Justice",
+      "Arts, Literature & Media"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "Her investigative journalism exposed lynching as organized racial terror and built a movement against it.",
+    "biography": "Ida B. Wells was born in Mississippi during the Civil War and became a teacher and newspaper editor in Memphis. In 1892, after three Black businessmen she knew were lynched, she investigated the killings and challenged claims used to excuse mob violence. Her editorials put her in danger: a mob destroyed the office of the Memphis Free Speech while she was away, and threats kept her from returning. Wells continued her work from other cities, gathering cases, checking newspaper accounts, and publishing evidence. Her 1895 pamphlet The Red Record brought statistics and testimony together to counter the assertion that lynching was a response to sexual assault. She spoke in the United States and Britain, organized with other Black women, and fought for voting rights. Wells also helped found the NAACP, though her relationship with some leaders was complex. Her reporting mattered because it treated racist violence as something that could be documented and challenged publicly, rather than accepted as rumor or local custom. The investigative methods and organized advocacy she used remain part of the history of journalism and civil rights.",
+    "achievements": [
+      "Investigated and documented lynching in the United States",
+      "Published The Red Record in 1895",
+      "Helped organize civil rights and women’s voting campaigns"
+    ],
+    "milestones": [
+      {
+        "year": 1892,
+        "label": "Began her major anti-lynching investigation"
+      },
+      {
+        "year": 1895,
+        "label": "Published The Red Record"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ida B. Wells-Barnett — National Women’s History Museum",
+        "url": "https://www.womenshistory.org/education-resources/biographies/ida-b-wells-barnett"
+      },
+      {
+        "title": "Ida B. Wells — National Park Service",
+        "url": "https://home.nps.gov/people/idabwells.htm"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "malala-yousafzai",
+    "name": "Malala Yousafzai",
+    "born": "1997-07-12",
+    "died": null,
+    "region": "Asia",
+    "place": "Pakistan / United Kingdom",
+    "era": "21st century",
+    "categories": [
+      "Education",
+      "Civil Rights & Justice"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "Her advocacy for girls’ education continued after an attack meant to silence her.",
+    "biography": "Malala Yousafzai grew up in Pakistan's Swat Valley, where armed Taliban rule restricted girls' education. As a young student she wrote and spoke about the closure of schools and the right to learn. In 2012 a gunman attacked her on a school bus; she survived and continued her advocacy while receiving treatment and schooling in Britain. At the United Nations in 2013 she called for education for every child. The following year she shared the Nobel Peace Prize with Indian children's rights activist Kailash Satyarthi for their work against the suppression of young people and for children's education. Through the Malala Fund, founded with her father, she supported the work of local advocates for girls' schooling. Her story is often told as individual bravery, but the wider issue is structural: schools, safety, resources, and political decisions determine whether millions of girls can learn. Yousafzai used the attention brought by her own experience to amplify that larger demand.",
+    "achievements": [
+      "Advocated for girls’ education in Pakistan and internationally",
+      "Shared the 2014 Nobel Peace Prize",
+      "Co-founded the Malala Fund to support girls’ education"
+    ],
+    "milestones": [
+      {
+        "year": 2012,
+        "label": "Survived an attack on her school bus"
+      },
+      {
+        "year": 2014,
+        "label": "Shared the Nobel Peace Prize"
+      },
+      {
+        "year": 2013,
+        "label": "Co-founded the Malala Fund"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nobel Peace Prize and education — UNESCO",
+        "url": "https://www.unesco.org/en/articles/nobel-prize-call-action-power-education-peace"
+      },
+      {
+        "title": "UNESCO and Pakistan launch Malala Fund for Girls Education — UNESCO",
+        "url": "https://www.unesco.org/en/articles/unesco-and-pakistan-launch-malala-fund-girls-education"
+      },
+      {
+        "title": "Malala’s Story — Malala Fund",
+        "url": "https://malala.org/malalas-story.html"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "ellen-johnson-sirleaf",
+    "name": "Ellen Johnson Sirleaf",
+    "born": "1938-10-29",
+    "died": null,
+    "region": "Africa",
+    "place": "Liberia",
+    "era": "21st century",
+    "categories": [
+      "Government & Politics",
+      "Civil Rights & Justice"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A Liberian public leader elected president after civil war and recognized for women’s role in peacebuilding.",
+    "biography": "Ellen Johnson Sirleaf trained in economics and public administration and held public finance positions in Liberia. Political upheaval, threats, and exile repeatedly interrupted her work. After Liberia's long civil wars, she won the 2005 presidential election and took office in 2006, becoming Africa's first democratically elected female head of state. Her government faced the demanding tasks of rebuilding institutions, restoring services, and managing public debt after years of conflict. Johnson Sirleaf also called for women to take a full role in politics and peacebuilding. In 2011 she shared the Nobel Peace Prize with Leymah Gbowee of Liberia and Tawakkol Karman of Yemen for nonviolent work for women's safety and participation in peace processes. Her presidency ended in 2018 with a peaceful transfer of power. The record of her administration is debated, particularly on corruption and how far promised reforms reached ordinary Liberians; a prize does not settle those questions. Her historical significance includes both the barrier broken by her election and the difficult, contested work of governing a country emerging from war.",
+    "achievements": [
+      "Became Africa’s first democratically elected female head of state",
+      "Shared the 2011 Nobel Peace Prize",
+      "Led Liberia through postwar reconstruction and a peaceful transition"
+    ],
+    "milestones": [
+      {
+        "year": 2005,
+        "label": "Won Liberia’s presidential election"
+      },
+      {
+        "year": 2006,
+        "label": "Took office as president"
+      },
+      {
+        "year": 2011,
+        "label": "Shared the Nobel Peace Prize"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ellen Johnson Sirleaf — World Bank Live",
+        "url": "https://live.worldbank.org/en/experts/m/madam-ellen-johnson-sirleaf"
+      },
+      {
+        "title": "Sirleaf wins Nobel Peace Prize — Harvard Gazette",
+        "url": "https://news.harvard.edu/gazette/story/2011/10/sirleaf-wins-nobel-peace-prize/"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "b-r-ambedkar",
+    "name": "B. R. Ambedkar",
+    "born": "1891-04-14",
+    "died": "1956-12-06",
+    "region": "Asia",
+    "place": "India",
+    "era": "20th century",
+    "categories": [
+      "Civil Rights & Justice",
+      "Government & Politics"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A jurist and anti-caste thinker who chaired the committee drafting India’s Constitution.",
+    "biography": "Bhimrao Ramji Ambedkar experienced caste discrimination from childhood in colonial India. He pursued higher education across continents, studying at Columbia University and the London School of Economics, and built a career in law, economics, and political organizing. He argued that political independence would be incomplete without protection from social exclusion, especially for Dalits, who faced entrenched caste oppression. Ambedkar organized campaigns for access to public resources and representation, wrote extensively about caste, and took part in constitutional debates. After India became independent in 1947, he served as its first law minister and chaired the Constituent Assembly's Drafting Committee. The constitution was the work of many members, but his leadership helped place equality and safeguards for disadvantaged groups at the center of the new republic's legal framework. Frustrated by the slow pace of social reform, he resigned from the cabinet in 1951. His ideas continue to shape debates about caste, democracy, and rights. Ambedkar's importance reaches beyond the phrase 'architect of the Constitution': he pressed the question of whether formal liberty can be meaningful when daily life remains unequal.",
+    "achievements": [
+      "Chaired India’s Constitution Drafting Committee",
+      "Served as independent India’s first law minister",
+      "Organized and wrote against caste discrimination"
+    ],
+    "milestones": [
+      {
+        "year": 1913,
+        "label": "Began graduate study at Columbia University"
+      },
+      {
+        "year": 1947,
+        "label": "Became law minister and chair of the Drafting Committee"
+      },
+      {
+        "year": 1951,
+        "label": "Resigned from the cabinet"
+      }
+    ],
+    "sources": [
+      {
+        "title": "B. R. Ambedkar — Columbia University",
+        "url": "https://sai.columbia.edu/content/icls-ambedkar-initiative"
+      },
+      {
+        "title": "B. R. Ambedkar — Supreme Court of India",
+        "url": "https://www.sci.gov.in/centenary-of-dr-b-r-ambedkars-enrolment-as-an-advocate/"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "nelson-mandela",
+    "name": "Nelson Mandela",
+    "born": "1918-07-18",
+    "died": "2013-12-05",
+    "region": "Africa",
+    "place": "South Africa",
+    "era": "20th century",
+    "categories": [
+      "Civil Rights & Justice",
+      "Government & Politics"
+    ],
+    "featured": true,
+    "lesserKnown": false,
+    "summary": "An anti-apartheid leader who helped negotiate democratic elections and became South Africa’s first democratically elected president.",
+    "biography": "Nelson Mandela trained as a lawyer and became active in the African National Congress as South Africa's apartheid system denied the Black majority political rights. He helped organize resistance, first through protest and later through the ANC's armed wing after state repression intensified. Arrested and sentenced to life imprisonment in 1964, he spent more than 27 years in prison. His imprisonment became an international symbol of opposition to apartheid, while many people inside and outside South Africa continued the organizing that made change possible. Released in 1990, Mandela negotiated with President F. W. de Klerk and other leaders during a fraught transition. Mandela and de Klerk shared the 1993 Nobel Peace Prize. In 1994 South Africans voted in the country's first national election with universal adult suffrage, and Mandela became president. His administration pursued reconciliation and a new constitutional order, though deep economic inequalities remained. Mandela's significance lies in political leadership through resistance and negotiation, not in a solitary rescue story. His life also shows the difficult choices involved in moving from a system of legalized racial rule to democratic government.",
+    "achievements": [
+      "Helped lead resistance to apartheid",
+      "Shared the 1993 Nobel Peace Prize",
+      "Became South Africa’s first democratically elected president"
+    ],
+    "milestones": [
+      {
+        "year": 1964,
+        "label": "Sentenced to life imprisonment"
+      },
+      {
+        "year": 1990,
+        "label": "Released from prison"
+      },
+      {
+        "year": 1994,
+        "label": "Became president after democratic elections"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nelson Mandela — Nelson Mandela Foundation",
+        "url": "https://www.nelsonmandela.org/biography"
+      },
+      {
+        "title": "Nelson Mandela — South African Government",
+        "url": "https://www.gov.za/mandela100/biography"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "gabriela-mistral",
+    "name": "Gabriela Mistral",
+    "born": "1889",
+    "died": "1957",
+    "region": "South America",
+    "place": "Chile",
+    "era": "20th century",
+    "categories": [
+      "Arts, Literature & Media",
+      "Education"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A Chilean poet, educator, and diplomat whose writing gave childhood and loss a lasting public voice.",
+    "biography": "Gabriela Mistral was the pen name of Lucila Godoy Alcayaga, born in Vicuña, Chile. She began working in education as a teenager and pursued teaching while developing a literary voice. Her early poems brought recognition in Chile, including a prize for the Sonetos de la Muerte in 1914. She later worked on educational projects across Latin America and represented Chile abroad, carrying her concern for children and learning into public service. Her poetry explored grief, motherhood, childhood, and the landscapes of the Americas with direct emotional force. Collections such as Desolación and Tala reached readers beyond Chile. In 1945 she received the Nobel Prize in Literature, becoming the first Latin American author to win that particular prize. The award acknowledged a body of work that was already influential in Spanish-language culture. Mistral's life challenges a narrow separation between art and service: her years in classrooms and diplomatic posts informed the subjects and audiences of her writing. Her poems made intimate experiences part of a broader conversation about care, belonging, and the social world around children.",
+    "achievements": [
+      "Received the 1945 Nobel Prize in Literature",
+      "Worked as an educator and Chilean diplomat",
+      "Wrote influential poetry collections including Desolación and Tala"
+    ],
+    "milestones": [
+      {
+        "year": 1914,
+        "label": "Won a Chilean poetry prize for Sonetos de la Muerte"
+      },
+      {
+        "year": 1945,
+        "label": "Received the Nobel Prize in Literature"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Gabriela Mistral — Library of Congress",
+        "url": "https://guides.loc.gov/chronicling-america-gabriela-mistral"
+      },
+      {
+        "title": "Gabriela Mistral — University of Chile",
+        "url": "https://uchile.cl/noticias/203823/134-anos-del-natalicio-de-gabriela-mistral-el-legado-de-la-educadora"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "amrita-sher-gil",
+    "name": "Amrita Sher-Gil",
+    "born": "1913-01-30",
+    "died": "1941-12-05",
+    "region": "Asia",
+    "place": "India / Hungary",
+    "era": "20th century",
+    "categories": [
+      "Arts, Literature & Media"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "Her paintings brought European modernist training into conversation with everyday life in India.",
+    "biography": "Amrita Sher-Gil was born in Budapest to an Indian father and Hungarian mother and grew up between cultures. She studied painting in Paris, where she learned European academic and modernist approaches, but increasingly wanted to make art grounded in India. After returning in the 1930s, she painted people, interiors, and village scenes with a directness that differed from both colonial expectations and some established Indian academic painting. Works from this period used simplified forms and strong color to give ordinary figures an imposing presence. The National Gallery of Modern Art in India holds a major body of her work and presents her as an important figure in the development of modern Indian art. Her career was brief: she died in 1941 at 28, leaving some projects unfinished. The precise cause of her death remains uncertain in museum accounts, so it should not be turned into a dramatic certainty. Sher-Gil's significance lies in the visual language she formed across places. She treated Indian subjects as central to modern painting while drawing critically on techniques learned in Europe.",
+    "achievements": [
+      "Developed a distinctive approach to modern Indian painting",
+      "Created major works after returning from study in Paris",
+      "Left an influential body of paintings despite a short career"
+    ],
+    "milestones": [
+      {
+        "year": 1929,
+        "label": "Began a period of art study in Paris"
+      },
+      {
+        "year": 1934,
+        "label": "Returned to India to develop her painting"
+      },
+      {
+        "year": 1941,
+        "label": "Died in Lahore"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Amrita Sher-Gil — National Gallery of Modern Art",
+        "url": "https://ngmaindia.gov.in/ngma_mumbai_vg-amritasher-gil.asp"
+      },
+      {
+        "title": "Amrita Sher-Gil — Christie’s research release",
+        "url": "https://www.christies.com/presscenter/pdf/9955/REL_AMRITA%20SHER-GIL%20PORTRAIT_MARCH%202021_9955_1.pdf"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "miriam-makeba",
+    "name": "Miriam Makeba",
+    "born": "1932-03-04",
+    "died": "2008-11-09",
+    "region": "Africa",
+    "place": "South Africa",
+    "era": "20th century",
+    "categories": [
+      "Arts, Literature & Media",
+      "Civil Rights & Justice"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A South African singer whose global performances carried music and opposition to apartheid across borders.",
+    "biography": "Miriam Makeba grew up in South Africa and began singing professionally with groups including the Manhattan Brothers. Her appearance in the anti-apartheid film Come Back, Africa helped bring her to international attention in 1959. She built a career abroad, recording and performing songs rooted in South African musical traditions for audiences who often knew little about the country. When she sought to return after her mother's death, apartheid authorities invalidated her passport, beginning decades of exile. Makeba used her visibility to speak against racial rule, including testimony at the United Nations in 1963. Her political commitments also affected where she could perform and live. She returned to South Africa after the apartheid government began to fall. Her legacy joins artistry and public witness: a song could introduce listeners to a language or style, while the singer's public stance made the conditions behind her displacement harder to ignore. Makeba was part of broad musical and political networks; her success should be understood alongside collaborators and other South African artists who opposed apartheid.",
+    "achievements": [
+      "Brought South African music to international audiences",
+      "Spoke against apartheid at the United Nations",
+      "Continued performing during decades of exile"
+    ],
+    "milestones": [
+      {
+        "year": 1959,
+        "label": "Gained international attention through Come Back, Africa"
+      },
+      {
+        "year": 1963,
+        "label": "Testified about apartheid at the United Nations"
+      },
+      {
+        "year": 1990,
+        "label": "Returned to South Africa"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Miriam Makeba — U.S. National Archives",
+        "url": "https://www.archives.gov/research/african-americans/individuals/miriam-makeba"
+      },
+      {
+        "title": "Miriam Makeba — South African History Online",
+        "url": "https://sahistory.org.za/people/miriam-makeba"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "maya-angelou",
+    "name": "Maya Angelou",
+    "born": "1928-04-04",
+    "died": "2014",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Arts, Literature & Media",
+      "Civil Rights & Justice"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A writer and performer whose autobiographies and poetry connected personal memory to collective history.",
+    "biography": "Maya Angelou was born Marguerite Johnson in St. Louis and spent part of her childhood in Arkansas, where segregation shaped daily life. She worked across performance, journalism, and civil rights organizing before becoming widely known as a writer. Her 1969 book I Know Why the Caged Bird Sings recounts her early life with an unusual willingness to address racism, violence, language, and survival. It opened a sequence of autobiographical books that made an individual voice speak to experiences shared by many readers. Angelou also wrote poetry, plays, and screen work, and her public readings brought poems to very large audiences. In 1993 she delivered On the Pulse of Morning at the U.S. presidential inauguration. Her art did not separate the private from the political: memory, family, Black history, and the search for dignity shaped her work. She also contributed to civil rights networks and taught later in life. Angelou's importance lies in her command of several forms and in the space she made for Black women's lives in mainstream American letters.",
+    "achievements": [
+      "Published I Know Why the Caged Bird Sings in 1969",
+      "Wrote poetry, memoirs, plays, and screen work",
+      "Read a poem at the 1993 U.S. presidential inauguration"
+    ],
+    "milestones": [
+      {
+        "year": 1969,
+        "label": "Published I Know Why the Caged Bird Sings"
+      },
+      {
+        "year": 1993,
+        "label": "Read On the Pulse of Morning at the presidential inauguration"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Maya Angelou — National Women’s History Museum",
+        "url": "https://www.womenshistory.org/education-resources/biographies/maya-angelou"
+      },
+      {
+        "title": "Maya Angelou — Academy of American Poets",
+        "url": "https://poets.org/poet/maya-angelou"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "jocelyn-bell-burnell",
+    "name": "Jocelyn Bell Burnell",
+    "born": "1943",
+    "died": null,
+    "region": "Europe",
+    "place": "Northern Ireland / United Kingdom",
+    "era": "20th century",
+    "categories": [
+      "Science & Innovation"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "As a doctoral student she recognized the first pulsar signal, opening a new way to study the universe.",
+    "biography": "Jocelyn Bell Burnell grew up in Northern Ireland and became a radio astronomer at the University of Cambridge. As a doctoral student she helped build and operate a large radio telescope designed to study distant celestial sources. In 1967 she noticed a faint, regularly repeating signal on its recordings and persisted in checking it rather than dismissing it as interference. The signal led to the identification of the first known pulsar, a rapidly rotating neutron star that emits beams detectable as regular pulses of radio energy. The discovery opened new ways to investigate extreme matter and stellar evolution. Her supervisor Antony Hewish shared the 1974 Nobel Prize in Physics for work connected to pulsars, while Bell Burnell was not included. The omission remains part of discussions about how scientific credit is assigned, especially to students and women, although discoveries also depend on teams and instruments. Bell Burnell went on to a long career in astronomy and scientific leadership. Her careful attention to an unexpected pattern is an enduring example of observation changing the questions researchers can ask.",
+    "achievements": [
+      "Identified the signal of the first known pulsar in 1967",
+      "Helped establish pulsars as a new field of astronomical study",
+      "Later led scientific organizations"
+    ],
+    "milestones": [
+      {
+        "year": 1967,
+        "label": "Recognized the first pulsar signal"
+      },
+      {
+        "year": 1974,
+        "label": "Pulsar discovery recognized by Nobel Prize awarded to her supervisor"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jocelyn Bell Burnell — University of Oxford",
+        "url": "https://www.physics.ox.ac.uk/news/jocelyn-bell-burnell-appointed-companion-honour"
+      },
+      {
+        "title": "Jocelyn Bell Burnell — Royal Society",
+        "url": "https://royalsociety.org/news/2020/11/dame-jocelyn-bell-burnell-portrait-unveiled/"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
   }
 ]
