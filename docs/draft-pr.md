@@ -1,24 +1,24 @@
-# Draft pull request: Museum foundation and 34 reviewed profiles
+# Draft pull request: Museum foundation and 54 reviewed profiles
 
 ## Summary
 
-Builds a review-only digital museum foundation from the ten biographies and five categories in the original Cocoa-escaped page. Phase 3A adds 20 researched profiles to the existing 14, with a responsive editorial site, search and combined filters, profile routes, timeline, source citations, validation, tests, and documentation.
+Continues the review-only digital museum on `feature/museum-foundation`. Phase 3B promotes 20 researched biographies from the unpublished queue, adds eight file-reviewed portraits (including four on existing profiles), and fixes search initialization, unknown-date handling, and contrast issues found during a static accessibility review. The original Cocoa-escaped page and migration inventory remain in `legacy/`.
 
 ## Content status
 
-- 34 verified publishable profiles; 70 source citations.
-- 66 discovery candidates are unpublished and unverified.
-- Three government portraits have file-level rights and attribution records; other portraits use typographic placeholders.
-- The required 100-profile milestone remains unmet by 66 profiles. `npm run milestone` fails by design.
+- 54 verified publishable profiles; 115 source citations from at least two independent domains per profile.
+- 46 discovery candidates remain unpublished.
+- Eleven portraits have file-specific creator, source, rights basis, and attribution metadata; other profiles use typographic placeholders.
+- The 100-profile milestone remains unmet by 46 records; `npm run milestone` must fail until the researched collection reaches 100.
 
 ## Checks
 
-- `npm run validate` — pass.
-- `npm test` — 5 tests pass (routes, base path, filtering, semantics, milestone gate).
+- `npm run validate` — pass, zero schema/content errors.
+- `npm test` — seven tests pass, including internal routes, base path, live client-script filter behavior, unknown dates, semantics, contrast, and milestone enforcement.
 - `npm run build` — pass for `/trailblazers-website/`.
-- All 42 new source pages opened in the web research tool; direct shell HTTP status checks blocked by DNS.
-- Browser screenshots/Lighthouse — not run in Phase 3A; scores unmeasured.
+- All 45 new citation pages opened in the web research tool. The eight newly assigned image URLs resolved in the web research tool. Automated external HTTP status and browser image-rendering checks were blocked by DNS and browser restrictions; existing citations were not rechecked.
+- Browser screenshots and Lighthouse scores are unavailable: loopback HTTP binding was denied; Chromium headless failed with a sandbox socket error and Firefox headless exited 139. Desktop, tablet, mobile, keyboard-only, and screen-reader checks remain for a browser-capable environment.
 
 ## Review notes
 
-The original page and image URLs are preserved in `legacy/`. Historical ambiguities and source-access limits are recorded in `docs/progress-report.md`. No GitHub Pages workflow or live deployment setting was changed. Do not merge or publish until the 100-profile gate and browser/rights review are complete.
+Birth-date and testimony disputes, the Fe del Mundo Harvard claim, portrait decisions, and remaining quality work are documented in `docs/progress-report.md`. No GitHub Pages workflow or publication setting changed. Do not merge or publish until the 100-profile gate and live browser/rights review are complete.

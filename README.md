@@ -1,6 +1,6 @@
 # Trailblazers of History
 
-**Celebrating Women and People of Color Who Changed the World.** This is a static digital museum built for the GitHub Pages project path `/trailblazers-website/`. The collection contains **34 reviewed profiles** with 70 source citations. The 100-profile milestone is **not yet complete**. Another 66 people are listed in a separate, unpublished discovery queue; names on that list are not presented as researched biographies.
+**Celebrating Women and People of Color Who Changed the World.** This is a static digital museum built for the GitHub Pages project path `/trailblazers-website/`. The collection contains **54 reviewed profiles** with 115 source citations. The 100-profile milestone is **not yet complete**. Another 46 people are listed in a separate, unpublished discovery queue; names on that list are not presented as researched biographies.
 
 ## Run locally
 
@@ -18,8 +18,8 @@ The default build writes `dist/` with `/trailblazers-website/` URLs. Set `BASE_P
 
 ## Add a profile
 
-Add one object to `content/profiles.json` using the fields described in [content guidelines](docs/content-guidelines.md). Add two independent credible source links, write an original 150–300 word biography, record a review date, and run validation. `content/pending.json` is a research queue and never appears on the public site. Rights-cleared image metadata is optional; null produces a typographic placeholder. UI components need no edits.
+Add one object to `content/profiles.json` using the fields described in [content guidelines](docs/content-guidelines.md). Add two independent credible source links, write an original 150–300 word biography, record a review date, and run validation. `content/pending.json` is a research queue and never appears on the public site. Rights-cleared image metadata is optional; null produces a typographic placeholder. Eleven portraits currently have file-specific rights records. UI components need no edits.
 
 ## Project state
 
-The original Cocoa HTML is retained in Git history. The decoded source and a profile-by-profile migration inventory are in `legacy/`. The new static architecture, research method, deployment procedure, and current gaps are documented in `docs/`. No deployment workflow is enabled, and the pushed `feature/museum-foundation` branch is intended for review only. The draft PR text is in `docs/draft-pr.md`; automatic PR creation was blocked by the connected app’s permissions.
+The original Cocoa HTML is retained in Git history. The decoded source and a profile-by-profile migration inventory are in `legacy/`. The new static architecture, research method, deployment procedure, and current gaps are documented in `docs/`. No deployment workflow is enabled, and the pushed `feature/museum-foundation` branch is intended for review only. The draft PR text is in `docs/draft-pr.md`; automatic PR creation was blocked by the connected app’s permissions. Phase 3B research decisions and the static visual/accessibility audit are in `docs/progress-report.md`.

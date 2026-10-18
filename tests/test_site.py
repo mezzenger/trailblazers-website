@@ -57,6 +57,25 @@ class SiteTests(unittest.TestCase):
         self.assertIn('@media(max-width:700px)',css)
         self.assertIn('prefers-reduced-motion:reduce',css)
         self.assertIn('type="module"',home)
+        profile=(ROOT/'dist/people'/self.profiles[0]['id']/'index.html').read_text()
+        self.assertIn('<h2 class="eyebrow">Milestones</h2>',profile)
+        self.assertIn('<h2 class="eyebrow">Sources &amp; further reading</h2>',profile)
+    def test_accent_text_contrast_in_both_themes(self):
+        css=(ROOT/'public/styles.css').read_text()
+        light,dark=css.split(':root[data-theme=dark]',1)
+        dark=dark.split('}',1)[0]
+        def color(block,name):
+            return re.search(rf'--{name}:#([0-9a-f]{{6}})',block).group(1)
+        def luminance(value):
+            rgb=[int(value[i:i+2],16)/255 for i in (0,2,4)]
+            linear=[v/12.92 if v<=0.04045 else ((v+0.055)/1.055)**2.4 for v in rgb]
+            return sum(x*y for x,y in zip(linear,(0.2126,0.7152,0.0722)))
+        for theme,backgrounds in ((light,('paper','ivory','card')),(dark,('paper','ivory','card'))):
+            accent=luminance(color(theme,'accent-text'))
+            for name in backgrounds:
+                background=luminance(color(theme,name))
+                ratio=(max(accent,background)+0.05)/(min(accent,background)+0.05)
+                self.assertGreaterEqual(ratio,4.5,f'{name} accent text contrast {ratio:.2f}')
     def test_combined_search_filters_and_sort(self):
         js='''import fs from 'node:fs'; import {matchesProfile,compareProfiles} from './public/filter-core.mjs';
 const p=JSON.parse(fs.readFileSync('content/profiles.json'));
@@ -72,6 +91,30 @@ const c=[...p].sort((x,y)=>compareProfiles(x,y,'born'));
 if(c.some((x,i)=>i>0&&compareProfiles(c[i-1],x,'born')>0))process.exit(3);
 const d=[...p].sort((x,y)=>compareProfiles(x,y,'period'));
 if(d.some((x,i)=>i>0&&compareProfiles(d[i-1],x,'period')>0))process.exit(4);
+'''
+        subprocess.run(['node','--input-type=module','-e',js],cwd=ROOT,check=True)
+    def test_homepage_script_applies_search_filters_with_unknown_birth_dates(self):
+        js='''import fs from 'node:fs';
+const people=JSON.parse(fs.readFileSync('content/profiles.json'));
+const cards=people.map(person=>({dataset:{profile:JSON.stringify(person)},hidden:false}));
+function control(value='') {return {value,addEventListener(type,fn){this[type]=fn},focus(){this.focused=true}}}
+const search=control(),category=control(),era=control(),region=control(),sort=control('name');
+const count={textContent:''},empty={hidden:true},clear=control();
+const grid={querySelectorAll(){return cards},replaceChildren(...items){this.children=items}};
+const elements={'#search':search,'#category':category,'#era':era,'#region':region,'#sort':sort,'#card-grid':grid,'#result-count':count,'#empty-state':empty,'#clear-filters':clear};
+globalThis.document={documentElement:{dataset:{}},querySelector(key){return elements[key]??null},querySelectorAll(){return []}};
+globalThis.localStorage={getItem(){return null},setItem(){}};
+await import('./public/app.js');
+if(count.textContent!==`Showing ${people.length} people`)throw Error('initial collection did not render');
+search.value='kariko';category.value='Science & Innovation';era.value='21st century';region.value='Europe';search.input();
+if(cards.filter(card=>!card.hidden).map(card=>JSON.parse(card.dataset.profile).id).join()!=='katalin-karik')throw Error('combined filters failed');
+search.value='no matching biography';search.input();
+if(!cards.every(card=>card.hidden)||empty.hidden)throw Error('empty state failed');
+clear.click();
+if(cards.some(card=>card.hidden)||!empty.hidden||!search.focused)throw Error('clear filters failed');
+sort.value='born';sort.change();
+const last=grid.children.slice(-3).map(card=>JSON.parse(card.dataset.profile).born);
+if(!last.every(value=>value===null))throw Error('unknown birth dates should sort last');
 '''
         subprocess.run(['node','--input-type=module','-e',js],cwd=ROOT,check=True)
     def test_validation_and_milestone_gate(self):

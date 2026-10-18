@@ -9,7 +9,7 @@ export function matchesProfile(profile, filters) {
     && (!filters.region || profile.region === filters.region);
 }
 export function compareProfiles(a, b, sort = 'name') {
-  if (sort === 'born') return a.born.localeCompare(b.born) || a.name.localeCompare(b.name);
+  if (sort === 'born') return (a.born || '9999').localeCompare(b.born || '9999') || a.name.localeCompare(b.name);
   if (sort === 'period') return String(a.milestones[0].year).localeCompare(String(b.milestones[0].year)) || a.name.localeCompare(b.name);
   return a.name.localeCompare(b.name);
 }

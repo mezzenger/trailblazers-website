@@ -434,7 +434,13 @@
         "url": "https://home.nps.gov/articles/two-american-entrepreneurs-madam-c-j-walker-and-j-c-penney-teaching-with-historic-places.htm"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Madam_C._J._Walker_0268.jpg",
+      "creator": "Unknown photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Madam_C._J._Walker_0268.jpg",
+      "license": "U.S. public domain — published by 1919",
+      "attribution": "Portrait published in The National Cyclopedia of the Colored Race (1919), edited by Clement Richardson."
+    },
     "verification": "verified",
     "reviewed": "2026-10-17"
   },
@@ -671,7 +677,13 @@
         "url": "https://www.faa.gov/sites/faa.gov/files/about/history/pioneers/women_in_aviation_2019.pdf"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Bessie_Coleman%2C_c1922.jpg",
+      "creator": "Dove & Porter",
+      "source": "https://commons.wikimedia.org/wiki/File:Bessie_Coleman,_c1922.jpg",
+      "license": "U.S. public domain — pre-1931 publication",
+      "attribution": "Dove & Porter, c. 1922; Miriam Matthews Photograph Collection, UCLA Library Digital Collections."
+    },
     "verification": "verified",
     "reviewed": "2026-10-17"
   },
@@ -711,7 +723,13 @@
         "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lovelace/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/960px-Ada_Lovelace_portrait.jpg",
+      "creator": "Attributed to Alfred Edward Chalon",
+      "source": "https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg",
+      "license": "Public domain — artist died 1860; pre-1931 publication",
+      "attribution": "Portrait attributed to Alfred Edward Chalon; faithful reproduction of a public-domain painting."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1145,7 +1163,13 @@
         "url": "https://www.smithsonianmag.com/history/harriet-tubman-103279285/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Harriet_Tubman_by_Squyer%2C_NPG%2C_c1885.jpg",
+      "creator": "Horatio Seymour Squyer",
+      "source": "https://commons.wikimedia.org/wiki/File:Harriet_Tubman_by_Squyer,_NPG,_c1885.jpg",
+      "license": "Public domain — nineteenth-century photograph",
+      "attribution": "Horatio Seymour Squyer, c. 1885; National Portrait Gallery, Smithsonian Institution; Commons version is cropped and adjusted."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1619,6 +1643,1016 @@
       {
         "title": "Jocelyn Bell Burnell — Royal Society",
         "url": "https://royalsociety.org/news/2020/11/dame-jocelyn-bell-burnell-portrait-unveiled/"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "dorothy-vaughan",
+    "name": "Dorothy Vaughan",
+    "born": "1910-09-20",
+    "died": "2008-11-10",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Science & Innovation",
+      "Exploration & Space"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A mathematician and supervisor who helped Langley’s computing workforce adapt to the space age.",
+    "biography": "Dorothy Vaughan taught mathematics in Virginia before joining the National Advisory Committee for Aeronautics at Langley in 1943. Wartime demand for aircraft research had opened federal technical jobs to women, but segregation placed Black women in a separate West Area Computing unit. Vaughan became the unit’s acting head in 1949 and its permanent supervisor in 1951, making her the first Black supervisor at NACA. She advocated for the women she managed while coordinating calculations for engineers. When NACA became NASA and electronic computers began replacing hand calculations, Vaughan learned FORTRAN and encouraged colleagues to develop programming skills. She later worked in the Analysis and Computation Division on launch-vehicle research. Her story is more than an individual triumph over exclusion: it shows how a skilled team sustained aerospace research through a major technological change. Vaughan’s leadership helped make opportunities for Black women in technical work more visible, although the institution that relied on their labor had long segregated them. Her career connected the era of human computers to the emerging practice of digital computation.",
+    "achievements": [
+      "Led NACA’s West Area Computing unit",
+      "Helped colleagues transition to electronic computing",
+      "Contributed to aerospace calculations at Langley"
+    ],
+    "milestones": [
+      {
+        "year": 1943,
+        "label": "Joined NACA at Langley"
+      },
+      {
+        "year": 1949,
+        "label": "Became acting head of West Area Computing"
+      },
+      {
+        "year": 1958,
+        "label": "Continued in NASA’s integrated computing division"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dorothy J. Vaughan — NASA",
+        "url": "https://www.nasa.gov/centers-and-facilities/langley/dorothy-j-vaughan/"
+      },
+      {
+        "title": "Dorothy Vaughan — Association for Women in Science",
+        "url": "https://awis.org/historical-women/dorothy-vaughan/"
+      }
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Dorothy_Vaughan_2.jpg",
+      "creator": "NASA",
+      "source": "https://commons.wikimedia.org/wiki/File:Dorothy_Vaughan_2.jpg",
+      "license": "U.S. public domain — NASA government work",
+      "attribution": "NASA on The Commons; file-specific Commons rights review. NASA insignia and endorsement restrictions apply."
+    },
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "ellen-ochoa",
+    "name": "Ellen Ochoa",
+    "born": "1958",
+    "died": null,
+    "region": "North America",
+    "place": "United States",
+    "era": "20th–21st century",
+    "categories": [
+      "Exploration & Space",
+      "Science & Innovation"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "An engineer, astronaut, and NASA leader whose 1993 flight opened a new chapter in space exploration.",
+    "biography": "Ellen Ochoa studied physics at San Diego State University and earned a doctorate in electrical engineering at Stanford. Her research on optical systems led to engineering work at NASA’s Ames Research Center, where she joined the agency in 1988. Selected for the astronaut corps in 1990, she flew aboard Discovery on STS-56 in 1993. That mission made her the first Hispanic woman to travel to space. Ochoa served on three more shuttle flights, helping conduct scientific work and support the early International Space Station. Her responsibilities on the ground expanded as well: she held senior roles at Johnson Space Center and became its director in 2013. She was the center’s first Hispanic director and its second woman director. Ochoa’s career links experimental engineering, work in orbit, and institutional leadership. It also challenged a narrow public image of who could be an astronaut or direct a major spaceflight center. Her example matters because scientific missions depend on teams with many forms of expertise, and because leadership can help open technical fields to later generations.",
+    "achievements": [
+      "First Hispanic woman in space, on STS-56",
+      "Flew on four shuttle missions",
+      "Directed NASA Johnson Space Center"
+    ],
+    "milestones": [
+      {
+        "year": 1988,
+        "label": "Joined NASA Ames Research Center"
+      },
+      {
+        "year": 1993,
+        "label": "Flew aboard Discovery on STS-56"
+      },
+      {
+        "year": 2013,
+        "label": "Became Johnson Space Center director"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ellen Ochoa — NASA",
+        "url": "https://www.nasa.gov/people/nasa-astronaut-dr-ellen-ochoa/"
+      },
+      {
+        "title": "Ellen Ochoa and the Medal of Freedom — Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/ellen-ochoa-former-nasa-astronaut-and-first-hispanic-woman-in-space-receives-presidential-medal-of-freedom-180984314/"
+      }
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Ellen_Ochoa%2C_official_portrait.jpg",
+      "creator": "NASA / Bill Stafford",
+      "source": "https://commons.wikimedia.org/wiki/File:Ellen_Ochoa,_official_portrait.jpg",
+      "license": "U.S. public domain — NASA government work",
+      "attribution": "NASA Johnson Space Center, 2014, photo JSC2014-E-037863. NASA insignia and endorsement restrictions apply."
+    },
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "kalpana-chawla",
+    "name": "Kalpana Chawla",
+    "born": null,
+    "died": "2003-02-01",
+    "region": "Asia",
+    "place": "India / United States",
+    "era": "20th–21st century",
+    "categories": [
+      "Exploration & Space",
+      "Science & Innovation"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "An aerospace engineer and astronaut who carried scientific research into orbit on two shuttle missions.",
+    "biography": "Kalpana Chawla grew up in Karnal, India, with an interest in flight. She studied aeronautical engineering in India, then pursued graduate degrees in aerospace engineering in the United States. After completing her doctorate, she researched aircraft aerodynamics at NASA Ames and in the private sector. NASA selected her for astronaut training in 1994. On her first mission, STS-87 in 1997, she operated the shuttle’s robotic arm and helped support experiments in microgravity. The flight made her the first woman born in India to travel to space. Chawla returned to orbit on Columbia’s STS-107 mission in 2003, a research flight that carried experiments across several fields. She and the other six crew members died when Columbia broke apart during reentry on February 1. Her work is remembered through the science of both missions and through the people she encouraged to pursue engineering and spaceflight. Chawla’s path across educational systems and national borders also shows how international talent shaped the American space program. Published accounts disagree about her birth date; this record therefore leaves it unspecified.",
+    "achievements": [
+      "Flew on STS-87 and STS-107",
+      "Operated shuttle robotics on STS-87",
+      "Helped carry out microgravity research"
+    ],
+    "milestones": [
+      {
+        "year": 1994,
+        "label": "Selected for NASA astronaut training"
+      },
+      {
+        "year": 1997,
+        "label": "Flew on STS-87"
+      },
+      {
+        "year": 2003,
+        "label": "Died with the Columbia crew during reentry"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Kalpana Chawla — NASA astronaut biography",
+        "url": "https://www.nasa.gov/sites/default/files/atoms/files/chawla_kalpana.pdf"
+      },
+      {
+        "title": "CU Boulder alumna rockets into space — University of Colorado Boulder",
+        "url": "https://www.colorado.edu/today/2003/01/16/cu-boulder-alumna-rockets-space-student-experiments"
+      }
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Kalpana_Chawla%2C_official_portrait.jpg/960px-Kalpana_Chawla%2C_official_portrait.jpg",
+      "creator": "NASA",
+      "source": "https://commons.wikimedia.org/wiki/File:Kalpana_Chawla,_official_portrait.jpg",
+      "license": "U.S. public domain — NASA government work",
+      "attribution": "NASA, 1995, photo S95-07647. NASA insignia and endorsement restrictions apply."
+    },
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "lise-meitner",
+    "name": "Lise Meitner",
+    "born": "1878",
+    "died": "1968",
+    "region": "Europe",
+    "place": "Austria / Germany / Sweden",
+    "era": "19th–20th century",
+    "categories": [
+      "Science & Innovation"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A physicist whose interpretation of uranium experiments helped establish the science of nuclear fission.",
+    "biography": "Lise Meitner trained in physics at the University of Vienna when advanced study was only beginning to open to women. In Berlin she built a long research partnership with chemist Otto Hahn, investigating radioactive substances and later the products of neutron bombardment. As a Jewish scientist, Meitner was forced to flee Nazi Germany in 1938 and continued her work from Sweden. That winter, Hahn and Fritz Strassmann reported chemical evidence that uranium experiments had produced barium. Meitner and her nephew, physicist Otto Frisch, explained that the uranium nucleus had split and estimated the energy released; Frisch named the process fission. This insight transformed nuclear physics and later carried profound military and civilian consequences. Hahn received the 1944 Nobel Prize in Chemistry, while Meitner and Frisch were excluded from that award. Historians have examined this uneven recognition alongside the scientific work of all four researchers. Meitner’s career illustrates how collaboration crosses disciplinary and national boundaries, even as persecution and unequal credit can shape the record of discovery.",
+    "achievements": [
+      "Co-interpreted nuclear fission with Otto Frisch",
+      "Conducted decades of radioactivity research",
+      "Helped explain energy released by splitting uranium"
+    ],
+    "milestones": [
+      {
+        "year": 1906,
+        "label": "Earned a physics doctorate in Vienna"
+      },
+      {
+        "year": 1938,
+        "label": "Escaped Nazi Germany and interpreted fission results"
+      },
+      {
+        "year": 1939,
+        "label": "Published fission explanation with Otto Frisch"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Otto Hahn, Lise Meitner, and Fritz Strassmann — Science History Institute",
+        "url": "https://www.sciencehistory.org/education/scientific-biographies/otto-hahn-lise-meitner-and-fritz-strassmann/"
+      },
+      {
+        "title": "Discovery of Nuclear Fission — American Physical Society",
+        "url": "https://www.aps.org/apsnews/2007/12/december-1938-discovery-nuclear-fission"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "emmy-noether",
+    "name": "Emmy Noether",
+    "born": "1882-03-23",
+    "died": "1935-04-14",
+    "region": "Europe",
+    "place": "Germany / United States",
+    "era": "20th century",
+    "categories": [
+      "Science & Innovation",
+      "Education"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A mathematician who reshaped abstract algebra and connected symmetry with conservation laws.",
+    "biography": "Emmy Noether studied mathematics in Germany when women faced formal barriers to university teaching. After earning a doctorate at Erlangen in 1907, she moved into the mathematical community at Göttingen. Her 1918 theorem showed how continuous symmetries in a physical system correspond to conservation laws, providing a powerful way to understand results such as conservation of energy. Noether also transformed abstract algebra through work on ideals and rings, encouraging mathematicians to study structures and relationships rather than isolated calculations. For years she taught without the secure standing given to many male colleagues. In 1933 the Nazi government removed Jewish academics from German universities, and she accepted a position at Bryn Mawr College in Pennsylvania. She continued teaching and discussing mathematics until her death in 1935. Noether’s influence reaches far beyond the papers she authored: her methods helped shape modern algebra, and her theorem remains central to theoretical physics. Her career also records the intellectual losses caused by discrimination against women and by antisemitic persecution.",
+    "achievements": [
+      "Proved the symmetry–conservation theorem",
+      "Advanced ideal and ring theory",
+      "Mentored mathematicians in Germany and the United States"
+    ],
+    "milestones": [
+      {
+        "year": 1907,
+        "label": "Earned doctorate at Erlangen"
+      },
+      {
+        "year": 1918,
+        "label": "Published the theorem linking symmetries and conservation laws"
+      },
+      {
+        "year": 1933,
+        "label": "Joined Bryn Mawr after Nazi dismissal"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Emmy Noether — MacTutor, University of St Andrews",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/"
+      },
+      {
+        "title": "Amalie Emmy Noether — Brookhaven National Laboratory",
+        "url": "https://www.bnl.gov/compsci/noether/legacy.php"
+      }
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Portrait_of_Emmy_Noether.jpg",
+      "creator": "Unknown photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Emmy_Noether.jpg",
+      "license": "Public domain — anonymous German photograph c. 1900; published before 1931",
+      "attribution": "Unknown photographer, circa 1900; Commons file page records German and U.S. public-domain rationales."
+    },
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "rebecca-lee-crumpler",
+    "name": "Rebecca Lee Crumpler",
+    "born": "1831-02-08",
+    "died": "1895-03-09",
+    "region": "North America",
+    "place": "United States",
+    "era": "19th century",
+    "categories": [
+      "Medicine & Public Health"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A physician whose practice and medical writing served women, children, and people excluded from care.",
+    "biography": "Rebecca Lee Crumpler worked as a nurse in Massachusetts before entering the New England Female Medical College. She graduated in 1864, becoming the first Black woman in the United States known to earn a medical degree. At a time when medical schools commonly excluded both women and Black students, the achievement was a significant breach in professional barriers. After the Civil War she practiced in Richmond, Virginia, where formerly enslaved people faced urgent health needs and limited access to physicians. She later returned to Boston and cared for patients, including people who could not pay. In 1883 she published A Book of Medical Discourses, drawing on her experience with maternal and child health. The book preserved practical clinical guidance and made her expertise visible in the historical record. Crumpler’s significance lies in both her care for underserved communities and the path she opened in American medicine. There is no confirmed photograph of her; images sometimes shared online as her portrait should not be treated as authentic without evidence.",
+    "achievements": [
+      "First known Black woman to earn a U.S. medical degree",
+      "Practiced among formerly enslaved people after the Civil War",
+      "Published A Book of Medical Discourses"
+    ],
+    "milestones": [
+      {
+        "year": 1864,
+        "label": "Earned medical degree in Boston"
+      },
+      {
+        "year": 1865,
+        "label": "Practiced in postwar Richmond"
+      },
+      {
+        "year": 1883,
+        "label": "Published A Book of Medical Discourses"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Rebecca Lee Crumpler — National Library of Medicine",
+        "url": "https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_rebecca_crumpler.html"
+      },
+      {
+        "title": "Dr. Rebecca Lee Crumpler — National Park Service",
+        "url": "https://www.nps.gov/people/dr-rebecca-lee-crumpler.htm"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "henrietta-lacks",
+    "name": "Henrietta Lacks",
+    "born": "1920-08-01",
+    "died": "1951-10-04",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Medicine & Public Health",
+      "Science & Innovation"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "Her cells became a vital research tool, while her story reshaped discussion of consent and scientific credit.",
+    "biography": "Henrietta Lacks was a mother living near Baltimore when doctors at Johns Hopkins Hospital treated her for cervical cancer in 1951. Researchers grew cells from a sample taken during her care without her knowledge or consent. Unlike earlier human cell cultures, these cells continued to divide reliably in laboratories. Named HeLa from the first letters of her names, the cell line was shared widely and helped researchers study diseases, test treatments, and develop the polio vaccine. Lacks died that October at thirty-one. For many years the public discussion of HeLa centered on the cells rather than the woman and family behind them. Her descendants later raised questions about privacy, recognition, and control over genetic information. In 2013 the National Institutes of Health established an agreement with family members governing access to HeLa genome data. Lacks did not choose to become a research participant, so the scientific value of the cell line should be told alongside the circumstances of its origin. Her story remains central to conversations about research ethics and respect for patients.",
+    "achievements": [
+      "Source of the HeLa cell line",
+      "Her story influenced research ethics discussions",
+      "The Lacks family helped shape genomic-data access policy"
+    ],
+    "milestones": [
+      {
+        "year": 1951,
+        "label": "Cells from her cancer treatment were cultured; she died in October"
+      },
+      {
+        "year": 2013,
+        "label": "NIH and family members announced HeLa genome-data agreement"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The NIH–Lacks Family Agreement — National Institutes of Health",
+        "url": "https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/privacy/nih-lacks-family-agreement"
+      },
+      {
+        "title": "The Legacy of Henrietta Lacks — Johns Hopkins Medicine",
+        "url": "https://www.hopkinsmedicine.org/henrietta-lacks"
+      },
+      {
+        "title": "Henrietta Lacks — Maryland State Archives",
+        "url": "https://msa.maryland.gov/msa/educ/exhibits/womenshallfame/html/lacks.html"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "nise-da-silveira",
+    "name": "Nise da Silveira",
+    "born": "1905",
+    "died": "1999",
+    "region": "South America",
+    "place": "Brazil",
+    "era": "20th century",
+    "categories": [
+      "Medicine & Public Health",
+      "Arts, Literature & Media"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A Brazilian psychiatrist who made artistic expression central to a more humane approach to mental health care.",
+    "biography": "Nise da Silveira trained as a physician in Brazil and became a psychiatrist in Rio de Janeiro. In a period when psychiatric institutions commonly used coercive treatments, she sought ways for patients to express experience through painting, modeling, and other creative work. In 1946 she organized an occupational therapy section at a psychiatric hospital, creating workshops that treated participants as makers rather than simply as diagnoses. The artwork generated there became the foundation of the Museu de Imagens do Inconsciente, which she established in 1952. She also developed the Casa das Palmeiras in 1956 as a place for people leaving hospitals to continue therapeutic activities. Her approach did not present art as a simple cure; it offered staff another way to attend to patients and gave patients room to create. The museum preserved work that might otherwise have been discarded and has supported study of art and mental health. Da Silveira’s legacy is a challenge to reduce care to procedures alone and a reminder that dignity matters in clinical settings.",
+    "achievements": [
+      "Established therapeutic art workshops",
+      "Founded the Museu de Imagens do Inconsciente",
+      "Developed the Casa das Palmeiras"
+    ],
+    "milestones": [
+      {
+        "year": 1946,
+        "label": "Organized occupational therapy workshops"
+      },
+      {
+        "year": 1952,
+        "label": "Founded the Museu de Imagens do Inconsciente"
+      },
+      {
+        "year": 1956,
+        "label": "Established the Casa das Palmeiras"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nise da Silveira manuscript collection — Biblioteca Nacional do Brasil",
+        "url": "https://www.gov.br/bn/pt-br/atuacao/colecoes-e-servicos-aos-leitores/manuscritos/artigos-manuscritos/colecoes-da-secao-de-manuscritos-nise-da-silveira/"
+      },
+      {
+        "title": "Nise da Silveira — Psicologia: Ciência e Profissão / SciELO",
+        "url": "https://www.scielo.br/j/pcp/a/ST6887NdYRBschFzS8sFhpP/?lang=pt"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "fe-del-mundo",
+    "name": "Fe del Mundo",
+    "born": "1911-11-27",
+    "died": "2011",
+    "region": "Asia",
+    "place": "Philippines",
+    "era": "20th–21st century",
+    "categories": [
+      "Medicine & Public Health",
+      "Education"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A pediatrician who expanded hospital care and public-health outreach for Filipino children.",
+    "biography": "Fe del Mundo studied medicine in the Philippines and built a career around the health of children. During the Second World War she cared for young patients amid the disruption of occupation and conflict. She later established a pediatric hospital in Quezon City in 1957, creating a center for treatment, teaching, and research. Del Mundo’s work also reached beyond hospital walls. Her teams brought care and advice to communities where children had limited access to specialists, including efforts to address dehydration caused by diarrhea. She helped train pediatricians and contributed to professional organizations at a time when women faced barriers to medical leadership. The Ramon Magsaysay Award Foundation honored her public service in 1977. Her importance rests in joining bedside medicine to community health: a child’s prospects often depended on whether knowledge and basic care could reach the family in time. Some popular accounts call her the first woman admitted to Harvard Medical School; that claim is contested and is not used here. Her documented clinical and educational work needs no such embellishment.",
+    "achievements": [
+      "Established a pediatric hospital in Quezon City",
+      "Expanded child-health outreach",
+      "Received the 1977 Ramon Magsaysay Award for Public Service"
+    ],
+    "milestones": [
+      {
+        "year": 1957,
+        "label": "Opened a pediatric hospital in Quezon City"
+      },
+      {
+        "year": 1977,
+        "label": "Received Ramon Magsaysay Award for Public Service"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Fe del Mundo — Ramon Magsaysay Award Foundation",
+        "url": "https://rmaward.asia/rmawardees/del-mundo-fe/"
+      },
+      {
+        "title": "Fe del Mundo — Philippine Cultural Education Online",
+        "url": "https://philippineculturaleducation.com.ph/del-mundo-fe/"
+      },
+      {
+        "title": "Historical Background: Women at Harvard — Harvard Library",
+        "url": "https://guides.library.harvard.edu/c.php?g=1108872&p=8085578"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "rosa-parks",
+    "name": "Rosa Parks",
+    "born": "1913-02-04",
+    "died": "2005-10-24",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th–21st century",
+    "categories": [
+      "Civil Rights & Justice"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A longtime organizer whose refusal to surrender a bus seat helped mobilize Montgomery’s boycott.",
+    "biography": "Rosa Parks had worked for years against racial injustice before the day that made her internationally known. As secretary of the Montgomery branch of the NAACP, she helped with voter registration, youth work, and efforts to document violence against Black people. On December 1, 1955, police arrested her for refusing to give up a seat on a segregated Montgomery bus. Local organizers and residents turned the arrest into a sustained bus boycott that lasted more than a year and helped end the city’s bus segregation. Parks was neither a passive bystander nor the first person to resist such a rule; her action belonged to a longer campaign built by many people. The boycott also carried personal costs, including loss of employment. She later lived in Detroit and continued civil-rights work, supporting causes beyond the Montgomery campaign. Parks’s historical significance includes the courage of a particular decision and the organizing that made collective protest effective. Remembering the full span of her work gives a clearer account of the movement than reducing it to a single ride.",
+    "achievements": [
+      "Helped catalyze the Montgomery Bus Boycott",
+      "Served as Montgomery NAACP secretary",
+      "Continued civil-rights activism in Detroit"
+    ],
+    "milestones": [
+      {
+        "year": 1943,
+        "label": "Joined Montgomery NAACP"
+      },
+      {
+        "year": 1955,
+        "label": "Arrested after refusing bus segregation"
+      },
+      {
+        "year": 1956,
+        "label": "Montgomery bus segregation ended after boycott and court ruling"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Rosa Parks — National Park Service",
+        "url": "https://www.nps.gov/people/rosa-parks.htm"
+      },
+      {
+        "title": "Parks, Rosa — King Institute, Stanford University",
+        "url": "https://kinginstitute.stanford.edu/parks-rosa"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "ella-baker",
+    "name": "Ella Baker",
+    "born": "1903-12-13",
+    "died": "1986",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Civil Rights & Justice",
+      "Education"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "An organizer who taught civil-rights movements to build power through local leadership.",
+    "biography": "Ella Baker spent decades helping communities organize for civil rights. After graduating from Shaw University, she worked in New York and joined campaigns for economic cooperation and racial justice. She later traveled for the NAACP, recruiting members and learning from local organizers whose knowledge often went unrecognized by national leaders. In the late 1950s she worked with the Southern Christian Leadership Conference. When student sit-ins spread in 1960, Baker convened young activists at Shaw University. She urged them to form an independent organization rather than become a youth arm of an existing one; the Student Nonviolent Coordinating Committee emerged from that gathering. Baker favored shared decision-making and encouraged students to listen to people already working in their own communities. This approach helped sustain voting-rights and desegregation campaigns where celebrity leadership alone could not. Her influence is sometimes harder to see than a speech or elected office because it appears in the capacity of others to act. Baker’s career shows that movements are built through patient relationships, local expertise, and the willingness to let new leaders develop.",
+    "achievements": [
+      "Helped shape the Student Nonviolent Coordinating Committee",
+      "Organized for the NAACP and SCLC",
+      "Advanced grassroots leadership in civil-rights work"
+    ],
+    "milestones": [
+      {
+        "year": 1927,
+        "label": "Graduated from Shaw University"
+      },
+      {
+        "year": 1940,
+        "label": "Began NAACP field work"
+      },
+      {
+        "year": 1960,
+        "label": "Convened student organizers at Shaw University"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ella Baker — SNCC Digital Gateway",
+        "url": "https://snccdigital.org/people/ella-baker/"
+      },
+      {
+        "title": "Baker, Ella Josephine — King Institute, Stanford University",
+        "url": "https://kinginstitute.stanford.edu/baker-ella-josephine"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "dolores-huerta",
+    "name": "Dolores Huerta",
+    "born": "1930-04-10",
+    "died": null,
+    "region": "North America",
+    "place": "United States",
+    "era": "20th–21st century",
+    "categories": [
+      "Civil Rights & Justice",
+      "Government & Politics"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A labor organizer who helped farmworkers turn local demands into a national campaign.",
+    "biography": "Dolores Huerta grew up in Stockton, California, and trained as a teacher. Seeing the hardships faced by farmworkers’ children drew her toward community organizing. She worked with the Community Service Organization and, with César Chávez, founded the National Farm Workers Association in 1962. Their union later joined the Filipino-led Agricultural Workers Organizing Committee to form the United Farm Workers. Huerta helped direct the grape boycott, organized supporters far from the fields, and negotiated contracts for workers. The campaigns sought better pay and conditions while also asking consumers to recognize the labor behind their food. She faced hostility both as a labor activist and as a woman in a movement often publicly represented by men. Beyond agricultural labor, Huerta continued working on voter participation and civil rights. Her record shows that durable change requires more than a symbolic leader: it takes negotiations, organizing across communities, and sustained attention to the people most affected. The United Farm Workers story also belongs to Filipino and Mexican workers whose cooperation made the campaign possible.",
+    "achievements": [
+      "Co-founded the National Farm Workers Association",
+      "Organized the national grape boycott",
+      "Negotiated farmworker contracts"
+    ],
+    "milestones": [
+      {
+        "year": 1962,
+        "label": "Co-founded the National Farm Workers Association"
+      },
+      {
+        "year": 1965,
+        "label": "Helped organize grape-boycott campaign"
+      },
+      {
+        "year": 1970,
+        "label": "Farmworker campaign secured collective-bargaining agreement"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dolores Huerta — National Park Service",
+        "url": "https://www.nps.gov/articles/000/dolores-huerta.htm"
+      },
+      {
+        "title": "Dolores Huerta — Dolores Huerta Foundation",
+        "url": "https://doloreshuerta.org/board-member/dolores-huerta/"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "desmond-tutu",
+    "name": "Desmond Tutu",
+    "born": "1931-10-07",
+    "died": "2021-12-26",
+    "region": "Africa",
+    "place": "South Africa",
+    "era": "20th–21st century",
+    "categories": [
+      "Civil Rights & Justice",
+      "Government & Politics"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A church leader who opposed apartheid and later helped South Africa confront its violent past.",
+    "biography": "Desmond Tutu trained as a teacher and then entered the Anglican ministry in South Africa. As apartheid enforced racial segregation and denied political rights to the Black majority, he used church institutions and international attention to argue for democratic change. In 1978 he became general secretary of the South African Council of Churches, a platform from which he criticized state violence and urged nonviolent resistance. The Nobel Peace Prize recognized his role in 1984. He later became Anglican archbishop of Cape Town. After apartheid ended and South Africa held democratic elections in 1994, Tutu chaired the Truth and Reconciliation Commission, which heard testimony about abuses committed under the old system. The commission’s work was difficult and contested, but it created a public record of experiences that had long been suppressed. Tutu continued speaking on human rights after leaving office. His significance lies in sustained opposition to apartheid and in the insistence that political transition required attention to victims as well as changes in law. His public influence grew from institutions, communities, and many fellow activists, not from his voice alone.",
+    "achievements": [
+      "Opposed apartheid through church leadership",
+      "Received the 1984 Nobel Peace Prize",
+      "Chaired South Africa’s Truth and Reconciliation Commission"
+    ],
+    "milestones": [
+      {
+        "year": 1978,
+        "label": "Became general secretary of South African Council of Churches"
+      },
+      {
+        "year": 1984,
+        "label": "Received Nobel Peace Prize"
+      },
+      {
+        "year": 1995,
+        "label": "Appointed chair of Truth and Reconciliation Commission"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Life and times of Desmond Tutu — South African Government",
+        "url": "https://www.gov.za/ve/DesmondTutu-biography"
+      },
+      {
+        "title": "Desmond Tutu — The Elders",
+        "url": "https://theelders.org/profile/desmond-tutu"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "rigoberta-mench",
+    "name": "Rigoberta Menchú",
+    "born": null,
+    "died": null,
+    "region": "Central America",
+    "place": "Guatemala",
+    "era": "20th–21st century",
+    "categories": [
+      "Civil Rights & Justice",
+      "Government & Politics"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A K’iche’ Maya advocate who brought Indigenous rights in Guatemala to international attention.",
+    "biography": "Rigoberta Menchú Tum grew up in a K’iche’ Maya community in Guatemala during an era of severe inequality and political violence. In the early 1980s she fled to Mexico as Guatemala’s civil war intensified. From exile she spoke publicly about the experiences of Indigenous communities and the need for political rights, justice, and cultural recognition. Her testimony reached international audiences, and the Nobel Peace Prize recognized her work for social justice and reconciliation in 1992. She also participated in United Nations efforts focused on Indigenous peoples. Menchú’s public role helped draw attention to a conflict in which Indigenous civilians suffered greatly, and to demands for rights that continued beyond the 1996 peace agreement. Specific episodes in her autobiographical testimony have been disputed by researchers. This profile does not treat those episodes as settled facts; it rests on independently documented public activity and honors the communities whose experiences cannot be reduced to one person’s story. Her significance is both as an advocate and as a figure in an international movement for Indigenous self-determination and recognition.",
+    "achievements": [
+      "Received the 1992 Nobel Peace Prize",
+      "Advocated internationally for Indigenous rights",
+      "Participated in UN Indigenous-peoples initiatives"
+    ],
+    "milestones": [
+      {
+        "year": 1992,
+        "label": "Received Nobel Peace Prize"
+      },
+      {
+        "year": 1996,
+        "label": "Guatemala signed peace accords after decades of civil war"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Rigoberta Menchú — UNESCO Multimedia Archives",
+        "url": "https://www.unesco.org/archives/multimedia/document-382"
+      },
+      {
+        "title": "From This Day Forward — Cultural Survival",
+        "url": "https://www.culturalsurvival.org/publications/cultural-survival-quarterly/day-forward"
+      },
+      {
+        "title": "Authoring Ethnicized Subjects — PMLA / Cambridge Core",
+        "url": "https://www.cambridge.org/core/journals/pmla/article/abs/authoring-ethnicized-subjects-rigoberta-menchu-and-the-performative-production-of-the-subaltern-self/B795BADD23BAF53F524B457A9ACB7E66"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "michelle-bachelet",
+    "name": "Michelle Bachelet",
+    "born": "1951",
+    "died": null,
+    "region": "South America",
+    "place": "Chile",
+    "era": "20th–21st century",
+    "categories": [
+      "Government & Politics",
+      "Medicine & Public Health"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A physician and public leader who became Chile’s first woman president and led UN human-rights institutions.",
+    "biography": "Michelle Bachelet trained as a physician in Chile while the country was entering a period of military dictatorship. Her family experienced repression, and she and her mother went into exile before she returned to Chile and continued her medical career. After democratic rule was restored, she moved into public service, becoming minister of health and then minister of defense. Her election in 2006 made her Chile’s first woman president. She served a second presidential term from 2014 to 2018. Between those terms she became the first executive director of UN Women, and afterward she served as United Nations High Commissioner for Human Rights. Her work has connected domestic policy, gender equality, and international rights institutions. The offices she held were historically significant, but their outcomes should be judged on particular policies rather than on the symbolism of a first alone. Bachelet’s career illustrates how democratic leadership can draw on experience in medicine and on direct knowledge of repression. It also shows the expanding, though still contested, space for women in Latin American political leadership.",
+    "achievements": [
+      "First woman president of Chile",
+      "First executive director of UN Women",
+      "Served as UN High Commissioner for Human Rights"
+    ],
+    "milestones": [
+      {
+        "year": 2006,
+        "label": "Began first presidential term in Chile"
+      },
+      {
+        "year": 2010,
+        "label": "Became first executive director of UN Women"
+      },
+      {
+        "year": 2014,
+        "label": "Began second presidential term"
+      },
+      {
+        "year": 2018,
+        "label": "Became UN High Commissioner for Human Rights"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Michelle Bachelet — University of Chile",
+        "url": "https://uchile.cl/presentacion/historia/grandes-figuras/presidentes-de-chile-ex-estudiantes-de-la-u/michelle-bachelet-jeria"
+      },
+      {
+        "title": "Michelle Bachelet — Columbia University Institute of Global Politics",
+        "url": "https://igp.sipa.columbia.edu/distinguished-fellows/michelle-bachelet"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "qiu-jin",
+    "name": "Qiu Jin",
+    "born": null,
+    "died": "1907-07-15",
+    "region": "Asia",
+    "place": "China / Japan",
+    "era": "19th–20th century",
+    "categories": [
+      "Civil Rights & Justice",
+      "Arts, Literature & Media"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A writer and revolutionary who joined women’s emancipation to opposition against Qing rule.",
+    "biography": "Qiu Jin lived during the final years of China’s Qing dynasty, when reformers debated the future of the state and the place of women in public life. She left a conventional marriage to study in Japan, where Chinese students exchanged new political ideas. Her writing criticized restrictions on women and linked education and independence to wider social change. Back in China, she supported revolutionary networks and helped develop a school associated with political training. Qing authorities arrested her after the failure of an uprising connected with fellow revolutionaries; she was executed in 1907. Her poetry, essays, and death became important in later accounts of Chinese feminism and revolution. Those accounts sometimes turn her into a simple martyr, obscuring the range of her intellectual work and the choices available to women of her class. Sources disagree on her birth year, so this record does not assign one. Qiu Jin’s significance lies in how she made women’s education and autonomy part of an urgent debate over national transformation, and in the writing that carried those arguments beyond her lifetime.",
+    "achievements": [
+      "Wrote for women’s education and autonomy",
+      "Participated in anti-Qing revolutionary networks",
+      "Became an influential figure in Chinese feminist history"
+    ],
+    "milestones": [
+      {
+        "year": 1904,
+        "label": "Traveled to Japan to study"
+      },
+      {
+        "year": 1907,
+        "label": "Executed by Qing authorities"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Qiu Jin — Encyclopedia of World Biography",
+        "url": "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/qiu-jin-c-1875-1907"
+      },
+      {
+        "title": "The Silent Half Speaks — Journal of Chinese History",
+        "url": "https://www.cambridge.org/core/journals/journal-of-chinese-history/article/silent-half-speaks/87DF02A8F96C10A54C899233D17D033E"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "huda-sha-arawi",
+    "name": "Huda Sha'arawi",
+    "born": "1879",
+    "died": "1947",
+    "region": "Africa",
+    "place": "Egypt",
+    "era": "19th–20th century",
+    "categories": [
+      "Civil Rights & Justice",
+      "Government & Politics"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "An Egyptian feminist and nationalist who built organizations for women’s public and political participation.",
+    "biography": "Huda Sha'arawi came from an affluent Egyptian family but grew up in a society that limited many women’s public roles. She used the opportunities available to her to support women’s education and to organize with other Egyptian women. During the 1919 revolution against British rule, she helped bring women into nationalist protest. In 1923 she founded the Egyptian Feminist Union, which campaigned for education, political participation, and changes to laws affecting women. She also connected Egyptian activists with international networks and later supported Arab feminist cooperation. A much repeated story describes her removing a face veil at a Cairo station in 1923. That gesture has often overshadowed the organizing and writing that gave her movement lasting force, and sources differ in how they interpret its meaning. Sha'arawi’s work linked women’s rights to the political future of Egypt while also reflecting the resources and limitations of elite leadership. Her contribution is best understood alongside the many other women whose collective action expanded public life during and after the struggle for independence.",
+    "achievements": [
+      "Founded the Egyptian Feminist Union",
+      "Helped organize women in the 1919 nationalist movement",
+      "Built regional and international feminist networks"
+    ],
+    "milestones": [
+      {
+        "year": 1919,
+        "label": "Participated in Egyptian nationalist organizing"
+      },
+      {
+        "year": 1923,
+        "label": "Founded the Egyptian Feminist Union"
+      },
+      {
+        "year": 1925,
+        "label": "Founded the journal L’Egyptienne"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Huda Sha'rawi — Encyclopedia.com",
+        "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/sharawi-huda"
+      },
+      {
+        "title": "Like Seeking out a Lost Friend — Cambridge Core",
+        "url": "https://www.cambridge.org/core/journals/hypatia/article/like-seeking-out-a-lost-friend-reconsidering-pioneer-arab-feminists-and-their-networks-as-part-of-athe-first-wave/B2631A8157D0387CB5208C49826FCB3E"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "zora-neale-hurston",
+    "name": "Zora Neale Hurston",
+    "born": "1891",
+    "died": "1960",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Arts, Literature & Media",
+      "Education"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A novelist and anthropologist who recorded Black vernacular culture and reshaped American literature.",
+    "biography": "Zora Neale Hurston grew up in Eatonville, Florida, and later studied at Howard University and Barnard College. As an anthropologist and folklorist she traveled through the American South and the Caribbean, listening to stories, songs, and everyday speech. She brought that attention to language into fiction, including Their Eyes Were Watching God, published in 1937. Her work treated Black communities as sources of knowledge and artistic invention, rather than as subjects to be described only from outside. Hurston also wrote plays and essays and recorded material that is now held in archives. Although she was active among Harlem Renaissance writers, critical and commercial recognition changed over time. After her death in 1960, renewed scholarship and advocacy brought her work to many new readers. Her life resists a single story of triumph or neglect: she pursued research and art across several forms, and her interpretations were sometimes debated by contemporaries. Hurston’s lasting significance comes from her literary voice and her preservation of cultural expression that might otherwise have been lost or flattened.",
+    "achievements": [
+      "Published Their Eyes Were Watching God",
+      "Collected African American folklore",
+      "Worked as a novelist, playwright, and anthropologist"
+    ],
+    "milestones": [
+      {
+        "year": 1928,
+        "label": "Graduated from Barnard College"
+      },
+      {
+        "year": 1935,
+        "label": "Published Mules and Men"
+      },
+      {
+        "year": 1937,
+        "label": "Published Their Eyes Were Watching God"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Zora Neale Hurston — Library of Congress guide",
+        "url": "https://guides.loc.gov/chronicling-america-zora-neale-hurston"
+      },
+      {
+        "title": "Zora Neale Hurston and Cudjo’s Own Story — National Park Service",
+        "url": "https://home.nps.gov/cawo/learn/historyculture/zora-neale-hurston-and-cudjo-s-own-story.htm"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "faith-ringgold",
+    "name": "Faith Ringgold",
+    "born": "1930",
+    "died": "2024",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th–21st century",
+    "categories": [
+      "Arts, Literature & Media",
+      "Education"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "An artist and author whose paintings and story quilts put Black women’s experience at the center of American art.",
+    "biography": "Faith Ringgold grew up in Harlem and studied art at the City College of New York. While teaching in public schools, she developed paintings that confronted racism, violence, and the limits placed on women artists. In the 1970s she experimented with sculpture, masks, and textile forms; her later story quilts combined image and narrative in a form that drew on family and community histories. Ringgold also organized with other artists to demand more inclusive museums and exhibition practices. Her children’s book Tar Beach, published in 1991, invited young readers into a Harlem story of imagination and possibility. The book extended her artistic work into classrooms and homes. Ringgold’s use of quilting challenged conventions that had treated textile work as separate from fine art, while her stories offered a vivid account of Black American life. Her career joined formal invention to public argument: art could preserve memory, contest exclusion, and speak to audiences of different ages. That combination made her an influential figure for artists, writers, and educators.",
+    "achievements": [
+      "Created politically engaged paintings and story quilts",
+      "Published Tar Beach",
+      "Advocated for inclusion in American art institutions"
+    ],
+    "milestones": [
+      {
+        "year": 1963,
+        "label": "Developed politically engaged painting series"
+      },
+      {
+        "year": 1983,
+        "label": "Created her first story quilt, Who’s Afraid of Aunt Jemima?"
+      },
+      {
+        "year": 1991,
+        "label": "Published Tar Beach"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Faith Ringgold — Smithsonian American Art Museum",
+        "url": "https://americanart.si.edu/artist/faith-ringgold-7236"
+      },
+      {
+        "title": "Faith Ringgold — Museum of Modern Art",
+        "url": "https://www.moma.org/artists/7066-faith-ringgold"
+      },
+      {
+        "title": "Faith Ringgold — National Gallery of Art",
+        "url": "https://www.nga.gov/artists/37893-faith-ringgold"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "nawal-el-saadawi",
+    "name": "Nawal El Saadawi",
+    "born": "1931",
+    "died": "2021",
+    "region": "Africa",
+    "place": "Egypt",
+    "era": "20th–21st century",
+    "categories": [
+      "Arts, Literature & Media",
+      "Medicine & Public Health",
+      "Civil Rights & Justice"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A physician and writer who challenged gender inequality through medicine, fiction, and public debate.",
+    "biography": "Nawal El Saadawi studied medicine at Cairo University and worked as a physician in Egypt. Clinical experience informed her writing about women’s health, bodily autonomy, and the social structures that shaped patients’ lives. She wrote novels, memoirs, and nonfiction, including The Hidden Face of Eve, addressing subjects that many institutions preferred to keep private. Her criticism of gender inequality and political authority brought dismissal from a government health post and later imprisonment in 1981. She continued to write and speak internationally after her release. El Saadawi’s work did not represent a single, uncontested view of Egyptian feminism; readers and activists have debated her arguments and their reception abroad. The importance of her career lies in the space she opened for public discussion of health, violence, and women’s rights, and in the way she linked clinical observation to literature and political critique. Her writing reached audiences far beyond Egypt, while remaining rooted in the social and political questions she encountered there.",
+    "achievements": [
+      "Wrote influential fiction and nonfiction about women’s lives",
+      "Connected medical practice to public-health advocacy",
+      "Continued writing after political imprisonment"
+    ],
+    "milestones": [
+      {
+        "year": 1955,
+        "label": "Graduated as a physician"
+      },
+      {
+        "year": 1972,
+        "label": "Dismissed from government health-education role"
+      },
+      {
+        "year": 1981,
+        "label": "Imprisoned during political crackdown"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nawal El Saadawi — PEN America",
+        "url": "https://pen.org/case-histories-nawal-el-saadawi/"
+      },
+      {
+        "title": "El Saadawi explores creativity — Harvard Gazette",
+        "url": "https://news.harvard.edu/gazette/story/2007/08/el-saadawi-explores-notion-of-creativity/"
+      },
+      {
+        "title": "Nawal El Saadawi obituary — The Guardian",
+        "url": "https://www.theguardian.com/world/2021/mar/22/nawal-el-saadawi-obituary"
       }
     ],
     "image": null,

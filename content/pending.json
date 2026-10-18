@@ -1,11 +1,5 @@
 [
   {
-    "id": "dorothy-vaughan",
-    "name": "Dorothy Vaughan",
-    "verification": "pending",
-    "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
-  },
-  {
     "id": "mary-jackson",
     "name": "Mary Jackson",
     "verification": "pending",
@@ -30,18 +24,6 @@
     "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
   },
   {
-    "id": "ellen-ochoa",
-    "name": "Ellen Ochoa",
-    "verification": "pending",
-    "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
-  },
-  {
-    "id": "kalpana-chawla",
-    "name": "Kalpana Chawla",
-    "verification": "pending",
-    "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
-  },
-  {
     "id": "valentina-tereshkova",
     "name": "Valentina Tereshkova",
     "verification": "pending",
@@ -60,20 +42,8 @@
     "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
   },
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "verification": "pending",
-    "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
-  },
-  {
     "id": "marie-curie",
     "name": "Marie Curie",
-    "verification": "pending",
-    "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
-  },
-  {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
     "verification": "pending",
     "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
   },
@@ -102,32 +72,8 @@
     "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
   },
   {
-    "id": "rebecca-lee-crumpler",
-    "name": "Rebecca Lee Crumpler",
-    "verification": "pending",
-    "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
-  },
-  {
     "id": "virginia-apgar",
     "name": "Virginia Apgar",
-    "verification": "pending",
-    "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
-  },
-  {
-    "id": "henrietta-lacks",
-    "name": "Henrietta Lacks",
-    "verification": "pending",
-    "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
-  },
-  {
-    "id": "nise-da-silveira",
-    "name": "Nise da Silveira",
-    "verification": "pending",
-    "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
-  },
-  {
-    "id": "fe-del-mundo",
-    "name": "Fe del Mundo",
     "verification": "pending",
     "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
   },
@@ -156,18 +102,6 @@
     "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
   },
   {
-    "id": "rosa-parks",
-    "name": "Rosa Parks",
-    "verification": "pending",
-    "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
-  },
-  {
-    "id": "ella-baker",
-    "name": "Ella Baker",
-    "verification": "pending",
-    "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
-  },
-  {
     "id": "fannie-lou-hamer",
     "name": "Fannie Lou Hamer",
     "verification": "pending",
@@ -182,12 +116,6 @@
   {
     "id": "bayard-rustin",
     "name": "Bayard Rustin",
-    "verification": "pending",
-    "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
-  },
-  {
-    "id": "dolores-huerta",
-    "name": "Dolores Huerta",
     "verification": "pending",
     "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
   },
@@ -228,12 +156,6 @@
     "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
   },
   {
-    "id": "desmond-tutu",
-    "name": "Desmond Tutu",
-    "verification": "pending",
-    "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
-  },
-  {
     "id": "steve-biko",
     "name": "Steve Biko",
     "verification": "pending",
@@ -242,12 +164,6 @@
   {
     "id": "mahatma-gandhi",
     "name": "Mahatma Gandhi",
-    "verification": "pending",
-    "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
-  },
-  {
-    "id": "rigoberta-mench",
-    "name": "Rigoberta Menchú",
     "verification": "pending",
     "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
   },
@@ -276,26 +192,8 @@
     "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
   },
   {
-    "id": "michelle-bachelet",
-    "name": "Michelle Bachelet",
-    "verification": "pending",
-    "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
-  },
-  {
     "id": "jacinda-ardern",
     "name": "Jacinda Ardern",
-    "verification": "pending",
-    "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
-  },
-  {
-    "id": "huda-sha-arawi",
-    "name": "Huda Sha'arawi",
-    "verification": "pending",
-    "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
-  },
-  {
-    "id": "qiu-jin",
-    "name": "Qiu Jin",
     "verification": "pending",
     "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
   },
@@ -312,12 +210,6 @@
     "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
   },
   {
-    "id": "zora-neale-hurston",
-    "name": "Zora Neale Hurston",
-    "verification": "pending",
-    "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
-  },
-  {
     "id": "chimamanda-ngozi-adichie",
     "name": "Chimamanda Ngozi Adichie",
     "verification": "pending",
@@ -326,12 +218,6 @@
   {
     "id": "arundhati-roy",
     "name": "Arundhati Roy",
-    "verification": "pending",
-    "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
-  },
-  {
-    "id": "nawal-el-saadawi",
-    "name": "Nawal El Saadawi",
     "verification": "pending",
     "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
   },
@@ -368,12 +254,6 @@
   {
     "id": "yayoi-kusama",
     "name": "Yayoi Kusama",
-    "verification": "pending",
-    "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
-  },
-  {
-    "id": "faith-ringgold",
-    "name": "Faith Ringgold",
     "verification": "pending",
     "researchGap": "Two independent sources, original 150–300 word biography, milestones, and rights review are required."
   },

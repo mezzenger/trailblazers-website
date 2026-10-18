@@ -1,4 +1,4 @@
-import {matchesProfile, compareProfiles} from './filter-core.mjs';
+import {normalize, matchesProfile, compareProfiles} from './filter-core.mjs';
 const themeButton = document.querySelector('.theme-toggle');
 const savedTheme = localStorage.getItem('trailblazers-theme');
 if (savedTheme) document.documentElement.dataset.theme = savedTheme;
