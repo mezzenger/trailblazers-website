@@ -62,3 +62,21 @@ shareButton?.addEventListener('click', async () => {
     else { await navigator.clipboard.writeText(location.href); status.textContent = 'Link copied to clipboard.'; }
   } catch (error) { if (error.name !== 'AbortError') status.textContent = 'Copy the address in your browser to share this story.'; }
 });
+
+// Rotate the daily selection in the visitor's browser; the build-time choice is the no-script fallback.
+const dailyPanel = document.querySelector('.daily-panel');
+if (dailyPanel && cards.length) {
+  const dailyCard = cards[Math.floor(Date.now() / 86400000) % cards.length];
+  const person = JSON.parse(dailyCard.dataset.profile);
+  dailyPanel.querySelector('p').textContent = person.summary;
+  const dailyLink = dailyPanel.querySelector('.button');
+  dailyLink.href = dailyCard.querySelector('.card-link').href;
+  dailyLink.textContent = `Meet ${person.name} ↗`;
+  dailyPanel.querySelector('.daily-name strong').textContent = person.name;
+  dailyPanel.querySelector('.daily-name > span').textContent = person.categories[0];
+  const portrait = dailyPanel.querySelector('.portrait--type');
+  if (portrait) {
+    portrait.setAttribute('aria-label', `Typographic portrait placeholder for ${person.name}`);
+    portrait.querySelector('span').textContent = person.name.replaceAll('.', '').split(' ').filter(part => !['c','j'].includes(part.toLowerCase())).map(part => part[0]).join('').slice(0,2);
+  }
+}

@@ -22,4 +22,4 @@ Add one object to `content/profiles.json` using the fields described in [content
 
 ## Project state
 
-The original Cocoa HTML is retained in Git history. The decoded source and a profile-by-profile migration inventory are in `legacy/`. The new static architecture, research method, deployment procedure, and current gaps are documented in `docs/`. No deployment workflow is enabled, and this branch is intended for review only.
+The original Cocoa HTML is retained in Git history. The decoded source and a profile-by-profile migration inventory are in `legacy/`. The new static architecture, research method, deployment procedure, and current gaps are documented in `docs/`. No deployment workflow is enabled, and the pushed `feature/museum-foundation` branch is intended for review only. The draft PR text is in `docs/draft-pr.md`; automatic PR creation was blocked by the connected app’s permissions.

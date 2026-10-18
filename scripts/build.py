@@ -42,7 +42,7 @@ home=f'''<section class="hero"><div class="hero-copy"><span class="eyebrow gold"
 <section class="section lesser"><span class="eyebrow">Look closer</span><h2>Some stories deserve<br><em>a second look.</em></h2><div class="lesser-links">{''.join(f'<a href="{link_to(p)}"><span>{esc(p["categories"][0])}</span><strong>{esc(p["name"])}</strong><span aria-hidden="true">↗</span></a>' for p in lesser)}</div></section>'''
 (out/'index.html').write_text(layout('Home',home))
 for p in profiles:
-    related=sorted((q for q in profiles if q['id']!=p['id']), key=lambda q:(-len(set(q['categories'])&set(p['categories'])),q['name']))[:3]
+    related=sorted((q for q in profiles if q['id']!=p['id'] and set(q['categories']) & set(p['categories'])), key=lambda q:(-len(set(q['categories'])&set(p['categories'])),q['name']))[:3]
     born=p['born'][:4]; life=born+('–'+p['died'][:4] if p['died'] else '–present')
     milestones=''.join(f'<li><time>{m["year"]}</time><span>{esc(m["label"])}</span></li>' for m in p['milestones'])
     sources=''.join(f'<li><a href="{esc(s["url"])}" target="_blank" rel="noopener noreferrer">{esc(s["title"])} <span aria-hidden="true">↗</span></a></li>' for s in p['sources'])
