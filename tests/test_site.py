@@ -1,15 +1,18 @@
-import json, os, re, shutil, subprocess, tempfile, unittest
+import importlib.util, json, os, re, shutil, subprocess, tempfile, unittest
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 ROOT=Path(__file__).resolve().parents[1]
 BASE='/trailblazers-website/'
+LINK_AUDIT_SPEC=importlib.util.spec_from_file_location('check_external_links',ROOT/'scripts/check_external_links.py')
+LINK_AUDIT=importlib.util.module_from_spec(LINK_AUDIT_SPEC);LINK_AUDIT_SPEC.loader.exec_module(LINK_AUDIT)
 class Document(HTMLParser):
     def __init__(self):
-        super().__init__();self.ids=set();self.links=[];self.tags=[];self.labels=[];self.inputs=[];self.anchor_depth=0;self.nested_anchors=0;self.images_without_alt=[];self.card_links=[]
+        super().__init__();self.ids=set();self.links=[];self.tags=[];self.labels=[];self.inputs=[];self.anchor_depth=0;self.nested_anchors=0;self.images_without_alt=[];self.card_links=[];self.category_jumps=[]
     def handle_starttag(self,tag,attrs):
         attrs=dict(attrs);self.tags.append(tag)
         if 'id' in attrs:self.ids.add(attrs['id'])
+        if attrs.get('data-category-jump'):self.category_jumps.append(attrs['data-category-jump'])
         if tag=='a':
             if self.anchor_depth:self.nested_anchors+=1
             self.anchor_depth+=1
@@ -66,6 +69,18 @@ class SiteTests(unittest.TestCase):
         self.assertTrue(doc.card_links)
         for link in doc.card_links:
             self.assertNotIn('aria-label',link,'card links must derive their name from visible text')
+    def test_category_discovery_covers_the_dataset(self):
+        doc=Document();doc.feed((ROOT/'dist/index.html').read_text())
+        categories={category for profile in self.profiles for category in profile['categories']}
+        self.assertEqual(set(doc.category_jumps),categories)
+        self.assertEqual(len(doc.category_jumps),len(categories))
+    def test_link_audit_distinguishes_dead_links_from_access_restrictions(self):
+        self.assertEqual(LINK_AUDIT.classify_status(200),'reachable')
+        self.assertEqual(LINK_AUDIT.classify_status(404),'broken')
+        self.assertEqual(LINK_AUDIT.classify_status(410),'broken')
+        self.assertEqual(LINK_AUDIT.classify_status(403),'restricted')
+        self.assertEqual(LINK_AUDIT.classify_status(429),'restricted')
+        self.assertEqual(LINK_AUDIT.classify_status(500),'unavailable')
     def test_accent_text_contrast_in_both_themes(self):
         css=(ROOT/'public/styles.css').read_text()
         light,dark=css.split(':root[data-theme=dark]',1)

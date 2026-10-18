@@ -6,3 +6,4 @@ __pycache__/
 .browser-preview/
 playwright-report/
 test-results/
+external-link-report.json

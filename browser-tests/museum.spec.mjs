@@ -21,6 +21,11 @@ test('homepage, collection, filters, timeline, and keyboard path', async ({ page
   await expect(page.locator('#empty-state')).toBeHidden();
   await expect(page.locator('#search')).toBeFocused();
   await expect(page.locator('#card-grid .person-card:visible')).toHaveCount(profileCount);
+  await page.locator('[data-category-jump="Medicine & Public Health"]').click();
+  await expect(page.locator('#category')).toHaveValue('Medicine & Public Health');
+  const medicineCount = JSON.parse(readFileSync('content/profiles.json', 'utf8')).filter(person => person.categories.includes('Medicine & Public Health')).length;
+  await expect(page.locator('#card-grid .person-card:visible')).toHaveCount(medicineCount);
+  await page.locator('#clear-filters').click();
 
   await page.locator('#timeline-range').evaluate(element => {
     element.value = '1900';
@@ -51,6 +56,18 @@ test('production profile route, portrait, source links, and accessibility', asyn
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth + 1);
   expect(overflow).toBe(false);
   await page.screenshot({ path: testInfo.outputPath(`profile-${testInfo.project.name}.png`), fullPage: true });
+  const audit = await new AxeBuilder({ page }).analyze();
+  expect(audit.violations).toEqual([]);
+});
+
+test('profile without a rights-cleared portrait uses an accessible typographic placeholder', async ({ page }, testInfo) => {
+  await page.goto('people/jane-c-wright/');
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText('Jane C. Wright');
+  const placeholder = page.locator('.profile-art[role="img"]');
+  await expect(placeholder).toBeVisible();
+  await expect(placeholder).toHaveAttribute('aria-label', 'Portrait not shown for Jane C. Wright');
+  await expect(page.locator('.profile-art img')).toHaveCount(0);
+  await page.screenshot({ path: testInfo.outputPath(`placeholder-profile-${testInfo.project.name}.png`), fullPage: true });
   const audit = await new AxeBuilder({ page }).analyze();
   expect(audit.violations).toEqual([]);
 });

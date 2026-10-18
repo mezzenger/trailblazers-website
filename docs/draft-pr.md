@@ -1,25 +1,24 @@
-# Draft pull request: Museum foundation and 100 verified profiles
+# Draft pull request: Trailblazers of History release preparation
 
 ## Summary
 
-Continues the review-only museum on `feature/museum-foundation`. Phase 3D promotes the final 20 researched biographies, completes the 100-profile milestone, and repairs biography-card accessible names by deriving them from visible content. The original Cocoa-escaped page and migration inventory remain in `legacy/`; existing IDs, content, interface behavior, and rights metadata are preserved.
+Prepares `feature/museum-foundation` for owner review. The collection contains 100 verified biographies with 211 citations. Phase 4 makes homepage category discovery derive from the full collection and adds accessible placeholder-profile browser coverage. Portraits without cleared files continue to use a typographic initials treatment. This branch does not enable Pages deployment or publication.
 
-## Content status
+## Content and rights
 
-- 100 verified publishable profiles with 211 source citations; every profile has at least two sources from independent domains.
-- No unpublished candidates remain in the current queue.
-- Sixteen portraits have file-specific creator, source, rights basis, and attribution metadata. Other profiles use typographic placeholders.
-- Conflicting source dates for Olympe de Gouges and Langston Hughes are documented; their uncertain date components are left blank.
+- 100 verified publishable profiles; no pending candidates.
+- 211 citations and 16 portraits with file-specific rights metadata.
+- The unresolved Olympe de Gouges execution day and Langston Hughes birth year remain qualified in the biographies and progress report.
+- Other profiles use typographic placeholders where reusable image rights or identity have not been confirmed.
 
-## Checks and browser review
+## Confirmed checks
 
-- `npm run validate` — pass; 100 profiles, 211 citations, zero errors.
-- `npm test` — pass; 8 tests, including card-link accessible-name regression and milestone boundary coverage.
-- `npm run build` — pass; generated all 100 profile routes using `/trailblazers-website/`.
-- `npm run milestone` — pass at 100; a 99-profile fixture still fails as required.
-- The confirmed biography-card label mismatch is fixed without altering axe rules.
-- The initial Actions report could not be retrieved from this environment, so other reported axe failures remain unknown. A feature-branch browser run must be inspected before approval; no screenshots or browser pass are claimed yet.
+- Phase 3D run [39104859860](https://github.com/mezzenger/trailblazers-website/actions/runs/39104859860) passed 9/9 Playwright cases at commit `09ad3dc1e46eff9de221fb37ffba7f50e5ccc8c5`; the test artifact is available from that run.
+- Phase 4 adds category coverage and placeholder-route checks. Final local gates and browser workflow are pending on the release-preparation commit.
+- Final local gates pass: `npm run validate`, `npm test` (10 tests), `npm run build`, and `npm run milestone`.
+- Local `npm run audit:links` attempted 243 unique URLs; all were unavailable because this sandbox cannot resolve external hosts. No link was labeled broken from that restricted run. The hosted workflow performs the meaningful link check and uploads its per-URL report.
+- The artifact screenshots could not be opened in this sandbox because DNS resolution for the signed download host failed. Owner visual review is required; no Lighthouse result is claimed.
 
 ## Review notes
 
-César Chávez's reported abuse allegations are presented as allegations, with broader organizing credit given to Dolores Huerta and Filipino farmworkers. The Stonewall biographies do not claim a verified first brick. Research disputes and source access limitations are in `docs/progress-report.md`. The branch does not enable Pages deployment or change publication settings. Do not merge or publish before owner review of the browser run and release candidate.
+The 100-profile content milestone is met. Browser automation tests search, combined filters, category navigation, timeline control, keyboard focus, GitHub Pages routing, responsive overflow, placeholder rendering, and axe on representative pages and themes. The 211 URLs have not all received a current live availability check; coverage and classifications are documented in `docs/progress-report.md`. César Chávez's reported allegations and the recorded historical date disputes remain carefully qualified. Do not merge or publish until the final browser run passes and the owner has reviewed the screenshot artifact and outstanding link/image issues.

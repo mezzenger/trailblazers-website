@@ -10,11 +10,14 @@ Requires Python 3.10+ and Node.js for the JavaScript behavior test. There are no
 npm run validate
 npm test
 npm run build
+npm run audit:links
 BASE_PATH=/ python3 scripts/build.py
 python3 -m http.server 8000 --directory dist
 ```
 
 The default build writes `dist/` with `/trailblazers-website/` URLs. Set `BASE_PATH=/` for a local root preview; restore the default build before packaging for GitHub Pages. `npm run milestone` deliberately fails until 100 unique publishable records pass validation.
+
+`npm run audit:links` checks all citation, portrait-asset, and portrait-rights URLs in a network-enabled environment. It writes an ignored `external-link-report.json`; access restrictions and network failures are reported separately from confirmed 404/410 links.
 
 ## Add a profile
 
@@ -22,7 +25,7 @@ Add one object to `content/profiles.json` using the fields described in [content
 
 ## Browser review
 
-The optional [browser-review workflow](.github/workflows/browser-review.yml) builds and serves the production project path without deploying it. A feature-branch push touching site files or a manual **Run workflow** starts Chromium checks at desktop, tablet, and mobile widths, runs axe accessibility checks, and uploads screenshots, traces, and an HTML report as an artifact. It requests read-only repository permission and no secrets. See [deployment and browser review instructions](docs/deployment.md) for local reproduction. The confirmed visible-name issue in biography cards is fixed and covered by a regression test. The supplied earlier Actions report could not be inspected from this environment, so browser results and screenshots remain pending a reachable run.
+The optional [browser-review workflow](.github/workflows/browser-review.yml) builds and serves the production project path without deploying it. A feature-branch push touching site files, tests, documentation, or the workflow starts Chromium checks at desktop, tablet, and mobile widths, runs axe accessibility checks, and uploads screenshots, traces, and an HTML report as an artifact. It requests read-only repository permission and no secrets. It uses Node 22 for compatibility with the current axe package. The category tiles are generated from the collection, and portrait placeholders use initials without synthetic imagery. See [deployment and browser review instructions](docs/deployment.md) for local reproduction. Run `39104859860` passed all 9 browser cases on commit `09ad3dc1e46eff9de221fb37ffba7f50e5ccc8c5`; its artifact is uploaded, but local DNS blocks opening the signed download for pixel-level review. A final browser run is required after release-preparation changes.
 
 ## Project state
 

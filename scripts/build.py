@@ -18,7 +18,7 @@ def initials(name): return ''.join(part[0] for part in name.replace('.', '').spl
 def art(p, klass=''):
     if p['image']:
         i=p['image']; return f'<figure class="portrait-frame {klass}"><img class="portrait" src="{esc(i["url"])}" alt="Portrait of {esc(p["name"])}" loading="lazy"><figcaption class="credit">{esc(i["creator"])} · {esc(i["license"])}</figcaption></figure>'
-    return f'<div class="portrait portrait--type {klass}" role="img" aria-label="Typographic portrait placeholder for {esc(p["name"])}"><span>{esc(initials(p["name"]))}</span><small>Portrait pending rights review</small></div>'
+    return f'<div class="portrait portrait--type {klass}" role="img" aria-label="Portrait not shown for {esc(p["name"])}"><span>{esc(initials(p["name"]))}</span><small>Portrait not shown</small></div>'
 def layout(title, body, description='Celebrating Women and People of Color Who Changed the World.'):
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><title>{esc(title)} · Trailblazers of History</title><meta name="description" content="{esc(description)}"><link rel="stylesheet" href="{url('styles.css')}"><script type="module" src="{url('app.js')}"></script></head><body><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="{base}" aria-label="Trailblazers of History home"><span class="brand-mark" aria-hidden="true">✦</span><span>TRAILBLAZERS <em>of</em> HISTORY</span></a><nav aria-label="Main navigation"><a href="{base}#collection">Collection</a><a href="{base}#timeline">Timeline</a><a href="{base}#about">About</a></nav><button class="theme-toggle" type="button" aria-label="Toggle color theme" title="Toggle color theme">◐</button></header><main id="main">{body}</main><footer><div><strong>Trailblazers of History</strong><p>Celebrating Women and People of Color Who Changed the World.</p></div><div><a href="{base}#collection">Explore the collection</a><p>Collection built {date.today().isoformat()} · Images shown only after rights review.</p></div></footer></body></html>'''
 def card(p):
@@ -27,8 +27,12 @@ featured=[p for p in profiles if p['featured']]
 lesser=[p for p in profiles if p['lesserKnown']]
 day=profiles[date.today().toordinal()%len(profiles)]
 card_html=''.join(card(p) for p in profiles)
-category_names=['Science & Innovation','Government & Politics','Arts, Literature & Media','Sports','Business & Innovation']
-category_tiles=''.join(f'<button class="category-tile" type="button" data-category-jump="{esc(c)}"><span>0{i+1}</span><strong>{esc(c)}</strong><span aria-hidden="true">↗</span></button>' for i,c in enumerate(category_names))
+category_counts={}
+for profile in profiles:
+    for category_name in profile['categories']:
+        category_counts[category_name]=category_counts.get(category_name,0)+1
+ordered_categories=sorted(category_counts.items(),key=lambda item:(-item[1],item[0]))
+category_tiles=''.join(f'<button class="category-tile" type="button" data-category-jump="{esc(c)}"><span>{i+1:02d} <b>·</b> {count:02d} biographies</span><strong>{esc(c)}</strong><span aria-hidden="true">↗</span></button>' for i,(c,count) in enumerate(ordered_categories))
 years=sorted([(m['year'],p['name'],m['label'],link_to(p)) for p in profiles for m in p['milestones']],key=lambda x:x[0])
 timeline=''.join(f'<li><a href="{u}"><time>{y}</time><span><strong>{esc(n)}</strong><small>{esc(label)}</small></span></a></li>' for y,n,label,u in years)
 options=lambda items: ''.join(f'<option value="{esc(x)}">{esc(x)}</option>' for x in sorted(items))

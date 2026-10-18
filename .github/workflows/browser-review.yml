@@ -8,9 +8,15 @@ on:
       - 'content/**'
       - 'public/**'
       - 'scripts/build.py'
+      - 'scripts/check_external_links.py'
       - 'scripts/serve_browser_preview.py'
+      - 'package.json'
+      - 'tests/**'
       - 'browser-tests/**'
       - 'playwright.config.mjs'
+      - '.gitignore'
+      - 'README.md'
+      - 'docs/**'
       - '.github/workflows/browser-review.yml'
 
 permissions:
@@ -24,12 +30,14 @@ jobs:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
-          node-version: '20'
+          node-version: '22'
       - name: Validate, test, and build production path
         run: |
           npm run validate
           npm test
           npm run build
+      - name: Audit external citations and portraits
+        run: npm run audit:links
       - name: Install browser review tools
         run: |
           npm install --no-save --package-lock=false --ignore-scripts @playwright/test@1.64.0 @axe-core/playwright@4.14.0
@@ -44,5 +52,6 @@ jobs:
           path: |
             test-results/
             playwright-report/
+            external-link-report.json
           if-no-files-found: warn
           retention-days: 14
