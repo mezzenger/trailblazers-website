@@ -13,12 +13,13 @@ Prepares `feature/museum-foundation` for owner review. The collection contains 1
 
 ## Confirmed checks
 
-- Phase 3D run [39104859860](https://github.com/mezzenger/trailblazers-website/actions/runs/39104859860) passed 9/9 Playwright cases at commit `09ad3dc1e46eff9de221fb37ffba7f50e5ccc8c5`; the test artifact is available from that run.
-- Phase 4 adds category coverage and placeholder-route checks. Final local gates and browser workflow are pending on the release-preparation commit.
+- Final Phase 4 run [39107535658](https://github.com/mezzenger/trailblazers-website/actions/runs/39107535658) passed all workflow steps on commit `0b9c664e94bcc4481000a7b6994a2623eadd7d94`; 12/12 Playwright checks passed across desktop, tablet, and mobile, including axe checks.
+- The browser artifact [12128832691](https://github.com/mezzenger/trailblazers-website/actions/runs/39107535658/artifacts/12128832691) contains screenshots, traces, the HTML report, and URL audit report.
 - Final local gates pass: `npm run validate`, `npm test` (10 tests), `npm run build`, and `npm run milestone`.
-- Local `npm run audit:links` attempted 243 unique URLs; all were unavailable because this sandbox cannot resolve external hosts. No link was labeled broken from that restricted run. The hosted workflow performs the meaningful link check and uploads its per-URL report.
-- The artifact screenshots could not be opened in this sandbox because DNS resolution for the signed download host failed. Owner visual review is required; no Lighthouse result is claimed.
+- Hosted URL audit covered 243 unique URLs: 201 reachable, 0 confirmed broken, 29 restricted, and 13 unavailable. No unresolved response was classified as broken without a confirming 404/410.
+- Local `npm run audit:links` attempted the same set but DNS restrictions made all 243 unavailable locally.
+- The artifact ZIP could not be rendered in this environment because DNS resolution for its signed download host failed. Owner visual review is required; no Lighthouse result is claimed.
 
 ## Review notes
 
-The 100-profile content milestone is met. Browser automation tests search, combined filters, category navigation, timeline control, keyboard focus, GitHub Pages routing, responsive overflow, placeholder rendering, and axe on representative pages and themes. The 211 URLs have not all received a current live availability check; coverage and classifications are documented in `docs/progress-report.md`. César Chávez's reported allegations and the recorded historical date disputes remain carefully qualified. Do not merge or publish until the final browser run passes and the owner has reviewed the screenshot artifact and outstanding link/image issues.
+The 100-profile content milestone is met. Browser automation tests search, combined filters, category navigation, timeline control, keyboard focus, GitHub Pages routing, responsive overflow, placeholder rendering, and axe on representative pages and themes. César Chávez's reported allegations and the recorded historical date disputes remain carefully qualified. GitHub denied draft PR creation to the connected integration (HTTP 403: resource not accessible); create the review draft manually at https://github.com/mezzenger/trailblazers-website/compare/main...feature/museum-foundation?expand=1. Do not merge or publish until the owner has reviewed the screenshot artifact and outstanding restricted/unavailable links.
