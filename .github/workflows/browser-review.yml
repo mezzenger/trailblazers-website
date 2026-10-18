@@ -1,0 +1,48 @@
+name: Browser review (no deployment)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [feature/museum-foundation]
+    paths:
+      - 'content/**'
+      - 'public/**'
+      - 'scripts/build.py'
+      - 'scripts/serve_browser_preview.py'
+      - 'browser-tests/**'
+      - 'playwright.config.mjs'
+      - '.github/workflows/browser-review.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '20'
+      - name: Validate, test, and build production path
+        run: |
+          npm run validate
+          npm test
+          npm run build
+      - name: Install browser review tools
+        run: |
+          npm install --no-save --package-lock=false --ignore-scripts @playwright/test@1.64.0 @axe-core/playwright@4.14.0
+          npx playwright install --with-deps chromium
+      - name: Desktop, tablet, mobile, and accessibility review
+        run: npx playwright test --config=playwright.config.mjs
+      - name: Upload screenshots, traces, and report
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: browser-review-${{ github.run_id }}
+          path: |
+            test-results/
+            playwright-report/
+          if-no-files-found: warn
+          retention-days: 14

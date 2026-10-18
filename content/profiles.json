@@ -2658,5 +2658,1296 @@
     "image": null,
     "verification": "verified",
     "reviewed": "2026-10-18"
+  },
+  {
+    "id": "mary-jackson",
+    "name": "Mary Jackson",
+    "born": "1921-04-09",
+    "died": "2005-02-11",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Science & Innovation",
+      "Exploration & Space"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "An aeronautical engineer who opened pathways through technical research and workplace advocacy.",
+    "biography": "Mary Winston Jackson grew up in Hampton, Virginia, and studied mathematics and physical science at Hampton Institute. She taught before joining the segregated West Area Computing section at the National Advisory Committee for Aeronautics in 1951. There she worked under Dorothy Vaughan, then moved into experimental work in a supersonic wind tunnel. Engineer Kazimierz Czarnecki encouraged her to seek formal engineering training. The required classes were offered at a white high school, so Jackson obtained permission to attend under the city's segregation rules. In 1958 she became NASA's first Black woman engineer, a claim specifically about that agency and position. Jackson authored and coauthored research reports on aircraft airflow, including boundary-layer behavior at high speeds. Later she saw that promotion barriers persisted for women at Langley. In 1979 she moved from engineering into the Federal Women's Program, accepting a lower grade to advocate for hiring and advancement. Her career connected scientific skill with changes in who could participate in technical work. Jackson also mentored local young people, making science visible beyond the laboratory. Her legacy is both the research she helped produce and the opportunities she pursued for colleagues who followed her.",
+    "achievements": [
+      "Became NASA’s first Black woman engineer in 1958",
+      "Published aeronautics research on supersonic airflow",
+      "Advocated for women’s advancement at NASA Langley"
+    ],
+    "milestones": [
+      {
+        "year": 1951,
+        "label": "Joined Langley’s West Area Computing section"
+      },
+      {
+        "year": 1958,
+        "label": "Promoted to engineer"
+      },
+      {
+        "year": 1979,
+        "label": "Entered the Federal Women’s Program"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Mary W. Jackson — NASA",
+        "url": "https://www.nasa.gov/people/mary-w-jackson-biography/"
+      },
+      {
+        "title": "Mary Jackson — Hampton University",
+        "url": "https://home.hamptonu.edu/about/2025/05/22/mary-jackson/"
+      }
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Mary_Jackson_1979_Portrait_%28LRC-1979-B701_P-07086%29.jpg",
+      "creator": "NASA Langley Research Center / Bob Nye",
+      "source": "https://commons.wikimedia.org/wiki/File:Mary_Jackson_1979_Portrait_(LRC-1979-B701_P-07086).jpg",
+      "license": "U.S. public domain — NASA government work",
+      "attribution": "NASA Langley Research Center / Bob Nye, 1979. NASA insignia restrictions and non-endorsement notice apply."
+    },
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "margaret-hamilton",
+    "name": "Margaret Hamilton",
+    "born": "1936",
+    "died": "2026-09-30",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Science & Innovation",
+      "Exploration & Space"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "Her team’s fault-tolerant Apollo software helped make lunar flight possible.",
+    "biography": "Margaret Hamilton trained in mathematics and entered computing when the profession had few established rules. After work on an air-defense project at MIT Lincoln Laboratory, she joined the Instrumentation Laboratory's effort to build onboard software for NASA's Apollo spacecraft. She came to lead the software engineering division. Her team wrote programs that had to work with limited memory while astronauts and hardware could produce unexpected conditions. Hamilton championed rigorous testing, error prevention, and priority-driven tasks. During Apollo 11's lunar descent in 1969, computer alarms signaled an overload; the software shed lower-priority work and kept the landing functions running. That result was a team achievement and depended on many engineers and mission controllers, not one line of code. Hamilton argued that software deserved the same engineering standing as hardware when the term was still treated skeptically. After Apollo she founded software companies and continued developing methods for reliable systems. NASA honored her with an Exceptional Space Act Award in 2003, and she received the Presidential Medal of Freedom in 2016. She died in September 2026. Her work helped make reliability and human error central design questions in complex computing.",
+    "achievements": [
+      "Led MIT’s Apollo onboard flight-software group",
+      "Advanced priority scheduling and fault-tolerant software",
+      "Received NASA’s Exceptional Space Act Award"
+    ],
+    "milestones": [
+      {
+        "year": 1965,
+        "label": "Joined the Apollo software effort at MIT"
+      },
+      {
+        "year": 1969,
+        "label": "Apollo 11 landing software handled overload alarms"
+      },
+      {
+        "year": 2003,
+        "label": "Received NASA’s Exceptional Space Act Award"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Margaret Hamilton — MIT News",
+        "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007"
+      },
+      {
+        "title": "Margaret Hamilton — NASA History",
+        "url": "https://history.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11Hamilton.html"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "annie-easley",
+    "name": "Annie Easley",
+    "born": null,
+    "died": "2011-06-25",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Science & Innovation",
+      "Exploration & Space"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A NASA programmer who adapted from hand calculation to software for rockets and energy systems.",
+    "biography": "Annie Easley began work in 1955 at the National Advisory Committee for Aeronautics laboratory in Cleveland, one of a small number of Black employees there. As a human computer she performed calculations for researchers, including work connected to a reactor facility. When electronic computers changed the job, she learned programming languages and wrote and tested code for projects ranging from energy conversion to the Centaur upper-stage rocket. Her career reminds us that early spaceflight depended on people who maintained and checked computational systems, as well as on visible launches. Easley also investigated battery and alternative-power technologies. She studied mathematics at Cleveland State University while working full time, completed a degree in the 1970s, and continued her NASA career until retirement in 1989. Facing racial and gender bias, she pursued technical work and later served as an equal employment opportunity counselor. Her outreach to students made a professional path in mathematics and engineering easier to imagine. Easley's story is about practical adaptation: she moved across generations of computing tools without losing sight of the people affected by how institutions hired, trained, and promoted staff.",
+    "achievements": [
+      "Programmed and tested code for NASA’s Centaur and energy research",
+      "Moved from human computation to electronic programming",
+      "Supported equal employment and STEM outreach"
+    ],
+    "milestones": [
+      {
+        "year": 1955,
+        "label": "Joined NACA’s Cleveland laboratory"
+      },
+      {
+        "year": 1989,
+        "label": "Retired from NASA"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Annie Easley — NASA",
+        "url": "https://www.nasa.gov/general/annie-easley/"
+      },
+      {
+        "title": "Five Facts about Annie Easley — U.S. Department of Energy",
+        "url": "https://www.energy.gov/articles/five-fast-facts-about-rocket-scientist-annie-easley"
+      }
+    ],
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Annie_Easley_in_NASA.jpg/960px-Annie_Easley_in_NASA.jpg",
+      "creator": "NASA Glenn Research Center; photographer not identified",
+      "source": "https://commons.wikimedia.org/wiki/File:Annie_Easley_in_NASA.jpg",
+      "license": "U.S. public domain — NASA government work",
+      "attribution": "NASA Glenn Research Center, 1981; photographer not identified. NASA insignia restrictions and non-endorsement notice apply."
+    },
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "gladys-west",
+    "name": "Gladys West",
+    "born": "1930-10-27",
+    "died": "2026-01-17",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Science & Innovation"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A Navy mathematician whose geodetic models became part of the foundations for accurate GPS.",
+    "biography": "Gladys Mae Brown West grew up in rural Virginia under segregation and won a scholarship that took her to Virginia State College. After teaching and graduate study in mathematics, she joined the U.S. Navy's laboratory at Dahlgren in 1956. Her early programming work included calculations of Pluto's motion relative to Neptune. She later became a leader in projects that interpreted satellite radar measurements of the oceans and Earth's shape. Accurate positioning requires a model of a planet that is not a perfect sphere; West's calculations accounted for variations that affect a geodetic reference surface. That work contributed to the precision on which global positioning systems depend. It was part of a large military and scientific enterprise, and calling West the sole inventor of GPS would erase collaborators and later developments. For decades, secrecy and the low visibility of mathematical labor limited public recognition of her role. She retired in 1998 and later completed a doctorate in public administration. In 2018 she was inducted into the Air Force Space and Missile Pioneers Hall of Fame. West died in 2026. Her career shows how careful data processing can become infrastructure used far beyond its original laboratory.",
+    "achievements": [
+      "Developed precise models of Earth from satellite data",
+      "Contributed mathematical groundwork used in GPS positioning",
+      "Entered the Air Force Space and Missile Pioneers Hall of Fame"
+    ],
+    "milestones": [
+      {
+        "year": 1956,
+        "label": "Joined the Navy laboratory at Dahlgren"
+      },
+      {
+        "year": 1978,
+        "label": "Managed satellite radar-altimetry work"
+      },
+      {
+        "year": 2018,
+        "label": "Inducted into the Space and Missile Pioneers Hall of Fame"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Gladys West — Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/innovation/gladys-west-gives-directions-180988807/"
+      },
+      {
+        "title": "Gladys West obituary — The Guardian",
+        "url": "https://www.theguardian.com/science/2026/feb/08/gladys-west-obituary"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "valentina-tereshkova",
+    "name": "Valentina Tereshkova",
+    "born": "1937-03-06",
+    "died": null,
+    "region": "Europe",
+    "place": "Soviet Union / Russia",
+    "era": "20th century",
+    "categories": [
+      "Exploration & Space",
+      "Government & Politics"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "Her 1963 Vostok 6 flight made her the first woman to travel into space.",
+    "biography": "Valentina Tereshkova grew up in the Soviet Union and worked in a textile factory before joining a parachuting club. When Soviet space planners sought women candidates, her parachuting experience helped her enter the cosmonaut corps in 1962. She trained with four other women and was selected to fly Vostok 6. Launched on 16 June 1963, she became the first woman in space, orbiting Earth for almost three days while Vostok 5 flew separately. The mission extended the Soviet program's public claim to leadership in human spaceflight and provided experience with a woman aboard an orbital spacecraft. Tereshkova's achievement was singular, but the selection system was shaped by Cold War politics and did not lead immediately to routine opportunities for women in space. After the flight she studied engineering, represented the Soviet Union internationally, and pursued a long public career. Her biography belongs both to the history of exploration and to the politics of state-sponsored space programs. The verified first here is a woman in space, not a woman on a spacewalk or aboard a space station; those milestones came later and involved other people.",
+    "achievements": [
+      "Became the first woman in space aboard Vostok 6",
+      "Completed an orbital mission in June 1963",
+      "Pursued engineering study and public service after flight"
+    ],
+    "milestones": [
+      {
+        "year": 1962,
+        "label": "Selected for the Soviet cosmonaut corps"
+      },
+      {
+        "year": 1963,
+        "label": "Flew aboard Vostok 6"
+      }
+    ],
+    "sources": [
+      {
+        "title": "First woman in space: Valentina — ESA",
+        "url": "https://www.esa.int/About_Us/50_years_of_ESA/50_years_of_humans_in_space/First_woman_in_space_Valentina"
+      },
+      {
+        "title": "Biografía de Valentina Tereshkova — MNCN/CSIC",
+        "url": "https://www.mncn.csic.es/es/visita-el-mncn/biografia-de-valentina-tereshkova"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "sally-ride",
+    "name": "Sally Ride",
+    "born": "1951-05-26",
+    "died": "2012-07-23",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Exploration & Space",
+      "Science & Innovation",
+      "Education"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "The first American woman in space later built programs to widen access to science learning.",
+    "biography": "Sally Ride studied physics at Stanford University and joined NASA's 1978 astronaut class, the first class in which the agency selected women. She worked as a capsule communicator and trained with the shuttle's robotic arm before flying on Challenger's STS-7 mission in June 1983. That flight made her the first American woman in space; two Soviet women had already flown, so the national scope matters. Ride helped operate the robotic arm as the crew launched and retrieved satellites. She returned to space on STS-41G in 1984 and later served on investigations into the Challenger and Columbia disasters. After leaving NASA, she taught physics at the University of California, San Diego. With her longtime partner Tam O'Shaughnessy and colleagues, Ride founded Sally Ride Science in 2001 to create books and programs that encouraged young people, especially girls, to pursue science. She kept much of her private life outside public attention while her work became widely known. Her significance reaches beyond a landmark flight: she used the visibility of space travel to argue that scientific opportunity depends on education, role models, and institutions willing to include new participants.",
+    "achievements": [
+      "First American woman in space on STS-7",
+      "Flew on two shuttle missions and used the robotic arm",
+      "Co-founded Sally Ride Science"
+    ],
+    "milestones": [
+      {
+        "year": 1978,
+        "label": "Joined NASA’s astronaut class"
+      },
+      {
+        "year": 1983,
+        "label": "Flew on STS-7"
+      },
+      {
+        "year": 2001,
+        "label": "Co-founded Sally Ride Science"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sally Ride — NASA",
+        "url": "https://www.nasa.gov/former-astronaut-sally-ride/"
+      },
+      {
+        "title": "Dr. Sally Ride — UC San Diego",
+        "url": "https://extendedstudies.ucsd.edu/sally-ride-science/about/dr-sally-ride"
+      }
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Sally_Ride_1979.jpg",
+      "creator": "NASA Glenn Research Center",
+      "source": "https://commons.wikimedia.org/wiki/File:Sally_Ride_1979.jpg",
+      "license": "U.S. public domain — NASA government work",
+      "attribution": "NASA Glenn Research Center, 1979. NASA insignia restrictions and non-endorsement notice apply."
+    },
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "chiaki-mukai",
+    "name": "Chiaki Mukai",
+    "born": "1952",
+    "died": null,
+    "region": "Asia",
+    "place": "Japan",
+    "era": "20th century",
+    "categories": [
+      "Exploration & Space",
+      "Medicine & Public Health"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A physician-astronaut who brought medical research to two shuttle missions.",
+    "biography": "Chiaki Mukai trained as a physician at Keio University and worked in surgery before Japan's space agency selected her as a payload-specialist candidate in 1985. Her medical background became valuable as space agencies studied how weightlessness affects human bodies. She supported shuttle science on the ground, then flew aboard Columbia on STS-65 in July 1994. That mission made her the first Japanese woman in space. Its International Microgravity Laboratory carried investigations in life science and materials research. Mukai returned on Discovery's STS-95 mission in 1998, again conducting experiments that linked orbital flight to medicine and physiology. NASA and JAXA records describe these flights as collaborative, with multinational crews and research teams. Mukai later took roles in space biomedical research and education, showing how a clinical career could develop into a scientific space career. Her story also illustrates why flight milestones need a precise scope: the first Japanese woman to fly in space is a different claim from the first woman in space, achieved decades earlier by Valentina Tereshkova. The research she helped conduct depended on ground teams and laboratory specialists as much as the people in orbit.",
+    "achievements": [
+      "First Japanese woman in space on STS-65",
+      "Conducted life-science work on two shuttle missions",
+      "Led later space biomedical research programs"
+    ],
+    "milestones": [
+      {
+        "year": 1985,
+        "label": "Selected as a Japanese payload-specialist candidate"
+      },
+      {
+        "year": 1994,
+        "label": "Flew on STS-65"
+      },
+      {
+        "year": 1998,
+        "label": "Flew on STS-95"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Chiaki Mukai — JAXA",
+        "url": "https://humans-in-space.jaxa.jp/en/astronaut/mukai-chiaki/"
+      },
+      {
+        "title": "Human Space Flight record — NASA History",
+        "url": "https://www.nasa.gov/history/SP-4225/documentation/hsf-record/hsf.htm"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "marie-curie",
+    "name": "Marie Curie",
+    "born": "1867",
+    "died": "1934-07-04",
+    "region": "Europe",
+    "place": "Poland / France",
+    "era": "19th–20th century",
+    "categories": [
+      "Science & Innovation",
+      "Medicine & Public Health"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "Her radioactivity research changed the study of matter and helped open new medical uses of radiation.",
+    "biography": "Born Maria Skłodowska in Warsaw, Marie Curie pursued advanced study in Paris when Polish opportunities for women were limited. Working with Pierre Curie, she investigated the radiation first observed by Henri Becquerel. Her measurements showed that radioactivity was linked to atoms rather than only to a chemical compound. In 1898 the Curies reported polonium and radium, then undertook difficult separations to understand these new elements. Curie shared the 1903 Nobel Prize in Physics with Pierre and Becquerel, and received the 1911 Chemistry Prize for further work on radium and polonium. She was the first person to receive two Nobel Prizes, a claim supported by the scientific institutions documenting her record. After Pierre's death she continued teaching and research, leading a laboratory at a time when women rarely held such posts. During the First World War she helped organize mobile X-ray services for medical care. Early researchers knew much less about radiation hazards than later generations, and her work's medical possibilities coexisted with serious risks. Curie's significance lies in experimental methods that reshaped physics and chemistry and in institutions that trained future researchers.",
+    "achievements": [
+      "Investigated radioactivity and the elements polonium and radium",
+      "Shared the 1903 Physics Nobel and received the 1911 Chemistry Nobel",
+      "Organized mobile X-ray services during World War I"
+    ],
+    "milestones": [
+      {
+        "year": 1898,
+        "label": "Reported polonium and radium with Pierre Curie"
+      },
+      {
+        "year": 1903,
+        "label": "Shared the Nobel Prize in Physics"
+      },
+      {
+        "year": 1911,
+        "label": "Received the Nobel Prize in Chemistry"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Marie Curie — Science History Institute",
+        "url": "https://www.sciencehistory.org/education/scientific-biographies/marie-sklodowska-curie/"
+      },
+      {
+        "title": "Marie Curie and the Science of Radioactivity — AIP",
+        "url": "https://history.aip.org/exhibits/curie/contents_text.htm"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "sofia-kovalevskaya",
+    "name": "Sofia Kovalevskaya",
+    "born": "1850",
+    "died": "1891",
+    "region": "Europe",
+    "place": "Russia / Sweden",
+    "era": "19th century",
+    "categories": [
+      "Science & Innovation",
+      "Education"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A mathematician whose work on differential equations and rotating bodies earned rare academic recognition.",
+    "biography": "Sofia Kovalevskaya sought mathematical education in nineteenth-century Russia, where universities barred women. A marriage that enabled her to travel took her to Germany, but formal enrollment there was also restricted. She studied privately with Karl Weierstrass and completed research in several areas, including partial differential equations, to earn a doctorate from the University of Göttingen in 1874. Her work helped clarify conditions under which certain differential equations have solutions. After years without a stable research post, she began teaching in Stockholm. She later gained a professorship and a leading place in European mathematics. In 1888 her study of the motion of a rotating rigid body received the French Academy of Sciences' Prix Bordin. This result, often called the Kovalevskaya top, added an important solvable case to mechanics. She was also a writer and a participant in intellectual debates, not simply an exceptional woman admitted to a male profession. Accounts differ in how broadly they describe her academic 'firsts,' so this profile centers the documented posts and prize rather than an absolute global ranking. Her career reveals how access to training and employment shapes who gets to contribute to mathematics.",
+    "achievements": [
+      "Advanced research on partial differential equations",
+      "Won the French Academy’s Prix Bordin for rotating-body research",
+      "Held a mathematics professorship in Stockholm"
+    ],
+    "milestones": [
+      {
+        "year": 1874,
+        "label": "Received a doctorate from Göttingen"
+      },
+      {
+        "year": 1884,
+        "label": "Began teaching mathematics in Stockholm"
+      },
+      {
+        "year": 1888,
+        "label": "Received the Prix Bordin"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sofia Kovalevskaya — MacTutor, University of St Andrews",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kovalevskaya/"
+      },
+      {
+        "title": "Five Historic Female Mathematicians — Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/science-nature/five-historic-female-mathematicians-you-should-know-100731927/?page=5"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "rosalind-franklin",
+    "name": "Rosalind Franklin",
+    "born": "1920",
+    "died": "1958",
+    "region": "Europe",
+    "place": "United Kingdom",
+    "era": "20th century",
+    "categories": [
+      "Science & Innovation"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "Her X-ray diffraction work provided crucial evidence about DNA and advanced the study of viruses.",
+    "biography": "Rosalind Franklin trained as a physical chemist at Cambridge and developed expertise in X-ray crystallography while working in Paris. At King's College London, beginning in 1951, she applied that skill to DNA fibers. Working with her student Raymond Gosling, she produced exceptionally clear diffraction images, including the image later called Photograph 51, and distinguished different structural forms of DNA. Those measurements helped establish constraints for a molecular model. James Watson and Francis Crick used information from the King's research while developing their double-helix model in 1953; the precise history of how information was shared matters more than a simplified story of one discoverer or one stolen photograph. Franklin moved to Birkbeck College, where she led research on the structure of tobacco mosaic virus and later polio virus. Her group produced important structural results even as she was ill with cancer. She died at 37. Franklin's contribution shows how a major discovery can depend on exacting experimental work, interpretation, and collaborative laboratories. Her later virus research also deserves attention in its own right, rather than being treated only as a footnote to DNA history.",
+    "achievements": [
+      "Produced precise DNA X-ray diffraction data with Raymond Gosling",
+      "Distinguished structural forms of DNA",
+      "Led structural studies of plant and animal viruses"
+    ],
+    "milestones": [
+      {
+        "year": 1951,
+        "label": "Joined King's College London"
+      },
+      {
+        "year": 1953,
+        "label": "Published DNA diffraction research"
+      },
+      {
+        "year": 1953,
+        "label": "Moved to Birkbeck College"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Rosalind Franklin — King’s College London",
+        "url": "https://www.kcl.ac.uk/people/rosalind-franklin"
+      },
+      {
+        "title": "Crick, Franklin, Watson and Wilkins — Science History Institute",
+        "url": "https://www.sciencehistory.org/education/scientific-biographies/francis-crick-rosalind-franklin-james-watson-and-maurice-wilkins/"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "nettie-stevens",
+    "name": "Nettie Stevens",
+    "born": "1861-07-07",
+    "died": "1912-05-04",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Science & Innovation"
+    ],
+    "featured": false,
+    "lesserKnown": true,
+    "summary": "A geneticist whose careful insect studies helped establish the role of sex chromosomes.",
+    "biography": "Nettie Maria Stevens came to scientific research after years of teaching, an unusual route into a laboratory career at the turn of the twentieth century. She studied at Stanford and Bryn Mawr, earning a doctorate in 1903. Her microscope studies of insect cells addressed a disputed question: what determines whether an offspring develops as male or female? In mealworms she observed that sperm cells carried one of two chromosome types, while eggs carried the same type. Her 1905 paper connected those differences to the sex of offspring. Edmund Beecher Wilson pursued related research independently; credit should reflect both scientists and the specific organisms they studied. Stevens continued investigating chromosomes in insects and used disciplined observation to challenge older theories that environmental conditions alone determined sex. She died in 1912, only a few years after this major work. The significance of her research lies in showing how inherited cellular structures can influence development. It also illustrates how much careful experimental work could be done by a researcher whose institutional positions were less secure than those of many male contemporaries. The mechanism she studied does not describe every species, but it became foundational evidence for genetics.",
+    "achievements": [
+      "Identified distinct sex chromosomes in mealworm sperm",
+      "Published Studies in Spermatogenesis in 1905",
+      "Advanced experimental chromosome research"
+    ],
+    "milestones": [
+      {
+        "year": 1903,
+        "label": "Earned a doctorate at Bryn Mawr"
+      },
+      {
+        "year": 1905,
+        "label": "Published her mealworm chromosome findings"
+      },
+      {
+        "year": 1912,
+        "label": "Died while still active in research"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nettie Stevens — National Women’s History Museum",
+        "url": "https://www.womenshistory.org/education-resources/biographies/nettie-stevens"
+      },
+      {
+        "title": "Nettie Maria Stevens — Arizona State Embryo Project",
+        "url": "https://embryo.asu.edu/pages/nettie-maria-stevens-1861-1912"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "rita-levi-montalcini",
+    "name": "Rita Levi-Montalcini",
+    "born": "1909-04-22",
+    "died": "2012",
+    "region": "Europe",
+    "place": "Italy",
+    "era": "20th century",
+    "categories": [
+      "Science & Innovation",
+      "Medicine & Public Health"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A neurobiologist whose work on nerve growth factor transformed understanding of cell development.",
+    "biography": "Rita Levi-Montalcini studied medicine in Turin and began investigating how nerve cells grow. Fascist racial laws barred Jewish scholars from academic posts in Italy, but she continued experiments in a makeshift home laboratory during the Second World War. After the war she accepted a research position at Washington University in St. Louis. Using chick embryos and tumor tissue, she investigated a substance that encouraged nerve growth. Stanley Cohen's biochemical work helped identify and characterize the factor, and their linked discoveries established nerve growth factor as a significant biological signal. The two shared the 1986 Nobel Prize in Physiology or Medicine. Levi-Montalcini held posts in Italy and the United States and later supported science education and research institutions. Her career demonstrates how a basic question about embryonic development opened a wider field of research on chemical signals that guide cells. It also records the costs of political exclusion: her early work survived through personal persistence and informal research space when official institutions closed their doors. She continued public and scientific work well into old age, making her long career part of the history of modern neuroscience.",
+    "achievements": [
+      "Discovered nerve growth factor through embryological research",
+      "Shared the 1986 Nobel Prize with Stanley Cohen",
+      "Built neuroscience links between Italian and U.S. research"
+    ],
+    "milestones": [
+      {
+        "year": 1940,
+        "label": "Continued research after exclusion under fascist racial laws"
+      },
+      {
+        "year": 1947,
+        "label": "Began work at Washington University"
+      },
+      {
+        "year": 1986,
+        "label": "Shared the Nobel Prize in Physiology or Medicine"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Rita Levi-Montalcini — Washington University Neuroscience",
+        "url": "https://neuroscience.wustl.edu/items/rita-levi-montalcini/"
+      },
+      {
+        "title": "Rita Levi-Montalcini and NGF — NIH PubMed Central",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3589620/"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "virginia-apgar",
+    "name": "Virginia Apgar",
+    "born": "1909",
+    "died": "1974",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Medicine & Public Health",
+      "Science & Innovation"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "An anesthesiologist who created a rapid, practical assessment for newborn care.",
+    "biography": "Virginia Apgar trained as a surgeon before turning to anesthesiology, a field then seeking a stronger professional and scientific footing. At Columbia University she built a program in obstetric anesthesia and became a full professor in 1949. She saw that newborn babies needed a consistent, immediate assessment after birth so clinicians could respond quickly and compare outcomes. In 1952 she proposed a five-part score based on appearance, pulse, reflex response, muscle tone, and breathing. The Apgar score did not replace clinical judgment, but gave delivery teams a shared language at one and five minutes after birth. It also helped researchers examine how anesthesia and obstetric practice affected infants. Later Apgar worked with the March of Dimes on birth defects and public education, broadening her influence beyond the operating room. The score remains a familiar tool because it is simple, repeatable, and focused on the newborn's condition at a critical moment. Apgar's achievement was a practical clinical method grounded in observation. It made the first minutes of life more visible in medical records and encouraged more systematic care for mothers and babies.",
+    "achievements": [
+      "Created the Apgar newborn assessment score",
+      "Established obstetric anesthesia research at Columbia",
+      "Led birth-defects education through the March of Dimes"
+    ],
+    "milestones": [
+      {
+        "year": 1949,
+        "label": "Became a full professor at Columbia"
+      },
+      {
+        "year": 1952,
+        "label": "Introduced the newborn assessment score"
+      },
+      {
+        "year": 1959,
+        "label": "Joined the March of Dimes"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Virginia Apgar — National Library of Medicine",
+        "url": "https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_virginia_apgar.html"
+      },
+      {
+        "title": "Virginia Apgar — Columbia University",
+        "url": "https://www.vagelos.columbia.edu/departments-centers/faculty-initiatives/virginia-apgar-academy/virginia-apgar"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "florence-nightingale",
+    "name": "Florence Nightingale",
+    "born": "1820",
+    "died": "1910",
+    "region": "Europe",
+    "place": "United Kingdom",
+    "era": "19th century",
+    "categories": [
+      "Medicine & Public Health"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "Her nursing leadership and use of statistics changed hospital practice and public health debate.",
+    "biography": "Florence Nightingale defied expectations of her wealthy British family to train for nursing and hospital management. During the Crimean War, she led a group of nurses sent to the military hospital at Scutari in 1854. The wards faced crowding, poor supplies, and serious sanitation problems. Nightingale organized care and supplies, while later sanitary improvements involved military authorities and other workers as well. After the war she used hospital records and visual statistics to argue for reform in army health. Her advocacy helped make preventable illness a matter of public policy rather than an unavoidable part of military life. In 1860 she established a nursing training school at St Thomas' Hospital in London. Graduates carried its methods into other institutions, strengthening nursing as a profession with instruction and standards. Nightingale also wrote extensively about hospital design, nursing, and health administration. Her legacy is broader than the familiar image of a lamp in a ward: it joins direct care, institution building, and evidence-based argument. Accounts of mortality in the Crimean hospitals require attention to conditions and reforms beyond the actions of any single person.",
+    "achievements": [
+      "Led nursing work at Scutari during the Crimean War",
+      "Used statistics to press for military health reform",
+      "Founded a nursing training school at St Thomas’ Hospital"
+    ],
+    "milestones": [
+      {
+        "year": 1854,
+        "label": "Arrived at Scutari with a nursing team"
+      },
+      {
+        "year": 1858,
+        "label": "Presented statistical arguments for army health reform"
+      },
+      {
+        "year": 1860,
+        "label": "Opened her nursing training school"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Florence Nightingale — National Army Museum",
+        "url": "https://www.nam.ac.uk/explore/florence-nightingale-lady-lamp"
+      },
+      {
+        "title": "About Florence Nightingale — Florence Nightingale Museum",
+        "url": "https://www.florence-nightingale.co.uk/about-florence-nightingale/"
+      }
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Florence_Nightingale_%28H_Hering_NPG_x82368%29.jpg",
+      "creator": "Henry Hering",
+      "source": "https://commons.wikimedia.org/wiki/File:Florence_Nightingale_(H_Hering_NPG_x82368).jpg",
+      "license": "Public domain — photographer died 1893; U.S. pre-1931 publication",
+      "attribution": "Henry Hering, Florence Nightingale, c. 1860. National Portrait Gallery, London, NPG x82368."
+    },
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "clara-barton",
+    "name": "Clara Barton",
+    "born": "1821-12-25",
+    "died": "1912-04-12",
+    "region": "North America",
+    "place": "United States",
+    "era": "19th century",
+    "categories": [
+      "Medicine & Public Health",
+      "Civil Rights & Justice"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A Civil War relief organizer who founded the American Red Cross.",
+    "biography": "Clara Barton worked as a teacher and federal patent clerk before the U.S. Civil War changed the course of her life. She collected supplies for soldiers and brought aid close to battlefields, often confronting military barriers to civilian relief work. After the war she helped families search for missing soldiers and identified graves, extending her work from emergency assistance to public record and remembrance. A visit to Europe introduced her to the international Red Cross movement and its neutral relief principles. Barton campaigned for an American organization and founded the American Red Cross in 1881, becoming its first president. She promoted disaster relief in peacetime as well as aid in war, an adaptation that shaped the organization in the United States. Her leadership could be contentious, and the Red Cross later changed its governance, but the institution she established outlasted her presidency. Barton's importance lies in organizing volunteers, supplies, and public support into a durable response to crisis. She also demonstrated that women could lead nationally visible relief work at a time when formal political power remained closed to them. Her career connected personal courage with the less visible systems needed to deliver help reliably.",
+    "achievements": [
+      "Delivered medical supplies during the U.S. Civil War",
+      "Helped locate missing soldiers after the war",
+      "Founded the American Red Cross in 1881"
+    ],
+    "milestones": [
+      {
+        "year": 1861,
+        "label": "Began organizing Civil War supplies"
+      },
+      {
+        "year": 1865,
+        "label": "Opened a missing-soldiers office"
+      },
+      {
+        "year": 1881,
+        "label": "Founded the American Red Cross"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Clara Barton — National Park Service",
+        "url": "https://home.nps.gov/people/clara-barton.htm"
+      },
+      {
+        "title": "Clara Barton — American Red Cross",
+        "url": "https://www.redcross.org/about-us/who-we-are/history/clara-barton.html"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "sojourner-truth",
+    "name": "Sojourner Truth",
+    "born": null,
+    "died": "1883-11-26",
+    "region": "North America",
+    "place": "United States",
+    "era": "19th century",
+    "categories": [
+      "Civil Rights & Justice"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "An abolitionist and women’s rights advocate who used speech and legal action to challenge slavery.",
+    "biography": "Born Isabella Baumfree into slavery in New York around 1797, Sojourner Truth endured sales and family separations before leaving her enslaver with an infant daughter in 1826. New York completed gradual emancipation the following year. When her son Peter was illegally sold away, she pursued his return through the courts and won. In 1843 she adopted the name Sojourner Truth and traveled as a religious speaker. Her abolitionist and women's rights advocacy linked freedom, work, and the dignity of Black women. She spoke at a women's rights convention in Akron, Ohio, in 1851, but later versions of that address differ substantially from a contemporaneous report. The famous refrain often attached to the speech comes from a later retelling and should not be treated as a verified transcript of her exact words. During the Civil War she helped recruit Black soldiers and later worked with formerly enslaved people. Truth's force as a public figure came from her testimony, organizing, and insistence that rights were inseparable across movements. Her life also illustrates why historians compare surviving accounts carefully: a celebrated quotation can obscure the real speaker when later editors reshape her voice.",
+    "achievements": [
+      "Won a legal case to recover her son Peter",
+      "Spoke for abolition and women’s rights",
+      "Supported Black soldiers and freedpeople during the Civil War"
+    ],
+    "milestones": [
+      {
+        "year": 1826,
+        "label": "Left enslavement with her daughter"
+      },
+      {
+        "year": 1843,
+        "label": "Adopted the name Sojourner Truth"
+      },
+      {
+        "year": 1851,
+        "label": "Spoke at the Akron women’s rights convention"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sojourner Truth — National Park Service",
+        "url": "https://home.nps.gov/people/sojourner-truth.htm"
+      },
+      {
+        "title": "Sojourner Truth — National Women’s History Museum",
+        "url": "https://www.womenshistory.org/exhibits/sojourner-truth"
+      }
+    ],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Sojourner_Truth_01.jpg",
+      "creator": "Photographer unidentified",
+      "source": "https://commons.wikimedia.org/wiki/File:Sojourner_Truth_01.jpg",
+      "license": "U.S. public domain — published before 1931",
+      "attribution": "Sojourner Truth carte de visite, c. 1864; photographer unidentified. Library of Congress Prints and Photographs Division, ppmsca.08978."
+    },
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "fannie-lou-hamer",
+    "name": "Fannie Lou Hamer",
+    "born": "1917-10-06",
+    "died": "1977",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Civil Rights & Justice",
+      "Government & Politics"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A voting rights organizer who made exclusion from U.S. democracy impossible to ignore.",
+    "biography": "Fannie Lou Hamer grew up in Mississippi and worked for years as a sharecropper. In 1962 she joined an effort to register Black voters, facing a literacy test and retaliation that cost her work and home. She became a field secretary for the Student Nonviolent Coordinating Committee and helped other people navigate registration barriers. In 1963 she was jailed and severely beaten after a bus stop in Winona, Mississippi; the injuries stayed with her. Hamer helped organize the Mississippi Freedom Democratic Party, which challenged the state's all-white Democratic delegation at the 1964 national convention. Her televised testimony described the danger faced by citizens seeking a vote. The convention did not give the challengers the full recognition they sought, yet the campaign exposed how party rules protected exclusion and pressed national leaders toward change. Hamer later worked on community and economic projects as well as electoral politics. Her legacy rests in collective organizing: she gave compelling public testimony, but she also recruited neighbors and built structures for participation. Her life shows why formal voting rights mattered only when people could exercise them without intimidation, violence, or loss of livelihood.",
+    "achievements": [
+      "Organized voter registration with SNCC",
+      "Helped found the Mississippi Freedom Democratic Party",
+      "Testified before the 1964 Democratic convention credentials committee"
+    ],
+    "milestones": [
+      {
+        "year": 1962,
+        "label": "Attempted to register to vote in Mississippi"
+      },
+      {
+        "year": 1963,
+        "label": "Joined SNCC as a field secretary"
+      },
+      {
+        "year": 1964,
+        "label": "Testified at the Democratic national convention"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Women in the African American Civil Rights Movement — National Park Service",
+        "url": "https://home.nps.gov/articles/women-in-the-african-american-civil-rights-movement-an-historic-context.htm"
+      },
+      {
+        "title": "Fannie Lou Hamer — Library of Congress",
+        "url": "https://blogs.loc.gov/law/2021/02/stunned-by-her-thunder-fannie-lou-hamer/?loclr=bloglaw"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "pauli-murray",
+    "name": "Pauli Murray",
+    "born": "1910",
+    "died": "1985",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Civil Rights & Justice",
+      "Education"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A legal thinker whose ideas joined racial and sex equality before courts fully recognized either.",
+    "biography": "Pauli Murray grew up in North Carolina and became a lawyer, writer, teacher, and Episcopal priest. In the 1940s Murray challenged segregation in travel and education, then studied law at Howard University. There they encountered both racial discrimination and the sexism they called 'Jane Crow.' Murray's book on state race laws supplied civil rights lawyers with a detailed reference, while later writing argued that constitutional equality should also protect women. Their legal work influenced arguments that eventually reached the Supreme Court. Murray earned a doctorate in juridical science at Yale in 1965, becoming the first Black person to receive that degree there. They helped found the National Organization for Women and later pursued a ministry, becoming the Episcopal Church's first Black woman priest in 1977. Historians and institutions use different language for Murray's gender, and Murray's own life resists a single retrospective label; the museum follows Yale Law's they/them usage here. Murray's significance lies in connecting legal ideas that institutions often kept separate. Their writing and activism gave later advocates tools to challenge overlapping forms of exclusion, while their varied career shows how intellectual and spiritual work can reinforce public action.",
+    "achievements": [
+      "Developed legal arguments linking racial and sex equality",
+      "Earned Yale’s JSD in 1965",
+      "Helped found NOW and entered Episcopal priesthood"
+    ],
+    "milestones": [
+      {
+        "year": 1940,
+        "label": "Challenged segregation in interstate travel"
+      },
+      {
+        "year": 1965,
+        "label": "Earned a Yale doctorate in juridical science"
+      },
+      {
+        "year": 1977,
+        "label": "Ordained an Episcopal priest"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Pauli Murray — Yale Law School",
+        "url": "https://law.yale.edu/yls-today/news/historical-profile-rev-dr-pauli-murray-65-jsd"
+      },
+      {
+        "title": "Pauli Murray — National Women’s History Museum",
+        "url": "https://www.womenshistory.org/education-resources/biographies/pauli-murray"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "bayard-rustin",
+    "name": "Bayard Rustin",
+    "born": "1912-03-17",
+    "died": "1987-08-24",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Civil Rights & Justice"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A strategist of nonviolent civil rights action and organizer of the 1963 March on Washington.",
+    "biography": "Bayard Rustin learned organizing through pacifist, labor, and civil rights movements. He helped plan the 1947 Journey of Reconciliation, an early challenge to segregation in interstate bus travel, and taught methods of nonviolent protest. Rustin advised Martin Luther King Jr. during the Montgomery bus boycott and helped translate principles of nonviolence into practical training, logistics, and coalition work. His best-known assignment was coordinating the 1963 March on Washington for Jobs and Freedom. Hundreds of thousands attended, but that achievement required months of scheduling, transportation, staffing, and negotiation among groups with different priorities. Rustin's openness about being gay exposed him to attacks from opponents and discomfort among some allies; he was at times pushed out of public view despite his central work. He continued to advocate labor rights, economic justice, and human rights internationally. His story broadens the history of civil rights beyond a few speeches and leaders. It shows how a movement depends on skilled organizers who build coalitions and keep events safe and effective, even when prejudice denies them the recognition given to more visible figures.",
+    "achievements": [
+      "Helped organize the 1947 Journey of Reconciliation",
+      "Advised nonviolent civil rights campaigns",
+      "Directed the 1963 March on Washington"
+    ],
+    "milestones": [
+      {
+        "year": 1947,
+        "label": "Helped organize the Journey of Reconciliation"
+      },
+      {
+        "year": 1956,
+        "label": "Advised the Montgomery bus boycott"
+      },
+      {
+        "year": 1963,
+        "label": "Organized the March on Washington"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bayard Rustin — National Park Service",
+        "url": "https://www.nps.gov/people/bayard-rustin.htm"
+      },
+      {
+        "title": "Bayard Rustin — Stanford King Institute",
+        "url": "https://kinginstitute.stanford.edu/rustin-bayard"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "john-lewis",
+    "name": "John Lewis",
+    "born": "1940",
+    "died": "2020",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Civil Rights & Justice",
+      "Government & Politics"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A civil rights organizer who carried the struggle for voting rights into a long congressional career.",
+    "biography": "John Lewis grew up in rural Alabama and encountered segregation as a student. Inspired by nonviolent activism, he joined sit-ins, Freedom Rides, and voter registration campaigns, enduring arrests and attacks. As chair of the Student Nonviolent Coordinating Committee, he represented younger activists at the 1963 March on Washington. In March 1965 he and Hosea Williams led marchers across the Edmund Pettus Bridge in Selma. State troopers assaulted the peaceful crowd on the day later called Bloody Sunday. Images of the violence helped intensify support for federal voting rights legislation, although the legislation resulted from a much wider movement. Lewis continued organizing after SNCC and later entered elected office. He represented a Georgia district in the U.S. House of Representatives from 1987 until his death in 2020, using that position to defend voting access and civil rights. His life connects street protest and lawmaking without suggesting that either alone completed the work. Lewis's leadership was sustained by networks of local activists, especially in Alabama, whose labor and risks made national action possible. Remembering those partnerships gives his public courage its fuller historical setting.",
+    "achievements": [
+      "Led civil rights campaigns with SNCC",
+      "Helped lead the 1965 Selma voting rights march",
+      "Served in the U.S. House from 1987 to 2020"
+    ],
+    "milestones": [
+      {
+        "year": 1963,
+        "label": "Spoke at the March on Washington"
+      },
+      {
+        "year": 1965,
+        "label": "Led marchers on Bloody Sunday in Selma"
+      },
+      {
+        "year": 1987,
+        "label": "Began service in the U.S. House"
+      }
+    ],
+    "sources": [
+      {
+        "title": "John R. Lewis — National Park Service",
+        "url": "https://www.nps.gov/people/john-r-lewis.htm"
+      },
+      {
+        "title": "John Lewis — U.S. House History",
+        "url": "https://history.house.gov/People/Detail/16948"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "steve-biko",
+    "name": "Steve Biko",
+    "born": "1946-12-18",
+    "died": "1977-09-12",
+    "region": "Africa",
+    "place": "South Africa",
+    "era": "20th century",
+    "categories": [
+      "Civil Rights & Justice",
+      "Education"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A Black Consciousness organizer whose ideas and death in detention marked resistance to apartheid.",
+    "biography": "Steve Biko studied medicine in South Africa while apartheid controlled education, residence, and political rights. In the late 1960s he helped found the South African Students' Organisation, creating space for Black students to organize independently and define their own political goals. His Black Consciousness ideas emphasized dignity, self-organization, and freedom from the psychological damage of racist rule. Biko also supported community health and education projects, linking political ideas with practical institutions. The apartheid government banned him in 1973, restricting his movement, speech, and association. Police detained him in 1977; he died after injuries sustained in custody. Official explanations were challenged, and evidence of police violence made his death a global symbol of state repression. His writings and organizing influenced a generation of activists, though the anti-apartheid movement contained many organizations and strategies beyond one leader. Biko's history should be read in that wider movement and in the local communities where students and workers acted. His significance lies in insisting that people denied political voice could define themselves and create institutions while confronting a system built to exclude them.",
+    "achievements": [
+      "Helped found the South African Students’ Organisation",
+      "Developed Black Consciousness organizing",
+      "Supported community health and education initiatives"
+    ],
+    "milestones": [
+      {
+        "year": 1968,
+        "label": "Helped establish SASO"
+      },
+      {
+        "year": 1973,
+        "label": "Banned by the apartheid government"
+      },
+      {
+        "year": 1977,
+        "label": "Died after police detention"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Stephen Bantu Biko — South African History Online",
+        "url": "https://sahistory.org.za/people/stephen-bantu-biko"
+      },
+      {
+        "title": "We Remember Steve Biko — Nelson Mandela Foundation",
+        "url": "https://www.nelsonmandela.org/news/entry/we-remember-steve-bantu-biko"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "nadia-murad",
+    "name": "Nadia Murad",
+    "born": null,
+    "died": null,
+    "region": "Asia",
+    "place": "Iraq",
+    "era": "21st century",
+    "categories": [
+      "Civil Rights & Justice"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A Yazidi survivor whose advocacy brought attention to genocide and sexual violence in conflict.",
+    "biography": "Nadia Murad grew up in Kocho, a Yazidi village in northern Iraq. In 2014 the Islamic State attacked the community, killing residents and abducting women and children. Murad survived captivity and later spoke publicly about crimes against Yazidis, including sexual violence. She has insisted that survivors' testimony be tied to accountability, recovery, and the rebuilding of affected communities. In 2016 she became a United Nations goodwill ambassador for the dignity of survivors of human trafficking. Two years later she shared the Nobel Peace Prize with physician Denis Mukwege for efforts to end the use of sexual violence as a weapon of war. Murad founded Nadia's Initiative, which supports survivors and reconstruction in Sinjar. Her work asks governments and international organizations to document crimes, protect displaced people, and invest in long-term recovery. The history she tells is painful, and it should never be reduced to a spectacle of suffering. Her significance also lies in political agency: she turned personal testimony into organized advocacy shaped by the needs of other survivors. Yazidi communities continue to face the consequences of the 2014 attacks, making accountability and support ongoing rather than completed achievements.",
+    "achievements": [
+      "Advocated for Yazidi survivors of the 2014 genocide",
+      "Became a UN goodwill ambassador in 2016",
+      "Shared the 2018 Nobel Peace Prize"
+    ],
+    "milestones": [
+      {
+        "year": 2014,
+        "label": "Survived the attack on Kocho"
+      },
+      {
+        "year": 2016,
+        "label": "Became a UN goodwill ambassador"
+      },
+      {
+        "year": 2018,
+        "label": "Shared the Nobel Peace Prize"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nadia Murad — Chapman University",
+        "url": "https://www.chapman.edu/our-faculty/nadia-murad.aspx"
+      },
+      {
+        "title": "Nadia Murad — Georgetown Institute for Women, Peace and Security",
+        "url": "https://giwps.georgetown.edu/awardee/nadia-murad/"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "indira-gandhi",
+    "name": "Indira Gandhi",
+    "born": "1917-11-19",
+    "died": "1984-10-31",
+    "region": "Asia",
+    "place": "India",
+    "era": "20th century",
+    "categories": [
+      "Government & Politics"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "India’s first woman prime minister shaped national policy amid war, reform, and a serious democratic crisis.",
+    "biography": "Indira Gandhi grew up in a family active in India's independence movement and studied in India and Britain. She entered Congress Party politics after independence and became prime minister in 1966. Her governments pursued agricultural development and expanded the central state's role in economic policy. India supported the independence of Bangladesh during the 1971 war, a defining event of her first period in office. Gandhi's record also includes the Emergency she declared in 1975. Civil liberties were curtailed, opposition figures were detained, and press freedom was restricted until elections in 1977 ended that period of rule. She returned as prime minister in 1980. Tensions in Punjab and a military operation at the Golden Temple preceded her assassination by bodyguards in 1984. Gandhi remains a consequential and contested leader. She broke a gender barrier at the highest level of Indian government, while the Emergency remains a central warning about the concentration of executive power. Understanding her career requires attention to both policy achievements and the costs imposed on democratic institutions and citizens. Her leadership cannot be summarized responsibly as either a simple triumph or a single failure.",
+    "achievements": [
+      "Became India’s first woman prime minister in 1966",
+      "Led government during the 1971 Bangladesh war",
+      "Declared the 1975–77 Emergency, curtailing civil liberties"
+    ],
+    "milestones": [
+      {
+        "year": 1966,
+        "label": "Became prime minister"
+      },
+      {
+        "year": 1975,
+        "label": "Declared the Emergency"
+      },
+      {
+        "year": 1980,
+        "label": "Returned as prime minister"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Indira Gandhi — Prime Minister’s Office of India",
+        "url": "https://www.pmindia.gov.in/en/former_pm/smt-indira-gandhi-2/"
+      },
+      {
+        "title": "Indira Gandhi — Somerville College, Oxford",
+        "url": "https://www.some.ox.ac.uk/eminent/indira-gandhi/"
+      },
+      {
+        "title": "The Dalit Movement and the Emergency — Library of Congress",
+        "url": "https://blogs.loc.gov/kluge/2020/07/the-20th-century-transformation-of-the-dalit-movement-in-india/"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "chimamanda-ngozi-adichie",
+    "name": "Chimamanda Ngozi Adichie",
+    "born": "1977",
+    "died": null,
+    "region": "Africa",
+    "place": "Nigeria",
+    "era": "21st century",
+    "categories": [
+      "Arts, Literature & Media",
+      "Education"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A novelist whose fiction and essays have expanded conversations about Nigerian history and identity.",
+    "biography": "Chimamanda Ngozi Adichie grew up in Nsukka, Nigeria, and later studied in the United States. Her first novel, Purple Hibiscus, appeared in 2003 and explored family, faith, and political pressure. Half of a Yellow Sun, published in 2006, brought the Biafran War into an intimate story of people living through national upheaval. Americanah, published in 2013, followed migration and return while examining race, class, and belonging. Adichie has also written short fiction and widely discussed essays on storytelling and feminism. Her work crosses national audiences without presenting any single character as a stand-in for all Nigerians or Africans. She has spoken about the dangers of a single story, urging readers to notice how power shapes which accounts circulate. Recognition has included a MacArthur fellowship, but her influence rests in the way novels invite readers to confront history through complex lives rather than flat symbols. Her narratives join private choices to colonial legacies, war, migration, and contemporary inequalities. Adichie remains a living writer whose work and public arguments continue to invite debate; the museum treats literary achievement and current commentary as distinct subjects.",
+    "achievements": [
+      "Published Purple Hibiscus, Half of a Yellow Sun, and Americanah",
+      "Brought Biafran War history into widely read fiction",
+      "Received a MacArthur fellowship"
+    ],
+    "milestones": [
+      {
+        "year": 2003,
+        "label": "Published Purple Hibiscus"
+      },
+      {
+        "year": 2006,
+        "label": "Published Half of a Yellow Sun"
+      },
+      {
+        "year": 2013,
+        "label": "Published Americanah"
+      }
+    ],
+    "sources": [
+      {
+        "title": "About — Chimamanda Ngozi Adichie",
+        "url": "https://www.chimamanda.com/about/"
+      },
+      {
+        "title": "Chimamanda Ngozi Adichie — PEN America",
+        "url": "https://pen.org/profile/chimamanda-ngozi-adichie/"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "octavia-butler",
+    "name": "Octavia Butler",
+    "born": "1947",
+    "died": "2006",
+    "region": "North America",
+    "place": "United States",
+    "era": "20th century",
+    "categories": [
+      "Arts, Literature & Media"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "A speculative fiction writer who used imagined futures to investigate power, survival, and change.",
+    "biography": "Octavia E. Butler grew up in Pasadena, California, and decided early to write science fiction, a field in which Black women were rarely given a platform. She developed her craft through persistent writing and study while supporting herself with other work. Patternmaster appeared in 1976 and opened a career that moved across series and stand-alone novels. Kindred, published in 1979, sends a modern Black woman into the era of American slavery; its speculative premise makes the violence of history immediate without treating it as distant background. Butler's later Parable novels examine social breakdown, community, and adaptation. She built believable characters whose survival required negotiating unequal power rather than relying on simple heroic victories. In 1995 she became a MacArthur fellow, recognition that helped draw wider attention to speculative fiction as serious literature. Butler's archive at the Huntington preserves notebooks, drafts, and research, showing the sustained labor behind her books. Her influence can be seen in later writers who use science fiction to ask who controls the future and whose experiences count as universal. She changed the imaginative range of a genre while remaining attentive to the specific histories of race and gender.",
+    "achievements": [
+      "Published the novel Kindred in 1979",
+      "Developed influential Parable novels",
+      "Received a MacArthur fellowship in 1995"
+    ],
+    "milestones": [
+      {
+        "year": 1976,
+        "label": "Published Patternmaster"
+      },
+      {
+        "year": 1979,
+        "label": "Published Kindred"
+      },
+      {
+        "year": 1995,
+        "label": "Received a MacArthur fellowship"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Octavia E. Butler Archive — Huntington Library",
+        "url": "https://researchguides.huntington.org/oeb/overview"
+      },
+      {
+        "title": "Octavia Butler — MacArthur Foundation",
+        "url": "https://www.macfound.org/fellows/class-of-1995/octavia-butler"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
+  },
+  {
+    "id": "yayoi-kusama",
+    "name": "Yayoi Kusama",
+    "born": "1929",
+    "died": "2026-08-14",
+    "region": "Asia",
+    "place": "Japan",
+    "era": "20th century",
+    "categories": [
+      "Arts, Literature & Media"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "An artist whose repeated forms and immersive spaces reshaped global visual culture.",
+    "biography": "Yayoi Kusama began making art in Japan and moved to New York in 1958. There she developed paintings covered with repeated marks, later known as Infinity Nets, and staged installations and performances that placed viewers inside patterns of dots, mirrors, and light. Her work crossed painting, sculpture, performance, and immersive environments at a time when artists were challenging conventional boundaries between those forms. Kusama returned to Japan in the 1970s and continued to make art and write. Museums later revisited her early experimental work alongside the mirror rooms that attracted broad public audiences. Those rooms can be visually dazzling, but they are part of a longer practice concerned with repetition, scale, and the relation between an individual and an apparently endless field. Kusama died in August 2026. Her international career illustrates how an artist could shape postwar art across Japan and the United States while building a distinctive vocabulary that outlasted changing fashions. Images of her artworks remain subject to their own copyright and reproduction rights, so this profile uses a typographic placeholder rather than treating exhibition photographs as free to reuse.",
+    "achievements": [
+      "Created Infinity Net paintings and immersive mirror installations",
+      "Worked across painting, sculpture, and performance",
+      "Exhibited internationally for decades"
+    ],
+    "milestones": [
+      {
+        "year": 1958,
+        "label": "Moved to New York"
+      },
+      {
+        "year": 1973,
+        "label": "Returned to Japan"
+      },
+      {
+        "year": 2026,
+        "label": "Died in August"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Yayoi Kusama — Museum of Modern Art",
+        "url": "https://www.moma.org/artists/3315-yayoi-kusama"
+      },
+      {
+        "title": "Notice of Yayoi Kusama’s passing — Yayoi Kusama Museum",
+        "url": "https://yayoikusamamuseum.jp/en/news/news20260827/"
+      }
+    ],
+    "image": null,
+    "verification": "verified",
+    "reviewed": "2026-10-18"
   }
 ]

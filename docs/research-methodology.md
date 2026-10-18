@@ -6,4 +6,4 @@ Review process: locate at least two independent credible sources; compare dates,
 
 Specific corrections from the legacy page: Kamala Harris served as vice president in 2021–2025 and should not be described as the current vice president; the original image notices did not identify exact licenses; Wikipedia is no longer the only citation. Madam C. J. Walker's millionaire ranking is context-dependent, so the profile describes her documented enterprise without an absolute financial first. Serena Williams's 23 major singles titles are explicitly scoped to the women's Open Era record. Wilma Rudolph's three-gold first is scoped to American women at one Olympic Games.
 
-The 86 records in `pending.json` are discovery names only. They have no biographies, dates, source evidence, or image rights and are excluded from the site and verified total.
+The records in `pending.json` are discovery names only. They have no biographies, dates, source evidence, or image rights and are excluded from the site and verified total. As of Phase 3C, 20 remain unpublished; use `npm run validate` for the current count.
