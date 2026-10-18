@@ -8,7 +8,7 @@ Builds a review-only digital museum foundation from the ten biographies and five
 
 - 14 verified publishable profiles; 28 institutional citations.
 - 86 discovery candidates are unpublished and unverified.
-- No portrait is published until its exact rights and attribution are cleared.
+- One NASA portrait is published with file-level rights and attribution; other portraits use typographic placeholders.
 - The required 100-profile milestone remains unmet by 86 profiles. `npm run milestone` fails by design.
 
 ## Checks

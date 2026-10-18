@@ -6,15 +6,21 @@ ROOT=Path(__file__).resolve().parents[1]
 BASE='/trailblazers-website/'
 class Document(HTMLParser):
     def __init__(self):
-        super().__init__();self.ids=set();self.links=[];self.tags=[];self.labels=[];self.inputs=[]
+        super().__init__();self.ids=set();self.links=[];self.tags=[];self.labels=[];self.inputs=[];self.anchor_depth=0;self.nested_anchors=0;self.images_without_alt=[]
     def handle_starttag(self,tag,attrs):
         attrs=dict(attrs);self.tags.append(tag)
         if 'id' in attrs:self.ids.add(attrs['id'])
+        if tag=='a':
+            if self.anchor_depth:self.nested_anchors+=1
+            self.anchor_depth+=1
+        if tag=='img' and not attrs.get('alt'):self.images_without_alt.append(attrs.get('src'))
         if tag in ('a','link','script','img'):
             target=attrs.get('href') or attrs.get('src')
             if target:self.links.append(target)
         if tag=='label' and 'for' in attrs:self.labels.append(attrs['for'])
         if tag in ('input','select') and 'id' in attrs:self.inputs.append(attrs['id'])
+    def handle_endtag(self,tag):
+        if tag=='a':self.anchor_depth=max(0,self.anchor_depth-1)
 class SiteTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -26,6 +32,8 @@ class SiteTests(unittest.TestCase):
         for page in pages:
             doc=Document();doc.feed(page.read_text())
             self.assertIn('main',doc.tags)
+            self.assertEqual(doc.nested_anchors,0,f'{page}: nested anchors')
+            self.assertEqual(doc.images_without_alt,[],f'{page}: image missing alt')
             self.assertIn('nav',doc.tags)
             self.assertIn('main',doc.ids)
             self.assertTrue(set(doc.labels).issubset(doc.ids))

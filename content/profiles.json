@@ -44,7 +44,13 @@
         "url": "https://womenshistory.si.edu/blog/remembering-nasa-mathematician-katherine-johnson"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Katherine_Johnson_1983.jpg",
+      "creator": "NASA",
+      "source": "https://commons.wikimedia.org/wiki/File:Katherine_Johnson_1983.jpg",
+      "license": "U.S. public domain — NASA government work",
+      "attribution": "NASA Langley Research Center, 1983. NASA media usage guidelines apply; no NASA endorsement is implied."
+    },
     "verification": "verified",
     "reviewed": "2026-10-17"
   },
