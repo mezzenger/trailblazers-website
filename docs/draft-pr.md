@@ -16,7 +16,7 @@ Prepares `feature/museum-foundation` for owner review. The collection contains 1
 - Final Phase 4 run [39107535658](https://github.com/mezzenger/trailblazers-website/actions/runs/39107535658) passed all workflow steps on commit `0b9c664e94bcc4481000a7b6994a2623eadd7d94`; 12/12 Playwright checks passed across desktop, tablet, and mobile, including axe checks.
 - The browser artifact [12128832691](https://github.com/mezzenger/trailblazers-website/actions/runs/39107535658/artifacts/12128832691) contains screenshots, traces, the HTML report, and URL audit report.
 - Final local gates pass: `npm run validate`, `npm test` (10 tests), `npm run build`, and `npm run milestone`.
-- Hosted URL audit covered 243 unique URLs: 201 reachable, 0 confirmed broken, 29 restricted, and 13 unavailable. No unresolved response was classified as broken without a confirming 404/410.
+- Each of two hosted audits covered 243 unique URLs: 201 reachable and 0 confirmed broken; restricted/unavailable responses varied from 29/13 to 30/12 between runs. No unresolved response was classified as broken without a confirming 404/410.
 - Local `npm run audit:links` attempted the same set but DNS restrictions made all 243 unavailable locally.
 - The artifact ZIP could not be rendered in this environment because DNS resolution for its signed download host failed. Owner visual review is required; no Lighthouse result is claimed.
 
