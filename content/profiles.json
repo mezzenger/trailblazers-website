@@ -99,7 +99,13 @@
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4063385/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jane%20Cooke%20Wright.jpg",
+      "creator": "National Library of Medicine",
+      "source": "https://commons.wikimedia.org/wiki/File:Jane_Cooke_Wright.jpg",
+      "license": "Public domain — U.S. federal government work",
+      "attribution": "Jane Cooke Wright, oncologist; National Library of Medicine official portrait."
+    },
     "verification": "verified",
     "reviewed": "2026-10-17"
   },
@@ -1501,7 +1507,13 @@
         "url": "https://www.sci.gov.in/centenary-of-dr-b-r-ambedkars-enrolment-as-an-advocate/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dr.%20Bhimrao%20Ambedkar.jpg",
+      "creator": "Unknown historical photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Dr._Bhimrao_Ambedkar.jpg",
+      "license": "Public domain — historic Indian photograph (Commons PD India and PD-1996)",
+      "attribution": "B. R. Ambedkar, portrait dated January 1935; via Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2298,7 +2310,13 @@
         "url": "https://guides.library.harvard.edu/c.php?g=1108872&p=8085578"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/National%20Scientist%20Dr.%20Fe%20Del%20Mundo.jpg",
+      "creator": "National Academy of Science and Technology, Philippines",
+      "source": "https://commons.wikimedia.org/wiki/File:National_Scientist_Dr._Fe_Del_Mundo.jpg",
+      "license": "Public domain in the Philippines — Philippine government work (PD-PhilippinesGov); territorial restrictions may vary",
+      "attribution": "Official portrait of National Scientist Fe del Mundo; National Academy of Science and Technology, Philippines."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
