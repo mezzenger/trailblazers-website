@@ -525,7 +525,13 @@
         "url": "https://www.thehistorymakers.org/biography/ursula-burns"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ursula-Burns.jpg",
+      "creator": "U.S. Government Printing Office",
+      "source": "https://commons.wikimedia.org/wiki/File:Ursula-Burns.jpg",
+      "license": "Public domain in United States — U.S. federal government work",
+      "attribution": "Ursula Burns, government photograph, 2004; U.S. Government Printing Office, Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-17"
   },
@@ -637,9 +643,26 @@
         "url": "https://cdn.who.int/media/docs/default-source/malaria/mpac-documentation/mpac-october2019-session3-non-pharmaceutical-use-artemisiae6b0c7b1-a101-4899-b590-b4da5dca9854.pdf?sfvrsn=65e76920_5"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tu%20Youyou%205012-2015.jpg",
+      "creator": "Bengt Nyman",
+      "source": "https://commons.wikimedia.org/wiki/File:Tu_Youyou_5012-2015.jpg",
+      "license": "CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Tu Youyou at Nobel events, Stockholm, December 2015, Bengt Nyman."
+    },
     "verification": "verified",
-    "reviewed": "2026-10-17"
+    "reviewed": "2026-10-17",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/D810%204987%20Tu%20Youyou%2C%20medicine%20(22945001843).jpg",
+        "creator": "Bengt Nyman",
+        "source": "https://commons.wikimedia.org/wiki/File:D810_4987_Tu_Youyou%2C_medicine_(22945001843).jpg",
+        "license": "CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/",
+        "attribution": "Bengt Nyman, Tu Youyou during Nobel week, Stockholm, December 2015.",
+        "caption": "Tu Youyou at the 2015 Nobel festivities in Stockholm.",
+        "alt": "Tu Youyou pictured during Nobel Prize events in 2015."
+      }
+    ]
   },
   {
     "id": "frida-kahlo",
@@ -4265,7 +4288,13 @@
         "url": "https://www.macfound.org/fellows/class-of-1995/octavia-butler"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Butler%20signing%20portrait.jpg",
+      "creator": "Nikolas Coukouma",
+      "source": "https://commons.wikimedia.org/wiki/File:Butler_signing_portrait.jpg",
+      "license": "CC BY 2.5 — https://creativecommons.org/licenses/by/2.5/",
+      "attribution": "Octavia Butler signing, 2006; Nikolas Coukouma; cropped derivative, Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -5035,7 +5064,13 @@
         "url": "https://thebookerprizes.com/the-booker-library/books/the-god-of-small-things"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ArundhatiRoy.jpg",
+      "creator": "Jaypee",
+      "source": "https://commons.wikimedia.org/wiki/File:ArundhatiRoy.jpg",
+      "license": "CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Arundhati Roy at a public meeting in Jalandhar, Punjab, October 2010; photograph by Jaypee."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -5359,7 +5394,13 @@
         "url": "https://rockhall.com/inductees/nina-simone/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nina%20Simone%20(1965).jpg",
+      "creator": "Ron Kroon / Anefo, Dutch National Archives",
+      "source": "https://commons.wikimedia.org/wiki/File:Nina_Simone_(1965).jpg",
+      "license": "CC0 1.0 Universal — https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "Nina Simone, December 1965; Ron Kroon, Anefo / Nationaal Archief; Commons CC0 record."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
