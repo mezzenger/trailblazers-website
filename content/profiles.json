@@ -2577,7 +2577,13 @@
         "url": "https://www.cambridge.org/core/journals/pmla/article/abs/authoring-ethnicized-subjects-rigoberta-menchu-and-the-performative-production-of-the-subaltern-self/B795BADD23BAF53F524B457A9ACB7E66"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/RIGOBERTA%20MENCH%C3%9A.png",
+      "creator": "David Ross",
+      "source": "https://commons.wikimedia.org/wiki/File:RIGOBERTA_MENCH%C3%9A.png",
+      "license": "CC0 1.0 Universal — https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "Rigoberta Menchú, portrait photograph by David Ross, 1994; Commons CC0 dedication."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2850,7 +2856,13 @@
         "url": "https://www.nga.gov/artists/37893-faith-ringgold"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Faith%20Ringgold%2C%20April%202017-2.jpg",
+      "creator": "Brooklyn Museum",
+      "source": "https://commons.wikimedia.org/wiki/File:Faith_Ringgold%2C_April_2017-2.jpg",
+      "license": "CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/",
+      "attribution": "Faith Ringgold, April 2017; Brooklyn Museum video still, Wikimedia Commons CC BY 3.0."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2904,9 +2916,26 @@
         "url": "https://www.theguardian.com/world/2021/mar/22/nawal-el-saadawi-obituary"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nawal%20el%20Saadawi%2001.JPG",
+      "creator": "Bengt Oberger (Boberger)",
+      "source": "https://commons.wikimedia.org/wiki/File:Nawal_el_Saadawi_01.JPG",
+      "license": "CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/",
+      "attribution": "Nawal El Saadawi at Göteborg Book Fair 2010; Bengt Oberger."
+    },
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nawal%20el%20Saadawi%2C%20April%202012.jpg",
+        "creator": "Gigi Ibrahim",
+        "source": "https://commons.wikimedia.org/wiki/File:Nawal_el_Saadawi%2C_April_2012.jpg",
+        "license": "CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/",
+        "attribution": "Nawal El Saadawi, April 2012; Gigi Ibrahim, via Wikimedia Commons.",
+        "caption": "El Saadawi remained an active public voice for women's rights late in life.",
+        "alt": "Nawal El Saadawi photographed in April 2012."
+      }
+    ]
   },
   {
     "id": "mary-jackson",
