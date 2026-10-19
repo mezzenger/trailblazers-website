@@ -599,10 +599,10 @@
     "gallery": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wangari%20maathai%20and%20DRC%20env%20minister.jpg",
-        "creator": "Hector Guinnness / original source attribution to be checked",
+        "creator": "Hectorguinness (original uploader and attributed photographer)",
         "source": "https://commons.wikimedia.org/wiki/File:Wangari_maathai_and_DRC_env_minister.jpg",
         "license": "CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/",
-        "attribution": "Wangari Maathai with DRC environmental minister signing the Forests Now Declaration; Wikimedia Commons.",
+        "attribution": "Hectorguinness, Wangari Maathai and DRC environment minister Pembe Didace Bokiaga signing the Forests Now Declaration; Wikimedia Commons, CC BY 3.0; https://creativecommons.org/licenses/by/3.0/",
         "caption": "International environmental cooperation became part of Maathai's work.",
         "alt": "Wangari Maathai and a Congolese environmental official signing the Forests Now Declaration."
       }
@@ -2380,7 +2380,7 @@
       "creator": "Associated Press",
       "source": "https://commons.wikimedia.org/wiki/File:Rosa_Parks_1955.jpg",
       "license": "Public domain in the United States (copyright not renewed); may remain protected elsewhere",
-      "attribution": "Associated Press portrait of Rosa Parks, 1955; via Wikimedia Commons."
+      "attribution": "Associated Press photograph of Rosa Parks arriving at circuit court in Montgomery, Alabama, February 24, 1956; distributed as 'Rosa Parks 1955.jpg' on Wikimedia Commons. U.S. copyright nonrenewal rationale is on the file page; other jurisdictions may differ."
     },
     "verification": "verified",
     "reviewed": "2026-10-18"
