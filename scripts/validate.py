@@ -8,11 +8,11 @@ ROOT=Path(__file__).resolve().parents[1]
 p=json.loads((ROOT/'content/profiles.json').read_text())
 pending=json.loads((ROOT/'content/pending.json').read_text()) if (ROOT/'content/pending.json').exists() else []
 errors=[]; ids=set(); names=set(); source_count=0
-allowed={'id','name','born','died','region','place','era','categories','featured','lesserKnown','summary','biography','achievements','milestones','sources','image','verification','reviewed'}
+allowed={'id','name','born','died','region','place','era','categories','featured','lesserKnown','summary','biography','achievements','milestones','sources','image','gallery','verification','reviewed'}
 def fail(msg): errors.append(msg)
 for item in p:
     label=item.get('id','<missing id>')
-    if set(item)!=allowed: fail(f'{label}: schema keys differ from required set')
+    if set(item)-allowed or allowed-set(item)-{'gallery'}: fail(f'{label}: schema keys differ from required set')
     if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*',label): fail(f'{label}: invalid ID')
     if label in ids: fail(f'{label}: duplicate ID')
     ids.add(label)
@@ -38,6 +38,15 @@ for item in p:
         domains.add(parsed.netloc)
         source_count+=1
     if len(domains)<2: fail(f'{label}: two independent source domains required')
+    gallery=item.get('gallery',[])
+    if not isinstance(gallery,list): fail(f'{label}: gallery must be a list'); gallery=[]
+    for photo in gallery:
+        if not isinstance(photo,dict) or set(photo)!={'url','creator','source','license','attribution','caption','alt'}:
+            fail(f'{label}: gallery image metadata incomplete')
+            continue
+        if any(not isinstance(v,str) or not v.strip() for v in photo.values()):fail(f'{label}: gallery image has blank fields')
+        for field in ('url','source'):
+            if urlparse(photo[field]).scheme!='https':fail(f'{label}: gallery {field} must be HTTPS')
     image=item.get('image')
     if image is not None:
         for field in ['url','creator','source','license','attribution']:
