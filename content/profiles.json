@@ -1703,7 +1703,13 @@
         "url": "https://poets.org/poet/maya-angelou"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Maya%20angelou.jpg",
+      "creator": "U.S. National Park Service",
+      "source": "https://commons.wikimedia.org/wiki/File:Maya_angelou.jpg",
+      "license": "Public domain — work of U.S. federal government employee",
+      "attribution": "Maya Angelou at a lectern with Bloomberg and Nadler, October 2007; National Park Service."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2374,9 +2380,26 @@
         "url": "https://doloreshuerta.org/board-member/dolores-huerta/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dolores%20Huerta%20(51017016008).jpg",
+      "creator": "Susan Ruggles / SLR Images",
+      "source": "https://commons.wikimedia.org/wiki/File:Dolores_Huerta_(51017016008).jpg",
+      "license": "CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/",
+      "attribution": "Susan Ruggles, Dolores Huerta, November 2015; Flickr via Wikimedia Commons. CC BY 2.0."
+    },
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dolores%20Huerta%20(34231863751).jpg",
+        "creator": "Montclair Film",
+        "source": "https://commons.wikimedia.org/wiki/File:Dolores_Huerta_(34231863751).jpg",
+        "license": "CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/",
+        "attribution": "Montclair Film photograph of Dolores Huerta, via Flickr and Wikimedia Commons.",
+        "caption": "Huerta's activism continued across generations, including public speaking and advocacy.",
+        "alt": "Photograph of Dolores Huerta at a public event."
+      }
+    ]
   },
   {
     "id": "desmond-tutu",
@@ -3358,7 +3381,13 @@
         "url": "https://embryo.asu.edu/pages/nettie-maria-stevens-1861-1912"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nettie%20Maria%20Stevens.jpg",
+      "creator": "Carnegie Institution of Washington; restoration Adam Cuerden",
+      "source": "https://commons.wikimedia.org/wiki/File:Nettie_Maria_Stevens.jpg",
+      "license": "Public domain in the United States — published before 1931",
+      "attribution": "Nettie Maria Stevens, Bryn Mawr College Photo Archives; restoration by Adam Cuerden."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
