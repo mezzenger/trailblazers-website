@@ -20,7 +20,10 @@ HEADERS = {'User-Agent': 'TrailblazersMuseumProvenanceAudit/1.0 (github.com/mezz
 
 
 def plain(value):
-    value = re.sub(r'<[^>]+>', ' ', html.unescape(value or ''))
+    """Normalize Commons metadata whose API values may be numeric or null."""
+    if value is None:
+        return ''
+    value = re.sub(r'<[^>]+>', ' ', html.unescape(str(value)))
     return ' '.join(value.split())
 
 
