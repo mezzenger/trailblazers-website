@@ -2,7 +2,9 @@ import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 import { readFileSync } from 'node:fs';
 
-const profileCount = JSON.parse(readFileSync('content/profiles.json', 'utf8')).length;
+const profiles = JSON.parse(readFileSync('content/profiles.json', 'utf8'));
+const profileCount = profiles.length;
+const placeholderProfile = profiles.find(person => person.image === null);
 
 test('homepage, collection, filters, timeline, and keyboard path', async ({ page }, testInfo) => {
   await page.goto('./');
@@ -61,11 +63,12 @@ test('production profile route, portrait, source links, and accessibility', asyn
 });
 
 test('profile without a rights-cleared portrait uses an accessible typographic placeholder', async ({ page }, testInfo) => {
-  await page.goto('people/jane-c-wright/');
-  await expect(page.getByRole('heading', { level: 1 })).toHaveText('Jane C. Wright');
+  expect(placeholderProfile, 'The placeholder accessibility test needs a profile without a cleared primary portrait').toBeDefined();
+  await page.goto(`people/${placeholderProfile.id}/`);
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText(placeholderProfile.name);
   const placeholder = page.locator('.profile-art[role="img"]');
   await expect(placeholder).toBeVisible();
-  await expect(placeholder).toHaveAttribute('aria-label', 'Portrait not shown for Jane C. Wright');
+  await expect(placeholder).toHaveAttribute('aria-label', `Portrait not shown for ${placeholderProfile.name}`);
   await expect(page.locator('.profile-art img')).toHaveCount(0);
   await page.screenshot({ path: testInfo.outputPath(`placeholder-profile-${testInfo.project.name}.png`), fullPage: true });
   const audit = await new AxeBuilder({ page }).analyze();
