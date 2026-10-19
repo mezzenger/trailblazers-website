@@ -1030,7 +1030,13 @@
         "url": "https://www.acs.org/education/whatischemistry/landmarks/alice-ball.html"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alice%20Augusta%20Ball.jpg",
+      "creator": "Unknown photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Alice_Augusta_Ball.jpg",
+      "license": "Public domain in the United States — historical 1915 photograph",
+      "attribution": "Alice Augusta Ball, 1915; University of Hawaiʻi historical photograph, via Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2920,7 +2926,13 @@
         "url": "https://history.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11Hamilton.html"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Margaret%20Hamilton%20in%20action.jpg",
+      "creator": "NASA",
+      "source": "https://commons.wikimedia.org/wiki/File:Margaret_Hamilton_in_action.jpg",
+      "license": "Public domain — NASA federal government work",
+      "attribution": "Margaret Hamilton, Apollo flight software engineer, inside Apollo Command Module; NASA."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3019,9 +3031,26 @@
         "url": "https://www.theguardian.com/science/2026/feb/08/gladys-west-obituary"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gladys%20West%20and%20Sam%20Smith.jpg",
+      "creator": "U.S. Navy",
+      "source": "https://commons.wikimedia.org/wiki/File:Gladys_West_and_Sam_Smith.jpg",
+      "license": "Public domain — U.S. federal government work",
+      "attribution": "Gladys West and Sam Smith reviewing GPS data in 1985; U.S. Navy."
+    },
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/181206-F-DT527-136.jpg",
+        "creator": "Adrian Cadiz / U.S. Air Force",
+        "source": "https://commons.wikimedia.org/wiki/File:181206-F-DT527-136.jpg",
+        "license": "Public domain — U.S. federal government work",
+        "attribution": "Dr. Gladys West inducted into the Air Force Space and Missile Pioneers Hall of Fame, December 2018; photo Adrian Cadiz, U.S. Air Force.",
+        "caption": "West received Air Force recognition for the mathematical work underpinning GPS.",
+        "alt": "Dr. Gladys West receiving an award at the Pentagon in 2018."
+      }
+    ]
   },
   {
     "id": "valentina-tereshkova",
@@ -3169,7 +3198,13 @@
         "url": "https://www.nasa.gov/history/SP-4225/documentation/hsf-record/hsf.htm"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chiaki%20Mukai.jpg",
+      "creator": "NASA",
+      "source": "https://commons.wikimedia.org/wiki/File:Chiaki_Mukai.jpg",
+      "license": "Public domain — NASA federal government work",
+      "attribution": "Official NASA portrait of astronaut Chiaki Mukai, October 2003; NASA."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3703,7 +3738,13 @@
         "url": "https://blogs.loc.gov/law/2021/02/stunned-by-her-thunder-fannie-lou-hamer/?loclr=bloglaw"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fannie%20Lou%20Hamer%201964-08-22.jpg",
+      "creator": "Warren K. Leffler / U.S. News & World Report; restoration Adam Cuerden",
+      "source": "https://commons.wikimedia.org/wiki/File:Fannie_Lou_Hamer_1964-08-22.jpg",
+      "license": "Public domain — LOC U.S. News & World Report collection",
+      "attribution": "Fannie Lou Hamer at the 1964 Democratic National Convention; Warren K. Leffler, Library of Congress ds.07134; restored by Adam Cuerden."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4418,7 +4459,13 @@
         "url": "https://directory.ucsc.edu/cd_detail?guid=G000122719"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Angela%20Davis%20(2018).jpg",
+      "creator": "Berkeley Center for New Media",
+      "source": "https://commons.wikimedia.org/wiki/File:Angela_Davis_(2018).jpg",
+      "license": "CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0/",
+      "attribution": "Angela Davis, 2018; Berkeley Center for New Media / Flickr / Wikimedia Commons. CC BY-SA 2.0."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
