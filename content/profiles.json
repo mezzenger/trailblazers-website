@@ -1858,7 +1858,13 @@
         "url": "https://www.aps.org/apsnews/2007/12/december-1938-discovery-nuclear-fission"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lise_Meitner_signed.jpg",
+      "creator": "Unknown photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Lise_Meitner_signed.jpg",
+      "license": "Public domain per Wikimedia Commons (country-of-origin term); U.S. status requires separate assessment",
+      "attribution": "Signed portrait of Lise Meitner, 1916; via Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2156,7 +2162,13 @@
         "url": "https://kinginstitute.stanford.edu/parks-rosa"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosa_Parks_1955.jpg",
+      "creator": "Associated Press",
+      "source": "https://commons.wikimedia.org/wiki/File:Rosa_Parks_1955.jpg",
+      "license": "Public domain in the United States (copyright not renewed); may remain protected elsewhere",
+      "attribution": "Associated Press portrait of Rosa Parks, 1955; via Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3057,7 +3069,13 @@
         "url": "https://history.aip.org/exhibits/curie/contents_text.htm"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Marie_Curie.jpg",
+      "creator": "Wide World Photos / Underwood & Underwood",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Marie_Curie.jpg",
+      "license": "Public domain in the United States; Library of Congress reports no known restrictions",
+      "attribution": "Portrait of Marie Curie, circa 1921; via Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
