@@ -34,8 +34,8 @@ jobs:
       - name: Validate, test, and build production path
         run: |
           npm run validate
-          npm test
           npm run build
+          npm test
       - name: Audit external citations and portraits
         run: npm run audit:links
       - name: Install browser review tools
