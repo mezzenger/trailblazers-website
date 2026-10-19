@@ -28,7 +28,16 @@ class Document(HTMLParser):
 class SiteTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        subprocess.run(['python3','scripts/build.py'],cwd=ROOT,check=True,capture_output=True)
+        result = subprocess.run(
+            ['python3', 'scripts/build.py'],
+            cwd=ROOT, capture_output=True, text=True,
+        )
+        if result.returncode:
+            raise AssertionError(
+                f'Museum build failed (exit {result.returncode})\\n'
+                f'stdout:\\n{result.stdout}\\n'
+                f'stderr:\\n{result.stderr}'
+            )
         cls.profiles=json.loads((ROOT/'content/profiles.json').read_text())
     def test_all_profile_routes_and_internal_links(self):
         pages=[ROOT/'dist/index.html',ROOT/'dist/404.html']+list((ROOT/'dist/people').glob('*/index.html'))
