@@ -1106,7 +1106,13 @@
         "url": "https://u-szeged.hu/karikokatalin/biographical-information/eletszakaszok-210924-1"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Katalin%20Kariko.jpg",
+      "creator": "Krdobyns",
+      "source": "https://commons.wikimedia.org/wiki/File:Katalin_Kariko.jpg",
+      "license": "CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Portrait of Katalin Karikó by Krdobyns, 2020; Wikimedia Commons CC BY-SA 4.0."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
