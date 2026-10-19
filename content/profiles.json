@@ -1280,7 +1280,13 @@
         "url": "https://home.nps.gov/people/idabwells.htm"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ida%20B%20Wells%20with%20her%20children%2C%201909%20(cropped).jpg",
+      "creator": "Unknown photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Ida_B_Wells_with_her_children%2C_1909_(cropped).jpg",
+      "license": "Public domain — historical 1909 image; Commons PD-old",
+      "attribution": "Ida B. Wells with her children, circa 1909; cropped from a historical photograph, via Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2570,7 +2576,13 @@
         "url": "https://www.cambridge.org/core/journals/journal-of-chinese-history/article/silent-half-speaks/87DF02A8F96C10A54C899233D17D033E"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Qiu%20jin.jpg",
+      "creator": "Unknown Qing dynasty photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Qiu_jin.jpg",
+      "license": "Public domain — copyright expired in China; historical photograph",
+      "attribution": "Qiu Jin, circa 1900–1907; via Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3238,7 +3250,13 @@
         "url": "https://www.smithsonianmag.com/science-nature/five-historic-female-mathematicians-you-should-know-100731927/?page=5"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sofia%20Kovalevskaya.jpg",
+      "creator": "Waldemar Dahllöf; colorization by GinnevraDubois",
+      "source": "https://commons.wikimedia.org/wiki/File:Sofia_Kovalevskaya.jpg",
+      "license": "Public domain underlying 1880s photograph; digitally colorized derivative",
+      "attribution": "Waldemar Dahllöf, Sofya Kovalevskaya, circa 1880–1885; later colorized version, Kunstbibliothek Berlin."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3438,7 +3456,13 @@
         "url": "https://www.vagelos.columbia.edu/departments-centers/faculty-initiatives/virginia-apgar-academy/virginia-apgar"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Virginia%20Apgar.jpg",
+      "creator": "Al Ravenna / New York World-Telegram",
+      "source": "https://commons.wikimedia.org/wiki/File:Virginia_Apgar.jpg",
+      "license": "Public domain — NYWTS collection, Library of Congress; verify original photographer restrictions",
+      "attribution": "Virginia Apgar examining a child, October 2, 1966; Al Ravenna, Library of Congress cph.3c31540."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3747,9 +3771,26 @@
         "url": "https://kinginstitute.stanford.edu/rustin-bayard"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bayard%20Rustin%20NYWTS%201.jpg",
+      "creator": "Stanley Wolfson / New York World-Telegram & Sun",
+      "source": "https://commons.wikimedia.org/wiki/File:Bayard_Rustin_NYWTS_1.jpg",
+      "license": "Public domain — NYWT&S staff photograph donated to Library of Congress",
+      "attribution": "Bayard Rustin, 1964; Stanley Wolfson, Library of Congress cph.3c18983."
+    },
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bayard%20Rustin%20NYWTS%202.jpg",
+        "creator": "Stanley Wolfson / New York World-Telegram & Sun",
+        "source": "https://commons.wikimedia.org/wiki/File:Bayard_Rustin_NYWTS_2.jpg",
+        "license": "Public domain — NYWT&S staff image, Library of Congress",
+        "attribution": "Bayard Rustin, 1965; Stanley Wolfson, Library of Congress cph.3c18985.",
+        "caption": "Rustin continued his civil-rights organizing after the 1963 March on Washington.",
+        "alt": "Documentary photograph of Bayard Rustin in 1965."
+      }
+    ]
   },
   {
     "id": "john-lewis",
@@ -3796,7 +3837,13 @@
         "url": "https://history.house.gov/People/Detail/16948"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Johnlewis.jpg",
+      "creator": "U.S. House of Representatives",
+      "source": "https://commons.wikimedia.org/wiki/File:Johnlewis.jpg",
+      "license": "Public domain — official congressional portrait",
+      "attribution": "Official congressional portrait of John Lewis, 2011; U.S. House of Representatives."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4507,9 +4554,26 @@
         "url": "https://yalebooks.yale.edu/book/9780300274981/golda-meir/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Golda%20Meir.jpg",
+      "creator": "Marion S. Trikosko / U.S. News & World Report",
+      "source": "https://commons.wikimedia.org/wiki/File:Golda_Meir.jpg",
+      "license": "Public domain — Library of Congress U.S. News & World Report donation",
+      "attribution": "Marion S. Trikosko, Golda Meir; Library of Congress, ppmsc.03265. No known copyright restrictions."
+    },
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Golda%20Meir2.jpg",
+        "creator": "Marion S. Trikosko / U.S. News & World Report",
+        "source": "https://commons.wikimedia.org/wiki/File:Golda_Meir2.jpg",
+        "license": "Public domain — Library of Congress U.S. News & World Report donation",
+        "attribution": "Golda Meir photographed March 1973, by Marion S. Trikosko, Library of Congress.",
+        "caption": "Meir photographed during her premiership in 1973.",
+        "alt": "Black and white photograph of Golda Meir in March 1973."
+      }
+    ]
   },
   {
     "id": "benazir-bhutto",
@@ -4838,7 +4902,13 @@
         "url": "https://www.spelman.edu/about/archives/collections/audre-lorde-papers.html"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Audre%20lorde.jpg",
+      "creator": "Elsa Dorfman",
+      "source": "https://commons.wikimedia.org/wiki/File:Audre_lorde.jpg",
+      "license": "CC BY 2.5; also available under CC BY-SA 3.0",
+      "attribution": "Elsa Dorfman, Audre Lorde; via Wikimedia Commons. CC BY 2.5 https://creativecommons.org/licenses/by/2.5/"
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4887,7 +4957,13 @@
         "url": "https://kinginstitute.stanford.edu/baldwin-james-arthur"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jamesbaldwin.jpg",
+      "creator": "Carl Van Vechten",
+      "source": "https://commons.wikimedia.org/wiki/File:Jamesbaldwin.jpg",
+      "license": "Public domain — Library of Congress Carl Van Vechten Collection",
+      "attribution": "Carl Van Vechten, James Baldwin, 1955, Library of Congress cph.3a42800. Van Vechten estate requests no cropping/colorization and proper photographer credit."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
