@@ -3,7 +3,7 @@ name: Browser review (no deployment)
 on:
   workflow_dispatch:
   push:
-    branches: [feature/museum-foundation]
+    branches: [feature/museum-foundation, feature/add-verified-portraits]
     paths:
       - 'content/**'
       - 'public/**'
@@ -34,10 +34,12 @@ jobs:
       - name: Validate, test, and build production path
         run: |
           npm run validate
-          npm test
           npm run build
+          npm test
       - name: Audit external citations and portraits
         run: npm run audit:links
+      - name: Verify Commons portrait and gallery provenance
+        run: python3 scripts/audit_commons_provenance.py
       - name: Install browser review tools
         run: |
           npm install --no-save --package-lock=false --ignore-scripts @playwright/test@1.64.0 @axe-core/playwright@4.14.0
@@ -53,5 +55,6 @@ jobs:
             test-results/
             playwright-report/
             external-link-report.json
+            commons-provenance-report.json
           if-no-files-found: warn
           retention-days: 14

@@ -65,6 +65,9 @@ def collect_urls():
         if image:
             add(image['url'], {'profile': profile['id'], 'kind': 'portrait-asset', 'title': image['creator']})
             add(image['source'], {'profile': profile['id'], 'kind': 'portrait-rights-record', 'title': image['license']})
+        for index, gallery_image in enumerate(profile.get('gallery', [])):
+            add(gallery_image['url'], {'profile': profile['id'], 'kind': 'gallery-asset', 'title': gallery_image['caption']})
+            add(gallery_image['source'], {'profile': profile['id'], 'kind': 'gallery-rights-record', 'title': gallery_image['license']})
     return links
 
 

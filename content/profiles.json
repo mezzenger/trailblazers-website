@@ -99,7 +99,13 @@
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4063385/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jane%20Cooke%20Wright.jpg",
+      "creator": "National Library of Medicine",
+      "source": "https://commons.wikimedia.org/wiki/File:Jane_Cooke_Wright.jpg",
+      "license": "Public domain — U.S. federal government work",
+      "attribution": "Jane Cooke Wright, oncologist; National Library of Medicine official portrait."
+    },
     "verification": "verified",
     "reviewed": "2026-10-17"
   },
@@ -148,7 +154,13 @@
         "url": "https://www.senate.gov/states/CA/timeline.htm"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Senator%20Kamala%20Harris%20Official%20Portrait.jpg",
+      "creator": "Renee Bouchard / U.S. Senate",
+      "source": "https://commons.wikimedia.org/wiki/File:Senator_Kamala_Harris_Official_Portrait.jpg",
+      "license": "Public domain — U.S. federal government work",
+      "attribution": "Official U.S. Senate portrait, May 12, 2017."
+    },
     "verification": "verified",
     "reviewed": "2026-10-17"
   },
@@ -198,7 +210,13 @@
         "url": "https://home.nps.gov/people/shirley-chisholm.htm"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shirley%20Chisholm.jpg",
+      "creator": "Thomas J. O'Halloran; restoration by Adam Cuerden",
+      "source": "https://commons.wikimedia.org/wiki/File:Shirley_Chisholm.jpg",
+      "license": "Public domain — U.S. News & World Report / Library of Congress donation",
+      "attribution": "1972 congressional campaign photograph, Library of Congress."
+    },
     "verification": "verified",
     "reviewed": "2026-10-17"
   },
@@ -247,7 +265,13 @@
         "url": "https://www.loc.gov/item/n80131379/toni-morrison/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Toni%20Morrison%20(author%2C%20at%20her%20upstate%20New%20York%20home).jpg",
+      "creator": "Bernard Gotfryd / Library of Congress",
+      "source": "https://commons.wikimedia.org/wiki/File:Toni_Morrison_(author%2C_at_her_upstate_New_York_home).jpg",
+      "license": "Public domain in the United States — Library of Congress Bernard Gotfryd collection",
+      "attribution": "Toni Morrison at home, 1980–1987; Bernard Gotfryd, Library of Congress."
+    },
     "verification": "verified",
     "reviewed": "2026-10-17"
   },
@@ -296,7 +320,13 @@
         "url": "https://achievement.org/achiever/oprah-winfrey/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oprah%20Winfrey.jpg",
+      "creator": "vargas2040; cropped by OsamaK",
+      "source": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey.jpg",
+      "license": "CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0/",
+      "attribution": "Oprah Winfrey at a 2007 Obama campaign rally; photograph by vargas2040, cropped by OsamaK; Wikimedia Commons. CC BY-SA 2.0. Personality/publicity rights may limit some uses; no endorsement implied."
+    },
     "verification": "verified",
     "reviewed": "2026-10-17"
   },
@@ -340,7 +370,13 @@
         "url": "https://postalmuseum.si.edu/exhibition/the-black-experience-sports-the-olympics/wilma-rudolph"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wilma%20Rudolph.jpg",
+      "creator": "New York World-Telegram and the Sun staff photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Wilma_Rudolph.jpg",
+      "license": "Public domain — NYWT&S collection donation",
+      "attribution": "Wilma Rudolph at Madison Square Garden, 1961; NYPL / Library of Congress."
+    },
     "verification": "verified",
     "reviewed": "2026-10-17"
   },
@@ -385,7 +421,13 @@
         "url": "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Serena%20Williams.jpg",
+      "creator": "Cdpache",
+      "source": "https://commons.wikimedia.org/wiki/File:Serena_Williams.jpg",
+      "license": "CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "Serena Williams competing at the 2010 Madrid Open, photographed by Cdpache; Wikimedia Commons. CC BY-SA 3.0; no modifications reported."
+    },
     "verification": "verified",
     "reviewed": "2026-10-17"
   },
@@ -489,7 +531,13 @@
         "url": "https://www.thehistorymakers.org/biography/ursula-burns"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ursula-Burns.jpg",
+      "creator": "U.S. Government Printing Office",
+      "source": "https://commons.wikimedia.org/wiki/File:Ursula-Burns.jpg",
+      "license": "Public domain in United States — U.S. federal government work",
+      "attribution": "Ursula Burns, government photograph, 2004; U.S. Government Printing Office, Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-17"
   },
@@ -539,9 +587,26 @@
         "url": "https://www.nobelprize.org/prizes/peace/2004/maathai/facts/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wangari%20Maathai.jpg",
+      "creator": "DEMOSH",
+      "source": "https://commons.wikimedia.org/wiki/File:Wangari_Maathai.jpg",
+      "license": "CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/",
+      "attribution": "DEMOSH, Wangari Maathai, 2006, Flickr via Wikimedia Commons, CC BY 2.0."
+    },
     "verification": "verified",
-    "reviewed": "2026-10-17"
+    "reviewed": "2026-10-17",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wangari%20maathai%20and%20DRC%20env%20minister.jpg",
+        "creator": "Hectorguinness (original uploader and attributed photographer)",
+        "source": "https://commons.wikimedia.org/wiki/File:Wangari_maathai_and_DRC_env_minister.jpg",
+        "license": "CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/",
+        "attribution": "Hectorguinness, Wangari Maathai and DRC environment minister Pembe Didace Bokiaga signing the Forests Now Declaration; Wikimedia Commons, CC BY 3.0; https://creativecommons.org/licenses/by/3.0/",
+        "caption": "International environmental cooperation became part of Maathai's work.",
+        "alt": "Wangari Maathai and a Congolese environmental official signing the Forests Now Declaration."
+      }
+    ]
   },
   {
     "id": "tu-youyou",
@@ -584,9 +649,26 @@
         "url": "https://cdn.who.int/media/docs/default-source/malaria/mpac-documentation/mpac-october2019-session3-non-pharmaceutical-use-artemisiae6b0c7b1-a101-4899-b590-b4da5dca9854.pdf?sfvrsn=65e76920_5"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tu%20Youyou%205012-2015.jpg",
+      "creator": "Bengt Nyman",
+      "source": "https://commons.wikimedia.org/wiki/File:Tu_Youyou_5012-2015.jpg",
+      "license": "CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Tu Youyou at Nobel events, Stockholm, December 2015, Bengt Nyman. Personality rights notice applies; no endorsement implied."
+    },
     "verification": "verified",
-    "reviewed": "2026-10-17"
+    "reviewed": "2026-10-17",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/D810%204987%20Tu%20Youyou%2C%20medicine%20(22945001843).jpg",
+        "creator": "Bengt Nyman",
+        "source": "https://commons.wikimedia.org/wiki/File:D810_4987_Tu_Youyou%2C_medicine_(22945001843).jpg",
+        "license": "CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/",
+        "attribution": "Bengt Nyman, Tu Youyou during Nobel week, Stockholm, December 2015. Personality rights notice applies; no endorsement implied.",
+        "caption": "Tu Youyou at the 2015 Nobel festivities in Stockholm.",
+        "alt": "Tu Youyou pictured during Nobel Prize events in 2015."
+      }
+    ]
   },
   {
     "id": "frida-kahlo",
@@ -628,7 +710,13 @@
         "url": "https://www.moma.org/collection/artists/2963"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Frida%20Kahlo%201932.jpg",
+      "creator": "Carl Van Vechten",
+      "source": "https://commons.wikimedia.org/wiki/File:Frida_Kahlo_1932.jpg",
+      "license": "Public domain — Library of Congress Carl Van Vechten Collection",
+      "attribution": "Portrait of Frida Kahlo from 1932, cropped from a group photograph."
+    },
     "verification": "verified",
     "reviewed": "2026-10-17"
   },
@@ -883,7 +971,13 @@
         "url": "https://news.stanford.edu/stories/2017/07/maryam-mirzakhani-stanford-mathematician-and-fields-medal-winner-dies"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Maryam%20Mirzakhani%20(cropped).jpg",
+      "creator": "Florian Caullery (original 2014 video); still cropped by TDKR Chicago 101 and edited by Sealle",
+      "source": "https://commons.wikimedia.org/wiki/File:Maryam_Mirzakhani_(cropped).jpg",
+      "license": "CC BY-SA 3.0",
+      "attribution": "Maryam Mirzakhani receiving the Fields Medal, August 16, 2014. Still extracted from video by Florian Caullery; cropped by TDKR Chicago 101, edited by Sealle. CC BY-SA 3.0; https://creativecommons.org/licenses/by-sa/3.0/."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -931,7 +1025,13 @@
         "url": "https://www.aps.org/apsnews/2022/11/global-event-chien-shiung-wu"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chien-Shiung%20Wu%20(1912-1997)%20in%201963%20-%20Restoration.jpg",
+      "creator": "Science Service / Smithsonian Institution; restoration Adam Cuerden",
+      "source": "https://commons.wikimedia.org/wiki/File:Chien-Shiung_Wu_(1912-1997)_in_1963_-_Restoration.jpg",
+      "license": "Smithsonian/Science Service image: no known copyright restrictions (Flickr Commons institutional designation); specific public-domain basis not established.",
+      "attribution": "Science Service / Smithsonian Institution, Chien-Shiung Wu, March 20, 1963; restored by Adam Cuerden. Smithsonian Flickr Commons marks no known copyright restrictions."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -976,7 +1076,13 @@
         "url": "https://www.acs.org/education/whatischemistry/landmarks/alice-ball.html"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alice%20Augusta%20Ball.jpg",
+      "creator": "Unknown photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Alice_Augusta_Ball.jpg",
+      "license": "Public domain in the United States — historical 1915 photograph",
+      "attribution": "Alice Augusta Ball, 1915; University of Hawaiʻi historical photograph, via Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1029,7 +1135,13 @@
         "url": "https://u-szeged.hu/karikokatalin/biographical-information/eletszakaszok-210924-1"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Katalin%20Kariko.jpg",
+      "creator": "Krdobyns",
+      "source": "https://commons.wikimedia.org/wiki/File:Katalin_Kariko.jpg",
+      "license": "CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Portrait of Katalin Karikó by Krdobyns, 2020; Wikimedia Commons CC BY-SA 4.0."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1074,7 +1186,13 @@
         "url": "https://www.nps.gov/people/dr-elizabeth-blackwell.htm"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elizabeth%20Blackwell.jpg",
+      "creator": "Unknown photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Elizabeth_Blackwell.jpg",
+      "license": "Public domain — published before 1931",
+      "attribution": "Elizabeth Blackwell, National Library of Medicine."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1119,7 +1237,13 @@
         "url": "https://www.npg.org.uk/collections/search/personExtended/mp70879/mary-jane-seacole-nee-grant?tab=biography"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Seacole%20-%20Challen.jpg",
+      "creator": "Albert Charles Challen",
+      "source": "https://commons.wikimedia.org/wiki/File:Seacole_-_Challen.jpg",
+      "license": "Public domain — artist died 1881, PD-Art",
+      "attribution": "Portrait of Mary Seacole, circa 1869; National Portrait Gallery, London."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1214,7 +1338,13 @@
         "url": "https://home.nps.gov/people/idabwells.htm"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ida%20B%20Wells%20with%20her%20children%2C%201909%20(cropped).jpg",
+      "creator": "Unknown photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Ida_B_Wells_with_her_children%2C_1909_(cropped).jpg",
+      "license": "Public domain — historical 1909 image; Commons PD-old",
+      "attribution": "Ida B. Wells with her children, circa 1909; cropped from a historical photograph, via Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1267,7 +1397,13 @@
         "url": "https://malala.org/malalas-story.html"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Malala%20Yousafzai%202015.jpg",
+      "creator": "Simon Davis / UK Department for International Development",
+      "source": "https://commons.wikimedia.org/wiki/File:Malala_Yousafzai_2015.jpg",
+      "license": "CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/",
+      "attribution": "Simon Davis / DFID, Malala Yousafzai in 2015; Wikimedia Commons CC BY 2.0 (cropped)."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1316,7 +1452,13 @@
         "url": "https://news.harvard.edu/gazette/story/2011/10/sirleaf-wins-nobel-peace-prize/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ellen%20Johnson-Sirleaf.jpg",
+      "creator": "U.S. Embassy Monrovia",
+      "source": "https://commons.wikimedia.org/wiki/File:Ellen_Johnson-Sirleaf.jpg",
+      "license": "Public domain — U.S. Department of State official work",
+      "attribution": "Ellen Johnson Sirleaf, 2005, U.S. Embassy Monrovia."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1365,7 +1507,13 @@
         "url": "https://www.sci.gov.in/centenary-of-dr-b-r-ambedkars-enrolment-as-an-advocate/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dr.%20Bhimrao%20Ambedkar.jpg",
+      "creator": "Unknown historical photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Dr._Bhimrao_Ambedkar.jpg",
+      "license": "Public domain in India and United States per Wikimedia Commons source tags; other jurisdictions may differ.",
+      "attribution": "Portrait of B. R. Ambedkar, dated after 1948 or to the 1950s on the Wikimedia Commons file record; photographer unknown. Public-domain rationale and territorial limits documented on source page."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1414,7 +1562,13 @@
         "url": "https://www.gov.za/mandela100/biography"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nelson%20Mandela.jpg",
+      "creator": "White House Photograph Office (Clinton Administration)",
+      "source": "https://commons.wikimedia.org/wiki/File:Nelson_Mandela.jpg",
+      "license": "Public domain — U.S. federal government work",
+      "attribution": "Nelson Mandela in Philadelphia, 1993; U.S. National Archives."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1459,7 +1613,13 @@
         "url": "https://uchile.cl/noticias/203823/134-anos-del-natalicio-de-gabriela-mistral-el-legado-de-la-educadora"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gabriela%20Mistral%20(1922).jpg",
+      "creator": "Unknown photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Gabriela_Mistral_(1922).jpg",
+      "license": "Public domain — Chilean cultural heritage",
+      "attribution": "Gabriela Mistral, 1922; Memoria Chilena."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1507,7 +1667,13 @@
         "url": "https://www.christies.com/presscenter/pdf/9955/REL_AMRITA%20SHER-GIL%20PORTRAIT_MARCH%202021_9955_1.pdf"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Amrita%20Sher-Gil%20Self-portrait.jpg",
+      "creator": "Amrita Sher-Gil",
+      "source": "https://commons.wikimedia.org/wiki/File:Amrita_Sher-Gil_Self-portrait.jpg",
+      "license": "Public domain — artist died 1941; see PD-Art source",
+      "attribution": "Self-portrait, 1930; National Gallery of Modern Art, New Delhi."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1556,7 +1722,13 @@
         "url": "https://sahistory.org.za/people/miriam-makeba"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Miriam%20makeba%2001.jpg",
+      "creator": "Paul Weinberg",
+      "source": "https://commons.wikimedia.org/wiki/File:Miriam_makeba_01.jpg",
+      "license": "CC BY-SA 3.0 / GFDL",
+      "attribution": "Miriam Makeba performing in 1991; Paul Weinberg, CC BY-SA 3.0; https://creativecommons.org/licenses/by-sa/3.0/"
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1601,7 +1773,13 @@
         "url": "https://poets.org/poet/maya-angelou"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Maya%20angelou.jpg",
+      "creator": "U.S. National Park Service",
+      "source": "https://commons.wikimedia.org/wiki/File:Maya_angelou.jpg",
+      "license": "Public domain — work of U.S. federal government employee",
+      "attribution": "Maya Angelou at a lectern with Bloomberg and Nadler, October 2007; National Park Service."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1645,7 +1823,13 @@
         "url": "https://royalsociety.org/news/2020/11/dame-jocelyn-bell-burnell-portrait-unveiled/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jocelyn%20Bell%20Burnell.jpg",
+      "creator": "Harry the Dirty Dog (original English Wikipedia uploader and rights holder)",
+      "source": "https://commons.wikimedia.org/wiki/File:Jocelyn_Bell_Burnell.jpg",
+      "license": "CC0 1.0 Universal",
+      "attribution": "Jocelyn Bell Burnell photographed by Harry the Dirty Dog; dedicated CC0 1.0 by original rights holder, via Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1809,7 +1993,7 @@
       "creator": "NASA",
       "source": "https://commons.wikimedia.org/wiki/File:Kalpana_Chawla,_official_portrait.jpg",
       "license": "U.S. public domain — NASA government work",
-      "attribution": "NASA, 1995, photo S95-07647. NASA insignia and endorsement restrictions apply."
+      "attribution": "NASA, 1995, photo S95-07647. NASA insignia and endorsement restrictions apply. NASA rights notices do not imply endorsement."
     },
     "verification": "verified",
     "reviewed": "2026-10-18"
@@ -1858,7 +2042,13 @@
         "url": "https://www.aps.org/apsnews/2007/12/december-1938-discovery-nuclear-fission"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lise_Meitner_signed.jpg",
+      "creator": "Unknown photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Lise_Meitner_signed.jpg",
+      "license": "Public domain per Wikimedia Commons (country-of-origin term); U.S. status requires separate assessment",
+      "attribution": "Signed portrait of Lise Meitner, 1916; via Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1963,7 +2153,18 @@
     ],
     "image": null,
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Crumpler%20A-Book-of-Medical-Discourses.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Crumpler%20A-Book-of-Medical-Discourses.jpg",
+        "creator": "Rebecca Lee Crumpler (author); National Library of Medicine (digitization)",
+        "license": "Public domain in the United States — 1883 publication; NLM federal digitization",
+        "attribution": "Rebecca Lee Crumpler, A Book of Medical Discourses, 1883; U.S. National Library of Medicine, via Wikimedia Commons.",
+        "caption": "The cover of Dr. Crumpler's 1883 medical book. No authenticated photograph of her is known to survive.",
+        "alt": "Cover of the 1883 book A Book of Medical Discourses by Dr. Rebecca Lee Crumpler."
+      }
+    ]
   },
   {
     "id": "henrietta-lacks",
@@ -2010,7 +2211,13 @@
         "url": "https://msa.maryland.gov/msa/educ/exhibits/womenshallfame/html/lacks.html"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Henrietta%20Lacks.jpg",
+      "creator": "Oregon State University (source account; original photographer not identified)",
+      "source": "https://commons.wikimedia.org/wiki/File:Henrietta_Lacks.jpg",
+      "license": "CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0/",
+      "attribution": "Photograph of Henrietta Lacks circa 1945; shared by Oregon State University on Flickr under CC BY-SA 2.0, confirmed by Commons Flickr review on April 11, 2025. Original photographer not identified."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2059,7 +2266,13 @@
         "url": "https://www.scielo.br/j/pcp/a/ST6887NdYRBschFzS8sFhpP/?lang=pt"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nise%20da%20Silveira.jpg",
+      "creator": "Unknown documentary photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Nise_da_Silveira.jpg",
+      "license": "Public domain — historical Brazilian documentary photograph; Commons PD-Brazil-Photo",
+      "attribution": "Nise da Silveira; photograph reproduced in Maria Werneck, Sala 4 (1988)."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2108,7 +2321,13 @@
         "url": "https://guides.library.harvard.edu/c.php?g=1108872&p=8085578"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/National%20Scientist%20Dr.%20Fe%20Del%20Mundo.jpg",
+      "creator": "National Academy of Science and Technology, Philippines",
+      "source": "https://commons.wikimedia.org/wiki/File:National_Scientist_Dr._Fe_Del_Mundo.jpg",
+      "license": "Public domain in the Philippines — Philippine government work (PD-PhilippinesGov); territorial restrictions may vary",
+      "attribution": "Official portrait of National Scientist Fe del Mundo; National Academy of Science and Technology, Philippines."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2156,7 +2375,13 @@
         "url": "https://kinginstitute.stanford.edu/parks-rosa"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosa_Parks_1955.jpg",
+      "creator": "Associated Press",
+      "source": "https://commons.wikimedia.org/wiki/File:Rosa_Parks_1955.jpg",
+      "license": "Public domain in the United States (copyright not renewed); may remain protected elsewhere",
+      "attribution": "Associated Press photograph of Rosa Parks arriving at circuit court in Montgomery, Alabama, February 24, 1956; distributed as 'Rosa Parks 1955.jpg' on Wikimedia Commons. U.S. copyright nonrenewal rationale is on the file page; other jurisdictions may differ."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2205,7 +2430,13 @@
         "url": "https://kinginstitute.stanford.edu/baker-ella-josephine"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ella%20Baker%20(1903-1986)%20circa%201944.png",
+      "creator": "Unknown photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Ella_Baker_(1903-1986)_circa_1944.png",
+      "license": "Public domain in United States — historic publication copyright not renewed",
+      "attribution": "Ella Baker, circa 1944; Wikimedia Commons, citing Britannica."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2254,9 +2485,26 @@
         "url": "https://doloreshuerta.org/board-member/dolores-huerta/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dolores%20Huerta%20(51017016008).jpg",
+      "creator": "Susan Ruggles / SLR Images",
+      "source": "https://commons.wikimedia.org/wiki/File:Dolores_Huerta_(51017016008).jpg",
+      "license": "CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/",
+      "attribution": "Susan Ruggles, Dolores Huerta, November 2015; Flickr via Wikimedia Commons. CC BY 2.0."
+    },
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dolores%20Huerta%20(34231863751).jpg",
+        "creator": "Montclair Film",
+        "source": "https://commons.wikimedia.org/wiki/File:Dolores_Huerta_(34231863751).jpg",
+        "license": "CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/",
+        "attribution": "Montclair Film photograph of Dolores Huerta, via Flickr and Wikimedia Commons.",
+        "caption": "Huerta's activism continued across generations, including public speaking and advocacy.",
+        "alt": "Photograph of Dolores Huerta at a public event."
+      }
+    ]
   },
   {
     "id": "desmond-tutu",
@@ -2303,7 +2551,13 @@
         "url": "https://theelders.org/profile/desmond-tutu"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Desmond%20tutu%20(5547444409).jpg",
+      "creator": "University of Mount Union",
+      "source": "https://commons.wikimedia.org/wiki/File:Desmond_tutu_(5547444409).jpg",
+      "license": "CC BY 2.0",
+      "attribution": "Desmond Tutu, University of Mount Union via Flickr / Wikimedia Commons; https://creativecommons.org/licenses/by/2.0/"
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2352,7 +2606,13 @@
         "url": "https://www.cambridge.org/core/journals/pmla/article/abs/authoring-ethnicized-subjects-rigoberta-menchu-and-the-performative-production-of-the-subaltern-self/B795BADD23BAF53F524B457A9ACB7E66"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/RIGOBERTA%20MENCH%C3%9A.png",
+      "creator": "David Ross",
+      "source": "https://commons.wikimedia.org/wiki/File:RIGOBERTA_MENCH%C3%9A.png",
+      "license": "CC0 1.0 Universal — https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "Rigoberta Menchú, portrait photograph by David Ross, 1994; Commons CC0 dedication."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2405,7 +2665,13 @@
         "url": "https://igp.sipa.columbia.edu/distinguished-fellows/michelle-bachelet"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20Michelle%20Bachelet.jpg",
+      "creator": "Government of Chile",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_Michelle_Bachelet.jpg",
+      "license": "CC BY 3.0 Chile — https://creativecommons.org/licenses/by/3.0/cl/",
+      "attribution": "Official 2014–2018 presidential portrait, Government of Chile; Wikimedia Commons. Personality/publicity rights and government-symbol restrictions must be respected."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2450,7 +2716,13 @@
         "url": "https://www.cambridge.org/core/journals/journal-of-chinese-history/article/silent-half-speaks/87DF02A8F96C10A54C899233D17D033E"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Qiu%20jin.jpg",
+      "creator": "Unknown Qing dynasty photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Qiu_jin.jpg",
+      "license": "Public domain — copyright expired in China; historical photograph",
+      "attribution": "Qiu Jin, circa 1900–1907; via Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2499,7 +2771,13 @@
         "url": "https://www.cambridge.org/core/journals/hypatia/article/like-seeking-out-a-lost-friend-reconsidering-pioneer-arab-feminists-and-their-networks-as-part-of-athe-first-wave/B2631A8157D0387CB5208C49826FCB3E"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Huda%20Sha'arawi%2C%201925%20photo%20by%20Underwood%20%26%20Underwood.jpg",
+      "creator": "Underwood & Underwood",
+      "source": "https://commons.wikimedia.org/wiki/File:Huda_Sha'arawi%2C_1925_photo_by_Underwood_%26_Underwood.jpg",
+      "license": "Public domain — historical photograph published before 1931",
+      "attribution": "Huda Sha'arawi, 1925; Underwood & Underwood, via Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2548,7 +2826,13 @@
         "url": "https://home.nps.gov/cawo/learn/historyculture/zora-neale-hurston-and-cudjo-s-own-story.htm"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Zora%20Neale%20Hurston%20LCCN2004663047.jpg",
+      "creator": "Carl Van Vechten",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Zora_Neale_Hurston_LCCN2004663047.jpg",
+      "license": "Public domain — LOC Van Vechten Collection",
+      "attribution": "Portrait of Zora Neale Hurston (1938), Library of Congress; credit Carl Van Vechten; estate requests no cropping or colorization."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2601,7 +2885,13 @@
         "url": "https://www.nga.gov/artists/37893-faith-ringgold"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Faith%20Ringgold%2C%20April%202017-2.jpg",
+      "creator": "Brooklyn Museum",
+      "source": "https://commons.wikimedia.org/wiki/File:Faith_Ringgold%2C_April_2017-2.jpg",
+      "license": "CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/",
+      "attribution": "Faith Ringgold, April 2017; Brooklyn Museum video still, Wikimedia Commons CC BY 3.0. Personality rights notice applies; no endorsement implied."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2655,9 +2945,26 @@
         "url": "https://www.theguardian.com/world/2021/mar/22/nawal-el-saadawi-obituary"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nawal%20el%20Saadawi%2001.JPG",
+      "creator": "Bengt Oberger (Boberger)",
+      "source": "https://commons.wikimedia.org/wiki/File:Nawal_el_Saadawi_01.JPG",
+      "license": "CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/",
+      "attribution": "Nawal El Saadawi at Göteborg Book Fair 2010; Bengt Oberger."
+    },
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nawal%20el%20Saadawi%2C%20April%202012.jpg",
+        "creator": "Gigi Ibrahim",
+        "source": "https://commons.wikimedia.org/wiki/File:Nawal_el_Saadawi%2C_April_2012.jpg",
+        "license": "CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/",
+        "attribution": "Nawal El Saadawi, April 2012; Gigi Ibrahim, via Wikimedia Commons.",
+        "caption": "El Saadawi remained an active public voice for women's rights late in life.",
+        "alt": "Nawal El Saadawi photographed in April 2012."
+      }
+    ]
   },
   {
     "id": "mary-jackson",
@@ -2759,7 +3066,13 @@
         "url": "https://history.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11Hamilton.html"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Margaret%20Hamilton%20in%20action.jpg",
+      "creator": "NASA",
+      "source": "https://commons.wikimedia.org/wiki/File:Margaret_Hamilton_in_action.jpg",
+      "license": "Public domain — NASA federal government work",
+      "attribution": "Margaret Hamilton, Apollo flight software engineer, inside Apollo Command Module; NASA."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2858,9 +3171,26 @@
         "url": "https://www.theguardian.com/science/2026/feb/08/gladys-west-obituary"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gladys%20West%20and%20Sam%20Smith.jpg",
+      "creator": "U.S. Navy",
+      "source": "https://commons.wikimedia.org/wiki/File:Gladys_West_and_Sam_Smith.jpg",
+      "license": "Public domain — U.S. federal government work",
+      "attribution": "Gladys West and Sam Smith reviewing GPS data in 1985; U.S. Navy."
+    },
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/181206-F-DT527-136.jpg",
+        "creator": "Adrian Cadiz / U.S. Air Force",
+        "source": "https://commons.wikimedia.org/wiki/File:181206-F-DT527-136.jpg",
+        "license": "Public domain — U.S. federal government work",
+        "attribution": "Dr. Gladys West inducted into the Air Force Space and Missile Pioneers Hall of Fame, December 2018; photo Adrian Cadiz, U.S. Air Force.",
+        "caption": "West received Air Force recognition for the mathematical work underpinning GPS.",
+        "alt": "Dr. Gladys West receiving an award at the Pentagon in 2018."
+      }
+    ]
   },
   {
     "id": "valentina-tereshkova",
@@ -2903,7 +3233,13 @@
         "url": "https://www.mncn.csic.es/es/visita-el-mncn/biografia-de-valentina-tereshkova"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tereshkova%20Space%20Suit.jpg",
+      "creator": "NASA StarChild",
+      "source": "https://commons.wikimedia.org/wiki/File:Tereshkova_Space_Suit.jpg",
+      "license": "Public domain in the United States — NASA government work",
+      "attribution": "Valentina Tereshkova outside Vostok 6 capsule, June 1963; NASA StarChild."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3008,7 +3344,13 @@
         "url": "https://www.nasa.gov/history/SP-4225/documentation/hsf-record/hsf.htm"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chiaki%20Mukai.jpg",
+      "creator": "NASA",
+      "source": "https://commons.wikimedia.org/wiki/File:Chiaki_Mukai.jpg",
+      "license": "Public domain — NASA federal government work",
+      "attribution": "Official NASA portrait of astronaut Chiaki Mukai, October 2003; NASA."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3057,7 +3399,13 @@
         "url": "https://history.aip.org/exhibits/curie/contents_text.htm"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Marie_Curie.jpg",
+      "creator": "Wide World Photos / Underwood & Underwood",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Marie_Curie.jpg",
+      "license": "Public domain in the United States — historical Library of Congress portrait",
+      "attribution": "Portrait of Marie Curie, circa 1921; via Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3106,7 +3454,13 @@
         "url": "https://www.smithsonianmag.com/science-nature/five-historic-female-mathematicians-you-should-know-100731927/?page=5"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sofia%20Kovalevskaya.jpg",
+      "creator": "Waldemar Dahllöf; colorization by GinnevraDubois",
+      "source": "https://commons.wikimedia.org/wiki/File:Sofia_Kovalevskaya.jpg",
+      "license": "Public domain underlying 1880s photograph; digitally colorized derivative",
+      "attribution": "Waldemar Dahllöf, Sofya Kovalevskaya, circa 1880–1885; later colorized version, Kunstbibliothek Berlin."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3154,7 +3508,13 @@
         "url": "https://www.sciencehistory.org/education/scientific-biographies/francis-crick-rosalind-franklin-james-watson-and-maurice-wilkins/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosalind%20Franklin.jpg",
+      "creator": "MRC Laboratory of Molecular Biology",
+      "source": "https://commons.wikimedia.org/wiki/File:Rosalind_Franklin.jpg",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Rosalind Franklin with microscope, 1955; from Jenifer Glynn's collection; https://creativecommons.org/licenses/by-sa/4.0/"
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3202,7 +3562,13 @@
         "url": "https://embryo.asu.edu/pages/nettie-maria-stevens-1861-1912"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nettie%20Maria%20Stevens.jpg",
+      "creator": "Carnegie Institution of Washington; restoration Adam Cuerden",
+      "source": "https://commons.wikimedia.org/wiki/File:Nettie_Maria_Stevens.jpg",
+      "license": "Public domain in the United States — published before 1931",
+      "attribution": "Nettie Maria Stevens, Bryn Mawr College Photo Archives; restoration by Adam Cuerden."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3251,7 +3617,13 @@
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3589620/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rita%20Levi-Montalcini%20(1986).jpg",
+      "creator": "Kurt Hagblom, Firma Hagblom-Foto / Lund University Library",
+      "source": "https://commons.wikimedia.org/wiki/File:Rita_Levi-Montalcini_(1986).jpg",
+      "license": "Public domain — released by copyright holder, Lund University Library",
+      "attribution": "Rita Levi-Montalcini during a visit to Lund in 1986; Kurt Hagblom; Lund University Library."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3300,7 +3672,13 @@
         "url": "https://www.vagelos.columbia.edu/departments-centers/faculty-initiatives/virginia-apgar-academy/virginia-apgar"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Virginia%20Apgar.jpg",
+      "creator": "Al Ravenna / World Journal Tribune",
+      "source": "https://commons.wikimedia.org/wiki/File:Virginia_Apgar.jpg",
+      "license": "U.S. public domain — New York World-Telegram & Sun collection work-for-hire, Library of Congress gift",
+      "attribution": "Al Ravenna, Virginia Apgar assessing an infant, October 2, 1966; World Journal Tribune / Library of Congress cph.3c31540."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3403,7 +3781,13 @@
         "url": "https://www.redcross.org/about-us/who-we-are/history/clara-barton.html"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Clara%20Barton.jpg",
+      "creator": "Unknown photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Clara_Barton.jpg",
+      "license": "Public domain — pre-1901 portrait",
+      "attribution": "Portrait of Clara Barton; from Famous Americans."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3506,7 +3890,13 @@
         "url": "https://blogs.loc.gov/law/2021/02/stunned-by-her-thunder-fannie-lou-hamer/?loclr=bloglaw"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fannie%20Lou%20Hamer%201964-08-22.jpg",
+      "creator": "Warren K. Leffler / U.S. News & World Report; restoration Adam Cuerden",
+      "source": "https://commons.wikimedia.org/wiki/File:Fannie_Lou_Hamer_1964-08-22.jpg",
+      "license": "Public domain — LOC U.S. News & World Report collection",
+      "attribution": "Fannie Lou Hamer at the 1964 Democratic National Convention; Warren K. Leffler, Library of Congress ds.07134; restored by Adam Cuerden."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3555,9 +3945,26 @@
         "url": "https://www.womenshistory.org/education-resources/biographies/pauli-murray"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Dr.%20Pauli%20Murray.jpg",
+      "creator": "FDR Presidential Library & Museum",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Dr._Pauli_Murray.jpg",
+      "license": "CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/",
+      "attribution": "Portrait of Pauli Murray; FDR Presidential Library & Museum, Flickr, via Wikimedia Commons."
+    },
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pauli%20Murray%20Family%20Home.jpg",
+        "creator": "Nyttend",
+        "source": "https://commons.wikimedia.org/wiki/File:Pauli_Murray_Family_Home.jpg",
+        "license": "Public domain — photographer's dedication",
+        "attribution": "Pauli Murray family home, Durham, North Carolina, photographed 2017 by Nyttend.",
+        "caption": "The Pauli Murray family home in Durham connects the story to the communities that shaped Murray's life.",
+        "alt": "Exterior of Pauli Murray family home in Durham, North Carolina."
+      }
+    ]
   },
   {
     "id": "bayard-rustin",
@@ -3603,9 +4010,26 @@
         "url": "https://kinginstitute.stanford.edu/rustin-bayard"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bayard%20Rustin%20NYWTS%201.jpg",
+      "creator": "Stanley Wolfson / New York World-Telegram & Sun",
+      "source": "https://commons.wikimedia.org/wiki/File:Bayard_Rustin_NYWTS_1.jpg",
+      "license": "Public domain — NYWT&S staff photograph donated to Library of Congress",
+      "attribution": "Bayard Rustin, 1964; Stanley Wolfson, Library of Congress cph.3c18983."
+    },
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bayard%20Rustin%20NYWTS%202.jpg",
+        "creator": "Stanley Wolfson / New York World-Telegram & Sun",
+        "source": "https://commons.wikimedia.org/wiki/File:Bayard_Rustin_NYWTS_2.jpg",
+        "license": "Public domain — NYWT&S staff image, Library of Congress",
+        "attribution": "Bayard Rustin, 1965; Stanley Wolfson, Library of Congress cph.3c18985.",
+        "caption": "Rustin continued his civil-rights organizing after the 1963 March on Washington.",
+        "alt": "Documentary photograph of Bayard Rustin in 1965."
+      }
+    ]
   },
   {
     "id": "john-lewis",
@@ -3652,7 +4076,13 @@
         "url": "https://history.house.gov/People/Detail/16948"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Johnlewis.jpg",
+      "creator": "U.S. House of Representatives",
+      "source": "https://commons.wikimedia.org/wiki/File:Johnlewis.jpg",
+      "license": "Public domain — official congressional portrait",
+      "attribution": "Official congressional portrait of John Lewis, 2011; U.S. House of Representatives."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3701,7 +4131,13 @@
         "url": "https://www.nelsonmandela.org/news/entry/we-remember-steve-bantu-biko"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Steve%20Biko%20on%20Flyer%20for%20Steve%20Biko%20Memorial%20at%20the%20Carver%20Cultural%20Center.jpg",
+      "creator": "Cape Argus (photographic image reproduced in flyer)",
+      "source": "https://commons.wikimedia.org/wiki/File:Steve_Biko_on_Flyer_for_Steve_Biko_Memorial_at_the_Carver_Cultural_Center.jpg",
+      "license": "Public domain in United States — 1931–1977 publication without copyright notice; consult Commons",
+      "attribution": "Steve Biko portrait reproduced in Steve Biko Memorial flyer; Cape Argus image, via Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3749,7 +4185,13 @@
         "url": "https://giwps.georgetown.edu/awardee/nadia-murad/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nadia%20Murad%2016.jpg",
+      "creator": "Lisa Englehart / UK Mission to the UN",
+      "source": "https://commons.wikimedia.org/wiki/File:Nadia_Murad_16.jpg",
+      "license": "CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/",
+      "attribution": "Nadia Murad at Daesh Accountability March, UK Mission to the UN, photograph Lisa Englehart; Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3801,7 +4243,13 @@
         "url": "https://blogs.loc.gov/kluge/2020/07/the-20th-century-transformation-of-the-dalit-movement-in-india/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Indira%20Gandhi%20official%20portrait.png",
+      "creator": "Prime Minister's Office, Government of India",
+      "source": "https://commons.wikimedia.org/wiki/File:Indira_Gandhi_official_portrait.png",
+      "license": "Government Open Data License – India (GODL)",
+      "attribution": "Official portrait of Indira Gandhi, 1983; Government of India. https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf"
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3850,7 +4298,13 @@
         "url": "https://pen.org/profile/chimamanda-ngozi-adichie/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2025-06-16%20Chimamanda%20Ngozi%20Adichie%20no%20Fronteiras%20do%20Pensamento%202025%20em%20S%C3%A3o%20Paulo%2C%20013%20(cropped).jpg",
+      "creator": "Greg Salibian / Fronteiras do Pensamento",
+      "source": "https://commons.wikimedia.org/wiki/File:2025-06-16_Chimamanda_Ngozi_Adichie_no_Fronteiras_do_Pensamento_2025_em_S%C3%A3o_Paulo%2C_013_(cropped).jpg",
+      "license": "CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0/",
+      "attribution": "Chimamanda Ngozi Adichie, Fronteiras do Pensamento, São Paulo, 16 June 2025. Photograph Greg Salibian; cropped."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3898,7 +4352,13 @@
         "url": "https://www.macfound.org/fellows/class-of-1995/octavia-butler"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Butler%20signing%20portrait.jpg",
+      "creator": "Nikolas Coukouma",
+      "source": "https://commons.wikimedia.org/wiki/File:Butler_signing_portrait.jpg",
+      "license": "CC BY 2.5 — https://creativecommons.org/licenses/by/2.5/",
+      "attribution": "Octavia Butler signing, 2006; Nikolas Coukouma; cropped derivative, Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3946,9 +4406,26 @@
         "url": "https://yayoikusamamuseum.jp/en/news/news20260827/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yayoi%20Kusama%20circa%202004.jpg",
+      "creator": "George Quasha",
+      "source": "https://commons.wikimedia.org/wiki/File:Yayoi_Kusama_circa_2004.jpg",
+      "license": "CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/",
+      "attribution": "Yayoi Kusama from George Quasha's Speaking Portraits video (circa 2002–2005); via Wikimedia Commons."
+    },
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yayoi%20Kusama%20-%20Ascension%20of%20Polkadots%20on%20the%20Trees%2C%20SB2006%207.JPG",
+        "creator": "I64s (Wikimedia Commons photographer)",
+        "source": "https://commons.wikimedia.org/wiki/File:Yayoi_Kusama_-_Ascension_of_Polkadots_on_the_Trees%2C_SB2006_7.JPG",
+        "license": "CC BY 2.5 — https://creativecommons.org/licenses/by/2.5/",
+        "attribution": "Yayoi Kusama installation, Singapore Biennale 2006; photo I64s.",
+        "caption": "Kusama's polka-dot installations transformed ordinary spaces into immersive artworks.",
+        "alt": "Trees decorated with Kusama's polka-dot fabric for the 2006 Singapore Biennale."
+      }
+    ]
   },
   {
     "id": "rebecca-masika-katsuva",
@@ -4047,9 +4524,26 @@
         "url": "https://www.latimes.com/california/story/2026-03-27/chavez-huerta-started-labor-revolution-now-tainted-by-scandal"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cesar%20chavez.jpg",
+      "creator": "Joel Levine",
+      "source": "https://commons.wikimedia.org/wiki/File:Cesar_chavez.jpg",
+      "license": "CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/",
+      "attribution": "César Chávez, June 1974; Joel Levine; permission confirmed by Wikimedia VRT."
+    },
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cesar%20Chavez%2C%201966.jpg",
+        "creator": "Los Angeles Times Photographic Collection / UCLA",
+        "source": "https://commons.wikimedia.org/wiki/File:Cesar_Chavez%2C_1966.jpg",
+        "license": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "César Chávez, 1966, Los Angeles Times Photographic Collection, UCLA.",
+        "caption": "Chávez and the farmworkers' movement drew national attention during the 1960s.",
+        "alt": "Documentary photograph of César Chávez during the farmworker movement in 1966."
+      }
+    ]
   },
   {
     "id": "marsha-p-johnson",
@@ -4097,7 +4591,18 @@
     ],
     "image": null,
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Marsha%20P.%20Johnson%2C%20Freedom%20Fighter%20(50164594782).jpg",
+        "creator": "Andrew Ratto (photograph of public artwork)",
+        "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Marsha_P._Johnson%2C_Freedom_Fighter_(50164594782).jpg",
+        "license": "CC0 1.0 Universal — https://creativecommons.org/publicdomain/zero/1.0/",
+        "attribution": "Andrew Ratto, photograph of a public mural honoring Marsha P. Johnson in New York City, July 7, 2020; Wikimedia Commons.",
+        "caption": "A contemporary street-art tribute to Marsha P. Johnson demonstrates her enduring place in the history of LGBTQ+ activism. This is not a lifetime photograph.",
+        "alt": "Contemporary outdoor mural depicting Marsha P. Johnson, photographed in 2020."
+      }
+    ]
   },
   {
     "id": "sylvia-rivera",
@@ -4145,7 +4650,18 @@
     ],
     "image": null,
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sylvia%20Rivera%20e%20Marcella%20Di%20Folco%20al%20World%20Pride%20di%20Roma%20-%20Foto%20Giovanni%20Dall'Orto%2C%208%20july%202000.JPG",
+        "creator": "Giovanni Dall'Orto",
+        "source": "https://commons.wikimedia.org/wiki/File:Sylvia_Rivera_e_Marcella_Di_Folco_al_World_Pride_di_Roma_-_Foto_Giovanni_Dall'Orto%2C_8_july_2000.JPG",
+        "license": "Attribution-only license — author permits reuse for any purpose with attribution",
+        "attribution": "Giovanni Dall'Orto, WorldPride Rome, July 8, 2000. Sylvia Rivera appears on the far left; Marcella Di Folco is also pictured.",
+        "caption": "At WorldPride in Rome in 2000, Sylvia Rivera (far left) joined international transgender-rights advocates.",
+        "alt": "Sylvia Rivera at the far left of a float alongside Marcella Di Folco at WorldPride Rome, 2000."
+      }
+    ]
   },
   {
     "id": "angela-davis",
@@ -4192,7 +4708,13 @@
         "url": "https://directory.ucsc.edu/cd_detail?guid=G000122719"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Angela%20Davis%20(2018).jpg",
+      "creator": "Berkeley Center for New Media",
+      "source": "https://commons.wikimedia.org/wiki/File:Angela_Davis_(2018).jpg",
+      "license": "CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0/",
+      "attribution": "Angela Davis, 2018; Berkeley Center for New Media / Flickr / Wikimedia Commons. CC BY-SA 2.0."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4248,7 +4770,13 @@
         "url": "https://www.latimes.com/obituaries/story/2026-01-14/claudette-colvin-who-refused-to-move-seats-on-bus-at-start-of-civil-rights-movement-dies-at-86"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Claudette%20Colvin.jpg",
+      "creator": "The Visibility Project / original photographer not identified",
+      "source": "https://commons.wikimedia.org/wiki/File:Claudette_Colvin.jpg",
+      "license": "Public domain claim on Commons — no notice; see source for uncertainty",
+      "attribution": "Claudette Colvin at age 13, 1953."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4297,7 +4825,13 @@
         "url": "https://learninglink.oup.com/access/content/ramgotra-choat1e-resources/ramgotra-choat1e-key-thinker-mahatma-mohandas-gandhi"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gandhi%20portrait%201931.jpg",
+      "creator": "Unknown photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Gandhi_portrait_1931.jpg",
+      "license": "Public domain in India; consult source for territorial restrictions",
+      "attribution": "Mohandas K. Gandhi, 1931 portrait; via Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4345,9 +4879,26 @@
         "url": "https://yalebooks.yale.edu/book/9780300274981/golda-meir/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Golda%20Meir.jpg",
+      "creator": "Marion S. Trikosko / U.S. News & World Report",
+      "source": "https://commons.wikimedia.org/wiki/File:Golda_Meir.jpg",
+      "license": "Public domain — Library of Congress U.S. News & World Report donation",
+      "attribution": "Marion S. Trikosko, Golda Meir; Library of Congress, ppmsc.03265. No known copyright restrictions."
+    },
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Golda%20Meir2.jpg",
+        "creator": "Marion S. Trikosko / U.S. News & World Report",
+        "source": "https://commons.wikimedia.org/wiki/File:Golda_Meir2.jpg",
+        "license": "Public domain — Library of Congress U.S. News & World Report donation",
+        "attribution": "Golda Meir photographed March 1973, by Marion S. Trikosko, Library of Congress.",
+        "caption": "Meir photographed during her premiership in 1973.",
+        "alt": "Black and white photograph of Golda Meir in March 1973."
+      }
+    ]
   },
   {
     "id": "benazir-bhutto",
@@ -4394,7 +4945,13 @@
         "url": "https://www.legacy.com/legacy/notable-deaths/benazir-bhutto"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Benazir%20Bhutto.jpg",
+      "creator": "iFaqeer",
+      "source": "https://commons.wikimedia.org/wiki/File:Benazir_Bhutto.jpg",
+      "license": "CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/ (also available under GFDL 1.2 or later)",
+      "attribution": "Benazir Bhutto photographed by iFaqeer at Chandini Restaurant, Newark, California, 28 September 2004. CC BY-SA 3.0; https://creativecommons.org/licenses/by-sa/3.0/."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4442,7 +4999,13 @@
         "url": "https://www.waikato.ac.nz/study/student-success-stories/jacinda-ardern/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jacinda%20Ardern%202019.png",
+      "creator": "New Zealand Department of the Prime Minister and Cabinet",
+      "source": "https://commons.wikimedia.org/wiki/File:Jacinda_Ardern_2019.png",
+      "license": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Jacinda Ardern, official New Zealand government source, 2019; Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4491,7 +5054,13 @@
         "url": "https://guides.loc.gov/women-in-the-french-revolution/olympe-de-gouges"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Olympe%20de%20Gouges%20-%20portrait.jpg",
+      "creator": "Unknown artist",
+      "source": "https://commons.wikimedia.org/wiki/File:Olympe_de_Gouges_-_portrait.jpg",
+      "license": "Public domain — PD-old-100-expired / PD-Art",
+      "attribution": "Watercolor drawing of Olympe de Gouges, circa 1793; Louvre."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4540,9 +5109,35 @@
         "url": "https://www.britishlibrary.cn/en/works/vindication-of-the-rights-of-woman/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mary_Wollstonecraft_by_John_Opie_from_the_National_Portrait_Gallery.jpg",
+      "creator": "John Opie",
+      "source": "https://commons.wikimedia.org/wiki/File:Mary_Wollstonecraft_by_John_Opie_from_the_National_Portrait_Gallery.jpg",
+      "license": "Public domain (PD-Art; PD-old-100-expired). Wikimedia Commons notes third-party reproduction claims in some jurisdictions.",
+      "attribution": "John Opie, Mary Wollstonecraft (circa 1797), National Portrait Gallery, London, NPG 1237; via Wikimedia Commons."
+    },
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A_Vindication_of_the_Rights_of_Woman_title_page.jpg",
+        "creator": "Mary Wollstonecraft (author); first-edition printer",
+        "source": "https://commons.wikimedia.org/wiki/File:A_Vindication_of_the_Rights_of_Woman_title_page.jpg",
+        "license": "Public domain — published 1792",
+        "attribution": "First-edition title page, 1792; New York Public Library; via Wikimedia Commons.",
+        "caption": "The first edition of A Vindication of the Rights of Woman, published in 1792.",
+        "alt": "Printed title page of the 1792 book A Vindication of the Rights of Woman."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vindication.jpg",
+        "creator": "Mary Wollstonecraft (author); Library of Congress reproduction",
+        "source": "https://commons.wikimedia.org/wiki/File:Vindication.jpg",
+        "license": "Public domain — 1792 publication",
+        "attribution": "First American edition title page, 1792; Library of Congress; via Wikimedia Commons.",
+        "caption": "The first American edition brought her argument to readers across the Atlantic.",
+        "alt": "Title page from the 1792 American edition of A Vindication of the Rights of Woman."
+      }
+    ]
   },
   {
     "id": "arundhati-roy",
@@ -4589,7 +5184,13 @@
         "url": "https://thebookerprizes.com/the-booker-library/books/the-god-of-small-things"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ArundhatiRoy.jpg",
+      "creator": "Jaypee",
+      "source": "https://commons.wikimedia.org/wiki/File:ArundhatiRoy.jpg",
+      "license": "CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Arundhati Roy at a public meeting in Jalandhar, Punjab, October 2010; photograph by Jaypee."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4638,7 +5239,13 @@
         "url": "https://www.spelman.edu/about/archives/collections/audre-lorde-papers.html"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Audre%20lorde.jpg",
+      "creator": "Elsa Dorfman",
+      "source": "https://commons.wikimedia.org/wiki/File:Audre_lorde.jpg",
+      "license": "CC BY 2.5 — https://creativecommons.org/licenses/by/2.5/",
+      "attribution": "Elsa Dorfman, portrait of Audre Lorde; cropped by Sebastian Wallroth, Wikimedia Commons. CC BY 2.5, https://creativecommons.org/licenses/by/2.5/. (Other license choices available on source page.)"
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4687,7 +5294,13 @@
         "url": "https://kinginstitute.stanford.edu/baldwin-james-arthur"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jamesbaldwin.jpg",
+      "creator": "Carl Van Vechten",
+      "source": "https://commons.wikimedia.org/wiki/File:Jamesbaldwin.jpg",
+      "license": "Public domain — Library of Congress Carl Van Vechten Collection",
+      "attribution": "Carl Van Vechten, James Baldwin, 1955, Library of Congress cph.3a42800. Van Vechten estate requests no cropping/colorization and proper photographer credit."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4736,7 +5349,13 @@
         "url": "https://www.kansashistory.gov/p/langston-hughes/19437"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Langston%20Hughes%20(1901-1967)%20portrait.jpg",
+      "creator": "Unknown photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Langston_Hughes_(1901-1967)_portrait.jpg",
+      "license": "Public domain — U.S. publication before 1931",
+      "attribution": "Langston Hughes circa 1925; Schomburg Center / NYPL."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4785,7 +5404,13 @@
         "url": "https://www.pulitzer.org/news/gwendolyn-brooks-poets-work-community-opens-morgan-library"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gwendolyn%20Brooks%20ACME%201950.jpg",
+      "creator": "ACME Newspictures",
+      "source": "https://commons.wikimedia.org/wiki/File:Gwendolyn_Brooks_ACME_1950.jpg",
+      "license": "Public domain in the United States — publication copyright not renewed",
+      "attribution": "Gwendolyn Brooks, May 2, 1950; ACME Newspictures."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4834,7 +5459,13 @@
         "url": "https://www.nga.gov/artists/1926-alma-thomas"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alma%20Thomas%20Official%20Photo.jpg",
+      "creator": "United States Government",
+      "source": "https://commons.wikimedia.org/wiki/File:Alma_Thomas_Official_Photo.jpg",
+      "license": "Public domain — U.S. federal government work",
+      "attribution": "Official photograph of Alma Thomas, August 14, 1969; National Archives."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4883,7 +5514,13 @@
         "url": "https://rockhall.com/inductees/nina-simone/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nina%20Simone%20(1965).jpg",
+      "creator": "Ron Kroon / Anefo, Dutch National Archives",
+      "source": "https://commons.wikimedia.org/wiki/File:Nina_Simone_(1965).jpg",
+      "license": "CC0 1.0 Universal — https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "Nina Simone, December 1965; Ron Kroon, Anefo / Nationaal Archief; Commons CC0 record."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4932,7 +5569,13 @@
         "url": "https://billieholiday.com/bio/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Billie%20Holiday%20LCCN2004663021.jpg",
+      "creator": "Carl Van Vechten",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Billie_Holiday_LCCN2004663021.jpg",
+      "license": "Public domain — LOC Van Vechten Collection",
+      "attribution": "Billie Holiday, 1949; photograph by Carl Van Vechten, Library of Congress."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   }
