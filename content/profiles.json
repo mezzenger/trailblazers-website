@@ -1362,7 +1362,13 @@
         "url": "https://malala.org/malalas-story.html"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Malala%20Yousafzai%202015.jpg",
+      "creator": "Simon Davis / UK Department for International Development",
+      "source": "https://commons.wikimedia.org/wiki/File:Malala_Yousafzai_2015.jpg",
+      "license": "CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/",
+      "attribution": "Simon Davis / DFID, Malala Yousafzai in 2015; Wikimedia Commons CC BY 2.0 (cropped)."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2589,7 +2595,13 @@
         "url": "https://igp.sipa.columbia.edu/distinguished-fellows/michelle-bachelet"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20Michelle%20Bachelet.jpg",
+      "creator": "Government of Chile",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_Michelle_Bachelet.jpg",
+      "license": "CC BY 3.0 Chile — https://creativecommons.org/licenses/by/3.0/cl/",
+      "attribution": "Official 2014–2018 presidential portrait, Government of Chile; Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4045,7 +4057,13 @@
         "url": "https://giwps.georgetown.edu/awardee/nadia-murad/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nadia%20Murad%2016.jpg",
+      "creator": "Lisa Englehart / UK Mission to the UN",
+      "source": "https://commons.wikimedia.org/wiki/File:Nadia_Murad_16.jpg",
+      "license": "CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/",
+      "attribution": "Nadia Murad at Daesh Accountability March, UK Mission to the UN, photograph Lisa Englehart; Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4152,7 +4170,13 @@
         "url": "https://pen.org/profile/chimamanda-ngozi-adichie/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2025-06-16%20Chimamanda%20Ngozi%20Adichie%20no%20Fronteiras%20do%20Pensamento%202025%20em%20S%C3%A3o%20Paulo%2C%20013%20(cropped).jpg",
+      "creator": "Greg Salibian / Fronteiras do Pensamento",
+      "source": "https://commons.wikimedia.org/wiki/File:2025-06-16_Chimamanda_Ngozi_Adichie_no_Fronteiras_do_Pensamento_2025_em_S%C3%A3o_Paulo%2C_013_(cropped).jpg",
+      "license": "CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0/",
+      "attribution": "Chimamanda Ngozi Adichie, Fronteiras do Pensamento, São Paulo, 16 June 2025. Photograph Greg Salibian; cropped."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4785,7 +4809,13 @@
         "url": "https://www.waikato.ac.nz/study/student-success-stories/jacinda-ardern/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jacinda%20Ardern%202019.png",
+      "creator": "New Zealand Department of the Prime Minister and Cabinet",
+      "source": "https://commons.wikimedia.org/wiki/File:Jacinda_Ardern_2019.png",
+      "license": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Jacinda Ardern, official New Zealand government source, 2019; Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
