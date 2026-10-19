@@ -3,7 +3,7 @@ name: Browser review (no deployment)
 on:
   workflow_dispatch:
   push:
-    branches: [feature/museum-foundation]
+    branches: [feature/museum-foundation, feature/add-verified-portraits]
     paths:
       - 'content/**'
       - 'public/**'
