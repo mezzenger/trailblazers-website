@@ -81,6 +81,7 @@ def main():
             by_title.setdefault(title, []).append(item)
 
     errors = []
+    notices = []
     records = []
     for offset in range(0, len(by_title), 20):
         titles = list(by_title)[offset:offset + 20]
@@ -109,8 +110,11 @@ def main():
                         problems.append('Commons has no classifiable reuse license')
                     elif expected != actual:
                         problems.append(f'license family mismatch: claimed {expected}, Commons {actual}')
-                    if meta.get('Restrictions'):
-                        problems.append('Commons reuse restrictions require review')
+                    restrictions = meta.get('Restrictions', '')
+                    if restrictions:
+                        notices.append(
+                            f"{item['profile']} {item['kind']}: Commons third-party-rights/reuse notice: {title}: {restrictions[:240]}"
+                        )
                     if not actual_url or info.get('mime', '').split('/')[0] != 'image':
                         problems.append('Commons image asset absent or not an image')
                 record = {
@@ -122,6 +126,7 @@ def main():
                     'commonsLicense': meta.get('LicenseShortName', ''),
                     'commonsUsageTerms': meta.get('UsageTerms', ''),
                     'commonsAsset': actual_url,
+                    'commonsRestrictions': meta.get('Restrictions', ''),
                     'problems': problems,
                 }
                 records.append(record)
@@ -137,13 +142,15 @@ def main():
     report = {
         'checkedAt': datetime.now(timezone.utc).isoformat(),
         'imageCount': len(items), 'checkedCommonsRecords': len(records),
-        'errors': errors, 'records': records,
+        'errors': errors, 'notices': notices, 'records': records,
         'note': 'Metadata comparison only; manual file identity, rights, attribution, changes, and territories still require human review.'
     }
     REPORT.write_text(json.dumps(report, indent=2, ensure_ascii=False) + '\n')
-    print(f"Commons provenance: {len(records)}/{len(items)} image records queried; {len(errors)} issues")
+    print(f"Commons provenance: {len(records)}/{len(items)} image records queried; {len(errors)} blocking issues; {len(notices)} non-copyright notices")
     for issue in errors:
         print('REVIEW:', issue)
+    for notice in notices:
+        print('NOTICE:', notice)
     return bool(errors)
 
 
