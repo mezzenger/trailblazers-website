@@ -4715,14 +4715,34 @@
       }
     ],
     "image": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Mary_Wollstonecraft_by_John_Opie_from_the_National_Portrait_Gallery.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mary_Wollstonecraft_by_John_Opie_from_the_National_Portrait_Gallery.jpg",
       "creator": "John Opie",
       "source": "https://commons.wikimedia.org/wiki/File:Mary_Wollstonecraft_by_John_Opie_from_the_National_Portrait_Gallery.jpg",
       "license": "Public domain (PD-Art; PD-old-100-expired). Wikimedia Commons notes third-party reproduction claims in some jurisdictions.",
       "attribution": "John Opie, Mary Wollstonecraft (circa 1797), National Portrait Gallery, London, NPG 1237; via Wikimedia Commons."
     },
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A_Vindication_of_the_Rights_of_Woman_title_page.jpg",
+        "creator": "Mary Wollstonecraft (author); first-edition printer",
+        "source": "https://commons.wikimedia.org/wiki/File:A_Vindication_of_the_Rights_of_Woman_title_page.jpg",
+        "license": "Public domain — published 1792",
+        "attribution": "First-edition title page, 1792; New York Public Library; via Wikimedia Commons.",
+        "caption": "The first edition of A Vindication of the Rights of Woman, published in 1792.",
+        "alt": "Printed title page of the 1792 book A Vindication of the Rights of Woman."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vindication.jpg",
+        "creator": "Mary Wollstonecraft (author); Library of Congress reproduction",
+        "source": "https://commons.wikimedia.org/wiki/File:Vindication.jpg",
+        "license": "Public domain — 1792 publication",
+        "attribution": "First American edition title page, 1792; Library of Congress; via Wikimedia Commons.",
+        "caption": "The first American edition brought her argument to readers across the Atlantic.",
+        "alt": "Title page from the 1792 American edition of A Vindication of the Rights of Woman."
+      }
+    ]
   },
   {
     "id": "arundhati-roy",
