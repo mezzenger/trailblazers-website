@@ -4580,7 +4580,18 @@
     ],
     "image": null,
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Marsha%20P.%20Johnson%2C%20Freedom%20Fighter%20(50164594782).jpg",
+        "creator": "Andrew Ratto (photograph of public artwork)",
+        "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Marsha_P._Johnson%2C_Freedom_Fighter_(50164594782).jpg",
+        "license": "CC0 1.0 Universal — https://creativecommons.org/publicdomain/zero/1.0/",
+        "attribution": "Andrew Ratto, photograph of a public mural honoring Marsha P. Johnson in New York City, July 7, 2020; Wikimedia Commons.",
+        "caption": "A contemporary street-art tribute to Marsha P. Johnson demonstrates her enduring place in the history of LGBTQ+ activism. This is not a lifetime photograph.",
+        "alt": "Contemporary outdoor mural depicting Marsha P. Johnson, photographed in 2020."
+      }
+    ]
   },
   {
     "id": "sylvia-rivera",
@@ -4628,7 +4639,18 @@
     ],
     "image": null,
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sylvia%20Rivera%20e%20Marcella%20Di%20Folco%20al%20World%20Pride%20di%20Roma%20-%20Foto%20Giovanni%20Dall'Orto%2C%208%20july%202000.JPG",
+        "creator": "Giovanni Dall'Orto",
+        "source": "https://commons.wikimedia.org/wiki/File:Sylvia_Rivera_e_Marcella_Di_Folco_al_World_Pride_di_Roma_-_Foto_Giovanni_Dall'Orto%2C_8_july_2000.JPG",
+        "license": "Attribution-only license — author permits reuse for any purpose with attribution",
+        "attribution": "Giovanni Dall'Orto, WorldPride Rome, July 8, 2000. Sylvia Rivera appears on the far left; Marcella Di Folco is also pictured.",
+        "caption": "At WorldPride in Rome in 2000, Sylvia Rivera (far left) joined international transgender-rights advocates.",
+        "alt": "Sylvia Rivera at the far left of a float alongside Marcella Di Folco at WorldPride Rome, 2000."
+      }
+    ]
   },
   {
     "id": "angela-davis",
