@@ -3588,7 +3588,13 @@
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3589620/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rita%20Levi-Montalcini%20(1986).jpg",
+      "creator": "Kurt Hagblom, Firma Hagblom-Foto / Lund University Library",
+      "source": "https://commons.wikimedia.org/wiki/File:Rita_Levi-Montalcini_(1986).jpg",
+      "license": "Public domain — released by copyright holder, Lund University Library",
+      "attribution": "Rita Levi-Montalcini during a visit to Lund in 1986; Kurt Hagblom; Lund University Library."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4371,9 +4377,26 @@
         "url": "https://yayoikusamamuseum.jp/en/news/news20260827/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yayoi%20Kusama%20circa%202004.jpg",
+      "creator": "George Quasha",
+      "source": "https://commons.wikimedia.org/wiki/File:Yayoi_Kusama_circa_2004.jpg",
+      "license": "CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/",
+      "attribution": "Yayoi Kusama from George Quasha's Speaking Portraits video (circa 2002–2005); via Wikimedia Commons."
+    },
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yayoi%20Kusama%20-%20Ascension%20of%20Polkadots%20on%20the%20Trees%2C%20SB2006%207.JPG",
+        "creator": "I64s (Wikimedia Commons photographer)",
+        "source": "https://commons.wikimedia.org/wiki/File:Yayoi_Kusama_-_Ascension_of_Polkadots_on_the_Trees%2C_SB2006_7.JPG",
+        "license": "CC BY 2.5 — https://creativecommons.org/licenses/by/2.5/",
+        "attribution": "Yayoi Kusama installation, Singapore Biennale 2006; photo I64s.",
+        "caption": "Kusama's polka-dot installations transformed ordinary spaces into immersive artworks.",
+        "alt": "Trees decorated with Kusama's polka-dot fabric for the 2006 Singapore Biennale."
+      }
+    ]
   },
   {
     "id": "rebecca-masika-katsuva",
@@ -4472,9 +4495,26 @@
         "url": "https://www.latimes.com/california/story/2026-03-27/chavez-huerta-started-labor-revolution-now-tainted-by-scandal"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cesar%20chavez.jpg",
+      "creator": "Joel Levine",
+      "source": "https://commons.wikimedia.org/wiki/File:Cesar_chavez.jpg",
+      "license": "CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/",
+      "attribution": "César Chávez, June 1974; Joel Levine; permission confirmed by Wikimedia VRT."
+    },
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cesar%20Chavez%2C%201966.jpg",
+        "creator": "Los Angeles Times Photographic Collection / UCLA",
+        "source": "https://commons.wikimedia.org/wiki/File:Cesar_Chavez%2C_1966.jpg",
+        "license": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
+        "attribution": "César Chávez, 1966, Los Angeles Times Photographic Collection, UCLA.",
+        "caption": "Chávez and the farmworkers' movement drew national attention during the 1960s.",
+        "alt": "Documentary photograph of César Chávez during the farmworker movement in 1966."
+      }
+    ]
   },
   {
     "id": "marsha-p-johnson",
