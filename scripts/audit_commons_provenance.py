@@ -30,6 +30,8 @@ def license_family(value):
         return 'by-sa'
     if re.search(r'\bcc\s*by\b|attribution\s+\d', value):
         return 'by'
+    if 'no known copyright restrictions' in value or 'no known restrictions' in value:
+        return 'no-known-restrictions'
     if 'cc0' in value or 'public domain' in value or 'pd-' in value:
         return 'pd'
     if 'gfdl' in value:
