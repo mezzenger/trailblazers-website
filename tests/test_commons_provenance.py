@@ -25,6 +25,17 @@ class CommonsMetadataTests(unittest.TestCase):
     def test_html_metadata(self):
         self.assertEqual(audit.plain('<b>CC BY-SA</b> &amp; 4.0'), 'CC BY-SA & 4.0')
 
+    def test_special_non_cc_license_families(self):
+        self.assertEqual(audit.license_family('Government Open Data License – India (GODL)'), 'godl-india')
+        self.assertEqual(audit.license_family('GODL-India'), 'godl-india')
+        self.assertEqual(audit.license_family('Attribution-only license — author permits reuse'), 'attribution-only')
+        self.assertEqual(audit.license_family('Attribution'), 'attribution-only')
+
+    def test_explicit_licenses_remain_distinct(self):
+        self.assertEqual(audit.license_family('CC BY-SA 3.0'), 'by-sa')
+        self.assertEqual(audit.license_family('CC BY 2.5'), 'by')
+        self.assertEqual(audit.license_family('Public domain in the United States'), 'pd')
+
     def test_metadata_does_not_drop_zero(self):
         self.assertEqual(audit.plain(0), '0')
 
