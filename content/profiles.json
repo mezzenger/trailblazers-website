@@ -2165,7 +2165,13 @@
         "url": "https://msa.maryland.gov/msa/educ/exhibits/womenshallfame/html/lacks.html"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Henrietta%20Lacks.jpg",
+      "creator": "Photograph attributed on Commons to Oregon State University",
+      "source": "https://commons.wikimedia.org/wiki/File:Henrietta_Lacks.jpg",
+      "license": "CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0/",
+      "attribution": "Henrietta Lacks, circa 1945; Oregon State University source, Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2707,7 +2713,13 @@
         "url": "https://www.cambridge.org/core/journals/hypatia/article/like-seeking-out-a-lost-friend-reconsidering-pioneer-arab-feminists-and-their-networks-as-part-of-athe-first-wave/B2631A8157D0387CB5208C49826FCB3E"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Huda%20Sha'arawi%2C%201925%20photo%20by%20Underwood%20%26%20Underwood.jpg",
+      "creator": "Underwood & Underwood",
+      "source": "https://commons.wikimedia.org/wiki/File:Huda_Sha'arawi%2C_1925_photo_by_Underwood_%26_Underwood.jpg",
+      "license": "Public domain — historical photograph published before 1931",
+      "attribution": "Huda Sha'arawi, 1925; Underwood & Underwood, via Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3846,9 +3858,26 @@
         "url": "https://www.womenshistory.org/education-resources/biographies/pauli-murray"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Dr.%20Pauli%20Murray.jpg",
+      "creator": "FDR Presidential Library & Museum",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Dr._Pauli_Murray.jpg",
+      "license": "CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/",
+      "attribution": "Portrait of Pauli Murray; FDR Presidential Library & Museum, Flickr, via Wikimedia Commons."
+    },
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pauli%20Murray%20Family%20Home.jpg",
+        "creator": "Nyttend",
+        "source": "https://commons.wikimedia.org/wiki/File:Pauli_Murray_Family_Home.jpg",
+        "license": "Public domain — photographer's dedication",
+        "attribution": "Pauli Murray family home, Durham, North Carolina, photographed 2017 by Nyttend.",
+        "caption": "The Pauli Murray family home in Durham connects the story to the communities that shaped Murray's life.",
+        "alt": "Exterior of Pauli Murray family home in Durham, North Carolina."
+      }
+    ]
   },
   {
     "id": "bayard-rustin",
@@ -4015,7 +4044,13 @@
         "url": "https://www.nelsonmandela.org/news/entry/we-remember-steve-bantu-biko"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Steve%20Biko%20on%20Flyer%20for%20Steve%20Biko%20Memorial%20at%20the%20Carver%20Cultural%20Center.jpg",
+      "creator": "Cape Argus (photographic image reproduced in flyer)",
+      "source": "https://commons.wikimedia.org/wiki/File:Steve_Biko_on_Flyer_for_Steve_Biko_Memorial_at_the_Carver_Cultural_Center.jpg",
+      "license": "Public domain in United States — 1931–1977 publication without copyright notice; consult Commons",
+      "attribution": "Steve Biko portrait reproduced in Steve Biko Memorial flyer; Cape Argus image, via Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
