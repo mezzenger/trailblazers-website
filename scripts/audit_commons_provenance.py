@@ -29,6 +29,10 @@ def plain(value):
 
 def license_family(value):
     value = (value or '').lower()
+    if 'godl' in value or 'government open data license' in value:
+        return 'godl-india'
+    if 'attribution-only license' in value or value.strip() == 'attribution' or 'attribution license' in value:
+        return 'attribution-only'
     if re.search(r'\bcc\s*by[- ]sa\b|attribution-sharealike', value):
         return 'by-sa'
     if re.search(r'\bcc\s*by\b|attribution\s+\d', value):
