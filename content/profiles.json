@@ -198,7 +198,13 @@
         "url": "https://home.nps.gov/people/shirley-chisholm.htm"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shirley%20Chisholm.jpg",
+      "creator": "Thomas J. O'Halloran; restoration by Adam Cuerden",
+      "source": "https://commons.wikimedia.org/wiki/File:Shirley_Chisholm.jpg",
+      "license": "Public domain — U.S. News & World Report / Library of Congress donation",
+      "attribution": "1972 congressional campaign photograph, Library of Congress."
+    },
     "verification": "verified",
     "reviewed": "2026-10-17"
   },
@@ -340,7 +346,13 @@
         "url": "https://postalmuseum.si.edu/exhibition/the-black-experience-sports-the-olympics/wilma-rudolph"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wilma%20Rudolph.jpg",
+      "creator": "New York World-Telegram and the Sun staff photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Wilma_Rudolph.jpg",
+      "license": "Public domain — NYWT&S collection donation",
+      "attribution": "Wilma Rudolph at Madison Square Garden, 1961; NYPL / Library of Congress."
+    },
     "verification": "verified",
     "reviewed": "2026-10-17"
   },
@@ -628,7 +640,13 @@
         "url": "https://www.moma.org/collection/artists/2963"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Frida%20Kahlo%201932.jpg",
+      "creator": "Carl Van Vechten",
+      "source": "https://commons.wikimedia.org/wiki/File:Frida_Kahlo_1932.jpg",
+      "license": "Public domain — Library of Congress Carl Van Vechten Collection",
+      "attribution": "Portrait of Frida Kahlo from 1932, cropped from a group photograph."
+    },
     "verification": "verified",
     "reviewed": "2026-10-17"
   },
@@ -931,7 +949,13 @@
         "url": "https://www.aps.org/apsnews/2022/11/global-event-chien-shiung-wu"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chien-Shiung%20Wu%20(1912-1997)%20in%201963%20-%20Restoration.jpg",
+      "creator": "Science Service / Smithsonian Institution; restoration Adam Cuerden",
+      "source": "https://commons.wikimedia.org/wiki/File:Chien-Shiung_Wu_(1912-1997)_in_1963_-_Restoration.jpg",
+      "license": "Public domain / Smithsonian Institution source; see file-specific licensing",
+      "attribution": "Chien-Shiung Wu, 1963; Science Service photograph, Smithsonian."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1074,7 +1098,13 @@
         "url": "https://www.nps.gov/people/dr-elizabeth-blackwell.htm"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elizabeth%20Blackwell.jpg",
+      "creator": "Unknown photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Elizabeth_Blackwell.jpg",
+      "license": "Public domain — published before 1931",
+      "attribution": "Elizabeth Blackwell, National Library of Medicine."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1119,7 +1149,13 @@
         "url": "https://www.npg.org.uk/collections/search/personExtended/mp70879/mary-jane-seacole-nee-grant?tab=biography"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Seacole%20-%20Challen.jpg",
+      "creator": "Albert Charles Challen",
+      "source": "https://commons.wikimedia.org/wiki/File:Seacole_-_Challen.jpg",
+      "license": "Public domain — artist died 1881, PD-Art",
+      "attribution": "Portrait of Mary Seacole, circa 1869; National Portrait Gallery, London."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1316,7 +1352,13 @@
         "url": "https://news.harvard.edu/gazette/story/2011/10/sirleaf-wins-nobel-peace-prize/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ellen%20Johnson-Sirleaf.jpg",
+      "creator": "U.S. Embassy Monrovia",
+      "source": "https://commons.wikimedia.org/wiki/File:Ellen_Johnson-Sirleaf.jpg",
+      "license": "Public domain — U.S. Department of State official work",
+      "attribution": "Ellen Johnson Sirleaf, 2005, U.S. Embassy Monrovia."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1459,7 +1501,13 @@
         "url": "https://uchile.cl/noticias/203823/134-anos-del-natalicio-de-gabriela-mistral-el-legado-de-la-educadora"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gabriela%20Mistral%20(1922).jpg",
+      "creator": "Unknown photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Gabriela_Mistral_(1922).jpg",
+      "license": "Public domain — Chilean cultural heritage",
+      "attribution": "Gabriela Mistral, 1922; Memoria Chilena."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1556,7 +1604,13 @@
         "url": "https://sahistory.org.za/people/miriam-makeba"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Miriam%20makeba%2001.jpg",
+      "creator": "Paul Weinberg",
+      "source": "https://commons.wikimedia.org/wiki/File:Miriam_makeba_01.jpg",
+      "license": "CC BY-SA 3.0 / GFDL",
+      "attribution": "Miriam Makeba performing in 1991; Paul Weinberg, CC BY-SA 3.0; https://creativecommons.org/licenses/by-sa/3.0/"
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1645,7 +1699,13 @@
         "url": "https://royalsociety.org/news/2020/11/dame-jocelyn-bell-burnell-portrait-unveiled/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jocelyn%20Bell%20Burnell.jpg",
+      "creator": "Wikimedia Commons contributor (see source)",
+      "source": "https://commons.wikimedia.org/wiki/File:Jocelyn_Bell_Burnell.jpg",
+      "license": "CC0 1.0 Universal",
+      "attribution": "Portrait of Jocelyn Bell Burnell; Wikimedia Commons CC0 public-domain dedication."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2315,7 +2375,13 @@
         "url": "https://theelders.org/profile/desmond-tutu"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Desmond%20tutu%20(5547444409).jpg",
+      "creator": "University of Mount Union",
+      "source": "https://commons.wikimedia.org/wiki/File:Desmond_tutu_(5547444409).jpg",
+      "license": "CC BY 2.0",
+      "attribution": "Desmond Tutu, University of Mount Union via Flickr / Wikimedia Commons; https://creativecommons.org/licenses/by/2.0/"
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2560,7 +2626,13 @@
         "url": "https://home.nps.gov/cawo/learn/historyculture/zora-neale-hurston-and-cudjo-s-own-story.htm"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Zora%20Neale%20Hurston%20LCCN2004663047.jpg",
+      "creator": "Carl Van Vechten",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Zora_Neale_Hurston_LCCN2004663047.jpg",
+      "license": "Public domain — LOC Van Vechten Collection",
+      "attribution": "Portrait of Zora Neale Hurston (1938), Library of Congress; credit Carl Van Vechten; estate requests no cropping or colorization."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3172,7 +3244,13 @@
         "url": "https://www.sciencehistory.org/education/scientific-biographies/francis-crick-rosalind-franklin-james-watson-and-maurice-wilkins/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosalind%20Franklin.jpg",
+      "creator": "MRC Laboratory of Molecular Biology",
+      "source": "https://commons.wikimedia.org/wiki/File:Rosalind_Franklin.jpg",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Rosalind Franklin with microscope, 1955; from Jenifer Glynn's collection; https://creativecommons.org/licenses/by-sa/4.0/"
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3421,7 +3499,13 @@
         "url": "https://www.redcross.org/about-us/who-we-are/history/clara-barton.html"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Clara%20Barton.jpg",
+      "creator": "Unknown photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Clara_Barton.jpg",
+      "license": "Public domain — pre-1901 portrait",
+      "attribution": "Portrait of Clara Barton; from Famous Americans."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4315,7 +4399,13 @@
         "url": "https://learninglink.oup.com/access/content/ramgotra-choat1e-resources/ramgotra-choat1e-key-thinker-mahatma-mohandas-gandhi"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gandhi%20portrait%201931.jpg",
+      "creator": "Unknown photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Gandhi_portrait_1931.jpg",
+      "license": "Public domain in India; consult source for territorial restrictions",
+      "attribution": "Mohandas K. Gandhi, 1931 portrait; via Wikimedia Commons."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4760,7 +4850,13 @@
         "url": "https://www.kansashistory.gov/p/langston-hughes/19437"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Langston%20Hughes%20(1901-1967)%20portrait.jpg",
+      "creator": "Unknown photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Langston_Hughes_(1901-1967)_portrait.jpg",
+      "license": "Public domain — U.S. publication before 1931",
+      "attribution": "Langston Hughes circa 1925; Schomburg Center / NYPL."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4858,7 +4954,13 @@
         "url": "https://www.nga.gov/artists/1926-alma-thomas"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alma%20Thomas%20Official%20Photo.jpg",
+      "creator": "United States Government",
+      "source": "https://commons.wikimedia.org/wiki/File:Alma_Thomas_Official_Photo.jpg",
+      "license": "Public domain — U.S. federal government work",
+      "attribution": "Official photograph of Alma Thomas, August 14, 1969; National Archives."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4956,7 +5058,13 @@
         "url": "https://billieholiday.com/bio/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Billie%20Holiday%20LCCN2004663021.jpg",
+      "creator": "Carl Van Vechten",
+      "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Billie_Holiday_LCCN2004663021.jpg",
+      "license": "Public domain — LOC Van Vechten Collection",
+      "attribution": "Billie Holiday, 1949; photograph by Carl Van Vechten, Library of Congress."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   }
