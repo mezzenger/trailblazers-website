@@ -2153,7 +2153,18 @@
     ],
     "image": null,
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Crumpler%20A-Book-of-Medical-Discourses.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Crumpler%20A-Book-of-Medical-Discourses.jpg",
+        "creator": "Rebecca Lee Crumpler (author); National Library of Medicine (digitization)",
+        "license": "Public domain in the United States — 1883 publication; NLM federal digitization",
+        "attribution": "Rebecca Lee Crumpler, A Book of Medical Discourses, 1883; U.S. National Library of Medicine, via Wikimedia Commons.",
+        "caption": "The cover of Dr. Crumpler's 1883 medical book. No authenticated photograph of her is known to survive.",
+        "alt": "Cover of the 1883 book A Book of Medical Discourses by Dr. Rebecca Lee Crumpler."
+      }
+    ]
   },
   {
     "id": "henrietta-lacks",
