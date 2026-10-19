@@ -148,7 +148,13 @@
         "url": "https://www.senate.gov/states/CA/timeline.htm"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Senator%20Kamala%20Harris%20Official%20Portrait.jpg",
+      "creator": "Renee Bouchard / U.S. Senate",
+      "source": "https://commons.wikimedia.org/wiki/File:Senator_Kamala_Harris_Official_Portrait.jpg",
+      "license": "Public domain — U.S. federal government work",
+      "attribution": "Official U.S. Senate portrait, May 12, 2017."
+    },
     "verification": "verified",
     "reviewed": "2026-10-17"
   },
@@ -253,7 +259,13 @@
         "url": "https://www.loc.gov/item/n80131379/toni-morrison/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Toni%20Morrison%20(author%2C%20at%20her%20upstate%20New%20York%20home).jpg",
+      "creator": "Bernard Gotfryd / Library of Congress",
+      "source": "https://commons.wikimedia.org/wiki/File:Toni_Morrison_(author%2C_at_her_upstate_New_York_home).jpg",
+      "license": "Public domain — donated LOC Bernard Gotfryd collection; no known restrictions",
+      "attribution": "Toni Morrison at home, 1980–1987; Bernard Gotfryd, Library of Congress."
+    },
     "verification": "verified",
     "reviewed": "2026-10-17"
   },
@@ -302,7 +314,13 @@
         "url": "https://achievement.org/achiever/oprah-winfrey/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oprah%20Winfrey.jpg",
+      "creator": "Wikimedia Commons photographer; see source",
+      "source": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey.jpg",
+      "license": "CC BY-SA 2.0",
+      "attribution": "Oprah Winfrey photograph, December 2007; https://creativecommons.org/licenses/by-sa/2.0/"
+    },
     "verification": "verified",
     "reviewed": "2026-10-17"
   },
@@ -397,7 +415,13 @@
         "url": "https://www.itftennis.com/en/tours/grand-slam-tournaments/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Serena%20Williams.jpg",
+      "creator": "Wikimedia Commons photographer; see exact source",
+      "source": "https://commons.wikimedia.org/wiki/File:Serena_Williams.jpg",
+      "license": "CC BY-SA 3.0 / GFDL",
+      "attribution": "Serena Williams photograph; see Commons file page and license."
+    },
     "verification": "verified",
     "reviewed": "2026-10-17"
   },
@@ -901,7 +925,13 @@
         "url": "https://news.stanford.edu/stories/2017/07/maryam-mirzakhani-stanford-mathematician-and-fields-medal-winner-dies"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Maryam%20Mirzakhani%20(cropped).jpg",
+      "creator": "Original photographer listed on Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Maryam_Mirzakhani_(cropped).jpg",
+      "license": "CC BY-SA 3.0",
+      "attribution": "Maryam Mirzakhani portrait; Commons cropped derivative. https://creativecommons.org/licenses/by-sa/3.0/"
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1456,7 +1486,13 @@
         "url": "https://www.gov.za/mandela100/biography"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nelson%20Mandela.jpg",
+      "creator": "White House Photograph Office (Clinton Administration)",
+      "source": "https://commons.wikimedia.org/wiki/File:Nelson_Mandela.jpg",
+      "license": "Public domain — U.S. federal government work",
+      "attribution": "Nelson Mandela in Philadelphia, 1993; U.S. National Archives."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -1555,7 +1591,13 @@
         "url": "https://www.christies.com/presscenter/pdf/9955/REL_AMRITA%20SHER-GIL%20PORTRAIT_MARCH%202021_9955_1.pdf"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Amrita%20Sher-Gil%20Self-portrait.jpg",
+      "creator": "Amrita Sher-Gil",
+      "source": "https://commons.wikimedia.org/wiki/File:Amrita_Sher-Gil_Self-portrait.jpg",
+      "license": "Public domain — artist died 1941; see PD-Art source",
+      "attribution": "Self-portrait, 1930; National Gallery of Modern Art, New Delhi."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3903,7 +3945,13 @@
         "url": "https://blogs.loc.gov/kluge/2020/07/the-20th-century-transformation-of-the-dalit-movement-in-india/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Indira%20Gandhi%20official%20portrait.png",
+      "creator": "Prime Minister's Office, Government of India",
+      "source": "https://commons.wikimedia.org/wiki/File:Indira_Gandhi_official_portrait.png",
+      "license": "Government Open Data License – India (GODL)",
+      "attribution": "Official portrait of Indira Gandhi, 1983; Government of India. https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf"
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4350,7 +4398,13 @@
         "url": "https://www.latimes.com/obituaries/story/2026-01-14/claudette-colvin-who-refused-to-move-seats-on-bus-at-start-of-civil-rights-movement-dies-at-86"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Claudette%20Colvin.jpg",
+      "creator": "The Visibility Project / original photographer not identified",
+      "source": "https://commons.wikimedia.org/wiki/File:Claudette_Colvin.jpg",
+      "license": "Public domain claim on Commons — no notice; see source for uncertainty",
+      "attribution": "Claudette Colvin at age 13, 1953."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4502,7 +4556,13 @@
         "url": "https://www.legacy.com/legacy/notable-deaths/benazir-bhutto"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Benazir%20Bhutto.jpg",
+      "creator": "iFaqeer",
+      "source": "https://commons.wikimedia.org/wiki/File:Benazir_Bhutto.jpg",
+      "license": "GFDL (see file page for exact version and conditions)",
+      "attribution": "Benazir Bhutto in Newark, California, September 2004; iFaqeer."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -4599,7 +4659,13 @@
         "url": "https://guides.loc.gov/women-in-the-french-revolution/olympe-de-gouges"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Olympe%20de%20Gouges%20-%20portrait.jpg",
+      "creator": "Unknown artist",
+      "source": "https://commons.wikimedia.org/wiki/File:Olympe_de_Gouges_-_portrait.jpg",
+      "license": "Public domain — PD-old-100-expired / PD-Art",
+      "attribution": "Watercolor drawing of Olympe de Gouges, circa 1793; Louvre."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
