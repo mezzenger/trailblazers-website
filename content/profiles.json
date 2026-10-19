@@ -575,9 +575,26 @@
         "url": "https://www.nobelprize.org/prizes/peace/2004/maathai/facts/"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wangari%20Maathai.jpg",
+      "creator": "DEMOSH",
+      "source": "https://commons.wikimedia.org/wiki/File:Wangari_Maathai.jpg",
+      "license": "CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/",
+      "attribution": "DEMOSH, Wangari Maathai, 2006, Flickr via Wikimedia Commons, CC BY 2.0."
+    },
     "verification": "verified",
-    "reviewed": "2026-10-17"
+    "reviewed": "2026-10-17",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wangari%20maathai%20and%20DRC%20env%20minister.jpg",
+        "creator": "Hector Guinnness / original source attribution to be checked",
+        "source": "https://commons.wikimedia.org/wiki/File:Wangari_maathai_and_DRC_env_minister.jpg",
+        "license": "CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/",
+        "attribution": "Wangari Maathai with DRC environmental minister signing the Forests Now Declaration; Wikimedia Commons.",
+        "caption": "International environmental cooperation became part of Maathai's work.",
+        "alt": "Wangari Maathai and a Congolese environmental official signing the Forests Now Declaration."
+      }
+    ]
   },
   {
     "id": "tu-youyou",
@@ -2185,7 +2202,13 @@
         "url": "https://www.scielo.br/j/pcp/a/ST6887NdYRBschFzS8sFhpP/?lang=pt"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nise%20da%20Silveira.jpg",
+      "creator": "Unknown documentary photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Nise_da_Silveira.jpg",
+      "license": "Public domain — historical Brazilian documentary photograph; Commons PD-Brazil-Photo",
+      "attribution": "Nise da Silveira; photograph reproduced in Maria Werneck, Sala 4 (1988)."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -2337,7 +2360,13 @@
         "url": "https://kinginstitute.stanford.edu/baker-ella-josephine"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ella%20Baker%20(1903-1986)%20circa%201944.png",
+      "creator": "Unknown photographer",
+      "source": "https://commons.wikimedia.org/wiki/File:Ella_Baker_(1903-1986)_circa_1944.png",
+      "license": "Public domain in United States — historic publication copyright not renewed",
+      "attribution": "Ella Baker, circa 1944; Wikimedia Commons, citing Britannica."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -3093,7 +3122,13 @@
         "url": "https://www.mncn.csic.es/es/visita-el-mncn/biografia-de-valentina-tereshkova"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tereshkova%20Space%20Suit.jpg",
+      "creator": "NASA StarChild",
+      "source": "https://commons.wikimedia.org/wiki/File:Tereshkova_Space_Suit.jpg",
+      "license": "Public domain in the United States — NASA government work",
+      "attribution": "Valentina Tereshkova outside Vostok 6 capsule, June 1963; NASA StarChild."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
@@ -5143,7 +5178,13 @@
         "url": "https://www.pulitzer.org/news/gwendolyn-brooks-poets-work-community-opens-morgan-library"
       }
     ],
-    "image": null,
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gwendolyn%20Brooks%20ACME%201950.jpg",
+      "creator": "ACME Newspictures",
+      "source": "https://commons.wikimedia.org/wiki/File:Gwendolyn_Brooks_ACME_1950.jpg",
+      "license": "Public domain in the United States — publication copyright not renewed",
+      "attribution": "Gwendolyn Brooks, May 2, 1950; ACME Newspictures."
+    },
     "verification": "verified",
     "reviewed": "2026-10-18"
   },
