@@ -5,10 +5,15 @@ import { readFileSync } from 'node:fs';
 const profiles = JSON.parse(readFileSync('content/profiles.json', 'utf8'));
 const profileCount = profiles.length;
 const placeholderProfile = profiles.find(person => person.image === null);
+const maryJackson = profiles.find(person => person.id === 'mary-jackson');
 
 test('homepage, collection, filters, timeline, and keyboard path', async ({ page }, testInfo) => {
   await page.goto('./');
   await expect(page).toHaveTitle(/Trailblazers of History/);
+  await page.keyboard.press('Tab');
+  await expect(page.getByRole('link', { name: 'Skip to content' })).toBeFocused();
+  await page.keyboard.press('Enter');
+  await expect(page.locator('#main')).toBeFocused();
   await expect(page.locator('#card-grid .person-card')).toHaveCount(profileCount);
   await expect(page.locator('#result-count')).toHaveText(`Showing ${profileCount} people`);
   await page.locator('#search').fill('parity violation');
@@ -24,8 +29,9 @@ test('homepage, collection, filters, timeline, and keyboard path', async ({ page
   await expect(page.locator('#search')).toBeFocused();
   await expect(page.locator('#card-grid .person-card:visible')).toHaveCount(profileCount);
   await page.locator('[data-category-jump="Medicine & Public Health"]').click();
+  await expect(page.locator('#search')).toBeFocused();
   await expect(page.locator('#category')).toHaveValue('Medicine & Public Health');
-  const medicineCount = JSON.parse(readFileSync('content/profiles.json', 'utf8')).filter(person => person.categories.includes('Medicine & Public Health')).length;
+  const medicineCount = profiles.filter(person => person.categories.includes('Medicine & Public Health')).length;
   await expect(page.locator('#card-grid .person-card:visible')).toHaveCount(medicineCount);
   await page.locator('#clear-filters').click();
 
@@ -52,7 +58,8 @@ test('production profile route, portrait, source links, and accessibility', asyn
   await page.goto('people/mary-jackson/');
   await expect(page).toHaveURL(/\/trailblazers-website\/people\/mary-jackson\/$/);
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Mary Jackson');
-  await expect(page.locator('.profile-art img')).toBeVisible();
+  await expect(page.locator('.profile-art img')).toHaveAttribute('src', maryJackson.image.url);
+  await expect(page.locator('.profile-art')).toBeVisible();
   await expect(page.locator('.source-list a')).toHaveCount(2);
   await expect(page.getByRole('link', { name: /Image record/ })).toHaveAttribute('href', /commons.wikimedia.org/);
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth + 1);
@@ -60,6 +67,14 @@ test('production profile route, portrait, source links, and accessibility', asyn
   await page.screenshot({ path: testInfo.outputPath(`profile-${testInfo.project.name}.png`), fullPage: true });
   const audit = await new AxeBuilder({ page }).analyze();
   expect(audit.violations).toEqual([]);
+});
+
+test('an unavailable portrait falls back to the named placeholder', async ({ page }) => {
+  await page.route(maryJackson.image.url, route => route.abort());
+  await page.goto('people/mary-jackson/');
+  await expect(page.locator('.profile-art img')).toBeHidden();
+  await expect(page.getByRole('img', { name: 'Portrait not shown for Mary Jackson' })).toBeVisible();
+  await expect(page.getByRole('link', { name: /Image record/ })).toBeVisible();
 });
 
 test('profile without a rights-cleared portrait uses an accessible typographic placeholder', async ({ page }, testInfo) => {
@@ -80,6 +95,7 @@ test('homepage accessibility in both themes and reduced motion', async ({ page }
   await page.goto('./');
   for (const theme of ['light', 'dark']) {
     if (theme === 'dark') await page.getByRole('button', { name: 'Toggle color theme' }).click();
+    await expect(page.getByRole('button', { name: 'Toggle color theme' })).toHaveAttribute('aria-pressed', String(theme === 'dark'));
     const audit = await new AxeBuilder({ page }).analyze();
     expect(audit.violations, `${theme}: ${JSON.stringify(audit.violations.map(v => v.id))}`).toEqual([]);
   }

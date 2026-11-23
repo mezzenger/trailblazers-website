@@ -1,12 +1,22 @@
-import {normalize, matchesProfile, compareProfiles} from './filter-core.mjs';
+import {matchesProfile, compareProfiles} from './filter-core.mjs';
 const themeButton = document.querySelector('.theme-toggle');
-const savedTheme = localStorage.getItem('trailblazers-theme');
-if (savedTheme) document.documentElement.dataset.theme = savedTheme;
+function applyTheme(theme) {
+  document.documentElement.dataset.theme = theme;
+  themeButton?.setAttribute('aria-pressed', String(theme === 'dark'));
+}
+try {
+  if (localStorage.getItem('trailblazers-theme') === 'dark') applyTheme('dark');
+} catch {
+  // The theme still works when browser storage is unavailable.
+}
 themeButton?.addEventListener('click', () => {
   const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
-  document.documentElement.dataset.theme = next;
-  localStorage.setItem('trailblazers-theme', next);
-  themeButton.setAttribute('aria-label', `Switch to ${next === 'dark' ? 'light' : 'dark'} theme`);
+  applyTheme(next);
+  try {
+    localStorage.setItem('trailblazers-theme', next);
+  } catch {
+    // Keep the theme active for this page.
+  }
 });
 
 const search = document.querySelector('#search');
@@ -15,21 +25,27 @@ const era = document.querySelector('#era');
 const region = document.querySelector('#region');
 const sort = document.querySelector('#sort');
 const grid = document.querySelector('#card-grid');
-const cards = grid ? [...grid.querySelectorAll('.person-card')] : [];
+const cards = grid ? [...grid.querySelectorAll('.person-card')].map(element => ({
+  element,
+  profile: JSON.parse(element.dataset.profile),
+})) : [];
 const count = document.querySelector('#result-count');
 const empty = document.querySelector('#empty-state');
+let currentSort;
 function updateCollection() {
   if (!grid) return;
-  const term = normalize(search.value);
   let shown = 0;
-  const filters = {search: term, category: category.value, era: era.value, region: region.value};
-  for (const card of cards) {
-    const matches = matchesProfile(JSON.parse(card.dataset.profile), filters);
-    card.hidden = !matches;
+  const filters = {search: search.value, category: category.value, era: era.value, region: region.value};
+  for (const { element, profile } of cards) {
+    const matches = matchesProfile(profile, filters);
+    element.hidden = !matches;
     if (matches) shown++;
   }
-  const ordered = [...cards].sort((a,b) => compareProfiles(JSON.parse(a.dataset.profile), JSON.parse(b.dataset.profile), sort.value));
-  grid.replaceChildren(...ordered);
+  if (sort.value !== currentSort) {
+    currentSort = sort.value;
+    const ordered = [...cards].sort((a, b) => compareProfiles(a.profile, b.profile, currentSort));
+    grid.replaceChildren(...ordered.map(card => card.element));
+  }
   count.textContent = `Showing ${shown} ${shown === 1 ? 'person' : 'people'}`;
   empty.hidden = shown > 0;
 }
@@ -40,7 +56,8 @@ document.querySelector('#empty-clear')?.addEventListener('click', clearFilters);
 document.querySelectorAll('[data-category-jump]').forEach(button => button.addEventListener('click', () => {
   category.value = button.dataset.categoryJump;
   updateCollection();
-  document.querySelector('#collection').scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth'});
+  search.focus({preventScroll: true});
+  document.querySelector('#collection').scrollIntoView();
 }));
 updateCollection();
 
@@ -66,15 +83,27 @@ shareButton?.addEventListener('click', async () => {
 // Rotate the daily selection in the visitor's browser; the build-time choice is the no-script fallback.
 const dailyPanel = document.querySelector('.daily-panel');
 if (dailyPanel && cards.length) {
-  const dailyCard = cards[Math.floor(Date.now() / 86400000) % cards.length];
-  const person = JSON.parse(dailyCard.dataset.profile);
+  const today = new Date();
+  const ordinal = Date.UTC(today.getFullYear(), today.getMonth(), today.getDate()) / 86400000 + 719163;
+  const { element: dailyCard, profile: person } = cards[ordinal % cards.length];
   dailyPanel.querySelector('p').textContent = person.summary;
   const dailyLink = dailyPanel.querySelector('.button');
   dailyLink.href = dailyCard.querySelector('.card-link').href;
-  dailyLink.textContent = `Meet ${person.name} ↗`;
+  dailyLink.firstChild.textContent = `Meet ${person.name} `;
   dailyPanel.querySelector('.daily-name strong').textContent = person.name;
   dailyPanel.querySelector('.daily-name > span').textContent = person.categories[0];
-  const oldPortrait = dailyPanel.querySelector('.daily-name .portrait, .daily-name .portrait-frame');
+  const oldPortrait = dailyPanel.querySelector('.daily-name .portrait-frame, .daily-name .portrait--type');
   const newPortrait = dailyCard.querySelector('.portrait-frame, .portrait--type').cloneNode(true);
   oldPortrait.replaceWith(newPortrait);
 }
+
+document.querySelectorAll('.portrait-frame img').forEach(image => {
+  function showFallback() {
+    image.hidden = true;
+    const frame = image.parentElement;
+    frame.querySelector('.credit').hidden = true;
+    frame.querySelector('.portrait--type').hidden = false;
+  }
+  image.addEventListener('error', showFallback);
+  if (image.complete && image.naturalWidth === 0) showFallback();
+});

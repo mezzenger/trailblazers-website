@@ -7,9 +7,7 @@ on:
     paths:
       - 'content/**'
       - 'public/**'
-      - 'scripts/build.py'
-      - 'scripts/check_external_links.py'
-      - 'scripts/serve_browser_preview.py'
+      - 'scripts/**'
       - 'package.json'
       - 'tests/**'
       - 'browser-tests/**'
@@ -34,18 +32,21 @@ jobs:
       - name: Validate, test, and build production path
         run: |
           npm run validate
+          npm run milestone
           npm run build
           npm test
-      - name: Audit external citations and portraits
-        run: npm run audit:links
-      - name: Verify Commons portrait and gallery provenance
-        run: python3 scripts/audit_commons_provenance.py
       - name: Install browser review tools
         run: |
           npm install --no-save --package-lock=false --ignore-scripts @playwright/test@1.64.0 @axe-core/playwright@4.14.0
           npx playwright install --with-deps chromium
       - name: Desktop, tablet, mobile, and accessibility review
         run: npx playwright test --config=playwright.config.mjs
+      - name: Audit external citations and portraits
+        if: ${{ !cancelled() }}
+        run: npm run audit:links
+      - name: Verify Commons portrait and gallery provenance
+        if: ${{ !cancelled() }}
+        run: python3 scripts/audit_commons_provenance.py
       - name: Upload screenshots, traces, and report
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2

@@ -1,11 +1,26 @@
 #!/usr/bin/env python3
 """Build the static, subpath-safe museum without third-party dependencies."""
-import html, json, os, shutil
+import html, json, os, re, shutil, sys
 from pathlib import Path
 from datetime import date
+from validate import load_collection, validate_collection
+
 ROOT = Path(__file__).resolve().parents[1]
-profiles = json.loads((ROOT/'content/profiles.json').read_text())
+try:
+    profiles, pending = load_collection()
+except (OSError, ValueError) as error:
+    raise SystemExit(f'Unable to load collection: {error}') from error
+errors, _ = validate_collection(profiles, pending)
+if errors:
+    for error in errors:
+        print(f'ERROR: {error}', file=sys.stderr)
+    raise SystemExit('Build stopped because collection validation failed.')
 slug = os.environ.get('BASE_PATH', 'trailblazers-website').strip('/')
+if slug and not all(
+    re.fullmatch(r'[a-zA-Z0-9._~-]+', part) and part not in {'.', '..'}
+    for part in slug.split('/')
+):
+    raise SystemExit('BASE_PATH must contain valid URL path segments.')
 base = '/' + (slug + '/' if slug else '')
 out = ROOT/'dist'
 if out.exists(): shutil.rmtree(out)
@@ -15,25 +30,67 @@ def esc(value): return html.escape(str(value), quote=True)
 def url(path=''): return base + path.lstrip('/')
 def link_to(p): return url('people/'+p['id']+'/')
 def initials(name): return ''.join(part[0] for part in name.replace('.', '').split() if part.lower() not in {'c','j'})[:2]
+def placeholder(p, klass='', hidden=False):
+    visibility = ' hidden' if hidden else ''
+    return f'<div class="portrait portrait--type {klass}" role="img" aria-label="Portrait not shown for {esc(p["name"])}"{visibility}><span>{esc(initials(p["name"]))}</span><small>Portrait not shown</small></div>'
 def art(p, klass=''):
     if p['image']:
-        i=p['image']; return f'<figure class="portrait-frame {klass}"><img class="portrait" src="{esc(i["url"])}" alt="Portrait of {esc(p["name"])}" loading="lazy"><figcaption class="credit">{esc(i["creator"])} · {esc(i["license"])}</figcaption></figure>'
-    return f'<div class="portrait portrait--type {klass}" role="img" aria-label="Portrait not shown for {esc(p["name"])}"><span>{esc(initials(p["name"]))}</span><small>Portrait not shown</small></div>'
+        i = p['image']
+        framing = ' portrait--uncropped' if i.get('preserveFraming') else ''
+        alt = i.get('alt', f'Portrait of {p["name"]}')
+        return (f'<figure class="portrait-frame {klass}">'
+                f'<img class="portrait{framing}" src="{esc(i["url"])}" alt="{esc(alt)}" loading="lazy">'
+                f'{placeholder(p, hidden=True)}'
+                f'<figcaption class="credit">{esc(i["creator"])} · {esc(i["license"])}</figcaption></figure>')
+    return placeholder(p, klass)
+
+def image_record(image):
+    return f'<a href="{esc(image["source"])}" target="_blank" rel="noopener noreferrer">Image record ↗</a>'
+
+def image_license(image):
+    label = esc(image['license'])
+    if image.get('licenseUrl'):
+        return f'<a href="{esc(image["licenseUrl"])}" rel="license">{label}</a>'
+    return label
+
+def portrait_credit(image):
+    if not image:
+        return ''
+    return f'<p><strong>Portrait:</strong> {esc(image["attribution"])} {image_record(image)} · {image_license(image)}</p>'
+
+def photo_gallery(profile):
+    images = profile.get('gallery', [])
+    if not images:
+        return ''
+    photos = ''.join(
+        f'<figure class="story-image"><img src="{esc(image["url"])}" alt="{esc(image["alt"])}" loading="lazy">'
+        f'<figcaption><strong>{esc(image["caption"])}</strong> · {esc(image["attribution"])} · '
+        f'{image_license(image)} {image_record(image)}</figcaption></figure>'
+        for image in images
+    )
+    return f'<section class="story-gallery"><h3>In pictures</h3><div class="story-gallery-grid">{photos}</div></section>'
+
 def layout(title, body, description='Celebrating Women and People of Color Who Changed the World.'):
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><title>{esc(title)} · Trailblazers of History</title><meta name="description" content="{esc(description)}"><link rel="stylesheet" href="{url('styles.css')}"><script type="module" src="{url('app.js')}"></script></head><body><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="{base}" aria-label="Trailblazers of History home"><span class="brand-mark" aria-hidden="true">✦</span><span>TRAILBLAZERS <em>of</em> HISTORY</span></a><nav aria-label="Main navigation"><a href="{base}#collection">Collection</a><a href="{base}#timeline">Timeline</a><a href="{base}#about">About</a></nav><button class="theme-toggle" type="button" aria-label="Toggle color theme" title="Toggle color theme">◐</button></header><main id="main">{body}</main><footer><div><strong>Trailblazers of History</strong><p>Celebrating Women and People of Color Who Changed the World.</p></div><div><a href="{base}#collection">Explore the collection</a><p>Collection built {date.today().isoformat()} · Images shown only after rights review.</p></div></footer></body></html>'''
-def card(p):
-    return f'''<article class="person-card" data-profile="{esc(json.dumps(p,ensure_ascii=False))}" data-search="{esc((' '.join([p['name'],p['summary']]+p['achievements'])).lower())}" data-categories="{esc('|'.join(p['categories']))}" data-era="{esc(p['era'])}" data-region="{esc(p['region'])}" data-born="{esc(p['born'] or '')}" data-period="{esc(p['milestones'][0]['year'])}"><a class="card-link" href="{link_to(p)}">{art(p)}<div class="card-copy"><span class="eyebrow">{esc(p['categories'][0])} <b>·</b> {esc(p['era'])}</span><h3>{esc(p['name'])}</h3><p>{esc(p['summary'])}</p><span class="read-more">Read the story <span aria-hidden="true">↗</span></span></div></a></article>'''
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><title>{esc(title)} · Trailblazers of History</title><meta name="description" content="{esc(description)}"><link rel="stylesheet" href="{url('styles.css')}"><script type="module" src="{url('app.js')}"></script></head><body><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="{base}" aria-label="Trailblazers of History home"><span class="brand-mark" aria-hidden="true">✦</span><span>TRAILBLAZERS <em>of</em> HISTORY</span></a><nav aria-label="Main navigation"><a href="{base}#collection">Collection</a><a href="{base}#timeline">Timeline</a><a href="{base}#about">About</a></nav><button class="theme-toggle" type="button" aria-label="Toggle color theme" aria-pressed="false" title="Toggle color theme">◐</button></header><main id="main" tabindex="-1">{body}</main><footer><div><strong>Trailblazers of History</strong><p>Celebrating Women and People of Color Who Changed the World.</p></div><div><a href="{base}#collection">Explore the collection</a><p>Collection built {date.today().isoformat()} · Images shown only after rights review.</p></div></footer></body></html>'''
+def card(p, filterable=False):
+    metadata = ''
+    if filterable:
+        fields = ('name', 'summary', 'achievements', 'categories', 'era', 'region', 'born', 'milestones')
+        profile = {field: p[field] for field in fields}
+        metadata = f' data-profile="{esc(json.dumps(profile, ensure_ascii=False, separators=(",", ":")))}"'
+    return f'''<article class="person-card"{metadata}><a class="card-link" href="{link_to(p)}">{art(p)}<div class="card-copy"><span class="eyebrow">{esc(p['categories'][0])} <b>·</b> {esc(p['era'])}</span><h3>{esc(p['name'])}</h3><p>{esc(p['summary'])}</p><span class="read-more">Read the story <span aria-hidden="true">↗</span></span></div></a></article>'''
 featured=[p for p in profiles if p['featured']]
 lesser=[p for p in profiles if p['lesserKnown']]
 day=profiles[date.today().toordinal()%len(profiles)]
-card_html=''.join(card(p) for p in profiles)
+card_html=''.join(card(p, filterable=True) for p in profiles)
 category_counts={}
 for profile in profiles:
     for category_name in profile['categories']:
         category_counts[category_name]=category_counts.get(category_name,0)+1
 ordered_categories=sorted(category_counts.items(),key=lambda item:(-item[1],item[0]))
-category_tiles=''.join(f'<button class="category-tile" type="button" data-category-jump="{esc(c)}"><span>{i+1:02d} <b>·</b> {count:02d} biographies</span><strong>{esc(c)}</strong><span aria-hidden="true">↗</span></button>' for i,(c,count) in enumerate(ordered_categories))
+category_tiles=''.join(f'<button class="category-tile" type="button" data-category-jump="{esc(c)}"><span>{count} {"biography" if count == 1 else "biographies"}</span><strong>{esc(c)}</strong><span aria-hidden="true">↗</span></button>' for c,count in ordered_categories)
 years=sorted([(m['year'],p['name'],m['label'],link_to(p)) for p in profiles for m in p['milestones']],key=lambda x:x[0])
+timeline_end = max(date.today().year, years[-1][0])
 timeline=''.join(f'<li><a href="{u}"><time>{y}</time><span><strong>{esc(n)}</strong><small>{esc(label)}</small></span></a></li>' for y,n,label,u in years)
 options=lambda items: ''.join(f'<option value="{esc(x)}">{esc(x)}</option>' for x in sorted(items))
 home=f'''<section class="hero"><div class="hero-copy"><span class="eyebrow gold">A living digital museum <span class="hairline"></span> Est. 2026</span><h1>History belongs<br>to <em>all of us.</em></h1><p>Meet the women and people of color whose ideas, courage, craft, and leadership changed what the world thought possible.</p><div class="hero-actions"><a class="button button-gold" href="#collection">Explore the collection <span aria-hidden="true">↗</span></a><a class="text-link" href="#featured">Begin with an exhibition <span aria-hidden="true">↓</span></a></div><div class="hero-foot"><span><strong>{len(profiles):02d}</strong> reviewed stories</span><span>Sources are part of every story</span></div></div><div class="hero-art" aria-hidden="true"><div class="arch"><div class="arch-sun"></div><span>THOSE WHO<br>OPENED THE WAY</span><span class="art-star">✦</span></div><small>AN OPENING COLLECTION</small></div></section>
@@ -42,24 +99,17 @@ home=f'''<section class="hero"><div class="hero-copy"><span class="eyebrow gold"
 <section class="section daily"><div class="daily-panel"><div><span class="eyebrow gold">A daily invitation</span><h2>Trailblazer<br><em>of the day.</em></h2><p>{esc(day['summary'])}</p><a class="button button-outline" href="{link_to(day)}">Meet {esc(day['name'])} <span aria-hidden="true">↗</span></a></div><div class="daily-name">{art(day)}<strong>{esc(day['name'])}</strong><span>{esc(day['categories'][0])}</span></div></div></section>
 <section class="section discover"><div class="section-heading"><div><span class="eyebrow">Paths through history</span><h2>Find your<br><em>way in.</em></h2></div><p>Follow a field, then combine search and filters to find the stories that speak to you.</p></div><div class="category-grid">{category_tiles}</div></section>
 <section class="section collection" id="collection"><div class="section-heading"><div><span class="eyebrow">The collection</span><h2>Lives worth<br><em>looking closer.</em></h2></div><p>Each published story is supported by at least two sources. New profiles enter only after review.</p></div><div class="filter-panel"><label class="search-label" for="search">Search the collection<input id="search" type="search" placeholder="A name, idea, or accomplishment…" autocomplete="off"></label><div class="select-row"><label>Field<select id="category"><option value="">All fields</option>{options({c for p in profiles for c in p['categories']})}</select></label><label>Era<select id="era"><option value="">All eras</option>{options({p['era'] for p in profiles})}</select></label><label>Region<select id="region"><option value="">All regions</option>{options({p['region'] for p in profiles})}</select></label><label>Sort<select id="sort"><option value="name">Name A–Z</option><option value="born">Birth date</option><option value="period">Historical period</option></select></label></div><div class="filter-foot"><p id="result-count" role="status" aria-live="polite">Showing {len(profiles)} people</p><button id="clear-filters" type="button">Clear filters</button></div></div><div id="card-grid" class="card-grid">{card_html}</div><div id="empty-state" class="empty-state" hidden><h3>No stories match those choices.</h3><p>Try another name or clear a filter to explore the collection.</p><button type="button" id="empty-clear">Clear filters</button></div></section>
-<section class="section timeline-section" id="timeline"><div class="section-heading"><div><span class="eyebrow">Across generations</span><h2>A timeline of<br><em>turning points.</em></h2></div><p>Explore milestones from the lives in this reviewed collection. Select a moment to read its story.</p></div><div class="timeline-control"><label for="timeline-range">Show milestones through <output id="timeline-output">2026</output></label><input id="timeline-range" type="range" min="{years[0][0]}" max="{date.today().year}" value="{date.today().year}" step="1"></div><ol class="timeline-list" id="timeline-list">{timeline}</ol></section>
+<section class="section timeline-section" id="timeline"><div class="section-heading"><div><span class="eyebrow">Across generations</span><h2>A timeline of<br><em>turning points.</em></h2></div><p>Explore milestones from the lives in this reviewed collection. Select a moment to read its story.</p></div><div class="timeline-control"><label for="timeline-range">Show milestones through <output id="timeline-output" for="timeline-range">{timeline_end}</output></label><input id="timeline-range" type="range" min="{years[0][0]}" max="{timeline_end}" value="{timeline_end}" step="1"></div><ol class="timeline-list" id="timeline-list">{timeline}</ol></section>
 <section class="section lesser"><span class="eyebrow">Look closer</span><h2>Some stories deserve<br><em>a second look.</em></h2><div class="lesser-links">{''.join(f'<a href="{link_to(p)}"><span>{esc(p["categories"][0])}</span><strong>{esc(p["name"])}</strong><span aria-hidden="true">↗</span></a>' for p in lesser)}</div></section>'''
-(out/'index.html').write_text(layout('Home',home))
+(out/'index.html').write_text(layout('Home',home), encoding='utf-8')
 for p in profiles:
     related=sorted((q for q in profiles if q['id']!=p['id'] and set(q['categories']) & set(p['categories'])), key=lambda q:(-len(set(q['categories'])&set(p['categories'])),q['name']))[:3]
     life=(p['born'][:4]+'–'+(p['died'][:4] if p['died'] else 'present') if p['born'] else ('Died '+p['died'][:4] if p['died'] else 'Birth date unconfirmed'))
-    milestones=''.join(f'<li><time>{m["year"]}</time><span>{esc(m["label"])}</span></li>' for m in p['milestones'])
+    milestones=''.join(f'<li><time>{m["year"]}</time><span>{esc(m["label"])}</span></li>' for m in sorted(p['milestones'], key=lambda milestone: milestone['year']))
     sources=''.join(f'<li><a href="{esc(s["url"])}" target="_blank" rel="noopener noreferrer">{esc(s["title"])} <span aria-hidden="true">↗</span></a></li>' for s in p['sources'])
-    gallery_items = p.get('gallery', [])
-    gallery_markup = ''
-    if gallery_items:
-        gallery_cards = ''.join(
-            f'<figure class="story-image"><img src="{esc(i["url"])}" alt="{esc(i["alt"])}" loading="lazy"><figcaption><strong>{esc(i["caption"])}</strong> · {esc(i["attribution"])} · {esc(i["license"])} <a href="{esc(i["source"])}" target="_blank" rel="noopener noreferrer">Image source ↗</a></figcaption></figure>'
-            for i in gallery_items
-        )
-        gallery_markup = f'<section class="story-gallery" aria-label="Images from the life and work of {esc(p["name"])}"><h3>In pictures</h3><div class="story-gallery-grid">{gallery_cards}</div></section>'
-    image_credit=(f'<p><strong>Portrait:</strong> {esc(p["image"]["attribution"])} <a href="{esc(p["image"]["source"])}" target="_blank" rel="noopener noreferrer">Image record ↗</a></p>' if p['image'] else '')
-    body=f'''<div class="profile-page"><a class="back-link" href="{base}#collection">← Back to collection</a><div class="profile-hero"><div><span class="eyebrow gold">{esc(p['categories'][0])} · {esc(p['era'])}</span><h1>{esc(p['name'])}</h1><p class="profile-deck">{esc(p['summary'])}</p><div class="profile-meta"><span>{esc(life)}</span><span>{esc(p['place'])}</span><span>Reviewed {esc(p['reviewed'])}</span></div><button id="share-button" class="button button-outline" type="button">Share this story ↗</button><p id="share-status" role="status" aria-live="polite" class="small-status"></p></div>{art(p,'profile-art')}</div><div class="profile-body"><article class="story"><span class="eyebrow">The story</span><h2>A life in context</h2><p>{esc(p['biography'])}</p>{gallery_markup}<h3>Why this work matters</h3><ul class="achievement-list">{''.join(f'<li>{esc(x)}</li>' for x in p['achievements'])}</ul></article><aside class="facts"><div><h2 class="eyebrow">Milestones</h2><ol class="milestones">{milestones}</ol></div><div><h2 class="eyebrow">Sources &amp; further reading</h2><ol class="source-list">{sources}</ol><p>Claims were reviewed against these sources on {esc(p['reviewed'])}. Portrait rights and credit are recorded when an image is displayed; other portraits remain withheld pending rights review.</p>{image_credit}</div></aside></div><section class="related"><span class="eyebrow">Continue exploring</span><h2>Related lives</h2><div class="related-grid">{''.join(card(q) for q in related)}</div></section></div>'''
-    directory=out/'people'/p['id'];directory.mkdir(parents=True);(directory/'index.html').write_text(layout(p['name'],body,p['summary']))
-(out/'404.html').write_text(layout('Page not found',f'<section class="not-found"><span class="eyebrow">404</span><h1>This page is missing.</h1><p>The collection is still growing. Return to the museum entrance and continue exploring.</p><a class="button button-gold" href="{base}">Go home ↗</a></section>'))
+    image_credit = portrait_credit(p['image'])
+    biography = ''.join(f'<p>{esc(paragraph)}</p>' for paragraph in p['biography'].split('\n\n'))
+    body=f'''<div class="profile-page"><a class="back-link" href="{base}#collection">← Back to collection</a><div class="profile-hero"><div><span class="eyebrow gold">{esc(p['categories'][0])} · {esc(p['era'])}</span><h1>{esc(p['name'])}</h1><p class="profile-deck">{esc(p['summary'])}</p><div class="profile-meta"><span>{esc(life)}</span><span>{esc(p['place'])}</span><span>Reviewed {esc(p['reviewed'])}</span></div><button id="share-button" class="button button-outline" type="button">Share this story ↗</button><p id="share-status" role="status" aria-live="polite" class="small-status"></p></div>{art(p,'profile-art')}</div><div class="profile-body"><article class="story"><span class="eyebrow">The story</span><h2>A life in context</h2>{biography}{photo_gallery(p)}<h3>Why this work matters</h3><ul class="achievement-list">{''.join(f'<li>{esc(x)}</li>' for x in p['achievements'])}</ul></article><aside class="facts"><div><h2 class="eyebrow">Milestones</h2><ol class="milestones">{milestones}</ol></div><div><h2 class="eyebrow">Sources &amp; further reading</h2><ol class="source-list">{sources}</ol><p>Claims were reviewed against these sources on {esc(p['reviewed'])}. Portrait rights and credit are recorded when an image is displayed; other portraits remain withheld pending rights review.</p>{image_credit}</div></aside></div><section class="related"><span class="eyebrow">Continue exploring</span><h2>Related lives</h2><div class="related-grid">{''.join(card(q) for q in related)}</div></section></div>'''
+    directory=out/'people'/p['id'];directory.mkdir(parents=True);(directory/'index.html').write_text(layout(p['name'],body,p['summary']), encoding='utf-8')
+(out/'404.html').write_text(layout('Page not found',f'<section class="not-found"><span class="eyebrow">404</span><h1>This page is missing.</h1><p>The collection is still growing. Return to the museum entrance and continue exploring.</p><a class="button button-gold" href="{base}">Go home ↗</a></section>'), encoding='utf-8')
 print(f'Built {len(profiles)} profiles at {base}')

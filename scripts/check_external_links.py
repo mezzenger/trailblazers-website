@@ -23,9 +23,10 @@ def classify_status(status):
     return 'unavailable'
 
 
-def request_url(url, method):
-    headers = {'User-Agent': 'TrailblazersOfHistory-LinkReview/1.0 (+https://github.com/mezzenger/trailblazers-website)',
-               'Range': 'bytes=0-0'}
+def request_url(url, method, *, ranged=False):
+    headers = {'User-Agent': 'TrailblazersOfHistory-LinkReview/1.0 (+https://github.com/mezzenger/trailblazers-website)'}
+    if ranged:
+        headers['Range'] = 'bytes=0-0'
     try:
         request = Request(url, headers=headers, method=method)
         with urlopen(request, timeout=TIMEOUT) as response:
@@ -41,8 +42,10 @@ def request_url(url, method):
 def check_url(url):
     status, final_url, detail = request_url(url, 'HEAD')
     if status in (400, 403, 404, 405, 410, 501):
-        retry_status, retry_url, retry_detail = request_url(url, 'GET')
-        if retry_status is not None or status == 405:
+        retry_status, retry_url, retry_detail = request_url(url, 'GET', ranged=True)
+        if retry_status == 416:
+            retry_status, retry_url, retry_detail = request_url(url, 'GET')
+        if retry_status is not None or status != 403:
             status, final_url, detail = retry_status, retry_url, retry_detail
     return {
         'url': url,
@@ -61,13 +64,13 @@ def collect_urls():
     for profile in profiles:
         for source in profile['sources']:
             add(source['url'], {'profile': profile['id'], 'kind': 'citation', 'title': source['title']})
-        image = profile.get('image')
-        if image:
-            add(image['url'], {'profile': profile['id'], 'kind': 'portrait-asset', 'title': image['creator']})
-            add(image['source'], {'profile': profile['id'], 'kind': 'portrait-rights-record', 'title': image['license']})
-        for index, gallery_image in enumerate(profile.get('gallery', [])):
-            add(gallery_image['url'], {'profile': profile['id'], 'kind': 'gallery-asset', 'title': gallery_image['caption']})
-            add(gallery_image['source'], {'profile': profile['id'], 'kind': 'gallery-rights-record', 'title': gallery_image['license']})
+        portrait = [profile['image']] if profile.get('image') else []
+        for kind, images in (('portrait', portrait), ('gallery', profile.get('gallery', []))):
+            for image in images:
+                add(image['url'], {'profile': profile['id'], 'kind': f'{kind}-asset', 'title': image.get('caption', image['creator'])})
+                add(image['source'], {'profile': profile['id'], 'kind': f'{kind}-rights-record', 'title': image['license']})
+                if image.get('licenseUrl'):
+                    add(image['licenseUrl'], {'profile': profile['id'], 'kind': f'{kind}-license', 'title': image['license']})
     return links
 
 

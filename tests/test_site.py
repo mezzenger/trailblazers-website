@@ -1,7 +1,9 @@
 import importlib.util, json, os, re, shutil, subprocess, tempfile, unittest
+from functools import cache
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
+from unittest.mock import call, patch
 ROOT=Path(__file__).resolve().parents[1]
 BASE='/trailblazers-website/'
 LINK_AUDIT_SPEC=importlib.util.spec_from_file_location('check_external_links',ROOT/'scripts/check_external_links.py')
@@ -25,6 +27,13 @@ class Document(HTMLParser):
         if tag in ('input','select') and 'id' in attrs:self.inputs.append(attrs['id'])
     def handle_endtag(self,tag):
         if tag=='a':self.anchor_depth=max(0,self.anchor_depth-1)
+
+@cache
+def read_document(page):
+    doc = Document()
+    doc.feed(page.read_text(encoding='utf-8'))
+    return doc
+
 class SiteTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -43,7 +52,7 @@ class SiteTests(unittest.TestCase):
         pages=[ROOT/'dist/index.html',ROOT/'dist/404.html']+list((ROOT/'dist/people').glob('*/index.html'))
         self.assertEqual(len(pages),len(self.profiles)+2)
         for page in pages:
-            doc=Document();doc.feed(page.read_text())
+            doc=read_document(page)
             self.assertIn('main',doc.tags)
             self.assertEqual(doc.nested_anchors,0,f'{page}: nested anchors')
             self.assertEqual(doc.images_without_alt,[],f'{page}: image missing alt')
@@ -61,7 +70,7 @@ class SiteTests(unittest.TestCase):
                     if target.is_dir():target=target/'index.html'
                 self.assertTrue(target.exists(),f'{page}: broken {link}')
                 if parsed.fragment:
-                    target_doc=Document();target_doc.feed(target.read_text())
+                    target_doc=read_document(target)
                     self.assertIn(parsed.fragment,target_doc.ids,f'{page}: broken anchor {link}')
     def test_semantics_and_responsive_rules(self):
         home=(ROOT/'dist/index.html').read_text();css=(ROOT/'dist/styles.css').read_text()
@@ -90,6 +99,22 @@ class SiteTests(unittest.TestCase):
         self.assertEqual(LINK_AUDIT.classify_status(403),'restricted')
         self.assertEqual(LINK_AUDIT.classify_status(429),'restricted')
         self.assertEqual(LINK_AUDIT.classify_status(500),'unavailable')
+        url = 'https://museum.org/portrait'
+        with patch.object(LINK_AUDIT, 'request_url', side_effect=[
+            (404, url, 'Not found'), (None, url, 'TimeoutError'),
+        ]):
+            self.assertEqual(LINK_AUDIT.check_url(url)['classification'], 'unavailable')
+        with patch.object(LINK_AUDIT, 'request_url', side_effect=[
+            (410, url, 'Gone'), (410, url, 'Gone'),
+        ]):
+            self.assertEqual(LINK_AUDIT.check_url(url)['classification'], 'broken')
+        with patch.object(LINK_AUDIT, 'request_url', side_effect=[
+            (405, url, 'Method not allowed'), (416, url, 'Range not satisfiable'), (200, url, None),
+        ]) as request:
+            self.assertEqual(LINK_AUDIT.check_url(url)['classification'], 'reachable')
+            self.assertEqual(request.call_args_list, [
+                call(url, 'HEAD'), call(url, 'GET', ranged=True), call(url, 'GET'),
+            ])
     def test_accent_text_contrast_in_both_themes(self):
         css=(ROOT/'public/styles.css').read_text()
         light,dark=css.split(':root[data-theme=dark]',1)
@@ -121,6 +146,9 @@ const c=[...p].sort((x,y)=>compareProfiles(x,y,'born'));
 if(c.some((x,i)=>i>0&&compareProfiles(c[i-1],x,'born')>0))process.exit(3);
 const d=[...p].sort((x,y)=>compareProfiles(x,y,'period'));
 if(d.some((x,i)=>i>0&&compareProfiles(d[i-1],x,'period')>0))process.exit(4);
+const earlier={name:'Z',milestones:[{year:2020},{year:999}]};
+const later={name:'A',milestones:[{year:1000}]};
+if(compareProfiles(earlier,later,'period')>=0)throw Error('period must use the earliest milestone numerically');
 '''
         subprocess.run(['node','--input-type=module','-e',js],cwd=ROOT,check=True)
     def test_homepage_script_applies_search_filters_with_unknown_birth_dates(self):
@@ -131,11 +159,20 @@ function control(value='') {return {value,addEventListener(type,fn){this[type]=f
 const search=control(),category=control(),era=control(),region=control(),sort=control('name');
 const count={textContent:''},empty={hidden:true},clear=control();
 const grid={querySelectorAll(){return cards},replaceChildren(...items){this.children=items}};
-const elements={'#search':search,'#category':category,'#era':era,'#region':region,'#sort':sort,'#card-grid':grid,'#result-count':count,'#empty-state':empty,'#clear-filters':clear};
-globalThis.document={documentElement:{dataset:{}},querySelector(key){return elements[key]??null},querySelectorAll(){return []}};
-globalThis.localStorage={getItem(){return null},setItem(){}};
+const theme=control();
+theme.setAttribute=function(key,value){this[key]=value};
+const fallback={hidden:true},credit={hidden:false};
+const image=control();
+image.parentElement={querySelector(key){return key==='.credit'?credit:fallback}};
+const elements={'#search':search,'#category':category,'#era':era,'#region':region,'#sort':sort,'#card-grid':grid,'#result-count':count,'#empty-state':empty,'#clear-filters':clear,'.theme-toggle':theme};
+globalThis.document={documentElement:{dataset:{}},querySelector(key){return elements[key]??null},querySelectorAll(key){return key==='.portrait-frame img'?[image]:[]}};
+globalThis.localStorage={getItem(){throw Error('storage blocked')},setItem(){throw Error('storage blocked')}};
 await import('./public/app.js');
 if(count.textContent!==`Showing ${people.length} people`)throw Error('initial collection did not render');
+theme.click();
+if(document.documentElement.dataset.theme!=='dark'||theme['aria-pressed']!=='true')throw Error('theme needs to work without storage');
+image.error();
+if(!image.hidden||!credit.hidden||fallback.hidden)throw Error('broken portrait must show its placeholder');
 search.value='kariko';category.value='Science & Innovation';era.value='21st century';region.value='Europe';search.input();
 if(cards.filter(card=>!card.hidden).map(card=>JSON.parse(card.dataset.profile).id).join()!=='katalin-karik')throw Error('combined filters failed');
 search.value='no matching biography';search.input();
@@ -152,16 +189,45 @@ if(!last.every(value=>value===null))throw Error('unknown birth dates should sort
         self.assertEqual(good.returncode,0,good.stdout)
         gate=subprocess.run(['python3','scripts/validate.py','--require-100'],cwd=ROOT,capture_output=True,text=True)
         self.assertEqual(gate.returncode,0,gate.stdout)
-        self.assertIn('100 verified publishable profiles',gate.stdout)
+        self.assertIn(f'{len(self.profiles)} verified publishable profiles',gate.stdout)
         with tempfile.TemporaryDirectory() as temporary:
             fixture=Path(temporary)
             (fixture/'scripts').mkdir();(fixture/'content').mkdir()
             shutil.copy(ROOT/'scripts/validate.py',fixture/'scripts/validate.py')
-            (fixture/'content/profiles.json').write_text(json.dumps(self.profiles[:-1]))
+            (fixture/'content/profiles.json').write_text(json.dumps(self.profiles[:99]))
             (fixture/'content/pending.json').write_text('[]')
             short=subprocess.run(['python3','scripts/validate.py','--require-100'],cwd=fixture,capture_output=True,text=True)
             self.assertNotEqual(short.returncode,0,short.stdout)
             self.assertIn('100-profile milestone unmet: 99 verified; 1 more required',short.stdout)
+            shutil.copy(ROOT/'scripts/build.py', fixture/'scripts/build.py')
+            (fixture/'dist').mkdir()
+            old_output = fixture/'dist/index.html'
+            old_output.write_text('previous build')
+            invalid = dict(self.profiles[0], born='2000-02-30', milestones=[{'year':'2000','label':'Text'}],
+                           image={'url':'https://museum.org/a','source':'http://museum.org/rights',
+                                  'creator':'Name','license':'Public domain','attribution':'Name'})
+            (fixture/'content/profiles.json').write_text(json.dumps([invalid]))
+            broken = subprocess.run(['python3','scripts/build.py'],cwd=fixture,capture_output=True,text=True)
+            self.assertNotEqual(broken.returncode, 0)
+            for message in ('invalid born', 'integer year', 'rights record need HTTPS'):
+                self.assertIn(message, broken.stderr)
+            self.assertEqual(old_output.read_text(), 'previous build')
+    def test_profile_gallery_and_pending_visibility(self):
+        profile = next(person for person in self.profiles if person['id'] == 'sara-seager')
+        profile_page = ROOT/'dist/people/sara-seager/index.html'
+        document = read_document(profile_page)
+        body = profile_page.read_text(encoding='utf-8')
+        self.assertIn('class="story-gallery"', body)
+        audit_links = LINK_AUDIT.collect_urls()
+        for image in [profile['image'], *profile['gallery']]:
+            self.assertIn(image['url'], document.links)
+            self.assertIn(image['source'], document.links)
+            self.assertIn(image['source'], audit_links)
+        home_links = read_document(ROOT/'dist/index.html').links
+        for candidate in json.loads((ROOT/'content/pending.json').read_text()):
+            self.assertNotIn(f"{BASE}people/{candidate['id']}/", home_links)
+            self.assertFalse((ROOT/'dist/people'/candidate['id']).exists())
+
     def test_base_path_override(self):
         env=dict(os.environ,BASE_PATH='/')
         try:

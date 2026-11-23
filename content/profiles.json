@@ -324,8 +324,9 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oprah%20Winfrey.jpg",
       "creator": "vargas2040; cropped by OsamaK",
       "source": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey.jpg",
-      "license": "CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0/",
-      "attribution": "Oprah Winfrey at a 2007 Obama campaign rally; photograph by vargas2040, cropped by OsamaK; Wikimedia Commons. CC BY-SA 2.0. Personality/publicity rights may limit some uses; no endorsement implied."
+      "license": "CC BY-SA 2.0",
+      "attribution": "Oprah Winfrey at a 2007 Obama campaign rally; photograph by vargas2040, cropped by OsamaK; Wikimedia Commons. CC BY-SA 2.0. Personality/publicity rights may limit some uses; no endorsement implied.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
     },
     "verification": "verified",
     "reviewed": "2026-10-17"
@@ -425,8 +426,9 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Serena%20Williams.jpg",
       "creator": "Cdpache",
       "source": "https://commons.wikimedia.org/wiki/File:Serena_Williams.jpg",
-      "license": "CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/",
-      "attribution": "Serena Williams competing at the 2010 Madrid Open, photographed by Cdpache; Wikimedia Commons. CC BY-SA 3.0; no modifications reported."
+      "license": "CC BY-SA 3.0",
+      "attribution": "Serena Williams competing at the 2010 Madrid Open, photographed by Cdpache; Wikimedia Commons. CC BY-SA 3.0; no modifications reported.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
     },
     "verification": "verified",
     "reviewed": "2026-10-17"
@@ -591,8 +593,9 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wangari%20Maathai.jpg",
       "creator": "DEMOSH",
       "source": "https://commons.wikimedia.org/wiki/File:Wangari_Maathai.jpg",
-      "license": "CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/",
-      "attribution": "DEMOSH, Wangari Maathai, 2006, Flickr via Wikimedia Commons, CC BY 2.0."
+      "license": "CC BY 2.0",
+      "attribution": "DEMOSH, Wangari Maathai, 2006, Flickr via Wikimedia Commons, CC BY 2.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
     },
     "verification": "verified",
     "reviewed": "2026-10-17",
@@ -601,10 +604,11 @@
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wangari%20maathai%20and%20DRC%20env%20minister.jpg",
         "creator": "Hectorguinness (original uploader and attributed photographer)",
         "source": "https://commons.wikimedia.org/wiki/File:Wangari_maathai_and_DRC_env_minister.jpg",
-        "license": "CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/",
+        "license": "CC BY 3.0",
         "attribution": "Hectorguinness, Wangari Maathai and DRC environment minister Pembe Didace Bokiaga signing the Forests Now Declaration; Wikimedia Commons, CC BY 3.0; https://creativecommons.org/licenses/by/3.0/",
         "caption": "International environmental cooperation became part of Maathai's work.",
-        "alt": "Wangari Maathai and a Congolese environmental official signing the Forests Now Declaration."
+        "alt": "Wangari Maathai and a Congolese environmental official signing the Forests Now Declaration.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
       }
     ]
   },
@@ -653,8 +657,9 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tu%20Youyou%205012-2015.jpg",
       "creator": "Bengt Nyman",
       "source": "https://commons.wikimedia.org/wiki/File:Tu_Youyou_5012-2015.jpg",
-      "license": "CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/",
-      "attribution": "Tu Youyou at Nobel events, Stockholm, December 2015, Bengt Nyman. Personality rights notice applies; no endorsement implied."
+      "license": "CC BY-SA 4.0",
+      "attribution": "Tu Youyou at Nobel events, Stockholm, December 2015, Bengt Nyman. Personality rights notice applies; no endorsement implied.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     "verification": "verified",
     "reviewed": "2026-10-17",
@@ -663,10 +668,11 @@
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/D810%204987%20Tu%20Youyou%2C%20medicine%20(22945001843).jpg",
         "creator": "Bengt Nyman",
         "source": "https://commons.wikimedia.org/wiki/File:D810_4987_Tu_Youyou%2C_medicine_(22945001843).jpg",
-        "license": "CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/",
+        "license": "CC BY 2.0",
         "attribution": "Bengt Nyman, Tu Youyou during Nobel week, Stockholm, December 2015. Personality rights notice applies; no endorsement implied.",
         "caption": "Tu Youyou at the 2015 Nobel festivities in Stockholm.",
-        "alt": "Tu Youyou pictured during Nobel Prize events in 2015."
+        "alt": "Tu Youyou pictured during Nobel Prize events in 2015.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
       }
     ]
   },
@@ -976,7 +982,8 @@
       "creator": "Florian Caullery (original 2014 video); still cropped by TDKR Chicago 101 and edited by Sealle",
       "source": "https://commons.wikimedia.org/wiki/File:Maryam_Mirzakhani_(cropped).jpg",
       "license": "CC BY-SA 3.0",
-      "attribution": "Maryam Mirzakhani receiving the Fields Medal, August 16, 2014. Still extracted from video by Florian Caullery; cropped by TDKR Chicago 101, edited by Sealle. CC BY-SA 3.0; https://creativecommons.org/licenses/by-sa/3.0/."
+      "attribution": "Maryam Mirzakhani receiving the Fields Medal, August 16, 2014. Still extracted from video by Florian Caullery; cropped by TDKR Chicago 101, edited by Sealle. CC BY-SA 3.0; https://creativecommons.org/licenses/by-sa/3.0/.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
     },
     "verification": "verified",
     "reviewed": "2026-10-18"
@@ -1139,8 +1146,9 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Katalin%20Kariko.jpg",
       "creator": "Krdobyns",
       "source": "https://commons.wikimedia.org/wiki/File:Katalin_Kariko.jpg",
-      "license": "CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/",
-      "attribution": "Portrait of Katalin Karikó by Krdobyns, 2020; Wikimedia Commons CC BY-SA 4.0."
+      "license": "CC BY-SA 4.0",
+      "attribution": "Portrait of Katalin Karikó by Krdobyns, 2020; Wikimedia Commons CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     "verification": "verified",
     "reviewed": "2026-10-18"
@@ -1401,8 +1409,9 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Malala%20Yousafzai%202015.jpg",
       "creator": "Simon Davis / UK Department for International Development",
       "source": "https://commons.wikimedia.org/wiki/File:Malala_Yousafzai_2015.jpg",
-      "license": "CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/",
-      "attribution": "Simon Davis / DFID, Malala Yousafzai in 2015; Wikimedia Commons CC BY 2.0 (cropped)."
+      "license": "CC BY 2.0",
+      "attribution": "Simon Davis / DFID, Malala Yousafzai in 2015; Wikimedia Commons CC BY 2.0 (cropped).",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
     },
     "verification": "verified",
     "reviewed": "2026-10-18"
@@ -1727,7 +1736,8 @@
       "creator": "Paul Weinberg",
       "source": "https://commons.wikimedia.org/wiki/File:Miriam_makeba_01.jpg",
       "license": "CC BY-SA 3.0 / GFDL",
-      "attribution": "Miriam Makeba performing in 1991; Paul Weinberg, CC BY-SA 3.0; https://creativecommons.org/licenses/by-sa/3.0/"
+      "attribution": "Miriam Makeba performing in 1991; Paul Weinberg, CC BY-SA 3.0; https://creativecommons.org/licenses/by-sa/3.0/",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
     },
     "verification": "verified",
     "reviewed": "2026-10-18"
@@ -2215,8 +2225,9 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Henrietta%20Lacks.jpg",
       "creator": "Oregon State University (source account; original photographer not identified)",
       "source": "https://commons.wikimedia.org/wiki/File:Henrietta_Lacks.jpg",
-      "license": "CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0/",
-      "attribution": "Photograph of Henrietta Lacks circa 1945; shared by Oregon State University on Flickr under CC BY-SA 2.0, confirmed by Commons Flickr review on April 11, 2025. Original photographer not identified."
+      "license": "CC BY-SA 2.0",
+      "attribution": "Photograph of Henrietta Lacks circa 1945; shared by Oregon State University on Flickr under CC BY-SA 2.0, confirmed by Commons Flickr review on April 11, 2025. Original photographer not identified.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
     },
     "verification": "verified",
     "reviewed": "2026-10-18"
@@ -2489,8 +2500,9 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dolores%20Huerta%20(51017016008).jpg",
       "creator": "Susan Ruggles / SLR Images",
       "source": "https://commons.wikimedia.org/wiki/File:Dolores_Huerta_(51017016008).jpg",
-      "license": "CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/",
-      "attribution": "Susan Ruggles, Dolores Huerta, November 2015; Flickr via Wikimedia Commons. CC BY 2.0."
+      "license": "CC BY 2.0",
+      "attribution": "Susan Ruggles, Dolores Huerta, November 2015; Flickr via Wikimedia Commons. CC BY 2.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
     },
     "verification": "verified",
     "reviewed": "2026-10-18",
@@ -2499,10 +2511,11 @@
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dolores%20Huerta%20(34231863751).jpg",
         "creator": "Montclair Film",
         "source": "https://commons.wikimedia.org/wiki/File:Dolores_Huerta_(34231863751).jpg",
-        "license": "CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/",
+        "license": "CC BY 2.0",
         "attribution": "Montclair Film photograph of Dolores Huerta, via Flickr and Wikimedia Commons.",
         "caption": "Huerta's activism continued across generations, including public speaking and advocacy.",
-        "alt": "Photograph of Dolores Huerta at a public event."
+        "alt": "Photograph of Dolores Huerta at a public event.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
       }
     ]
   },
@@ -2556,7 +2569,8 @@
       "creator": "University of Mount Union",
       "source": "https://commons.wikimedia.org/wiki/File:Desmond_tutu_(5547444409).jpg",
       "license": "CC BY 2.0",
-      "attribution": "Desmond Tutu, University of Mount Union via Flickr / Wikimedia Commons; https://creativecommons.org/licenses/by/2.0/"
+      "attribution": "Desmond Tutu, University of Mount Union via Flickr / Wikimedia Commons; https://creativecommons.org/licenses/by/2.0/",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
     },
     "verification": "verified",
     "reviewed": "2026-10-18"
@@ -2669,8 +2683,9 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20Michelle%20Bachelet.jpg",
       "creator": "Government of Chile",
       "source": "https://commons.wikimedia.org/wiki/File:Portrait_Michelle_Bachelet.jpg",
-      "license": "CC BY 3.0 Chile — https://creativecommons.org/licenses/by/3.0/cl/",
-      "attribution": "Official 2014–2018 presidential portrait, Government of Chile; Wikimedia Commons. Personality/publicity rights and government-symbol restrictions must be respected."
+      "license": "CC BY 3.0 Chile",
+      "attribution": "Official 2014–2018 presidential portrait, Government of Chile; Wikimedia Commons. Personality/publicity rights and government-symbol restrictions must be respected.",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/cl/"
     },
     "verification": "verified",
     "reviewed": "2026-10-18"
@@ -2889,8 +2904,9 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Faith%20Ringgold%2C%20April%202017-2.jpg",
       "creator": "Brooklyn Museum",
       "source": "https://commons.wikimedia.org/wiki/File:Faith_Ringgold%2C_April_2017-2.jpg",
-      "license": "CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/",
-      "attribution": "Faith Ringgold, April 2017; Brooklyn Museum video still, Wikimedia Commons CC BY 3.0. Personality rights notice applies; no endorsement implied."
+      "license": "CC BY 3.0",
+      "attribution": "Faith Ringgold, April 2017; Brooklyn Museum video still, Wikimedia Commons CC BY 3.0. Personality rights notice applies; no endorsement implied.",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
     },
     "verification": "verified",
     "reviewed": "2026-10-18"
@@ -2949,8 +2965,9 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nawal%20el%20Saadawi%2001.JPG",
       "creator": "Bengt Oberger (Boberger)",
       "source": "https://commons.wikimedia.org/wiki/File:Nawal_el_Saadawi_01.JPG",
-      "license": "CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/",
-      "attribution": "Nawal El Saadawi at Göteborg Book Fair 2010; Bengt Oberger."
+      "license": "CC BY 3.0",
+      "attribution": "Nawal El Saadawi at Göteborg Book Fair 2010; Bengt Oberger.",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
     },
     "verification": "verified",
     "reviewed": "2026-10-18",
@@ -2959,10 +2976,11 @@
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nawal%20el%20Saadawi%2C%20April%202012.jpg",
         "creator": "Gigi Ibrahim",
         "source": "https://commons.wikimedia.org/wiki/File:Nawal_el_Saadawi%2C_April_2012.jpg",
-        "license": "CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/",
+        "license": "CC BY 2.0",
         "attribution": "Nawal El Saadawi, April 2012; Gigi Ibrahim, via Wikimedia Commons.",
         "caption": "El Saadawi remained an active public voice for women's rights late in life.",
-        "alt": "Nawal El Saadawi photographed in April 2012."
+        "alt": "Nawal El Saadawi photographed in April 2012.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
       }
     ]
   },
@@ -3513,7 +3531,8 @@
       "creator": "MRC Laboratory of Molecular Biology",
       "source": "https://commons.wikimedia.org/wiki/File:Rosalind_Franklin.jpg",
       "license": "CC BY-SA 4.0",
-      "attribution": "Rosalind Franklin with microscope, 1955; from Jenifer Glynn's collection; https://creativecommons.org/licenses/by-sa/4.0/"
+      "attribution": "Rosalind Franklin with microscope, 1955; from Jenifer Glynn's collection; https://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     "verification": "verified",
     "reviewed": "2026-10-18"
@@ -3949,8 +3968,9 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Dr.%20Pauli%20Murray.jpg",
       "creator": "FDR Presidential Library & Museum",
       "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Dr._Pauli_Murray.jpg",
-      "license": "CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/",
-      "attribution": "Portrait of Pauli Murray; FDR Presidential Library & Museum, Flickr, via Wikimedia Commons."
+      "license": "CC BY 2.0",
+      "attribution": "Portrait of Pauli Murray; FDR Presidential Library & Museum, Flickr, via Wikimedia Commons.",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
     },
     "verification": "verified",
     "reviewed": "2026-10-18",
@@ -4189,8 +4209,9 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nadia%20Murad%2016.jpg",
       "creator": "Lisa Englehart / UK Mission to the UN",
       "source": "https://commons.wikimedia.org/wiki/File:Nadia_Murad_16.jpg",
-      "license": "CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/",
-      "attribution": "Nadia Murad at Daesh Accountability March, UK Mission to the UN, photograph Lisa Englehart; Wikimedia Commons."
+      "license": "CC BY 2.0",
+      "attribution": "Nadia Murad at Daesh Accountability March, UK Mission to the UN, photograph Lisa Englehart; Wikimedia Commons.",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
     },
     "verification": "verified",
     "reviewed": "2026-10-18"
@@ -4302,8 +4323,9 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2025-06-16%20Chimamanda%20Ngozi%20Adichie%20no%20Fronteiras%20do%20Pensamento%202025%20em%20S%C3%A3o%20Paulo%2C%20013%20(cropped).jpg",
       "creator": "Greg Salibian / Fronteiras do Pensamento",
       "source": "https://commons.wikimedia.org/wiki/File:2025-06-16_Chimamanda_Ngozi_Adichie_no_Fronteiras_do_Pensamento_2025_em_S%C3%A3o_Paulo%2C_013_(cropped).jpg",
-      "license": "CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0/",
-      "attribution": "Chimamanda Ngozi Adichie, Fronteiras do Pensamento, São Paulo, 16 June 2025. Photograph Greg Salibian; cropped."
+      "license": "CC BY-SA 2.0",
+      "attribution": "Chimamanda Ngozi Adichie, Fronteiras do Pensamento, São Paulo, 16 June 2025. Photograph Greg Salibian; cropped.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
     },
     "verification": "verified",
     "reviewed": "2026-10-18"
@@ -4356,8 +4378,9 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Butler%20signing%20portrait.jpg",
       "creator": "Nikolas Coukouma",
       "source": "https://commons.wikimedia.org/wiki/File:Butler_signing_portrait.jpg",
-      "license": "CC BY 2.5 — https://creativecommons.org/licenses/by/2.5/",
-      "attribution": "Octavia Butler signing, 2006; Nikolas Coukouma; cropped derivative, Wikimedia Commons."
+      "license": "CC BY 2.5",
+      "attribution": "Octavia Butler signing, 2006; Nikolas Coukouma; cropped derivative, Wikimedia Commons.",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5/"
     },
     "verification": "verified",
     "reviewed": "2026-10-18"
@@ -4410,8 +4433,9 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yayoi%20Kusama%20circa%202004.jpg",
       "creator": "George Quasha",
       "source": "https://commons.wikimedia.org/wiki/File:Yayoi_Kusama_circa_2004.jpg",
-      "license": "CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/",
-      "attribution": "Yayoi Kusama from George Quasha's Speaking Portraits video (circa 2002–2005); via Wikimedia Commons."
+      "license": "CC BY 3.0",
+      "attribution": "Yayoi Kusama from George Quasha's Speaking Portraits video (circa 2002–2005); via Wikimedia Commons.",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
     },
     "verification": "verified",
     "reviewed": "2026-10-18",
@@ -4420,10 +4444,11 @@
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yayoi%20Kusama%20-%20Ascension%20of%20Polkadots%20on%20the%20Trees%2C%20SB2006%207.JPG",
         "creator": "I64s (Wikimedia Commons photographer)",
         "source": "https://commons.wikimedia.org/wiki/File:Yayoi_Kusama_-_Ascension_of_Polkadots_on_the_Trees%2C_SB2006_7.JPG",
-        "license": "CC BY 2.5 — https://creativecommons.org/licenses/by/2.5/",
+        "license": "CC BY 2.5",
         "attribution": "Yayoi Kusama installation, Singapore Biennale 2006; photo I64s.",
         "caption": "Kusama's polka-dot installations transformed ordinary spaces into immersive artworks.",
-        "alt": "Trees decorated with Kusama's polka-dot fabric for the 2006 Singapore Biennale."
+        "alt": "Trees decorated with Kusama's polka-dot fabric for the 2006 Singapore Biennale.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5/"
       }
     ]
   },
@@ -4528,8 +4553,9 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cesar%20chavez.jpg",
       "creator": "Joel Levine",
       "source": "https://commons.wikimedia.org/wiki/File:Cesar_chavez.jpg",
-      "license": "CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/",
-      "attribution": "César Chávez, June 1974; Joel Levine; permission confirmed by Wikimedia VRT."
+      "license": "CC BY 3.0",
+      "attribution": "César Chávez, June 1974; Joel Levine; permission confirmed by Wikimedia VRT.",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
     },
     "verification": "verified",
     "reviewed": "2026-10-18",
@@ -4538,10 +4564,11 @@
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cesar%20Chavez%2C%201966.jpg",
         "creator": "Los Angeles Times Photographic Collection / UCLA",
         "source": "https://commons.wikimedia.org/wiki/File:Cesar_Chavez%2C_1966.jpg",
-        "license": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
+        "license": "CC BY 4.0",
         "attribution": "César Chávez, 1966, Los Angeles Times Photographic Collection, UCLA.",
         "caption": "Chávez and the farmworkers' movement drew national attention during the 1960s.",
-        "alt": "Documentary photograph of César Chávez during the farmworker movement in 1966."
+        "alt": "Documentary photograph of César Chávez during the farmworker movement in 1966.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
       }
     ]
   },
@@ -4712,11 +4739,24 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Angela%20Davis%20(2018).jpg",
       "creator": "Berkeley Center for New Media",
       "source": "https://commons.wikimedia.org/wiki/File:Angela_Davis_(2018).jpg",
-      "license": "CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0/",
-      "attribution": "Angela Davis, 2018; Berkeley Center for New Media / Flickr / Wikimedia Commons. CC BY-SA 2.0."
+      "license": "CC BY-SA 2.0",
+      "attribution": "Angela Davis, 2018; Berkeley Center for New Media / Flickr / Wikimedia Commons. CC BY-SA 2.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
     },
     "verification": "verified",
-    "reviewed": "2026-10-18"
+    "reviewed": "2026-10-18",
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Angela_Davis_in_2019.jpg/960px-Angela_Davis_in_2019.jpg",
+        "creator": "Oregon State University",
+        "source": "https://commons.wikimedia.org/wiki/File:Angela_Davis_in_2019.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "attribution": "“Angela Davis in 2019,” by Oregon State University. Cropped from the original Oregon State University photograph.",
+        "caption": "Angela Davis at Oregon State University in 2019",
+        "alt": "Black-and-white portrait of Angela Davis resting her chin on her hand"
+      }
+    ]
   },
   {
     "id": "claudette-colvin",
@@ -4949,8 +4989,9 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Benazir%20Bhutto.jpg",
       "creator": "iFaqeer",
       "source": "https://commons.wikimedia.org/wiki/File:Benazir_Bhutto.jpg",
-      "license": "CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/ (also available under GFDL 1.2 or later)",
-      "attribution": "Benazir Bhutto photographed by iFaqeer at Chandini Restaurant, Newark, California, 28 September 2004. CC BY-SA 3.0; https://creativecommons.org/licenses/by-sa/3.0/."
+      "license": "CC BY-SA 3.0 (also available under GFDL 1.2 or later)",
+      "attribution": "Benazir Bhutto photographed by iFaqeer at Chandini Restaurant, Newark, California, 28 September 2004. CC BY-SA 3.0; https://creativecommons.org/licenses/by-sa/3.0/.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
     },
     "verification": "verified",
     "reviewed": "2026-10-18"
@@ -5003,8 +5044,9 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jacinda%20Ardern%202019.png",
       "creator": "New Zealand Department of the Prime Minister and Cabinet",
       "source": "https://commons.wikimedia.org/wiki/File:Jacinda_Ardern_2019.png",
-      "license": "CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/",
-      "attribution": "Jacinda Ardern, official New Zealand government source, 2019; Wikimedia Commons."
+      "license": "CC BY 4.0",
+      "attribution": "Jacinda Ardern, official New Zealand government source, 2019; Wikimedia Commons.",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
     },
     "verification": "verified",
     "reviewed": "2026-10-18"
@@ -5188,8 +5230,9 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ArundhatiRoy.jpg",
       "creator": "Jaypee",
       "source": "https://commons.wikimedia.org/wiki/File:ArundhatiRoy.jpg",
-      "license": "CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/",
-      "attribution": "Arundhati Roy at a public meeting in Jalandhar, Punjab, October 2010; photograph by Jaypee."
+      "license": "CC BY-SA 4.0",
+      "attribution": "Arundhati Roy at a public meeting in Jalandhar, Punjab, October 2010; photograph by Jaypee.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     "verification": "verified",
     "reviewed": "2026-10-18"
@@ -5243,8 +5286,9 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Audre%20lorde.jpg",
       "creator": "Elsa Dorfman",
       "source": "https://commons.wikimedia.org/wiki/File:Audre_lorde.jpg",
-      "license": "CC BY 2.5 — https://creativecommons.org/licenses/by/2.5/",
-      "attribution": "Elsa Dorfman, portrait of Audre Lorde; cropped by Sebastian Wallroth, Wikimedia Commons. CC BY 2.5, https://creativecommons.org/licenses/by/2.5/. (Other license choices available on source page.)"
+      "license": "CC BY 2.5",
+      "attribution": "Elsa Dorfman, portrait of Audre Lorde; cropped by Sebastian Wallroth, Wikimedia Commons. CC BY 2.5, https://creativecommons.org/licenses/by/2.5/. (Other license choices available on source page.)",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5/"
     },
     "verification": "verified",
     "reviewed": "2026-10-18"
@@ -5578,5 +5622,96 @@
     },
     "verification": "verified",
     "reviewed": "2026-10-18"
+  },
+  {
+    "id": "sara-seager",
+    "name": "Sara Seager",
+    "born": null,
+    "died": null,
+    "region": "North America",
+    "place": "Canada and United States",
+    "era": "20th–21st century",
+    "categories": [
+      "Science & Innovation",
+      "Exploration & Space"
+    ],
+    "featured": false,
+    "lesserKnown": false,
+    "summary": "Her models showed how starlight can reveal what the atmospheres of distant planets contain.",
+    "biography": "When Sara Seager began graduate work at Harvard, astronomers were only beginning to find planets around Sun-like stars. Seager, who grew up in Toronto and studied mathematics and physics at the University of Toronto, asked what researchers might learn about those planets after finding them. In work with astronomer Dimitar Sasselov, she modeled what happens when a planet passes between its star and a telescope. A small fraction of the starlight filters through the planet’s atmosphere. Different gases absorb different wavelengths, so the planet can block slightly more light at some wavelengths than at others. Their models suggested that sodium could leave a measurable imprint. A separate observing team led by David Charbonneau later found that signature with the Hubble Space Telescope.\n\nSeager joined MIT in 2007 and went on to serve as deputy science director for NASA’s Transiting Exoplanet Survey Satellite, which launched in 2018 to search for planets around bright nearby stars. Detecting those planets gives other telescopes targets for closer study. Seager’s research has also examined which atmospheric gases might signal biological activity and how to distinguish those signals from gases made by processes that do not involve life. In 2024 she shared the Kavli Prize in Astrophysics with Charbonneau for their contributions to the discovery and characterization of exoplanets and their atmospheres.",
+    "achievements": [
+      "Coauthored early models for detecting gases in exoplanet atmospheres during transits",
+      "Served as deputy science director for NASA’s TESS mission",
+      "Shared the 2024 Kavli Prize in Astrophysics with David Charbonneau"
+    ],
+    "milestones": [
+      {
+        "year": 2000,
+        "label": "Published transit spectroscopy models with Dimitar Sasselov"
+      },
+      {
+        "year": 2007,
+        "label": "Joined the MIT faculty"
+      },
+      {
+        "year": 2013,
+        "label": "Received a MacArthur Fellowship"
+      },
+      {
+        "year": 2018,
+        "label": "TESS launched with Seager as deputy science director"
+      },
+      {
+        "year": 2024,
+        "label": "Shared the Kavli Prize in Astrophysics"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sara Seager and her space mission roles — MIT Physics",
+        "url": "https://physics.mit.edu/faculty/sara-seager/"
+      },
+      {
+        "title": "The 2024 Kavli Prize in Astrophysics — The Kavli Prize",
+        "url": "https://www.kavliprize.org/prizes/astrophysics/2024"
+      },
+      {
+        "title": "Sara Seager’s education and early research — The Kavli Prize",
+        "url": "https://www.kavliprize.org/bio/sara-seager"
+      },
+      {
+        "title": "Sara Seager, Class of 2013 — MacArthur Foundation",
+        "url": "https://www.macfound.org/fellows/class-of-2013/sara-seager"
+      },
+      {
+        "title": "Theoretical Transmission Spectra during Extrasolar Giant Planet Transits — Harvard & Smithsonian Center for Astrophysics",
+        "url": "https://exoplanets.cfa.harvard.edu/publications/theoretical-transmission-spectra-during-extrasolar-giant-planet-transits"
+      },
+      {
+        "title": "TESS Status Updates — NASA Science",
+        "url": "https://science.nasa.gov/missions/tess/tess-status-update/"
+      }
+    ],
+    "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Sara_Seager_during_a_TRAPPIST-1_planets_briefing_%281%29.jpg/960px-Sara_Seager_during_a_TRAPPIST-1_planets_briefing_%281%29.jpg",
+      "creator": "NASA/Bill Ingalls",
+      "source": "https://commons.wikimedia.org/wiki/File:Sara_Seager_during_a_TRAPPIST-1_planets_briefing_(1).jpg",
+      "license": "U.S. public domain — NASA government work",
+      "alt": "Sara Seager speaking at NASA’s 2017 briefing on the TRAPPIST-1 planets",
+      "attribution": "NASA/Bill Ingalls, 22 February 2017, TRAPPIST-1 planets briefing (NHQ201702220002). NASA media usage guidelines apply. No endorsement is implied."
+    },
+    "gallery": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Sara_Seager.jpg/960px-Sara_Seager.jpg",
+        "creator": "NASA/Joel Kowsky",
+        "source": "https://commons.wikimedia.org/wiki/File:Sara_Seager.jpg",
+        "license": "U.S. public domain — NASA government work",
+        "alt": "Sara Seager speaking into a microphone at a 2014 NASA panel",
+        "attribution": "Sara Seager speaks at a panel on the search for life beyond Earth at NASA Headquarters on 14 July 2014. Photo by NASA/Joel Kowsky. NASA media usage guidelines apply. No endorsement is implied.",
+        "caption": "Sara Seager at NASA’s 2014 panel on the search for life beyond Earth"
+      }
+    ],
+    "verification": "verified",
+    "reviewed": "2026-11-23"
   }
 ]

@@ -1017,6 +1017,10 @@ footer{
 .portrait-frame .portrait{
   object-fit:cover
 }
+.portrait-frame .portrait--uncropped{
+  object-fit:scale-down;
+  padding-bottom:2.5rem
+}
 .portrait-frame .credit{
   position:absolute;
   bottom:0;
@@ -1039,6 +1043,10 @@ footer{
 .profile-hero .portrait-frame .portrait{
   height:100%;
   min-height:530px
+}
+.profile-hero .portrait-frame .portrait--type{
+  position:absolute;
+  inset:0
 }
 .daily-name .portrait-frame{
   height:300px;
