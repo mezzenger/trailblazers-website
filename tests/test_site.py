@@ -136,7 +136,7 @@ class SiteTests(unittest.TestCase):
 const p=JSON.parse(fs.readFileSync('content/profiles.json'));
 const a=p.filter(x=>matchesProfile(x,{search:'malaria',category:'Medicine & Public Health',era:'20th century',region:'Asia'}));
 if(a.length!==1||a[0].id!=='tu-youyou')process.exit(1);
-const b=p.filter(x=>matchesProfile(x,{search:'olympic',category:'Sports',era:'20th century',region:'North America'}));
+const b=p.filter(x=>matchesProfile(x,{search:'relay bronze',category:'Sports',era:'20th century',region:'North America'}));
 if(b.length!==1||b[0].id!=='wilma-rudolph')process.exit(2);
 const added=p.filter(x=>matchesProfile(x,{search:'parity violation',category:'Science & Innovation',era:'20th century',region:'Asia'}));
 if(added.length!==1||added[0].id!=='chien-shiung-wu')process.exit(5);

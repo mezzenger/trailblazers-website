@@ -1,6 +1,6 @@
 # Trailblazers of History
 
-**Celebrating Women and People of Color Who Changed the World.** This is a static digital museum built for the GitHub Pages project path `/trailblazers-website/`. The collection contains **101 verified profiles** with 217 source citations. The first 100-profile milestone is complete. Fifteen candidates are queued for research.
+**Celebrating Women and People of Color Who Changed the World.** This is a static digital museum built for the GitHub Pages project path `/trailblazers-website/`. The collection contains **201 verified profiles** with 430 source citations. The expansion adds 100 profiles, including the 15 candidates from the research queue.
 
 ## Run locally
 
@@ -21,7 +21,7 @@ The default build writes `dist/` with `/trailblazers-website/` URLs. Set `BASE_P
 
 ## Add a profile
 
-Add one object to `content/profiles.json` using the fields described in [content guidelines](docs/content-guidelines.md). Add two independent credible source links, write an original 150–300 word biography, record a review date, and run validation. `content/pending.json` is a research queue and never appears on the public site. Rights-cleared image metadata is optional; null produces a typographic placeholder. 97 profiles have portraits with file-specific rights records. Profiles can also include a gallery of additional credited photographs.
+Add one object to `content/profiles.json` using the fields described in [content guidelines](docs/content-guidelines.md). Add two independent credible source links, write an original 150–300 word biography, record a review date, and run validation. `content/pending.json` is a research queue and never appears on the public site. Rights-cleared image metadata is optional; null produces a typographic placeholder. 101 profiles have portraits with file-specific rights records. Profiles can also include a gallery of additional credited photographs.
 
 ## Browser review
 
